@@ -1,8 +1,10 @@
-# KCEO Glossary
+**CURRENTLY IN A TRANSITION PHASE FROM https://github.com/ec-jrc/KCEO-Glossary. For infos please open an issue or contact [Dominik](https://github.com/do-me/).**
+
+# EO Glossary
 Bridging EO communities. Contribute to this community-driven glossary and improve or add definitions!
 
 ## Contributions and Feedback
-The KCEO Glossary is built for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed. 
+The EO Glossary is built for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed. 
 
 ### Contribution Guide
 
@@ -17,12 +19,12 @@ If you'd like to add an entirely new term to the glossary, you can do so by usin
 1. Creating a new markdown file under the `docs` directory, e.g. for `Your New Term`
 
 You can copy the template from this file, change the content and commit the changes when you're done.
-https://github.com/ec-jrc/KCEO-Glossary/blob/main/docs/_template.md
+https://github.com/ceos-org/eo-glossary/blob/main/docs/_template.md
 
 https://github.com/user-attachments/assets/6ac4090d-6aa9-4fd1-be2a-93158fd2dc95
 
 2. Now that the file is created, it must be referenced in `mkdocs.yml` so that the site builder knows where it should appear on the web page. Just open this file and reference it in alphabetic order.
-https://github.com/ec-jrc/KCEO-Glossary/blob/main/mkdocs.yml
+https://github.com/ceos-org/eo-glossary/blob/main/mkdocs.yml
 
 ![image](https://github.com/user-attachments/assets/2c510f52-02c7-4cac-bc16-3bbfc5ffca3b)
 
@@ -58,7 +60,7 @@ We currently use the following tag system for:
 - high-impact term
 
 ## Exports 
-We provide automatic exports as parquet and xlsx [here](https://github.com/ec-jrc/KCEO-Glossary/tree/main/exports). 
+We provide automatic exports as parquet and xlsx [here](https://github.com/ceos-org/eo-glossary/tree/main/exports). 
 You can convenientely query the parquet exports via httpfs (range requests) and only retrieve the record or records you are interested in without having to download all terms (that might grow substantially in the future). DuckDB for instance enables an SQL-based queries and can either be run from the browser or from your terminal. To get started, follow these steps: 
 1. [Install DuckDB](https://duckdb.org/)
 2. Run e.g. the DuckDB in your terminal with `duckdb -ui`
@@ -71,7 +73,7 @@ LOAD httpfs;
 
 -- Query the remote Parquet file
 SELECT *
-FROM read_parquet('https://github.com/ec-jrc/KCEO-Glossary/raw/refs/heads/main/exports/parquet/terms_definition_1.parquet')
+FROM read_parquet('https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/parquet/terms_definition_1.parquet')
 WHERE term ilike  'climate projection';
 ```
 
@@ -86,7 +88,7 @@ LOAD httpfs;
 
 -- Query the remote Parquet file
 SELECT *
-FROM read_parquet('https://github.com/ec-jrc/KCEO-Glossary/raw/refs/heads/main/exports/parquet/terms_definition_1.parquet')
+FROM read_parquet('https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/parquet/terms_definition_1.parquet')
 WHERE 'Data' in term;
 ```
 
