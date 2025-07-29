@@ -4,7 +4,7 @@ description: Contribution Guide
 
 # Contribution Guide
 
-The KCEO Glossary is built from the EO community for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed and encouraged. If you find yourself struggling with any of these steps, please reach out in the GitHub issues section. All you need to propose changes or add new terms is a GitHub account.
+The EO Glossary is built from the EO community for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed and encouraged. If you find yourself struggling with any of these steps, please reach out in the GitHub issues section. All you need to propose changes or add new terms is a GitHub account.
 
 ## Principles
 - Avoid circle definitions at all cost 

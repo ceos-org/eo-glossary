@@ -96,8 +96,8 @@ import 'graphologyLibrary';
 
 async function setupGraph() {
   const container = document.getElementById("graphcontainer");
-  const graphDataUrl = 'https://ceos-org.github.io/KCEO-Glossary/assets/sigmajs/sigma_graph_data.json';
-  const glossaryBaseUrl = 'https://ceos-org.github.io/KCEO-Glossary/terms/'; 
+  const graphDataUrl = 'https://ceos-org.github.io/eo-glossary/assets/sigmajs/sigma_graph_data.json';
+  const glossaryBaseUrl = 'https://ceos-org.github.io/eo-glossary/terms/'; 
 
   try {
     const response = await fetch(graphDataUrl);

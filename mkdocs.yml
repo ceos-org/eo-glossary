@@ -1,7 +1,7 @@
-site_name: KCEO Glossary
-site_url: https://ceos-org.github.io/KCEO-Glossary/
-site_author: KCEO
-site_description: KCEO
+site_name: EO Glossary
+site_url: https://ceos-org.github.io/eo-glossary/
+site_author: CEOS & KCEO (JRC)
+site_description: A community glossary of terms related to Earth Observation.
 
 nav:
     - Home: index.md
@@ -220,12 +220,12 @@ extra_css:
         - stylesheets/extra.css
         - stylesheets/font-awesome-4.7.0/css/font-awesome.min.css
 
-repo_url: https://github.com/ec-jrc/KCEO-Glossary
-repo_name: ec-jrc/KCEO-Glossary
+repo_url: https://github.com/ceos-org/eo-glossary
+repo_name: ceos-org/eo-glossary
 edit_uri: ./edit/main/docs
 
 # Copyright
-copyright: Copyright &copy; Knowledge Centre on Earth Observation
+copyright: Copyright &copy; CEOS & KCEO (JRC)
 
 markdown_extensions:
   - attr_list
@@ -258,7 +258,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
-      repository: ec-jrc/KCEO-Glossary
+      repository: ceos-org/eo-glossary
       branch: main
       enabled: !ENV [CI, false]
   - tags:

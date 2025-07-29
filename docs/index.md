@@ -1,9 +1,9 @@
 ---
 template: home.html
-title: KCEO Glossary
+title: EO Glossary
 social:
   cards_layout_options:
     title: Bridging EO communities
 ---
 
-Welcome to the KCEO glossary.
+Welcome to the EO glossary.
