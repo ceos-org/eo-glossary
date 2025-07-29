@@ -324,7 +324,6 @@
     .noflex {
         display: unset !important;
     }
-    
 </style>
 
 <!-- Main site Entry button descriptions -->
@@ -418,11 +417,47 @@
         }, 200);
     });
 
+    const termSearchOptions = {};
 
-    // Object containing the terms and their corresponding markdown filenames
-    const termSearchOptions = {
-        "Ancillary data": "./ancillary_data", "Anthroposphere": "./anthroposphere", "Area of interest": "./area_of_interest", "Auxiliary data": "./auxiliary_data", "Band central wavelength": "./band_central_wavelength", "Baseline": "./baseline", "Biosphere": "./biosphere", "Calibration": "./calibration", "Cartographic projection": "./cartographic_projection", "Cell": "./cell", "Characteristic": "./characteristic", "Classification system": "./classification_system", "Classification system levels": "./classification_system_levels", "Climate projection": "./climate_projection", "Confidence interval": "./confidence_interval", "Copernicus Service Provider": "./copernicus_service_provider", "Coverage interval": "./coverage_interval", "Cryosphere": "./cryosphere", "Data": "./data", "Data access": "./data_access", "Data format": "./data_format", "Data licencing": "./data_licencing", "Duration": "./duration", "Dwell time": "./dwell_time", "Earth Observation based output": "./earth_observation_based_output", "Earth Observation product": "./earth_observation_product", "Earth Spheres": "./earth_spheres", "Earth observation": "./earth_observation", "Environmental Process": "./environmental_process", "Entity": "./entity", "Expanded Uncertainty": "./expanded_uncertainty", "Feature": "./feature", "Forecast range": "./forecast_range", "Geocoding": "./geocoding", "Geographic coordinate reference system": "./geographic_coordinate_reference_system", "Geographic data": "./geographic_data", "Geographic grid": "./geographic_grid", "Geographic identifier": "./geographic_identifier", "Geolocating": "./geolocating", "Geolocation information": "./geolocation_information", "Geopositioning": "./geopositioning", "Georectifying": "./georectifying", "Geospatial data": "./geospatial_data", "Geosphere": "./geosphere", "Grid": "./grid", "Hydrosphere": "./hydrosphere", "Impact": "./impact", "In-Situ Observation": "./in-situ_observation", "Information": "./information", "Laboratory observation": "./laboratory_observation", "Latency": "./latency", "Lead time": "./lead_time", "Lithosphere": "./lithosphere", "Location": "./location", "Location error": "./location_error", "Measurement": "./measurement", "Measurement uncertainty": "./measurement_uncertainty", "Measurand": "./measurand", "Minimum Mapping Unit": "./minimum_mapping_unit", "Minimum Mapping Width": "./minimum_mapping_width", "Model": "./model", "Object": "./object", "Observation": "./observation", "Outcome": "./outcome", "Path": "./path", "Period": "./period", "Period Identifier": "./period_identifier", "Phenomenon": "./phenomenon", "Place": "./place", "Policy": "./policy", "Policy cycle": "./policy_cycle", "Policy file": "./policy_file", "Policy making": "./policy_making", "Policy milestone": "./policy_milestone", "Policy objective": "./policy_objective", "Policy target": "./policy_target", "Position": "./position", "Property": "./property", "Quality indicator": "./quality_indicator", "Quantity": "./quantity", "Reference": "./reference", "Remote Sensing": "./remote_sensing", "Replicability": "./replicability", "Reproducibility": "./reproducibility", "Representativeness": "./representativeness", "Sample": "./sample", "Sensor": "./sensor", "Spatial completeness": "./spatial_completeness", "Spatial consistency": "./spatial_consistency", "Spatial extent": "./spatial_extent", "Spatial reporting unit": "./spatial_reporting_unit", "Spatial resolution": "./spatial_resolution", "Spectral Bandwidth": "./spectral_bandwidth", "Spectral band": "./spectral_band", "Spectral resolution": "./spectral_resolution", "Stability": "./stability", "Standard Uncertainty": "./standard_uncertainty", "Temporal consistency": "./temporal_consistency", "Temporal extent": "./temporal_extent", "Temporal reporting period": "./temporal_reporting_period", "Temporal resolution": "./temporal_resolution", "Temporal revisit": "./temporal_revisit", "Thematic resolution": "./thematic_resolution", "Thematic uncertainty": "./thematic_uncertainty", "Time of day": "./time_of_day", "Time of year": "./time_of_year", "Timeliness": "./timeliness", "Traceability": "./traceability", "Trait": "./trait", "Uncertainty": "./uncertainty", "Update frequency": "./update_frequency", "User": "./user", "User Interface": "./user_interface", "Value": "./value", "Validation": "./validation", "Verification": "./verification", "Vertical levels": "./vertical_levels"
-    };
+    async function fetchEOTermSearchOptions(sitemapPath = "/eo-glossary/sitemap.xml") {
+        try {
+            const origin = window.location.origin; // works for localhost and production
+            const sitemapUrl = `${origin}${sitemapPath}`;
+
+            const response = await fetch(sitemapUrl);
+            if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
+
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+
+            const urls = Array.from(xmlDoc.getElementsByTagName("loc"));
+            const prefix = `${origin}/eo-glossary/terms/`;
+
+            
+
+            urls.forEach(loc => {
+                const url = loc.textContent.trim().replace(/\/$/, ""); // remove trailing slash
+                if (url.startsWith(prefix)) {
+                    const slug = url.substring(prefix.length);
+                    const label = slug
+                        .split("_")
+                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                        .join(" ");
+                    termSearchOptions[label] = `./terms/${slug}`;
+                }
+            });
+
+        } catch (err) {
+            console.error("Failed to fetch or parse sitemap:", err);
+            window.termSearchOptions = {}; // fallback
+            return {};
+        }
+    }
+
+    // Call this once on page load or when needed
+    fetchEOTermSearchOptions();
+
 
     const termSearchFilter = () => {
         const query = termSearchInput.value.toLowerCase();
