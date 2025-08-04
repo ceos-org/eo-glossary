@@ -4,10 +4,10 @@ description: Contribution Guide
 
 # Contribution Guide
 
-The KCEO Glossary is built from the EO community for the EO community. Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed and encouraged. If you find yourself struggling with any of these steps, please reach out in the GitHub issues section. All you need to propose changes or add new terms is a GitHub account.
+The KCEO Glossary is built from the EO community for the EO community. It is supposed to follow and implement the recommendations given in the [semantics chapter](https://github.com/ceos-org/interoperability-handbook/blob/main/Vocabulary.md#vocabulary-semantics) of [new (draft) version of the CEOS Interoperability Handbook](https://github.com/ceos-org/interoperability-handbook/tree/main?tab=readme-ov-file#ceos-interoperability-handbook-20). Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed and encouraged. If you find yourself struggling with any of these steps, please reach out in the GitHub issues section. All you need to propose changes or add new terms is a GitHub account.
 
 ## Principles
-- Avoid circle definitions at all cost 
+- Avoid circular definitions at all cost 
 - Multiple different definitions are allowed, but need to be separated 
 - The files need to follow a certain structure to allow for proper parsing and tools to work (e.g. graph creation)
 - We use tags for dicussion status and term classes (base, core, controversial, high-impact)
