@@ -7,7 +7,7 @@ title: Metadata
 
 ## 1 Definition
 
-Data about data, which provides an understanding of the content and utility of the product or collection.
+Data about data, which provides an understanding of the content and utility of a product or collection
 
 ### Notes
 - Metadata may be used to select on data for a particular scientific investigation. 
