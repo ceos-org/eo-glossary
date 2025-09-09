@@ -43,7 +43,7 @@ If you are not technical, you can simply open an issue in the GitHub repository 
 - Examples (facultative)
 - Sources 
 
-## Techincal Details 
+## Technical Details 
 
 This glossary is built on mkdocs-material for simplicity. The source files are written in markdown and converted to html by mkdocs. If you intend on creating a PR with a new term, please see the `_template.md` file in the `docs` folder. A template for a term with two possible definitions looks like this: 
 
