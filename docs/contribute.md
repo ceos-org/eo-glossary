@@ -10,7 +10,7 @@ The KCEO Glossary is built from the EO community for the EO community. It is sup
 - Avoid circular definitions at all cost 
 - Multiple different definitions are allowed, but need to be separated 
 - The files need to follow a certain structure to allow for proper parsing and tools to work (e.g. graph creation)
-- We use tags for dicussion status and term classes (base, core, controversial, high-impact)
+- We use tags for discussion status and term classes (base, core, controversial, high-impact)
 
 ## Tag System
 We currently use the following tag system for: 
