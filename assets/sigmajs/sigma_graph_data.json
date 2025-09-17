@@ -1,0 +1,3266 @@
+{
+  "nodes": [
+    {
+      "id": "spatial_completeness",
+      "label": "Spatial completeness",
+      "x": 73.2,
+      "y": 47.24,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_completeness"
+    },
+    {
+      "id": "data_format",
+      "label": "Data format",
+      "x": 4.02,
+      "y": 74.36,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data_format"
+    },
+    {
+      "id": "policy_objective",
+      "label": "Policy objective",
+      "x": 17.61,
+      "y": 73.92,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_objective"
+    },
+    {
+      "id": "collection_upgrade",
+      "label": "Collection Upgrade",
+      "x": 57.08,
+      "y": 68.79,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "collection_upgrade"
+    },
+    {
+      "id": "environmental_process",
+      "label": "Environmental process",
+      "x": 86.19,
+      "y": 11.68,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "environmental_process"
+    },
+    {
+      "id": "earth_spheres",
+      "label": "Earth spheres",
+      "x": 65.48,
+      "y": 89.01,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "earth_spheres"
+    },
+    {
+      "id": "earth_observation",
+      "label": "Earth Observation",
+      "x": 7.5,
+      "y": 53.45,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "earth_observation"
+    },
+    {
+      "id": "sample",
+      "label": "Sample",
+      "x": 84.06,
+      "y": 30.77,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "sample"
+    },
+    {
+      "id": "temporal_revisit",
+      "label": "Temporal Revisit",
+      "x": 75.47,
+      "y": 29.42,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_revisit"
+    },
+    {
+      "id": "feature",
+      "label": "Feature",
+      "x": 96.31,
+      "y": 93.57,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "feature"
+    },
+    {
+      "id": "timeliness",
+      "label": "Timeliness",
+      "x": 0.76,
+      "y": 26.13,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "timeliness"
+    },
+    {
+      "id": "measurand",
+      "label": "Measurand",
+      "x": 8.26,
+      "y": 46.68,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "measurand"
+    },
+    {
+      "id": "quality_indicator",
+      "label": "Quality indicator",
+      "x": 68.85,
+      "y": 22.58,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "quality_indicator"
+    },
+    {
+      "id": "phenomenon",
+      "label": "Phenomenon",
+      "x": 13.93,
+      "y": 33.5,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "phenomenon"
+    },
+    {
+      "id": "duration",
+      "label": "Duration",
+      "x": 99.26,
+      "y": 43.94,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "duration"
+    },
+    {
+      "id": "replicability",
+      "label": "Replicability",
+      "x": 7.86,
+      "y": 8.83,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "replicability"
+    },
+    {
+      "id": "geosphere",
+      "label": "Geosphere",
+      "x": 36.23,
+      "y": 24.16,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geosphere"
+    },
+    {
+      "id": "forecast_range",
+      "label": "Forecast range",
+      "x": 19.21,
+      "y": 37.96,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "forecast_range"
+    },
+    {
+      "id": "dwell_time",
+      "label": "Dwell time",
+      "x": 22.3,
+      "y": 30.32,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "dwell_time"
+    },
+    {
+      "id": "data_access",
+      "label": "Data access",
+      "x": 85.53,
+      "y": 19.73,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data_access"
+    },
+    {
+      "id": "location_error",
+      "label": "Location error",
+      "x": 65.36,
+      "y": 32.58,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "location_error"
+    },
+    {
+      "id": "near_real_time_data",
+      "label": "Near Real Time Data",
+      "x": 14.72,
+      "y": 13.46,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "near_real_time_data"
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "x": 25.45,
+      "y": 52.9,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "value"
+    },
+    {
+      "id": "user_interface",
+      "label": "User Interface",
+      "x": 38.63,
+      "y": 52.75,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "user_interface"
+    },
+    {
+      "id": "remote_sensing",
+      "label": "Remote Sensing",
+      "x": 54.34,
+      "y": 22.43,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "remote_sensing"
+    },
+    {
+      "id": "business_continuity",
+      "label": "Business Continuity",
+      "x": 77.22,
+      "y": 18.13,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "business_continuity"
+    },
+    {
+      "id": "trait",
+      "label": "Trait",
+      "x": 80.4,
+      "y": 79.6,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "trait"
+    },
+    {
+      "id": "confidence_interval",
+      "label": "Confidence interval",
+      "x": 3.25,
+      "y": 97.35,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "confidence_interval"
+    },
+    {
+      "id": "geopositioning",
+      "label": "Geopositioning",
+      "x": 92.79,
+      "y": 61.61,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geopositioning"
+    },
+    {
+      "id": "geolocating",
+      "label": "Geolocating",
+      "x": 65.56,
+      "y": 61.14,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geolocating"
+    },
+    {
+      "id": "ancillary_data",
+      "label": "Ancillary Data",
+      "x": 83.34,
+      "y": 64.65,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "ancillary_data"
+    },
+    {
+      "id": "derivative_product",
+      "label": "Derivative Product",
+      "x": 89.94,
+      "y": 3.75,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "derivative_product"
+    },
+    {
+      "id": "dispose",
+      "label": "Dispose",
+      "x": 36.81,
+      "y": 68.32,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "instrument_data"
+    },
+    {
+      "id": "spatial_resolution",
+      "label": "Spatial resolution",
+      "x": 36.21,
+      "y": 80.04,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_resolution"
+    },
+    {
+      "id": "minimum_mapping_unit",
+      "label": "Minimum Mapping Unit",
+      "x": 73.52,
+      "y": 25.64,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "minimum_mapping_unit"
+    },
+    {
+      "id": "climate_projection",
+      "label": "Climate projection",
+      "x": 46.41,
+      "y": 85.36,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "climate_projection"
+    },
+    {
+      "id": "information",
+      "label": "Information",
+      "x": 43.24,
+      "y": 34.16,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "information"
+    },
+    {
+      "id": "spatial_extent",
+      "label": "Spatial extent",
+      "x": 2.39,
+      "y": 26.38,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_extent"
+    },
+    {
+      "id": "obsolete_product_or_collection",
+      "label": "Obsolete Product or Collection",
+      "x": 78.48,
+      "y": 15.9,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "obsolete_product_or_collection"
+    },
+    {
+      "id": "deprecated_product",
+      "label": "Deprecated Product",
+      "x": 62.33,
+      "y": 67.93,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "deprecated_product"
+    },
+    {
+      "id": "area_of_interest",
+      "label": "Area of Interest",
+      "x": 10.67,
+      "y": 35.03,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "area_of_interest"
+    },
+    {
+      "id": "geolocation_information",
+      "label": "Geolocation Information",
+      "x": 86.52,
+      "y": 97.05,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geolocation_information"
+    },
+    {
+      "id": "reproducibility",
+      "label": "Reproducibility",
+      "x": 35.4,
+      "y": 60.54,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "reproducibility"
+    },
+    {
+      "id": "provisional_product",
+      "label": "Provisional Product",
+      "x": 64.49,
+      "y": 61.44,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "provisional_product"
+    },
+    {
+      "id": "measurement",
+      "label": "Measurement",
+      "x": 0.71,
+      "y": 95.81,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "measurement"
+    },
+    {
+      "id": "quantity",
+      "label": "Quantity",
+      "x": 89.35,
+      "y": 16.44,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "quantity"
+    },
+    {
+      "id": "policy_milestone",
+      "label": "Policy milestone",
+      "x": 51.76,
+      "y": 96.95,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_milestone"
+    },
+    {
+      "id": "georectifying",
+      "label": "Georectifying",
+      "x": 62.7,
+      "y": 98.46,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "georectifying"
+    },
+    {
+      "id": "classification_system",
+      "label": "Classification System",
+      "x": 27.95,
+      "y": 19.81,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "classification_system"
+    },
+    {
+      "id": "measurement_uncertainty",
+      "label": "Measurement uncertainty",
+      "x": 12.24,
+      "y": 1.81,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "measurement_uncertainty"
+    },
+    {
+      "id": "geographic_data",
+      "label": "Geographic Data",
+      "x": 62.01,
+      "y": 15.25,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geographic_data"
+    },
+    {
+      "id": "cell",
+      "label": "Cell",
+      "x": 23.74,
+      "y": 65.33,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "cell"
+    },
+    {
+      "id": "geographic_grid",
+      "label": "Geographic Grid",
+      "x": 15.3,
+      "y": 74.45,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geographic_grid"
+    },
+    {
+      "id": "biosphere",
+      "label": "Biosphere",
+      "x": 55.58,
+      "y": 30.47,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "biosphere"
+    },
+    {
+      "id": "accuracy",
+      "label": "Accuracy",
+      "x": 21.77,
+      "y": 40.6,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "accuracy"
+    },
+    {
+      "id": "temporal_resolution",
+      "label": "Temporal Resolution",
+      "x": 58.35,
+      "y": 68.17,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_resolution"
+    },
+    {
+      "id": "thematic_uncertainty",
+      "label": "Thematic Uncertainty",
+      "x": 94.7,
+      "y": 64.57,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "thematic_uncertainty"
+    },
+    {
+      "id": "location",
+      "label": "Location",
+      "x": 71.0,
+      "y": 8.62,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "location"
+    },
+    {
+      "id": "decommissioned_product",
+      "label": "Decommissioned Product",
+      "x": 25.49,
+      "y": 51.27,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "decommissioned_product"
+    },
+    {
+      "id": "contribution_guide",
+      "label": "Contribution Guide",
+      "x": 2.66,
+      "y": 23.65,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "contribute"
+    },
+    {
+      "id": "policy_making",
+      "label": "Policy making",
+      "x": 89.58,
+      "y": 81.03,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_making"
+    },
+    {
+      "id": "process",
+      "label": "Process",
+      "x": 51.83,
+      "y": 10.56,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "process"
+    },
+    {
+      "id": "sensor",
+      "label": "Sensor",
+      "x": 83.82,
+      "y": 13.15,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "sensor"
+    },
+    {
+      "id": "final_product_version",
+      "label": "Final Product Version",
+      "x": 76.59,
+      "y": 43.98,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "final_product_version"
+    },
+    {
+      "id": "time_of_day",
+      "label": "Time of Day",
+      "x": 86.39,
+      "y": 65.44,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "time_of_day"
+    },
+    {
+      "id": "spectral_bandwidth",
+      "label": "Spectral Bandwidth",
+      "x": 99.05,
+      "y": 20.87,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spectral_bandwidth"
+    },
+    {
+      "id": "lead_time",
+      "label": "Lead time",
+      "x": 13.79,
+      "y": 47.44,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "lead_time"
+    },
+    {
+      "id": "version_control",
+      "label": "Version Control",
+      "x": 2.04,
+      "y": 14.62,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "version_control"
+    },
+    {
+      "id": "cryosphere",
+      "label": "Cryosphere",
+      "x": 15.43,
+      "y": 42.6,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "cryosphere"
+    },
+    {
+      "id": "period_identifier",
+      "label": "Period identifier",
+      "x": 60.27,
+      "y": 45.2,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "period_identifier"
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "x": 52.11,
+      "y": 49.26,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "path"
+    },
+    {
+      "id": "collection_update",
+      "label": "Collection Update",
+      "x": 31.56,
+      "y": 81.03,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "collection_update"
+    },
+    {
+      "id": "laboratory_observation",
+      "label": "Laboratory Observation",
+      "x": 1.74,
+      "y": 95.67,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "laboratory_observation"
+    },
+    {
+      "id": "expanded_uncertainty",
+      "label": "Expanded uncertainty",
+      "x": 55.75,
+      "y": 37.67,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "expanded_uncertainty"
+    },
+    {
+      "id": "data",
+      "label": "Data",
+      "x": 1.77,
+      "y": 97.07,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data"
+    },
+    {
+      "id": "characteristic",
+      "label": "Characteristic",
+      "x": 41.9,
+      "y": 37.41,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "characteristic"
+    },
+    {
+      "id": "period",
+      "label": "Period",
+      "x": 74.67,
+      "y": 94.03,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "period"
+    },
+    {
+      "id": "model",
+      "label": "Model",
+      "x": 82.13,
+      "y": 28.97,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "model"
+    },
+    {
+      "id": "policy_cycle",
+      "label": "Policy cycle",
+      "x": 69.81,
+      "y": 15.26,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_cycle"
+    },
+    {
+      "id": "object",
+      "label": "Object",
+      "x": 58.04,
+      "y": 57.21,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "object"
+    },
+    {
+      "id": "data_licencing",
+      "label": "Data licencing",
+      "x": 12.01,
+      "y": 62.75,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data_licencing"
+    },
+    {
+      "id": "entity",
+      "label": "Entity",
+      "x": 42.32,
+      "y": 52.11,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "entity"
+    },
+    {
+      "id": "baseline",
+      "label": "Baseline",
+      "x": 87.16,
+      "y": 77.32,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "baseline"
+    },
+    {
+      "id": "spatial_reporting_unit",
+      "label": "Spatial reporting unit",
+      "x": 24.72,
+      "y": 69.09,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_reporting_unit"
+    },
+    {
+      "id": "geographic_coordinate_reference_system",
+      "label": "Geographic Coordinate Reference System",
+      "x": 28.73,
+      "y": 23.31,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geographic_coordinate_reference_system"
+    },
+    {
+      "id": "eo_space_data",
+      "label": "EO Space Data",
+      "x": 45.94,
+      "y": 82.42,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "eo_space_data"
+    },
+    {
+      "id": "in-situ_observation",
+      "label": "In-Situ Observation",
+      "x": 69.92,
+      "y": 65.5,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "in-situ_observation"
+    },
+    {
+      "id": "spatial_consistency",
+      "label": "Spatial consistency",
+      "x": 53.6,
+      "y": 42.15,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_consistency"
+    },
+    {
+      "id": "auxiliary_data",
+      "label": "Auxiliary Data",
+      "x": 64.2,
+      "y": 6.05,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "auxiliary_data"
+    },
+    {
+      "id": "observation",
+      "label": "Observation",
+      "x": 4.55,
+      "y": 77.6,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "observation"
+    },
+    {
+      "id": "impact",
+      "label": "impact",
+      "x": 53.57,
+      "y": 77.53,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "impact"
+    },
+    {
+      "id": "temporal_consistency",
+      "label": "Temporal Consistency",
+      "x": 50.81,
+      "y": 63.64,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_consistency"
+    },
+    {
+      "id": "place",
+      "label": "Place",
+      "x": 6.49,
+      "y": 64.26,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "place"
+    },
+    {
+      "id": "long_term_preservation",
+      "label": "Long Term Preservation",
+      "x": 24.07,
+      "y": 34.37,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "long_term_preservation"
+    },
+    {
+      "id": "temporal_reporting_period",
+      "label": "Temporal Reporting Period",
+      "x": 76.3,
+      "y": 92.14,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_reporting_period"
+    },
+    {
+      "id": "outcome",
+      "label": "Outcome",
+      "x": 50.0,
+      "y": 32.92,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "outcome"
+    },
+    {
+      "id": "temporal_extent",
+      "label": "Temporal extent",
+      "x": 56.39,
+      "y": 58.66,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_extent"
+    },
+    {
+      "id": "thematic_resolution",
+      "label": "Thematic Resolution",
+      "x": 7.63,
+      "y": 71.84,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "thematic_resolution"
+    },
+    {
+      "id": "reference",
+      "label": "Reference",
+      "x": 28.27,
+      "y": 28.94,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "reference"
+    },
+    {
+      "id": "geocoding",
+      "label": "Geocoding",
+      "x": 39.02,
+      "y": 90.25,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geocoding"
+    },
+    {
+      "id": "metadata",
+      "label": "Metadata",
+      "x": 25.62,
+      "y": 29.29,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "metadata"
+    },
+    {
+      "id": "spectral_band",
+      "label": "Spectral band",
+      "x": 36.22,
+      "y": 80.07,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spectral_band"
+    },
+    {
+      "id": "update_frequency",
+      "label": "Update frequency",
+      "x": 88.19,
+      "y": 97.33,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "update_frequency"
+    },
+    {
+      "id": "coverage_interval",
+      "label": "Coverage interval",
+      "x": 42.39,
+      "y": 40.39,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "coverage_interval"
+    },
+    {
+      "id": "policy_file",
+      "label": "Policy file",
+      "x": 69.34,
+      "y": 6.63,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_file"
+    },
+    {
+      "id": "atmosphere",
+      "label": "Atmosphere",
+      "x": 17.76,
+      "y": 94.17,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "atmosphere"
+    },
+    {
+      "id": "grid",
+      "label": "Grid",
+      "x": 70.01,
+      "y": 86.93,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "grid"
+    },
+    {
+      "id": "anthroposphere",
+      "label": "Anthroposphere",
+      "x": 53.1,
+      "y": 63.98,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "anthroposphere"
+    },
+    {
+      "id": "policy",
+      "label": "Policy",
+      "x": 83.74,
+      "y": 59.36,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy"
+    },
+    {
+      "id": "lithosphere",
+      "label": "Lithosphere",
+      "x": 38.3,
+      "y": 53.27,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "lithosphere"
+    },
+    {
+      "id": "cartographic_projection",
+      "label": "Cartographic projection",
+      "x": 31.29,
+      "y": 8.71,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "cartographic_projection"
+    },
+    {
+      "id": "policy_target",
+      "label": "Policy target",
+      "x": 73.49,
+      "y": 30.48,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_target"
+    },
+    {
+      "id": "validation",
+      "label": "Validation",
+      "x": 66.28,
+      "y": 24.5,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "validation"
+    },
+    {
+      "id": "source_data",
+      "label": "Source Data",
+      "x": 23.69,
+      "y": 47.07,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "source_data"
+    },
+    {
+      "id": "spectral_resolution",
+      "label": "Spectral resolution",
+      "x": 16.23,
+      "y": 77.76,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spectral_resolution"
+    },
+    {
+      "id": "copernicus_service_provider",
+      "label": "Copernicus Service Provider",
+      "x": 55.44,
+      "y": 50.66,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "copernicus_service_provider"
+    },
+    {
+      "id": "traceability",
+      "label": "Traceability",
+      "x": 8.81,
+      "y": 9.85,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "traceability"
+    },
+    {
+      "id": "position",
+      "label": "Position",
+      "x": 31.17,
+      "y": 34.15,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "position"
+    },
+    {
+      "id": "preservation",
+      "label": "Preservation",
+      "x": 56.45,
+      "y": 96.42,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "preservation"
+    },
+    {
+      "id": "time_of_year",
+      "label": "Time of Year",
+      "x": 73.33,
+      "y": 15.81,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "time_of_year"
+    },
+    {
+      "id": "band_central_wavelength",
+      "label": "Band Central Wavelength",
+      "x": 76.85,
+      "y": 61.11,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "band_central_wavelength"
+    },
+    {
+      "id": "steward",
+      "label": "Steward",
+      "x": 82.31,
+      "y": 26.05,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "steward"
+    },
+    {
+      "id": "verification",
+      "label": "Verification",
+      "x": 56.42,
+      "y": 80.39,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "verification"
+    },
+    {
+      "id": "latency",
+      "label": "Latency",
+      "x": 95.15,
+      "y": 87.42,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "latency"
+    },
+    {
+      "id": "minimum_mapping_width",
+      "label": "Minimum Mapping Width",
+      "x": 28.22,
+      "y": 46.76,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "minimum_mapping_width"
+    },
+    {
+      "id": "calibration",
+      "label": "Calibration",
+      "x": 95.87,
+      "y": 18.97,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "calibration"
+    },
+    {
+      "id": "product",
+      "label": "Product",
+      "x": 45.98,
+      "y": 94.76,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "product"
+    },
+    {
+      "id": "custodian",
+      "label": "Custodian",
+      "x": 62.76,
+      "y": 70.91,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "custodian"
+    },
+    {
+      "id": "geographic_identifier",
+      "label": "Geographic Identifier",
+      "x": 36.2,
+      "y": 17.89,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geographic_identifier"
+    },
+    {
+      "id": "backup",
+      "label": "Backup",
+      "x": 52.58,
+      "y": 39.22,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "backup"
+    },
+    {
+      "id": "collection",
+      "label": "Collection",
+      "x": 60.5,
+      "y": 65.25,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "collection"
+    },
+    {
+      "id": "earth_observation_product",
+      "label": "Earth observation product",
+      "x": 28.37,
+      "y": 53.5,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "earth_observation_product"
+    },
+    {
+      "id": "earth_observation_based_output",
+      "label": "Earth observation based output",
+      "x": 7.4,
+      "y": 27.31,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "earth_observation_based_output"
+    },
+    {
+      "id": "granule",
+      "label": "Granule",
+      "x": 71.67,
+      "y": 22.79,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "granule"
+    },
+    {
+      "id": "classification_system_levels",
+      "label": "Classification system levels",
+      "x": 46.86,
+      "y": 81.55,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "classification_system_levels"
+    },
+    {
+      "id": "representativeness",
+      "label": "Representativeness",
+      "x": 22.84,
+      "y": 23.42,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "representativeness"
+    },
+    {
+      "id": "property",
+      "label": "Property",
+      "x": 28.17,
+      "y": 55.07,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "property"
+    },
+    {
+      "id": "vertical_levels",
+      "label": "Vertical Levels",
+      "x": 36.12,
+      "y": 57.71,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "vertical_levels"
+    },
+    {
+      "id": "archive",
+      "label": "Archive",
+      "x": 28.49,
+      "y": 27.05,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "archive"
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "x": 48.9,
+      "y": 18.96,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "stability"
+    },
+    {
+      "id": "geospatial_data",
+      "label": "Geospatial Data",
+      "x": 28.65,
+      "y": 17.51,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geospatial_data"
+    },
+    {
+      "id": "catalogue",
+      "label": "Catalogue",
+      "x": 5.74,
+      "y": 54.66,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "catalogue"
+    },
+    {
+      "id": "uncertainty",
+      "label": "Uncertainty",
+      "x": 88.75,
+      "y": 3.38,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "uncertainty"
+    },
+    {
+      "id": "hydrosphere",
+      "label": "Hydrosphere",
+      "x": 67.42,
+      "y": 73.19,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "hydrosphere"
+    },
+    {
+      "id": "standard_uncertainty",
+      "label": "Standard Uncertainty",
+      "x": 38.07,
+      "y": 84.3,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "standard_uncertainty"
+    },
+    {
+      "id": "user",
+      "label": "User",
+      "x": 75.53,
+      "y": 37.4,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "user"
+    }
+  ],
+  "edges": [
+    {
+      "source": "accuracy",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "accuracy",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "ancillary_data",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "ancillary_data",
+      "target": "position",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "ancillary_data",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "anthroposphere",
+      "target": "earth_spheres",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "archive",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "archive",
+      "target": "preservation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "archive",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "area_of_interest",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "area_of_interest",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "auxiliary_data",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "auxiliary_data",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "auxiliary_data",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "auxiliary_data",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "backup",
+      "target": "baseline",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "backup",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "backup",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "backup",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "band_central_wavelength",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "band_central_wavelength",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "baseline",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "baseline",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "baseline",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "remote_sensing",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "calibration",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "catalogue",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "catalogue",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "catalogue",
+      "target": "user",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "characteristic",
+      "target": "feature",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "classification_system",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "classification_system_levels",
+      "target": "classification_system",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "climate_projection",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection",
+      "target": "calibration",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection",
+      "target": "metadata",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection_update",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection_update",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection_upgrade",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "collection_upgrade",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "confidence_interval",
+      "target": "quantity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "copernicus_service_provider",
+      "target": "atmosphere",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "copernicus_service_provider",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "copernicus_service_provider",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "copernicus_service_provider",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "copernicus_service_provider",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "coverage_interval",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "custodian",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "custodian",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "data",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "data",
+      "target": "trait",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "data",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "data",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "data_access",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "data_format",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "data_licencing",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "decommissioned_product",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "decommissioned_product",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "deprecated_product",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "deprecated_product",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "derivative_product",
+      "target": "baseline",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "derivative_product",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "dispose",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "duration",
+      "target": "quantity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation",
+      "target": "earth_spheres",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_based_output",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_based_output",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_based_output",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_based_output",
+      "target": "policy",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_based_output",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "calibration",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "traceability",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_observation_product",
+      "target": "validation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "earth_spheres",
+      "target": "trait",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "eo_space_data",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "eo_space_data",
+      "target": "earth_observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "expanded_uncertainty",
+      "target": "confidence_interval",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "expanded_uncertainty",
+      "target": "standard_uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "expanded_uncertainty",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "final_product_version",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "final_product_version",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "forecast_range",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geocoding",
+      "target": "location",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_coordinate_reference_system",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_data",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_data",
+      "target": "location",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_data",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_grid",
+      "target": "geographic_coordinate_reference_system",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_grid",
+      "target": "grid",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_identifier",
+      "target": "location",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geographic_identifier",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geolocating",
+      "target": "geopositioning",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geolocating",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geolocating",
+      "target": "object",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geolocating",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geolocation_information",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geolocation_information",
+      "target": "location",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geopositioning",
+      "target": "feature",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geopositioning",
+      "target": "position",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geospatial_data",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "geospatial_data",
+      "target": "location",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "granule",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "in-situ_observation",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "in-situ_observation",
+      "target": "phenomenon",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "in-situ_observation",
+      "target": "place",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "information",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "laboratory_observation",
+      "target": "in-situ_observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "laboratory_observation",
+      "target": "object",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "laboratory_observation",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "laboratory_observation",
+      "target": "phenomenon",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "latency",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "latency",
+      "target": "phenomenon",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "latency",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "lead_time",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "lithosphere",
+      "target": "earth_observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "lithosphere",
+      "target": "geosphere",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "location",
+      "target": "place",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "location_error",
+      "target": "location",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "location_error",
+      "target": "object",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "long_term_preservation",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "measurand",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "measurand",
+      "target": "quantity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "measurement",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "measurement",
+      "target": "quantity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "measurement_uncertainty",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "measurement_uncertainty",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "metadata",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "metadata",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "metadata",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "minimum_mapping_unit",
+      "target": "feature",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "minimum_mapping_width",
+      "target": "feature",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "model",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "model",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "model",
+      "target": "trait",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "near_real_time_data",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "near_real_time_data",
+      "target": "latency",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "object",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "observation",
+      "target": "phenomenon",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "observation",
+      "target": "property",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "observation",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "observation",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "obsolete_product_or_collection",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "obsolete_product_or_collection",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "path",
+      "target": "position",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "period_identifier",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "period_identifier",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "phenomenon",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "phenomenon",
+      "target": "property",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy",
+      "target": "outcome",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_cycle",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_cycle",
+      "target": "policy",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_cycle",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_file",
+      "target": "policy",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_file",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_making",
+      "target": "outcome",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_making",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_milestone",
+      "target": "impact",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_milestone",
+      "target": "policy",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_milestone",
+      "target": "policy_objective",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_milestone",
+      "target": "policy_target",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_objective",
+      "target": "outcome",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "policy_target",
+      "target": "policy_objective",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "position",
+      "target": "place",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "position",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "preservation",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "preservation",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "product",
+      "target": "auxiliary_data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "product",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "product",
+      "target": "user",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "property",
+      "target": "trait",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "provisional_product",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "provisional_product",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "quality_indicator",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "quality_indicator",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "quality_indicator",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "quality_indicator",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "quality_indicator",
+      "target": "user",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "quantity",
+      "target": "property",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "quantity",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "reference",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "reference",
+      "target": "phenomenon",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "reference",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "reference",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "remote_sensing",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "remote_sensing",
+      "target": "phenomenon",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "replicability",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "representativeness",
+      "target": "characteristic",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "representativeness",
+      "target": "location",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "representativeness",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "representativeness",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "representativeness",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "reproducibility",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "sensor",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "sensor",
+      "target": "phenomenon",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "source_data",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "source_data",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "source_data",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_completeness",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_completeness",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_consistency",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_consistency",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_consistency",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_consistency",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_consistency",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_extent",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_extent",
+      "target": "geographic_identifier",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_extent",
+      "target": "user",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_reporting_unit",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spatial_reporting_unit",
+      "target": "object",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spectral_band",
+      "target": "remote_sensing",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spectral_bandwidth",
+      "target": "spectral_band",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "spectral_resolution",
+      "target": "feature",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "stability",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "standard_uncertainty",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "standard_uncertainty",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "standard_uncertainty",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "steward",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "steward",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_consistency",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_consistency",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_consistency",
+      "target": "sample",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_consistency",
+      "target": "sensor",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_extent",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_extent",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_extent",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_extent",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_reporting_period",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_reporting_period",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_reporting_period",
+      "target": "temporal_resolution",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_resolution",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_resolution",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_resolution",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_resolution",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "temporal_revisit",
+      "target": "observation",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "thematic_resolution",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "thematic_uncertainty",
+      "target": "uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "time_of_day",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "time_of_year",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "timeliness",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "timeliness",
+      "target": "period",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "traceability",
+      "target": "calibration",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "traceability",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "traceability",
+      "target": "measurement_uncertainty",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "traceability",
+      "target": "property",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "traceability",
+      "target": "reference",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "trait",
+      "target": "characteristic",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "trait",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "uncertainty",
+      "target": "measurand",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "uncertainty",
+      "target": "measurement",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "uncertainty",
+      "target": "value",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "update_frequency",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "update_frequency",
+      "target": "user",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "user",
+      "target": "characteristic",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "user",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "user",
+      "target": "entity",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "user",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "user_interface",
+      "target": "information",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "user_interface",
+      "target": "user",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "validation",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "validation",
+      "target": "process",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "validation",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "version_control",
+      "target": "collection",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "version_control",
+      "target": "data",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "vertical_levels",
+      "target": "model",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    },
+    {
+      "source": "vertical_levels",
+      "target": "product",
+      "type": "arrow",
+      "color": "#ccc",
+      "size": 1
+    }
+  ]
+}
