@@ -42,7 +42,7 @@ jobs:
       # Commit exported files back to main
       - name: Commit and push exported glossary files
         run: |
-          git add exports/*.xlsx exports/*.parquet
+          git add exports/*.xlsx exports/*.parquet exports/*.json
           git diff --cached --quiet || git commit -m "chore: update glossary exports"
           git push origin main
         env:
