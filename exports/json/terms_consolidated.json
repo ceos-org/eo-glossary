@@ -847,7 +847,7 @@
       {
         "definition_no": 1,
         "definition": "Subset of one or more entities.",
-        "notes": "- The subset may be spatial, temporal, spectral, or in any other dimension or Trait.\n- The subset is contiguous, i.e. it does not consist of more than one discontinuous interval along any dimension.\n- The Process of obtaining a sample is called sampling.",
+        "notes": "- A sample may be spatial, temporal, spectral, or in any other dimension or Trait.\n- Each sample is contiguous, i.e. it does not consist of more than one discontinuous geometry in any dimension.\n- The Process of obtaining a sample is called sampling.",
         "examples": "",
         "sources": "- KCEO"
       }
