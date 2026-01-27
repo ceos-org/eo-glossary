@@ -112,9 +112,12 @@ WHERE 'Data' in term;
 - `echo 'export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib' >> ~/.zshrc && source ~/.zshrc`
 
 ### Local installation
-- best create virtual env with python 3.11 with 
-- `pip install "mkdocs-material[imaging]==9.5.34"`
-- `pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2`
-- `mkdocs serve` for local server or `mkdocs build` for the static html with assets
 
-(See also github actions in .github/workflows/ci.yml)
+Best use uv. Clone the repository, cd into the dir and simply run: 
+
+```shell
+git clone https://github.com/ceos-org/eo-glossary.git
+cd eo-glossary
+uv run mkdocs serve 
+```
+It will detect the pyproject.toml automatically and you don't need to hassle with virutal environments. If you want to build the project just use `build` instead of serve.

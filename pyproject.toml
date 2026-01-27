@@ -1,0 +1,11 @@
+[project]
+name = "eo-glossary"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-material[imaging]==9.5.34",
+    "mkdocs-glightbox",
+    "mkdocs-minify-plugin",
+    "mkdocs-git-revision-date-localized-plugin",
+    "mkdocs-git-committers-plugin-2",
+]
