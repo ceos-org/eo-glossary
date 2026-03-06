@@ -1,16 +1,19 @@
 ---
-title: Measurement uncertainty
+title: Measurement Uncertainty
+tags:
+  - core
+description: Uncertainty associated with the method of Measurement.
 ---
 
-# Measurement uncertainty
+# Measurement Uncertainty
 
 ## 1 Definition
 
-Uncertainty associated with the method of Measurement. 
+Uncertainty associated with the method of Measurement.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- CEOS Wiki adopted from JCGM GUM 
+- CEOS Wiki adopted from JCGM GUM

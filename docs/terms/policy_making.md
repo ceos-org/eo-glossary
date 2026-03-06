@@ -1,16 +1,19 @@
 ---
-title: Policy making
+title: Policy Making
+tags:
+- high-impact
+description: Process by which governments translate their political vision into programmes and actions to deliver outcomes — desired change in the real world.
 ---
 
-# Policy making
+# Policy Making
 
 ## 1 Definition
 
-The Process by which governments translate their political vision into programmes and actions to deliver 'outcomes' - desired change in the real world. 
+Process by which governments translate their political vision into programmes and actions to deliver outcomes — desired change in the real world.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- [ESA/CEOS?, modified](https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners )
+- [ESA/CEOS?, modified](https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners)

@@ -2,17 +2,18 @@
 title: Property
 tags:
 - base
+description: Observable Trait.
 ---
 
 # Property
 
 ## 1 Definition
 
-observable Trait
+Observable Trait.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

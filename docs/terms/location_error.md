@@ -1,16 +1,19 @@
 ---
-title: Location error
+title: Location Error
+tags:
+  - core
+description: Measure of the agreement between the represented Location of an Object and the true Location.
 ---
 
-# Location error
+# Location Error
 
 ## 1 Definition
 
-Indicate the agreement between the represented Location of an Object and the true Location. 
+Measure of the agreement between the represented Location of an Object and the true Location.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

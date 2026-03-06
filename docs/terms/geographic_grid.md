@@ -1,16 +1,19 @@
 ---
 title: Geographic Grid
+tags:
+- core
+description: Regular grid based on a Geographic Coordinate Reference System (CRS).
 ---
 
 # Geographic Grid
 
 ## 1 Definition
 
-(Regular) Grid based on a Geographic Coordinate Reference System (CRS).
+Regular grid based on a Geographic Coordinate Reference System (CRS).
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

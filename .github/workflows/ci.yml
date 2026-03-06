@@ -4,59 +4,61 @@ on:
     branches:
       - main
 permissions:
-  contents: write # Needed for mkdocs gh-deploy to push to gh-pages branch
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      
-      # Configure Git
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-    
-      # Set up Python
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
         with:
-          python-version: 3.11
+          fetch-depth: 0   # needed for git history (last-modified dates)
 
-      # Install uv and set up a virtual environment
-      - run: |
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          source $HOME/.cargo/env
-          uv venv --python 3.11
-          uv pip install "mkdocs-material[imaging]==9.5.18"
-          uv pip install pandas pyarrow openpyxl mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
-
-      # 6. Run pre-build scripts
-      - name: Run pre-build script (Remove cross-links)
-        run: python scripts/remove_cross_links_in_term_definitions.py
-
-      - name: Run pre-build script (Create exports)
+      # ── Configure Git ────────────────────────────────────────────────────────
+      - name: Configure Git credentials
         run: |
-          source .venv/bin/activate
-          python scripts/export_glossary.py
-          
-      # Commit exported files back to main
-      - name: Commit and push exported glossary files
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # ── Python via uv ────────────────────────────────────────────────────────
+      # Scripts declare inline dependencies (PEP 723), so uv resolves them
+      # automatically — no separate pip install step needed.
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Generate glossary exports (XLSX, Parquet, JSON)
+        run: uv run scripts/export_glossary.py
+
+      - name: Generate Sigma.js graph data
+        run: uv run scripts/generate_sigma_graph_data.py
+
+      - name: Commit exports and graph data back to main
         run: |
-          git add exports/*.xlsx exports/*.parquet exports/*.json
+          git add exports/ static/graph/data.json || true
           git diff --cached --quiet || git commit -m "chore: update glossary exports"
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run pre-build script (Add cross-links)
-        run: python scripts/add_cross_links_in_term_definitions.py
+      # ── Node.js / Docusaurus ─────────────────────────────────────────────────
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
 
-      - name: Run pre-build script (Build sigma graph data)
-        run: python scripts/generate_sigma_graph_data.py
+      - name: Install Node dependencies
+        run: npm ci
 
-      # Deploy with mkdocs
-      - name: Build and deploy MkDocs site
+      - name: Build Docusaurus site
+        run: npm run build
         env:
-          # Provide the GITHUB_TOKEN to the git-committers plugin
-          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
-        run: uv run mkdocs gh-deploy --force
+          NODE_OPTIONS: '--max_old_space_size=4096'
+
+      # ── Deploy to GitHub Pages ───────────────────────────────────────────────
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          cname: ''   # set to your custom domain if needed

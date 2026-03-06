@@ -1,16 +1,20 @@
 ---
-title: Confidence interval
+title: Confidence Interval
+description: Probability that a Quantity lies in a given interval, conditioned on the measuring or modelling assumptions.
+tags:
+- controversial
+- approved
 ---
 
-# Confidence interval
+# Confidence Interval
 
 ## 1 Definition
 
-The probability that the Quantity lies in the interval, conditioned on the measuring or modelling assumptions. 
+Probability that the Quantity lies in the interval, conditioned on the measuring or modelling assumptions.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

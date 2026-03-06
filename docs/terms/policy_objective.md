@@ -1,16 +1,19 @@
 ---
-title: Policy objective
+title: Policy Objective
+tags:
+- high-impact
+description: Desired outcome that policymakers wish to achieve.
 ---
 
-# Policy objective
+# Policy Objective
 
 ## 1 Definition
 
-Desired Outcome that policymakers wish to achieve.
+Desired outcome that policymakers wish to achieve.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

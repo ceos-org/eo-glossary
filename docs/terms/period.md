@@ -1,5 +1,8 @@
 ---
 title: Period
+tags:
+- base
+description: Particular era or span of time.
 ---
 
 # Period
@@ -8,10 +11,10 @@ title: Period
 
 Particular era or span of time.
 
-### Notes 
-- Periods are intervals named with a Period identifier. 
+### Notes
+- Periods are intervals named with a Period Identifier.
 
-### Examples 
+### Examples
 
-### Sources 
+### Sources
 - ISO 19170:2021

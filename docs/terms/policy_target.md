@@ -1,16 +1,19 @@
 ---
-title: Policy target
+title: Policy Target
+tags:
+- high-impact
+description: Specific level or rate set for the Policy Objective.
 ---
 
-# Policy target
+# Policy Target
 
 ## 1 Definition
 
-Specific level or rate set for the Policy objective.
+Specific level or rate set for the Policy Objective.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

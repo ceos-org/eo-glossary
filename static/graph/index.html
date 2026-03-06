@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EO Glossary — Term Dependency Graph</title>
+  <script src="https://cdn.jsdelivr.net/npm/graphology@0.25.4/dist/graphology.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sigma@2.4.0/build/sigma.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0a0f1e;
+      color: #e2e8f0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+    #graph-container { width: 100%; height: 100%; }
+
+    /* Tooltip */
+    #tooltip {
+      position: fixed;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 13px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.12s ease;
+      max-width: 220px;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+      line-height: 1.5;
+    }
+    #tooltip strong { color: #f1f5f9; display: block; }
+    #tooltip small { color: #64748b; font-size: 11px; }
+
+    /* Legend */
+    #legend {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 12px 16px;
+      backdrop-filter: blur(10px);
+      font-size: 12px;
+      z-index: 50;
+      min-width: 130px;
+    }
+    #legend h3 {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #475569;
+      margin-bottom: 8px;
+    }
+    .legend-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; color: #cbd5e1; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+    /* Controls hint */
+    #hint {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 11px;
+      color: #475569;
+      backdrop-filter: blur(8px);
+      z-index: 50;
+      line-height: 1.8;
+    }
+
+    /* Error state */
+    #error {
+      display: none;
+      position: fixed;
+      inset: 0;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 12px;
+      text-align: center;
+      color: #64748b;
+    }
+    #error code {
+      background: #1e293b;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div id="graph-container"></div>
+  <div id="tooltip"></div>
+
+  <div id="legend">
+    <h3>Term classes</h3>
+    <div class="legend-row"><div class="legend-dot" style="background:#60a5fa"></div>Base</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#4ade80"></div>Core</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#fb923c"></div>Controversial</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#c084fc"></div>High-impact</div>
+  </div>
+
+  <div id="hint">
+    Scroll to zoom · Drag to pan<br>
+    Click a node to open the term
+  </div>
+
+  <div id="error">
+    <p>Graph data not found.</p>
+    <p>Run <code>python scripts/generate_sigma_graph_data.py</code> from the repo root.</p>
+  </div>
+
+  <script>
+    const container = document.getElementById('graph-container');
+    const tooltip   = document.getElementById('tooltip');
+
+    // Compute base URL from this page's location so navigation works regardless of baseUrl
+    // This HTML is served at: {baseUrl}graph/  →  terms are at {baseUrl}terms/{slug}
+    const graphPath = window.location.pathname;  // e.g. /eo-glossary/graph/
+    const basePath  = graphPath.replace(/\/graph\/?$/, '/');  // e.g. /eo-glossary/
+
+    fetch('./data.json')
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => buildGraph(data))
+      .catch(() => {
+        container.style.display = 'none';
+        document.getElementById('error').style.display = 'flex';
+      });
+
+    function buildGraph(data) {
+      const Graph = typeof graphology !== 'undefined'
+        ? (graphology.default || graphology.Graph || graphology)
+        : window.Graph;
+
+      const graph = new Graph({ type: 'directed', multi: false });
+
+      data.nodes.forEach(n => {
+        graph.addNode(n.id, {
+          label:     n.label,
+          x:         n.x,
+          y:         n.y,
+          size:      n.size  || 8,
+          color:     n.color || '#94a3b8',
+          slug:      n.id,
+        });
+      });
+
+      data.edges.forEach(e => {
+        if (graph.hasNode(e.source) && graph.hasNode(e.target) && !graph.hasEdge(e.source, e.target)) {
+          graph.addDirectedEdge(e.source, e.target, {
+            color: e.color || '#1e293b',
+            size:  e.size  || 1,
+            type:  'arrow',
+          });
+        }
+      });
+
+      const renderer = new Sigma(graph, container, {
+        renderEdgeLabels: false,
+        defaultEdgeColor:  '#1e293b',
+        defaultEdgeType:   'arrow',
+        labelFont:         'Inter, sans-serif',
+        labelSize:         12,
+        labelColor:        { color: '#cbd5e1' },
+        labelDensityThreshold: 1,
+        minCameraRatio:    0.05,
+        maxCameraRatio:    10,
+      });
+
+      // ── Tooltip ─────────────────────────────────────────────────────────────
+      let hoveredNode = null;
+
+      renderer.on('enterNode', ({ node }) => {
+        hoveredNode = node;
+        const attr = graph.getNodeAttributes(node);
+        const deg  = graph.degree(node);
+        tooltip.innerHTML = `<strong>${attr.label}</strong><small>${deg} connection${deg !== 1 ? 's' : ''}</small>`;
+        tooltip.style.opacity = '1';
+        container.style.cursor = 'pointer';
+      });
+
+      renderer.on('leaveNode', () => {
+        hoveredNode = null;
+        tooltip.style.opacity = '0';
+        container.style.cursor = 'default';
+      });
+
+      container.addEventListener('mousemove', e => {
+        tooltip.style.left = (e.clientX + 16) + 'px';
+        tooltip.style.top  = (e.clientY - 10) + 'px';
+      });
+
+      // ── Click to navigate ───────────────────────────────────────────────────
+      renderer.on('clickNode', ({ node }) => {
+        const attr = graph.getNodeAttributes(node);
+        const slug = attr.slug || node;
+        // Navigate the top frame (Docusaurus SPA) to the term page
+        try {
+          window.top.location.href = basePath + 'terms/' + slug;
+        } catch (_) {
+          // cross-origin fallback: navigate the iframe itself
+          window.location.href = basePath + 'terms/' + slug;
+        }
+      });
+
+      // ── Highlight neighbours on hover ────────────────────────────────────────
+      renderer.on('enterNode', ({ node }) => {
+        const neighbours = new Set(graph.neighbors(node));
+        graph.forEachNode((n, attr) => {
+          graph.setNodeAttribute(n, 'color',
+            n === node ? attr.color : (neighbours.has(n) ? attr.color : attr.color + '33'));
+        });
+        graph.forEachEdge((e, attr, src, tgt) => {
+          const isAdj = src === node || tgt === node;
+          graph.setEdgeAttribute(e, 'color', isAdj ? '#60a5fa' : '#1e293b');
+        });
+        renderer.refresh();
+      });
+
+      renderer.on('leaveNode', () => {
+        graph.forEachNode((n, attr) => {
+          // Restore original color (stored in `color` before hover dimming)
+          const origColor = data.nodes.find(d => d.id === n)?.color || '#94a3b8';
+          graph.setNodeAttribute(n, 'color', origColor);
+        });
+        graph.forEachEdge(e => {
+          graph.setEdgeAttribute(e, 'color', '#1e293b');
+        });
+        renderer.refresh();
+      });
+    }
+  </script>
+</body>
+</html>

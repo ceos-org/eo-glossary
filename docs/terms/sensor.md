@@ -2,20 +2,21 @@
 title: Sensor
 tags:
 - core
+description: Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.
 ---
 
 # Sensor
 
 ## 1 Definition
 
-A (technical?) device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective Data.
+Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.
 
-### Notes 
+### Notes
 - Sensing is therefore a synonym for Observation (the Process).
 - As by their definition, sensors perform sampling.
 - Sensors used to obtain measurements must be calibrated and provide uncertainties.
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

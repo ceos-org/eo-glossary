@@ -1,16 +1,20 @@
 ---
-title: Dwell time 
+title: Dwell Time
+tags:
+- core
+description: Time that an antenna beam spends on a target.
 ---
 
-# Dwell time 
+# Dwell Time
 
 ## 1 Definition
 
-The time that an antenna beam spends on a target. 
+Time that an antenna beam spends on a target.
 
-### Notes 
-- in the context of radar sensing
-### Examples 
+### Notes
+- In the context of radar sensing.
+
+### Examples
 
 ### Sources
 - KCEO

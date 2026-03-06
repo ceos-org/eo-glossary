@@ -1,5 +1,8 @@
 ---
 title: Thematic Uncertainty
+tags:
+- core
+description: Uncertainty associated with the method of classification.
 ---
 
 # Thematic Uncertainty
@@ -8,11 +11,11 @@ title: Thematic Uncertainty
 
 Uncertainty associated with the method of classification.
 
-### Notes 
-- Typically, it is computed from the error matrix.
+### Notes
+- Typically, computed from the error matrix.
 - For a review of classification Uncertainty metrics, consult Ye et al. 2018.
 
-### Examples 
+### Examples
 
-### Sources 
+### Sources
 - KCEO

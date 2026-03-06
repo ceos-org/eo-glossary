@@ -1,5 +1,8 @@
 ---
 title: Place
+tags:
+- base
+description: Part of any space referenced by an identifier.
 ---
 
 # Place
@@ -8,9 +11,9 @@ title: Place
 
 Part of any space referenced by an identifier.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - ISO 19155:2012, 4.8

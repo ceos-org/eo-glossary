@@ -1,7 +1,8 @@
 ---
 title: Outcome
 tags:
-- to be defined
+  - core
+description: ""
 ---
 
 # Outcome
@@ -10,6 +11,6 @@ tags:
 
 ### Notes
 
-### Examples 
+### Examples
 
 ### Sources

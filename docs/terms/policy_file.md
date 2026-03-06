@@ -1,16 +1,19 @@
 ---
-title: Policy file 
+title: Policy File
+tags:
+- high-impact
+description: Policy documents that represent the official written reference for a given Policy.
 ---
 
-# Policy file 
+# Policy File
 
 ## 1 Definition
 
-Policy documents that represent the official written Reference for a given Policy. 
+Policy documents that represent the official written reference for a given Policy.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

@@ -1,5 +1,8 @@
 ---
 title: Minimum Mapping Width
+tags:
+  - core
+description: The width of the smallest linear Feature that is still represented on a map.
 ---
 
 # Minimum Mapping Width
@@ -8,9 +11,9 @@ title: Minimum Mapping Width
 
 The width of the smallest linear Feature that is still represented on a map.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- CGLS 
+- CGLS

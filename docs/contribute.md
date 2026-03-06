@@ -1,102 +1,102 @@
 ---
-description: Contribution Guide
+title: Contribution Guide
+description: How to contribute terms and definitions to the EO Glossary — the community thesaurus for Earth Observation sciences.
 ---
 
 # Contribution Guide
 
-The KCEO Glossary is built from the EO community for the EO community. It is supposed to follow and implement the recommendations given in the [semantics chapter](https://github.com/ceos-org/interoperability-handbook/blob/main/Vocabulary.md#vocabulary-semantics) of [new (draft) version of the CEOS Interoperability Handbook](https://github.com/ceos-org/interoperability-handbook/tree/main?tab=readme-ov-file#ceos-interoperability-handbook-20). Your feedback and ideas are fundamental for the further development of this glossary. PR's and contributions of any kind are highly welcomed and encouraged. If you find yourself struggling with any of these steps, please reach out in the GitHub issues section. All you need to propose changes or add new terms is a GitHub account.
+The EO Glossary is built from the EO community for the EO community. It implements the recommendations of the [semantics chapter](https://github.com/ceos-org/interoperability-handbook/blob/main/Vocabulary.md#vocabulary-semantics) of the [CEOS Interoperability Handbook 2.0](https://github.com/ceos-org/interoperability-handbook). Your feedback and ideas are fundamental — PRs and contributions of any kind are highly welcomed. If you get stuck at any step, open a GitHub issue. All you need is a GitHub account.
 
-## Principles
-- Avoid circular definitions at all cost 
-- Multiple different definitions are allowed, but need to be separated 
-- The files need to follow a certain structure to allow for proper parsing and tools to work (e.g. graph creation)
-- We use tags for discussion status and term classes (base, core, controversial, high-impact)
+## Core Principles
+
+- **No circular definitions** — a term must not be used in its own definition, and avoid circular chains (A defined by B, B defined by A).
+- **Substitution principle** (THES#4) — definitions must be written such that they can replace the term in a sentence. A definition of "Accuracy" must not begin with "Accuracy is…"; it should begin directly with the meaning.
+- **Separate notes from definitions** (THES#5) — explanations, caveats, and context go in a `### Notes` section. Examples go in `### Examples`. These complement the definition but are not part of it.
+- **Source every definition** (THES#6) — every definition must include a `### Sources` section linking to the original source document.
+- **Multiple definitions are allowed** (THES#8) — especially for controversial terms. Separate them with `___` and number them (`## 1 Definition`, `## 2 Definition`, …).
 
 ## Tag System
-We currently use the following tag system for: 
 
-1. Discussion status:
-    - term to add (only tagged in issue/discussion)
-    - to be defined
-    - to be discussed
-    - to be approved
-    - approved
+Tags classify each term by its **type** and **discussion status**.
 
-2. Class of term (from Strobl et al. 2024)
-    - base term
-    - core term
-    - controversial term
-    - high-impact term
+### Term class (from Strobl et al. 2024)
 
-## Editing Terms 
-Editing existing terms is very simple. On each site in the glossary you will find a tiny edit icon on the top right, just next to the pages heading. If you click it you'll go directly to editing mode. Make the changes and create a PR.
+| Tag | Meaning | Examples |
+|-----|---------|---------|
+| `base` | Foundational concepts used in definitions of other terms; require cross-community consensus | Data, Entity, Phenomenon, Property |
+| `core` | Standard EO vocabulary with broadly agreed definitions | Accuracy, Calibration, Collection, Sensor |
+| `controversial` | Terms used differently by separate communities; multiple definitions provided | Observation, In-Situ, Model, Sample |
+| `high-impact` | Terms requiring full framework documents, not just a sentence definition | Interoperability, Policy, Near Real Time |
 
-## Adding Terms
+### Discussion status
 
-If you are technical: You can either create a PR in the GitHub repository where we will review the request for certain formal aspects mentioned above under principles. If suitable, it will be merged. If it's a more controversial term, it will be discussed in the open where everyone can join the conversation. 
+| Tag | Meaning |
+|-----|---------|
+| `to be defined` | Term placeholder; definition not yet written |
+| `to be discussed` | Draft definition exists; community discussion needed |
+| `to be approved` | Definition ready; awaiting formal approval |
+| `approved` | Definition approved by the community |
 
-If you are not technical, you can simply open an issue in the GitHub repository and ask us directly to add the term. The term can then be discussed just in the same way in the open. Have a look at the structure of the existing terms in the glossary and make sure to include the following sections:
+## Editing Existing Terms
 
-- Tags (facultative)
-- Definition 
-- Notes (facultative)
-- Examples (facultative)
-- Sources 
+Every term page has an **Edit this page** link at the bottom. Click it to open the file directly in GitHub's editor. Make your changes and submit a pull request. Simple edits (typos, grammar, minor clarifications) can go straight to a PR. Substantive changes to a definition should be discussed in an issue first, especially for `controversial` or `approved` terms.
 
-## Technical Details 
+## Adding New Terms
 
-This glossary is built on mkdocs-material for simplicity. The source files are written in markdown and converted to html by mkdocs. If you intend on creating a PR with a new term, please see the `_template.md` file in the `docs` folder. A template for a term with two possible definitions looks like this: 
+**If you are technical:** Create a PR in the GitHub repository. Name the file `docs/terms/your_term.md` using lowercase and underscores. Follow the template below.
+
+**If you are not technical:** Open a [GitHub issue](https://github.com/ceos-org/eo-glossary/issues) and describe the term you want to add. We will work with you to draft the definition and add it.
+
+## Term File Template
 
 ```markdown
 ---
-title: Test term
+title: Term Name
+description: One-sentence summary of the definition (used for SEO and link previews).
 tags:
-- base
+  - core          # or base, controversial, high-impact
+  - approved      # or to be defined, to be discussed, to be approved
 ---
 
-# Test term
+# Term Name
 
 ## 1 Definition
 
-Definition_goes_here. 
+Substitutable definition text here — written so it can replace the term in a sentence.
+Must NOT begin with "Term Name is…".
 
 ### Notes
-- here should be bullets
-- like this
 
-### Examples 
-- this is also bullets
-- like this
+- Explanatory note providing additional context.
+- Further clarifications or caveats.
 
-### Sources 
-- KCEO (no link included, so no brackets)
-- [Website](https://en.wikipedia.org/wiki/Thai_script) ( if you have web references, just add the term goes into square [] brackets and the url into () normal brackets
+### Examples
 
-in case that there is more than one definition, just add three underscores to separate the definition, rest remains identical 
+- Concrete example of the term in use.
+
+### Sources
+
+- [Source Organisation](https://example.com/source)
+- ISO 12345:2023, clause 4.1
 
 ___
 
-# Test term
+# Term Name
 
 ## 2 Definition
 
-Second_definition_goes_here. 
+Alternative definition from a different community or standard.
 
 ### Notes
-- here should be bullets
-- like this
 
-### Examples 
-- this is also bullets
-- like this
+- Note specific to this definition.
 
-### Sources 
-- KCEO (no link included, so no brackets)
-- [Website](https://en.wikipedia.org/wiki/Thai_script) ( if you have web references, just add the term goes into square [] brackets and the url into () normal brackets
+### Sources
+
+- [Alternative Source](https://example.com/alt-source)
 ```
 
----
+## References
 
-References: 
-
-1. Strobl, P. A., Woolliams, E. R., & Molch, K. (2024). Lost in Translation: The Need for Common Vocabularies and an Interoperable Thesaurus in Earth Observation Sciences. Surveys in Geophysics, 1-29.
+1. Strobl, P. A., Woolliams, E. R., & Molch, K. (2024). Lost in Translation: The Need for Common Vocabularies and an Interoperable Thesaurus in Earth Observation Sciences. *Surveys in Geophysics*. [doi:10.1007/s10712-024-09854-8](https://doi.org/10.1007/s10712-024-09854-8)
+2. CEOS Interoperability Handbook 2.0 — Vocabulary (Semantics) chapter. [GitHub](https://github.com/ceos-org/interoperability-handbook)

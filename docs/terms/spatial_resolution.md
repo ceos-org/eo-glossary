@@ -1,18 +1,17 @@
 ---
-title: Spatial resolution
+title: Spatial Resolution
+tags:
+- core
+description: ''
 ---
 
-# Spatial resolution
-
-
+# Spatial Resolution
 
 ## 1 Definition
 
+### Notes
 
-
-### Notes 
-
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

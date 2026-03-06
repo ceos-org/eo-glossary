@@ -1,18 +1,22 @@
 ---
-title: Coverage interval
+title: Coverage Interval
+description: Range or specific subset of values associated with a coverage dataset.
+tags:
+- core
+- approved
 ---
 
-# Coverage interval
+# Coverage Interval
 
 **Synonyms**: Coverage extent
 
 ## 1 Definition
 
-Refers to a range or a specific subset of values associated with a coverage dataset. 
+Range or specific subset of values associated with a coverage dataset.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

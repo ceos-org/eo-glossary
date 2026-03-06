@@ -1,17 +1,20 @@
 ---
-title: Period Identifier 
+title: Period Identifier
+tags:
+- core
+description: Temporal reference in the form of a label or code that identifies a Period.
 ---
 
-# Period identifier 
+# Period Identifier
 
 ## 1 Definition
 
-Temporal Reference in the for of a label or code that identifies a Period.
+Temporal reference in the form of a label or code that identifies a Period.
 
-### Notes 
-- Period identifiers are the temporal equivalent of geographic identifiers as specified in ISO 19912
+### Notes
+- Period Identifiers are the temporal equivalent of geographic identifiers as specified in ISO 19912.
 
-### Examples 
+### Examples
 
 ### Sources
 - ISO 19170:2021

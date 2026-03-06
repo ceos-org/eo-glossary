@@ -1,1 +1,0 @@
-For easy integrating in mkdocs, create a standalone html from index.html and bundle.js and copy & paste it to sigmajs.md. 

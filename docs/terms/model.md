@@ -1,5 +1,8 @@
 ---
 title: Model
+tags:
+  - controversial
+description: An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits.
 ---
 
 # Model
@@ -8,10 +11,10 @@ title: Model
 
 An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits (as a result of pre-set conditions).
 
-### Notes 
+### Notes
 - The Process of generating Data using a model is called modelling.
 
-### Examples 
+### Examples
 
-### Sources 
+### Sources
 - KCEO

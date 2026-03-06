@@ -1,19 +1,22 @@
 ---
 title: Location
+tags:
+  - base
+description: Particular Place referenced by an identifier.
 ---
 
 # Location
 
-## 1 Definition 
+## 1 Definition
 
 Particular Place referenced by an identifier.
 
-### Notes 
+### Notes
 - While a (geo)location identifies a geographic Place, it may also be associated with objects other than the Earth.
-- While location in principle covers 0- to 3-dimensional spatial geometries, it should not be used for 0- and 1-dimensional geometries (positions and paths)
+- While Location in principle covers 0- to 3-dimensional spatial geometries, it should not be used for 0- and 1-dimensional geometries (positions and paths).
 
-### Examples 
-- Madrid 
+### Examples
+- Madrid
 - California
 
 ### Sources

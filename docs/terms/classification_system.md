@@ -1,16 +1,20 @@
 ---
 title: Classification System
+description: Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
+tags:
+- core
+- approved
 ---
 
 # Classification System
 
 ## 1 Definition
 
-The nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
+Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
-### Sources 
+### Sources
 - KCEO

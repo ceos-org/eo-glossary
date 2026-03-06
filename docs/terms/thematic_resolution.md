@@ -1,16 +1,19 @@
 ---
 title: Thematic Resolution
+tags:
+- core
+description: Level of categorical detail of information expressed by the number of classes.
 ---
 
 # Thematic Resolution
 
 ## 1 Definition
 
-The level of categorical detail of Information expressed by the number of classes.
+Level of categorical detail of information expressed by the number of classes.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
-### Sources 
+### Sources
 - CGLS

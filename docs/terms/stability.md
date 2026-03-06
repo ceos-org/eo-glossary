@@ -1,17 +1,20 @@
 ---
 title: Stability
+tags:
+- core
+description: Maximum acceptable change in Uncertainty per decade.
 ---
 
 # Stability
 
 ## 1 Definition
 
-The maximum acceptable change in Uncertainty per decade.
+Maximum acceptable change in Uncertainty per decade.
 
-### Notes 
-- GCOS uses bias or systematic errors instead of Uncertainty
+### Notes
+- GCOS uses bias or systematic errors instead of Uncertainty.
 
-### Examples 
+### Examples
 
 ### Sources
-- modified from GCOS 2022 
+- Modified from GCOS 2022

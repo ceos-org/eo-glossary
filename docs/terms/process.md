@@ -1,17 +1,20 @@
 ---
 title: Process
+tags:
+- base
+description: Series of activities that interact to produce a result.
 ---
 
 # Process
 
 ## 1 Definition
 
-A series of activities that interact to produce a result.
+Series of activities that interact to produce a result.
 
-### Notes 
-A process may occur once-only or be recurrent or periodic.
+### Notes
+- A Process may occur once-only or be recurrent or periodic.
 
-### Examples 
+### Examples
 
 ### Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Process)

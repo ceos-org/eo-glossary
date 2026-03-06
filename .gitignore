@@ -1,5 +1,11 @@
-# MacOS stuff 
+# MacOS stuff
 .DS_Store
+
+# Docusaurus
+node_modules/
+.docusaurus/
+build/
+.cache/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

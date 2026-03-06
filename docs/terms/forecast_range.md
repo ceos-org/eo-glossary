@@ -1,16 +1,19 @@
 ---
-title: Forecast range
+title: Forecast Range
+tags:
+- core
+description: The forecast period.
 ---
 
-# Forecast range
+# Forecast Range
 
 ## 1 Definition
 
-The forecast Period.
+The forecast period.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

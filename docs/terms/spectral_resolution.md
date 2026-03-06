@@ -1,16 +1,19 @@
 ---
-title: Spectral resolution
+title: Spectral Resolution
+tags:
+- core
+description: Measure of the ability to resolve features in the electromagnetic spectrum.
 ---
 
-# Spectral resolution
+# Spectral Resolution
 
 ## 1 Definition
 
-Measure of the ability to resolve features in the electromagnetic spectrum. 
+Measure of the ability to resolve features in the electromagnetic spectrum.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

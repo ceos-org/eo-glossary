@@ -1,16 +1,19 @@
 ---
-title: Policy cycle 
+title: Policy Cycle
+tags:
+- high-impact
+description: Well-established concept typically taught as the rational model of policy decision-making, representing an idealised view of the policy process.
 ---
 
-# Policy cycle 
+# Policy Cycle
 
 ## 1 Definition
 
-A well-established concept, which is typically taught as the rational Model of Policy decision-making. It is an idealised view of the Policy Process.
+Well-established concept, typically taught as the rational model of policy decision-making. Idealised view of the policy process.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- [ESA/CEOS?, modified](https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners )
+- [ESA/CEOS?, modified](https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners)

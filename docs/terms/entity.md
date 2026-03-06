@@ -2,24 +2,27 @@
 title: Entity
 tags:
 - base
+description: Something that has separate and distinct existence and objective or conceptual reality.
 ---
 
 # Entity
 
-## 1 Definition 
+## 1 Definition
 
 Something that has separate and distinct existence and objective or conceptual reality.
 
-### Notes 
+### Notes
 
-
-### Examples 
+### Examples
 
 ### Sources
 - ISO 19119:2016, 4.1.6
 
+___
+
 ## 2 Definition
-A government or business organization that is formed to conduct business or represent the government of the day.
+
+Government or business organization that is formed to conduct business or represent the government of the day.
 
 ### Notes
 
@@ -27,4 +30,4 @@ A government or business organization that is formed to conduct business or repr
 CEOS Entities include Working Groups, Virtual Constellations, etc.
 
 ### Sources
-- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data)
+- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data

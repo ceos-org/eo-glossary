@@ -1,15 +1,19 @@
 ---
-title: Hydrosphere 
+title: Hydrosphere
+tags:
+  - core
+description: The masses of liquid water, such as oceans, lakes, and rivers.
 ---
 
-# Hydrosphere 
+# Hydrosphere
 
 ## 1 Definition
 
 The masses of liquid water, such as oceans, lakes, and rivers.
-### Notes 
 
-### Examples 
+### Notes
+
+### Examples
 
 ### Sources
 - Guth et al. 2021

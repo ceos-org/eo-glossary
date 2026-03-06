@@ -1,16 +1,19 @@
 ---
 title: Spectral Bandwidth
+tags:
+- core
+description: Range of the Spectral Band.
 ---
 
 # Spectral Bandwidth
 
 ## 1 Definition
 
-The range of the Spectral band.
+Range of the Spectral Band.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

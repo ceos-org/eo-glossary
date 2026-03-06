@@ -1,5 +1,8 @@
 ---
 title: Geolocation Information
+tags:
+- core
+description: Information used to determine geographic Location.
 ---
 
 # Geolocation Information
@@ -8,9 +11,9 @@ title: Geolocation Information
 
 Information used to determine geographic Location.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - ISO 19130-1:2018, 3.34

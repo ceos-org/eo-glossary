@@ -1,23 +1,25 @@
 ---
 title: Temporal Revisit
+tags:
+- core
+description: Interval between successive observations.
 ---
 
 # Temporal Revisit
 
 ## 1 Definition
 
-The interval between successive observations.
+Interval between successive observations.
 
-### Notes 
-
+### Notes
 - In Remote Sensing it is also called repeat cycle.
 - More generally it is known as temporal sampling interval.
 
-### Examples 
+### Examples
 
-| Entry format example | Valid unit                    |
+| Entry format example | Valid unit                     |
 |----------------------|-------------------------------|
 | 1 s, 2 h             | second, hour, day, month, year |
 
-### Sources 
+### Sources
 - KCEO

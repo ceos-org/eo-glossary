@@ -1,16 +1,19 @@
 ---
 title: Replicability
+tags:
+- core
+description: Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.
 ---
 
 # Replicability
 
 ## 1 Definition
 
-Enables other researchers to conduct an independent study with different Data and similar but not identical methods, yet arriving at results that confirm the original study’s hypothesis.
+Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
-### Sources 
-- Craglia, M., ei al,. (2018). 
+### Sources
+- Craglia, M., et al. (2018).

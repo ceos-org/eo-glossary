@@ -1,17 +1,19 @@
 ---
 title: Geosphere
+tags:
+  - core
+description: The masses of minerals that constitute planet Earth.
 ---
 
 # Geosphere
 
 ## 1 Definition
 
-the masses of minerals that constitute planet Earth.
+The masses of minerals that constitute planet Earth.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - Guth et al. 2021
-

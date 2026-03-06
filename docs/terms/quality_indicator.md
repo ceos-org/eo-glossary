@@ -1,18 +1,19 @@
 ---
-title: Quality indicator
+title: Quality Indicator
+tags:
+- core
+description: Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product.
 ---
 
-# Quality indicator
+# Quality Indicator
 
 ## 1 Definition
 
-A quality indicator shall provide sufficient Information to allow all users to readily evaluate 
-the “fitness for purpose” of the Data or derived product. A Quality Indicator may be a number, 
-set of numbers, graph, Uncertainty budget, or a simple “flag”. 
+Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product. May be a number, set of numbers, graph, Uncertainty budget, or a simple flag.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- CEOS Wiki 
+- CEOS Wiki

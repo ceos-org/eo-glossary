@@ -1,16 +1,19 @@
 ---
-title: impact
+title: Impact
+tags:
+  - core
+description: Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.
 ---
 
-# impact
+# Impact
 
 ## 1 Definition
 
-impact is regarded long-term according to X. However, in the Horizon Europe Missions terminology, impact is regarded short-term. 
+Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- KCEO 
+- KCEO

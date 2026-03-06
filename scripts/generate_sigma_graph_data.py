@@ -1,191 +1,184 @@
+# /// script
+# dependencies = []
+# ///
+"""
+Generate Sigma.js graph data from EO Glossary term definitions.
+
+Edges are created when a term B is mentioned in the definition of term A.
+Nodes are coloured by tag class and sized by in-degree (how often referenced).
+
+Output: static/graph/data.json
+Run from repo root: uv run scripts/generate_sigma_graph_data.py
+"""
 import os
 import re
 import json
-import random
 
-# --- Configuration ---
 DOCS_DIRECTORY = './docs/terms'
-OUTPUT_JSON_FILE = os.path.join("./docs/assets/sigmajs/", 'sigma_graph_data.json') # Changed output file extension
-DEFAULT_NODE_COLOR = "#5A75DB"
-DEFAULT_NODE_SIZE = 10
-DEFAULT_EDGE_COLOR = "#ccc"
-DEFAULT_EDGE_TYPE = "arrow"
-DEFAULT_EDGE_SIZE = 1
+OUTPUT_JSON_FILE = './static/graph/data.json'
 
-# Dummy files_to_exclude for standalone execution, replace with actual import if available
-try:
-    from files_to_exclude import files_to_exclude
-except ImportError:
-    files_to_exclude = []
-    print("Warning: 'files_to_exclude.py' not found. Running without file exclusions.")
+# Tag → colour mapping matching the site design system
+TAG_COLORS = {
+    'base':        '#60a5fa',   # blue
+    'core':        '#4ade80',   # green
+    'controversial': '#fb923c', # orange
+    'high-impact': '#c084fc',   # purple
+}
+DEFAULT_COLOR = '#94a3b8'
+
+DEFAULT_NODE_SIZE = 8
+DEFAULT_EDGE_COLOR = '#334155'
 
 
-# --- Helper Functions ---
+# ── Helpers ────────────────────────────────────────────────────────────────────
 
-def sanitize_for_node_id(text):
-    """Creates a JavaScript-friendly ID from a string."""
-    if not text:
-        return "unknown_node"
-    # Replace spaces and special characters with underscores, convert to lowercase
-    s = re.sub(r'\s+', '_', text.strip())
-    s = re.sub(r'[^a-zA-Z0-9_-]', '', s)
-    s = re.sub(r'_+', '_', s) # Collapse multiple underscores
-    s = s.strip('_')
-    return s.lower() if s else "unnamed_node"
-
-def get_h1_title_and_path(file_path):
-    """Extracts the first H1 title and returns it along with the file's basename without extension."""
-    base_name_no_ext = os.path.splitext(os.path.basename(file_path))[0]
+def read_term(file_path):
+    """Parse a term .md file, return dict with title, slug, tags, definition."""
+    slug = os.path.splitext(os.path.basename(file_path))[0]
     try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
-            for line in content.splitlines():
-                stripped_line = line.strip()
-                if stripped_line.startswith('# ') and not stripped_line.startswith('##'):
-                    title_text = stripped_line.lstrip('# ').strip()
-                    # Extract text from link if title is already a link
-                    title_text = re.sub(r'\[([^\]]+)\]\(.*?\)', r'\1', title_text)
-                    # Remove common markdown formatting (bold, italics, code)
-                    title_text = re.sub(r'[*_`]', '', title_text)
-                    return title_text.strip(), base_name_no_ext
-    except FileNotFoundError:
-        print(f"Warning: File not found while getting H1: {file_path}")
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
     except Exception as e:
-        print(f"Error reading H1 from {file_path}: {e}")
-    # Fallback if no H1 found or error
-    return base_name_no_ext.replace("_", " ").capitalize(), base_name_no_ext
+        print(f"Error reading {file_path}: {e}")
+        return None
 
+    # Title from frontmatter
+    title_match = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', content, re.MULTILINE)
+    title = title_match.group(1).strip() if title_match else slug.replace('_', ' ').title()
 
-def get_first_definition_text(file_path):
-    """Extracts content under '## 1 Definition' until the next H2 or specific H3."""
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
-        lines = content.splitlines()
-        in_definition = False
-        definition_lines = []
-        for line in lines:
-            if line.strip().startswith('## 1 Definition'):
-                in_definition = True
+    # Tags from frontmatter YAML block
+    fm_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+    tags = []
+    if fm_match:
+        in_tags = False
+        for line in fm_match.group(1).splitlines():
+            if re.match(r'^tags:', line):
+                in_tags = True
                 continue
-            if in_definition:
-                if line.strip().startswith('## ') or \
-                   line.strip().startswith('### Notes') or \
-                   line.strip().startswith('### Examples') or \
-                   line.strip().startswith('### Sources'):
-                    break
-                definition_lines.append(line)
-        return "\n".join(definition_lines)
-    except FileNotFoundError:
-        # print(f"Warning: File not found for definition extraction: {file_path}")
-        return ""
-    except Exception as e:
-        print(f"Error extracting definition from {file_path}: {e}")
-        return ""
+            if in_tags:
+                if line.startswith(' ') or line.startswith('-'):
+                    tag = line.strip().lstrip('- ').strip()
+                    if tag:
+                        tags.append(tag)
+                else:
+                    in_tags = False
 
-def extract_definition_links(definition_text, current_file_basename_no_ext):
-    """Extracts valid glossary link targets (basenames) from definition text."""
-    link_pattern = re.compile(r'\[(?:[^\]]+?)\]\((.+?)\)')
-    found_target_basenames = []
-    for match in link_pattern.finditer(definition_text):
-        link_url = match.group(1)
-        if link_url.startswith('../') and not any(link_url.endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.gif', '.html']):
-            target_basename = link_url.split('/')[-1]
-            
-            if target_basename and target_basename != current_file_basename_no_ext:
-                found_target_basenames.append(target_basename)
-    return list(set(found_target_basenames)) # Unique targets
-
-# --- Main Logic ---
-def main():
-    nodes_data = {}  # Using dict for unique nodes: {node_id: {attributes}}
-    edges_data = set() # Using set for unique edges: {(source_id, target_id)}
-    
-    # Mapping from filename_no_ext to its canonical H1 label and generated nodeId
-    filename_to_node_info = {}
-
-    md_files = [
-        f for f in os.listdir(DOCS_DIRECTORY)
-        if f.endswith('.md') and f not in files_to_exclude
-    ]
-
-    # Pass 1: Discover all nodes and map filenames to H1 titles and node IDs
-    print("Pass 1: Discovering nodes and mapping H1 titles...")
-    for md_file_name in md_files:
-        file_full_path = os.path.join(DOCS_DIRECTORY, md_file_name)
-        h1_label, basename_no_ext = get_h1_title_and_path(file_full_path)
-        
-        if not h1_label: 
-            print(f"Critical: Could not determine H1/label for {md_file_name}")
-            h1_label = basename_no_ext.replace("_", " ").capitalize()
-
-        node_id = sanitize_for_node_id(h1_label)
-        
-        filename_to_node_info[basename_no_ext] = {
-            "id": node_id,
-            "label": h1_label,
-            "link_path": basename_no_ext
-        }
-        
-        if node_id not in nodes_data:
-            nodes_data[node_id] = {
-                "id": node_id,
-                "label": h1_label,
-                "x": round(random.random() * 100, 2), 
-                "y": round(random.random() * 100, 2),
-                "size": DEFAULT_NODE_SIZE,
-                "color": DEFAULT_NODE_COLOR,
-                "link_path": basename_no_ext
-            }
-
-    # Pass 2: Extract links from definitions and create edges
-    print("\nPass 2: Extracting links from definitions and creating edges...")
-    for md_file_name in md_files:
-        file_full_path = os.path.join(DOCS_DIRECTORY, md_file_name)
-        current_basename_no_ext = os.path.splitext(md_file_name)[0]
-
-        source_node_info = filename_to_node_info.get(current_basename_no_ext)
-        if not source_node_info:
-            print(f"Warning: Source node info not found for {current_basename_no_ext}. Skipping its links.")
+    # Definition text (under ## 1 Definition, until next ## or ###)
+    definition = ''
+    in_def = False
+    for line in content.splitlines():
+        if re.match(r'^## 1 Definition', line.strip()):
+            in_def = True
             continue
-        
-        source_node_id = source_node_info["id"]
+        if in_def:
+            if line.strip().startswith('## ') or line.strip().startswith('### '):
+                break
+            definition += line + '\n'
 
-        definition_text = get_first_definition_text(file_full_path)
-        if not definition_text:
-            continue
-
-        linked_target_basenames = extract_definition_links(definition_text, current_basename_no_ext)
-
-        for target_basename in linked_target_basenames:
-            target_node_info = filename_to_node_info.get(target_basename)
-            if target_node_info:
-                target_node_id = target_node_info["id"]
-                if source_node_id != target_node_id: 
-                    edges_data.add((source_node_id, target_node_id))
-            else:
-                print(f"Warning: Linked target '{target_basename}' (from {md_file_name}) not found in filename_to_node_info map. Link ignored.")
-
-    json_nodes = list(nodes_data.values())
-    json_edges = [
-        {"source": s_id, "target": t_id, "type": DEFAULT_EDGE_TYPE, "color": DEFAULT_EDGE_COLOR, "size": DEFAULT_EDGE_SIZE}
-        for s_id, t_id in sorted(list(edges_data))
-    ]
-
-    final_json_output = {
-        "nodes": json_nodes,
-        "edges": json_edges
+    return {
+        'slug': slug,
+        'title': title,
+        'tags': tags,
+        'definition': definition.strip(),
     }
 
-    try:
-        with open(OUTPUT_JSON_FILE, "w", encoding="utf-8") as f:
-            json.dump(final_json_output, f, indent=2) # Use json.dump to write dict directly
-        print(f"\nSuccessfully generated {OUTPUT_JSON_FILE} with {len(json_nodes)} nodes and {len(json_edges)} edges.")
-    except Exception as e:
-        print(f"Error writing to {OUTPUT_JSON_FILE}: {e}")
 
-if __name__ == "__main__":
-    if not os.path.exists(DOCS_DIRECTORY):
-        print(f"Error: Docs directory '{DOCS_DIRECTORY}' not found from CWD ({os.getcwd()}). Make sure you are running the script from the project root.")
-    else:
-        main()
+def get_color(tags):
+    for tag in ['base', 'controversial', 'high-impact', 'core']:
+        if tag in tags:
+            return TAG_COLORS[tag]
+    return DEFAULT_COLOR
+
+
+def find_mentions(definition_text, all_terms, self_slug):
+    """Find which term slugs are mentioned in the definition text."""
+    mentioned = set()
+    text_lower = definition_text.lower()
+    for term in all_terms:
+        if term['slug'] == self_slug:
+            continue
+        # Match the title (and simple plural)
+        title_lower = term['title'].lower()
+        pattern = r'(?<![a-z])' + re.escape(title_lower) + r'(?:es|s)?(?![a-z])'
+        if re.search(pattern, text_lower):
+            mentioned.add(term['slug'])
+    return mentioned
+
+
+# ── Main ───────────────────────────────────────────────────────────────────────
+
+def main():
+    if not os.path.isdir(DOCS_DIRECTORY):
+        print(f"Error: '{DOCS_DIRECTORY}' not found. Run from the project root.")
+        return
+
+    os.makedirs(os.path.dirname(OUTPUT_JSON_FILE), exist_ok=True)
+
+    md_files = sorted(
+        f for f in os.listdir(DOCS_DIRECTORY)
+        if f.endswith('.md') and not f.startswith('_')
+    )
+
+    print(f"Reading {len(md_files)} term files...")
+    terms = []
+    for fname in md_files:
+        t = read_term(os.path.join(DOCS_DIRECTORY, fname))
+        if t:
+            terms.append(t)
+
+    print("Building edges from definition mentions...")
+    edges_set = set()
+    for term in terms:
+        if not term['definition']:
+            continue
+        mentioned = find_mentions(term['definition'], terms, term['slug'])
+        for target_slug in mentioned:
+            edges_set.add((term['slug'], target_slug))
+
+    # Calculate in-degree for node sizing
+    in_degree = {t['slug']: 0 for t in terms}
+    for src, tgt in edges_set:
+        in_degree[tgt] = in_degree.get(tgt, 0) + 1
+
+    max_degree = max(in_degree.values()) if in_degree else 1
+
+    # Build sigma.js node/edge format
+    import random
+    random.seed(42)  # reproducible layout
+
+    nodes = []
+    for term in terms:
+        degree = in_degree.get(term['slug'], 0)
+        size = DEFAULT_NODE_SIZE + (degree / max(max_degree, 1)) * 20
+        nodes.append({
+            'id': term['slug'],
+            'label': term['title'],
+            'x': round(random.uniform(0, 100), 2),
+            'y': round(random.uniform(0, 100), 2),
+            'size': round(size, 1),
+            'color': get_color(term['tags']),
+            'tags': term['tags'],
+        })
+
+    edges = [
+        {
+            'id': f'{s}__{t}',
+            'source': s,
+            'target': t,
+            'color': DEFAULT_EDGE_COLOR,
+            'size': 1,
+            'type': 'arrow',
+        }
+        for s, t in sorted(edges_set)
+    ]
+
+    output = {'nodes': nodes, 'edges': edges}
+
+    with open(OUTPUT_JSON_FILE, 'w', encoding='utf-8') as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    print(f"Wrote {OUTPUT_JSON_FILE}: {len(nodes)} nodes, {len(edges)} edges.")
+
+
+if __name__ == '__main__':
+    main()

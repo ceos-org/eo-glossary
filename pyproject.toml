@@ -1,11 +1,8 @@
 [project]
 name = "eo-glossary"
-version = "0.1.0"
-requires-python = ">=3.13"
-dependencies = [
-    "mkdocs-material[imaging]==9.5.34",
-    "mkdocs-glightbox",
-    "mkdocs-minify-plugin",
-    "mkdocs-git-revision-date-localized-plugin",
-    "mkdocs-git-committers-plugin-2",
-]
+version = "2.0.0"
+requires-python = ">=3.11"
+# Individual scripts declare their own dependencies via PEP 723 inline metadata.
+# Use: uv run scripts/export_glossary.py
+#      uv run scripts/generate_sigma_graph_data.py
+dependencies = []

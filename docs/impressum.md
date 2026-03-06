@@ -1,5 +1,7 @@
 ---
-description: Contact
+title: Contact & Impressum
+description: Contact information for the EO Glossary project — the Knowledge Centre on Earth Observation (KCEO), European Commission Joint Research Centre.
+sidebar_label: Contact
 ---
 
 # Contact

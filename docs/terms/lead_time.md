@@ -1,16 +1,19 @@
 ---
-title: Lead time
+title: Lead Time
+tags:
+  - core
+description: Minimum time of interval between an Observation being tasked and being performed.
 ---
 
-# Lead time
+# Lead Time
 
 ## 1 Definition
 
-Minimum time of interval between an Observation being tasked and being performed
+Minimum time of interval between an Observation being tasked and being performed.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

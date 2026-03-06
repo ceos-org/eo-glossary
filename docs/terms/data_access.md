@@ -1,16 +1,19 @@
 ---
-title: Data access
+title: Data Access
+tags:
+- core
+description: Service to disseminate Data.
 ---
 
-# Data access
+# Data Access
 
 ## 1 Definition
 
-The service to disseminate Data
+Service to disseminate Data.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

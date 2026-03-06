@@ -1,16 +1,20 @@
 ---
-title: Classification system levels
+title: Classification System Levels
+description: Levels in a hierarchical Classification System.
+tags:
+- core
+- approved
 ---
 
-# Classification system levels
+# Classification System Levels
 
 ## 1 Definition
 
-The levels in a hierarchical Classification System. 
+Levels in a hierarchical Classification System.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

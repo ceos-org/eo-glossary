@@ -1,16 +1,19 @@
 ---
 title: Geospatial Data
+tags:
+  - core
+description: Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.
 ---
 
 # Geospatial Data
 
 ## 1 Definition
 
-Consisting of, derived from, or relating to Data that is directly linked to specific geographical locations.
+Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.
 
 ### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - https://www.merriam-webster.com/dictionary/geospatial

@@ -1,15 +1,16 @@
 ---
-title: Environmental process
+title: Environmental Process
 tags:
-- to be defined
+- core
+description: ""
 ---
 
-# Environmental process
+# Environmental Process
 
 ## 1 Definition
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources

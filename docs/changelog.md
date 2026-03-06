@@ -1,5 +1,6 @@
 ---
-description: Changelog.
+title: Changelog
+description: Version history and changes to the EO Glossary.
 ---
 
 # Changelog

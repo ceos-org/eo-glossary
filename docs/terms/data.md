@@ -1,7 +1,8 @@
 ---
 title: Data
 tags:
-- core
+- base
+description: Value and possibly Uncertainty of a Trait of a specific Entity.
 ---
 
 # Data
@@ -10,10 +11,10 @@ tags:
 
 Value and possibly Uncertainty of a Trait of a specific Entity.
 
-### Notes 
+### Notes
 - Data simply describe entities using certain traits and are not targeted at a particular use or audience.
 
-### Examples 
+### Examples
 Data can be categorised into:
 - factual (i.e. obtained by Observation) or fictional (obtained e.g. through modelling, estimating or assigning)
 - quantitative (continuous) or qualitative (categorical)
@@ -24,6 +25,8 @@ Data can be categorised into:
 ### Sources
 - KCEO
 
+___
+
 ## 2 Definition
 
 Scientific or technical measurements, values calculated therefrom, observations, or facts that can be represented by numbers, tables, graphs, models, text, or symbols which are used as a basis for reasoning and further calculation.
@@ -33,4 +36,4 @@ Scientific or technical measurements, values calculated therefrom, observations,
 ### Examples
 
 ### Sources
-- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data)
+- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data

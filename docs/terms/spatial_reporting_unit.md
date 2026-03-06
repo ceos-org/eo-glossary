@@ -1,17 +1,20 @@
 ---
-title: Spatial reporting unit
+title: Spatial Reporting Unit
+tags:
+- core
+description: Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.
 ---
 
-# Spatial reporting unit
+# Spatial Reporting Unit
 
 ## 1 Definition
 
-The smallest spatial Object of interest that may be used for reporting and for which the Information should be aggregated. 
+Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.
 
-### Notes 
-- WIGOS 2019 use ‘spatial reporting interval’ probably assuming the observations are reported on a Grid with regular spacing/intervals. 
+### Notes
+- WIGOS 2019 uses 'spatial reporting interval', probably assuming observations are reported on a grid with regular spacing/intervals.
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

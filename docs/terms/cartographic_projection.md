@@ -1,13 +1,16 @@
 ---
-title: Cartographic projection
+title: Cartographic Projection
+description: ""
+tags:
+- core
 ---
 
-# Cartographic projection
+# Cartographic Projection
 
 ## 1 Definition
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources

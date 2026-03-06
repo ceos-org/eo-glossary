@@ -1,16 +1,19 @@
 ---
 title: Standard Uncertainty
+tags:
+- core
+description: Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.
 ---
 
 # Standard Uncertainty
 
 ## 1 Definition
 
-Standard Uncertainty describes the standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous [Data].
+Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

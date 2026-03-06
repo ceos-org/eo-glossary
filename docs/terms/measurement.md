@@ -1,19 +1,20 @@
 ---
 title: Measurement
 tags:
-- core
+  - core
+description: Observation of a Quantity.
 ---
 
 # Measurement
 
-## 1 Definition 
+## 1 Definition
 
 Observation of a Quantity.
 
-### Notes 
+### Notes
 - The Process of collecting a measurement is called measuring.
 
-### Examples 
+### Examples
 
 ### Sources
 - GEOGlos (VIM ?, modified)

@@ -1,5 +1,8 @@
 ---
 title: Verification
+tags:
+- core
+description: Provision of objective evidence that a given item fulfils specified requirements.
 ---
 
 # Verification
@@ -8,13 +11,13 @@ title: Verification
 
 Provision of objective evidence that a given item fulfils specified requirements.
 
-### Notes 
-- When applicable, Measurement uncertainty should be taken into consideration.
-- The item may be, e.g. a Process, Measurement procedure, material, compound, or measuring system.
+### Notes
+- When applicable, measurement uncertainty should be taken into consideration.
+- The item may be, e.g. a Process, measurement procedure, material, compound, or measuring system.
 - The specified requirements may be, e.g. that a manufacturer's specifications are met.
 - Verification should not be confused with Calibration. Not every verification is a Validation.
 
-### Examples 
+### Examples
 
 ### Sources
 - ISO/IEC Guide 99:2007, 2.44
@@ -23,11 +26,11 @@ ___
 
 ## 2 Definition
 
-The evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. It is often an internal Process.
+Evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. Often an internal Process.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - EU-US Land Imaging EO Collaboration
@@ -36,11 +39,11 @@ ___
 
 ## 3 Definition
 
-Verification serves as a means to evaluate the reliability of the Data in the absence of a Reference dataset, allowing for an assessment of its standalone performance. It involves confirming the consistency and internal coherence of the Data without direct comparison to external Reference sources.
+Means to evaluate the reliability of the data in the absence of a reference dataset, allowing for an assessment of its standalone performance. Involves confirming the consistency and internal coherence of the data without direct comparison to external reference sources.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

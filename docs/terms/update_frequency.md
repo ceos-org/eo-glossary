@@ -1,17 +1,20 @@
 ---
-title: Update frequency
+title: Update Frequency
+tags:
+- core
+description: Frequency at which the product is available to users.
 ---
 
-# Update frequency
+# Update Frequency
 
 ## 1 Definition
 
-The frequency at which the product is available to users.  
+Frequency at which the product is available to users.
 
-### Notes 
-- Also known in product catalogues as dissemination frequency
+### Notes
+- Also known in product catalogues as dissemination frequency.
 
-### Examples 
+### Examples
 
 ### Sources
 - KCEO

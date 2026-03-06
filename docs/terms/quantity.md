@@ -2,20 +2,21 @@
 title: Quantity
 tags:
 - base
+description: Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.
 ---
 
 # Quantity
 
 ## 1 Definition
 
-Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a Reference. 
+Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- ISO/IEC Guide 99:2007, 1.1, modified – Notes omitted
+- ISO/IEC Guide 99:2007, 1.1, modified — Notes omitted
 
 ___
 
@@ -23,9 +24,9 @@ ___
 
 Property whose instances can be compared by ratio or only by order.
 
-### Notes 
+### Notes
 
-### Examples 
+### Examples
 
 ### Sources
-- gEOGlos(VIM4 Notes omitted)
+- gEOGlos (VIM4 Notes omitted)
