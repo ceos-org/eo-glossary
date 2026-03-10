@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1b2e"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="700" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#0a0f1e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Top accent bar -->
+  <rect width="1200" height="3" fill="#3b82f6" opacity="0.9"/>
+
+  <!-- Left vertical rule -->
+  <rect x="60" y="80" width="2" height="460" fill="#1e3a5f"/>
+
+  <!-- Decorative graph nodes + edges (right side) -->
+  <line x1="920" y1="210" x2="1020" y2="155" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="920" y1="210" x2="1100" y2="270" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="920" y1="210" x2="1000" y2="340" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="1020" y1="155" x2="1145" y2="155" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="1100" y1="270" x2="1070" y2="400" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="1000" y1="340" x2="910" y2="405" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="1000" y1="340" x2="1070" y2="400" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="855" y1="295" x2="920" y2="210" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="855" y1="295" x2="910" y2="405" stroke="#1e293b" stroke-width="1.5"/>
+  <circle cx="920" cy="210" r="17" fill="#1e3a5f" stroke="#60a5fa" stroke-width="1.5"/>
+  <circle cx="1020" cy="155" r="11" fill="#14532d" stroke="#4ade80" stroke-width="1.5"/>
+  <circle cx="1145" cy="155" r="7"  fill="#3b0764" stroke="#c084fc" stroke-width="1.5"/>
+  <circle cx="1100" cy="270" r="13" fill="#14532d" stroke="#4ade80" stroke-width="1.5"/>
+  <circle cx="1000" cy="340" r="15" fill="#431407" stroke="#fb923c" stroke-width="1.5"/>
+  <circle cx="910"  cy="405" r="9"  fill="#1e3a5f" stroke="#60a5fa" stroke-width="1.5"/>
+  <circle cx="1070" cy="400" r="11" fill="#3b0764" stroke="#c084fc" stroke-width="1.5"/>
+  <circle cx="855"  cy="295" r="8"  fill="#14532d" stroke="#4ade80" stroke-width="1.5"/>
+  <!-- Fade graph into background on left -->
+  <rect x="700" y="0" width="500" height="630" fill="url(#fade)"/>
+
+  <!-- Title -->
+  <text x="96" y="238"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="90" font-weight="800" fill="#f1f5f9" letter-spacing="-2">EO Glossary</text>
+
+  <!-- Tagline -->
+  <text x="96" y="300"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="26" font-weight="400" fill="#64748b">Community Thesaurus for Earth Observation Sciences</text>
+
+  <!-- Divider -->
+  <rect x="96" y="326" width="460" height="1" fill="#1e293b"/>
+
+  <!-- Term class badges -->
+  <rect x="96"  y="346" width="64"  height="25" rx="4" fill="#1e3a5f" stroke="#60a5fa" stroke-width="1" opacity="0.9"/>
+  <text x="128" y="363" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#93c5fd" text-anchor="middle" letter-spacing="0.07em">BASE</text>
+  <rect x="170" y="346" width="62"  height="25" rx="4" fill="#14532d" stroke="#4ade80" stroke-width="1" opacity="0.9"/>
+  <text x="201" y="363" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#86efac" text-anchor="middle" letter-spacing="0.07em">CORE</text>
+  <rect x="242" y="346" width="122" height="25" rx="4" fill="#431407" stroke="#fb923c" stroke-width="1" opacity="0.9"/>
+  <text x="303" y="363" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#fdba74" text-anchor="middle" letter-spacing="0.07em">CONTROVERSIAL</text>
+  <rect x="374" y="346" width="110" height="25" rx="4" fill="#3b0764" stroke="#c084fc" stroke-width="1" opacity="0.9"/>
+  <text x="429" y="363" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#d8b4fe" text-anchor="middle" letter-spacing="0.07em">HIGH-IMPACT</text>
+
+  <!-- Stats row -->
+  <text x="96" y="430"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="20" fill="#475569">147 terms · 4 term classes · 30+ source vocabularies · CC BY 4.0</text>
+
+  <!-- Publisher -->
+  <text x="96" y="556"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="17" fill="#334155">CEOS · EC Knowledge Centre for Earth Observation (KCEO)</text>
+
+  <!-- URL -->
+  <text x="96" y="592"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    font-size="16" fill="#1e293b">ceos-org.github.io/eo-glossary</text>
+
+  <!-- Bottom accent bar -->
+  <rect y="627" width="1200" height="3" fill="#1e293b"/>
+</svg>
