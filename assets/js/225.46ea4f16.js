@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkeo_glossary=globalThis.webpackChunkeo_glossary||[]).push([[225],{225(e,s,a){a.d(s,{createArchitectureServices:()=>r.S});var r=a(77713);a(808)}}]);

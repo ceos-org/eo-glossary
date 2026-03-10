@@ -1,721 +1,577 @@
 {
   "nodes": [
     {
-      "id": "position",
-      "label": "Position",
-      "x": 88.06,
-      "y": 93.99,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "position"
-    },
-    {
-      "id": "anthroposphere",
-      "label": "Anthroposphere",
-      "x": 26.61,
-      "y": 92.68,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "anthroposphere"
-    },
-    {
-      "id": "policy_file",
-      "label": "Policy file",
-      "x": 78.04,
-      "y": 76.0,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "policy_file"
-    },
-    {
-      "id": "location",
-      "label": "Location",
-      "x": 70.11,
-      "y": 89.63,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "location"
-    },
-    {
-      "id": "geocoding",
-      "label": "Geocoding",
-      "x": 59.46,
-      "y": 81.92,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "geocoding"
-    },
-    {
-      "id": "place",
-      "label": "Place",
-      "x": 29.86,
-      "y": 49.04,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "place"
-    },
-    {
-      "id": "backup",
-      "label": "Backup",
-      "x": 16.72,
-      "y": 40.32,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "backup"
-    },
-    {
-      "id": "data_format",
-      "label": "Data format",
-      "x": 18.34,
-      "y": 72.8,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "data_format"
-    },
-    {
-      "id": "atmosphere",
-      "label": "Atmosphere",
-      "x": 10.99,
-      "y": 26.97,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "atmosphere"
-    },
-    {
-      "id": "outcome",
-      "label": "Outcome",
-      "x": 43.79,
-      "y": 31.6,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "outcome"
-    },
-    {
-      "id": "collection_update",
-      "label": "Collection Update",
-      "x": 80.25,
-      "y": 46.37,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "collection_update"
-    },
-    {
-      "id": "uncertainty",
-      "label": "Uncertainty",
-      "x": 6.73,
-      "y": 88.19,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "uncertainty"
-    },
-    {
-      "id": "spatial_resolution",
-      "label": "Spatial resolution",
-      "x": 48.98,
-      "y": 82.22,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "spatial_resolution"
-    },
-    {
-      "id": "geosphere",
-      "label": "Geosphere",
-      "x": 28.12,
-      "y": 27.65,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "geosphere"
-    },
-    {
-      "id": "remote_sensing",
-      "label": "Remote Sensing",
-      "x": 74.72,
-      "y": 66.58,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "remote_sensing"
-    },
-    {
-      "id": "verification",
-      "label": "Verification",
-      "x": 23.44,
-      "y": 73.29,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "verification"
-    },
-    {
-      "id": "calibration",
-      "label": "Calibration",
-      "x": 95.53,
-      "y": 83.19,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "calibration"
-    },
-    {
-      "id": "period_identifier",
-      "label": "Period identifier",
-      "x": 71.07,
-      "y": 77.19,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "period_identifier"
-    },
-    {
-      "id": "product",
-      "label": "Product",
-      "x": 73.53,
-      "y": 87.9,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "product"
-    },
-    {
-      "id": "version_control",
-      "label": "Version Control",
-      "x": 55.97,
-      "y": 45.94,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "version_control"
-    },
-    {
-      "id": "area_of_interest",
-      "label": "Area of Interest",
-      "x": 13.54,
-      "y": 81.49,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "area_of_interest"
-    },
-    {
-      "id": "expanded_uncertainty",
-      "label": "Expanded uncertainty",
-      "x": 23.06,
-      "y": 85.08,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "expanded_uncertainty"
-    },
-    {
-      "id": "copernicus_service_provider",
-      "label": "Copernicus Service Provider",
-      "x": 17.36,
-      "y": 28.91,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "copernicus_service_provider"
-    },
-    {
-      "id": "archive",
-      "label": "Archive",
-      "x": 94.49,
-      "y": 85.1,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "archive"
-    },
-    {
-      "id": "feature",
-      "label": "Feature",
-      "x": 27.48,
-      "y": 51.68,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "feature"
-    },
-    {
-      "id": "custodian",
-      "label": "Custodian",
-      "x": 10.6,
-      "y": 90.32,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "custodian"
-    },
-    {
-      "id": "earth_spheres",
-      "label": "Earth spheres",
-      "x": 23.28,
-      "y": 54.44,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "earth_spheres"
-    },
-    {
-      "id": "catalogue",
-      "label": "Catalogue",
-      "x": 74.65,
-      "y": 51.91,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "catalogue"
-    },
-    {
-      "id": "timeliness",
-      "label": "Timeliness",
-      "x": 86.56,
-      "y": 90.63,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "timeliness"
-    },
-    {
-      "id": "ancillary_data",
-      "label": "Ancillary Data",
-      "x": 90.18,
-      "y": 96.35,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "ancillary_data"
-    },
-    {
-      "id": "standard_uncertainty",
-      "label": "Standard Uncertainty",
-      "x": 79.76,
-      "y": 34.12,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "standard_uncertainty"
-    },
-    {
       "id": "geolocating",
       "label": "Geolocating",
-      "x": 32.17,
-      "y": 83.9,
+      "x": 12.21,
+      "y": 93.11,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "geolocating"
     },
     {
-      "id": "deprecated_product",
-      "label": "Deprecated Product",
-      "x": 49.59,
-      "y": 6.18,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "deprecated_product"
-    },
-    {
-      "id": "granule",
-      "label": "Granule",
-      "x": 80.97,
-      "y": 18.33,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "granule"
-    },
-    {
-      "id": "entity",
-      "label": "Entity",
-      "x": 3.3,
-      "y": 81.86,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "entity"
-    },
-    {
-      "id": "policy_milestone",
-      "label": "Policy milestone",
-      "x": 65.73,
-      "y": 62.46,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "policy_milestone"
-    },
-    {
-      "id": "georectifying",
-      "label": "Georectifying",
-      "x": 14.29,
-      "y": 12.12,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "georectifying"
-    },
-    {
-      "id": "process",
-      "label": "Process",
-      "x": 64.47,
-      "y": 20.0,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "process"
-    },
-    {
-      "id": "characteristic",
-      "label": "Characteristic",
-      "x": 29.43,
-      "y": 9.44,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "characteristic"
-    },
-    {
-      "id": "laboratory_observation",
-      "label": "Laboratory Observation",
-      "x": 52.04,
-      "y": 60.45,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "laboratory_observation"
-    },
-    {
-      "id": "lead_time",
-      "label": "Lead time",
-      "x": 32.96,
-      "y": 24.1,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "lead_time"
-    },
-    {
-      "id": "data_licencing",
-      "label": "Data licencing",
-      "x": 25.8,
-      "y": 14.19,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "data_licencing"
-    },
-    {
-      "id": "phenomenon",
-      "label": "Phenomenon",
-      "x": 8.48,
-      "y": 72.05,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "phenomenon"
-    },
-    {
-      "id": "earth_observation_product",
-      "label": "Earth observation product",
-      "x": 14.44,
-      "y": 96.81,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "earth_observation_product"
-    },
-    {
-      "id": "temporal_reporting_period",
-      "label": "Temporal Reporting Period",
-      "x": 41.01,
-      "y": 4.58,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "temporal_reporting_period"
-    },
-    {
       "id": "spectral_bandwidth",
       "label": "Spectral Bandwidth",
-      "x": 35.09,
-      "y": 67.26,
+      "x": 3.01,
+      "y": 7.02,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "spectral_bandwidth"
     },
     {
-      "id": "band_central_wavelength",
-      "label": "Band Central Wavelength",
-      "x": 72.63,
-      "y": 99.56,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "band_central_wavelength"
-    },
-    {
-      "id": "period",
-      "label": "Period",
-      "x": 2.21,
-      "y": 2.71,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "period"
-    },
-    {
-      "id": "steward",
-      "label": "Steward",
-      "x": 37.85,
-      "y": 11.53,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "steward"
-    },
-    {
-      "id": "policy_cycle",
-      "label": "Policy cycle",
-      "x": 23.54,
-      "y": 7.5,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "policy_cycle"
-    },
-    {
-      "id": "model",
-      "label": "Model",
-      "x": 40.27,
-      "y": 18.43,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "model"
-    },
-    {
       "id": "dispose",
       "label": "Dispose",
-      "x": 42.98,
-      "y": 11.18,
+      "x": 97.91,
+      "y": 93.4,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "dispose"
+      "link_path": "instrument_data"
     },
     {
-      "id": "thematic_uncertainty",
-      "label": "Thematic Uncertainty",
-      "x": 18.8,
-      "y": 27.47,
+      "id": "auxiliary_data",
+      "label": "Auxiliary Data",
+      "x": 52.72,
+      "y": 18.64,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "thematic_uncertainty"
+      "link_path": "auxiliary_data"
+    },
+    {
+      "id": "position",
+      "label": "Position",
+      "x": 24.62,
+      "y": 62.39,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "position"
+    },
+    {
+      "id": "product",
+      "label": "Product",
+      "x": 22.9,
+      "y": 92.06,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "product"
+    },
+    {
+      "id": "process",
+      "label": "Process",
+      "x": 95.05,
+      "y": 28.72,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "process"
     },
     {
       "id": "reference",
       "label": "Reference",
-      "x": 48.21,
-      "y": 80.23,
+      "x": 66.31,
+      "y": 66.98,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "reference"
     },
     {
-      "id": "sample",
-      "label": "Sample",
-      "x": 4.26,
-      "y": 40.87,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "sample"
-    },
-    {
-      "id": "latency",
-      "label": "Latency",
-      "x": 11.97,
-      "y": 47.04,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "latency"
-    },
-    {
-      "id": "coverage_interval",
-      "label": "Coverage interval",
-      "x": 31.34,
-      "y": 59.66,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "coverage_interval"
-    },
-    {
-      "id": "spatial_extent",
-      "label": "Spatial extent",
-      "x": 36.73,
-      "y": 51.65,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "spatial_extent"
-    },
-    {
-      "id": "reproducibility",
-      "label": "Reproducibility",
-      "x": 81.25,
-      "y": 49.66,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "reproducibility"
-    },
-    {
-      "id": "spatial_reporting_unit",
-      "label": "Spatial reporting unit",
-      "x": 31.17,
-      "y": 26.86,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "spatial_reporting_unit"
-    },
-    {
-      "id": "information",
-      "label": "Information",
-      "x": 25.25,
-      "y": 41.85,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "information"
-    },
-    {
-      "id": "accuracy",
-      "label": "Accuracy",
-      "x": 8.68,
-      "y": 7.55,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "accuracy"
-    },
-    {
-      "id": "in-situ_observation",
-      "label": "In-Situ Observation",
-      "x": 15.15,
-      "y": 47.46,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "in-situ_observation"
-    },
-    {
-      "id": "policy_target",
-      "label": "Policy target",
-      "x": 76.45,
-      "y": 23.07,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "policy_target"
-    },
-    {
-      "id": "impact",
-      "label": "impact",
-      "x": 76.48,
-      "y": 79.44,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "impact"
-    },
-    {
-      "id": "object",
-      "label": "Object",
-      "x": 93.89,
-      "y": 32.94,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "object"
-    },
-    {
       "id": "earth_observation_based_output",
       "label": "Earth observation based output",
-      "x": 76.61,
-      "y": 41.94,
+      "x": 16.56,
+      "y": 88.37,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "earth_observation_based_output"
     },
     {
-      "id": "property",
-      "label": "Property",
-      "x": 17.7,
-      "y": 79.49,
+      "id": "entity",
+      "label": "Entity",
+      "x": 16.39,
+      "y": 33.24,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "property"
+      "link_path": "entity"
+    },
+    {
+      "id": "collection",
+      "label": "Collection",
+      "x": 78.74,
+      "y": 86.09,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "collection"
     },
     {
       "id": "geographic_grid",
       "label": "Geographic Grid",
-      "x": 99.67,
-      "y": 44.28,
+      "x": 23.0,
+      "y": 4.44,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "geographic_grid"
     },
     {
-      "id": "minimum_mapping_width",
-      "label": "Minimum Mapping Width",
-      "x": 86.9,
-      "y": 68.85,
+      "id": "archive",
+      "label": "Archive",
+      "x": 47.92,
+      "y": 20.86,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "minimum_mapping_width"
+      "link_path": "archive"
     },
     {
-      "id": "grid",
-      "label": "Grid",
-      "x": 14.46,
-      "y": 2.82,
+      "id": "steward",
+      "label": "Steward",
+      "x": 33.34,
+      "y": 12.23,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "grid"
+      "link_path": "steward"
     },
     {
-      "id": "geolocation_information",
-      "label": "Geolocation Information",
-      "x": 86.33,
-      "y": 74.96,
+      "id": "sample",
+      "label": "Sample",
+      "x": 35.4,
+      "y": 69.41,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "geolocation_information"
+      "link_path": "sample"
+    },
+    {
+      "id": "temporal_extent",
+      "label": "Temporal extent",
+      "x": 75.65,
+      "y": 38.04,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_extent"
+    },
+    {
+      "id": "thematic_uncertainty",
+      "label": "Thematic Uncertainty",
+      "x": 5.04,
+      "y": 3.67,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "thematic_uncertainty"
+    },
+    {
+      "id": "cryosphere",
+      "label": "Cryosphere",
+      "x": 80.04,
+      "y": 77.0,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "cryosphere"
+    },
+    {
+      "id": "spatial_reporting_unit",
+      "label": "Spatial reporting unit",
+      "x": 43.08,
+      "y": 40.26,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_reporting_unit"
     },
     {
       "id": "decommissioned_product",
       "label": "Decommissioned Product",
-      "x": 57.84,
-      "y": 50.91,
+      "x": 38.32,
+      "y": 11.35,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "decommissioned_product"
     },
     {
-      "id": "temporal_resolution",
-      "label": "Temporal Resolution",
-      "x": 44.27,
-      "y": 41.84,
+      "id": "location",
+      "label": "Location",
+      "x": 13.44,
+      "y": 59.57,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "temporal_resolution"
+      "link_path": "location"
     },
     {
-      "id": "policy",
-      "label": "Policy",
-      "x": 26.31,
-      "y": 68.78,
+      "id": "period",
+      "label": "Period",
+      "x": 40.63,
+      "y": 6.81,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "policy"
+      "link_path": "period"
     },
     {
-      "id": "spatial_consistency",
-      "label": "Spatial consistency",
-      "x": 43.42,
-      "y": 62.65,
+      "id": "geospatial_data",
+      "label": "Geospatial Data",
+      "x": 85.41,
+      "y": 62.07,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "spatial_consistency"
+      "link_path": "geospatial_data"
     },
     {
-      "id": "preservation",
-      "label": "Preservation",
-      "x": 80.09,
-      "y": 88.2,
+      "id": "confidence_interval",
+      "label": "Confidence interval",
+      "x": 80.04,
+      "y": 13.45,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "preservation"
+      "link_path": "confidence_interval"
     },
     {
-      "id": "geographic_data",
-      "label": "Geographic Data",
-      "x": 63.56,
-      "y": 36.5,
+      "id": "granule",
+      "label": "Granule",
+      "x": 48.25,
+      "y": 77.8,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "geographic_data"
+      "link_path": "granule"
     },
     {
-      "id": "metadata",
-      "label": "Metadata",
-      "x": 19.52,
-      "y": 73.74,
+      "id": "model",
+      "label": "Model",
+      "x": 52.4,
+      "y": 25.19,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "metadata"
+      "link_path": "model"
+    },
+    {
+      "id": "georectifying",
+      "label": "Georectifying",
+      "x": 83.81,
+      "y": 43.44,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "georectifying"
+    },
+    {
+      "id": "policy_making",
+      "label": "Policy making",
+      "x": 4.8,
+      "y": 74.34,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_making"
+    },
+    {
+      "id": "uncertainty",
+      "label": "Uncertainty",
+      "x": 81.27,
+      "y": 68.54,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "uncertainty"
+    },
+    {
+      "id": "climate_projection",
+      "label": "Climate projection",
+      "x": 50.83,
+      "y": 35.12,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "climate_projection"
+    },
+    {
+      "id": "data_format",
+      "label": "Data format",
+      "x": 32.75,
+      "y": 44.6,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data_format"
+    },
+    {
+      "id": "classification_system_levels",
+      "label": "Classification system levels",
+      "x": 75.6,
+      "y": 25.16,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "classification_system_levels"
+    },
+    {
+      "id": "geocoding",
+      "label": "Geocoding",
+      "x": 32.57,
+      "y": 46.88,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geocoding"
+    },
+    {
+      "id": "band_central_wavelength",
+      "label": "Band Central Wavelength",
+      "x": 69.56,
+      "y": 98.97,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "band_central_wavelength"
+    },
+    {
+      "id": "cartographic_projection",
+      "label": "Cartographic projection",
+      "x": 46.42,
+      "y": 50.5,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "cartographic_projection"
+    },
+    {
+      "id": "copernicus_service_provider",
+      "label": "Copernicus Service Provider",
+      "x": 55.18,
+      "y": 9.36,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "copernicus_service_provider"
+    },
+    {
+      "id": "location_error",
+      "label": "Location error",
+      "x": 81.26,
+      "y": 83.61,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "location_error"
+    },
+    {
+      "id": "version_control",
+      "label": "Version Control",
+      "x": 54.14,
+      "y": 50.66,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "version_control"
+    },
+    {
+      "id": "data_access",
+      "label": "Data access",
+      "x": 77.99,
+      "y": 11.3,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data_access"
+    },
+    {
+      "id": "collection_upgrade",
+      "label": "Collection Upgrade",
+      "x": 44.78,
+      "y": 42.71,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "collection_upgrade"
+    },
+    {
+      "id": "thematic_resolution",
+      "label": "Thematic Resolution",
+      "x": 81.95,
+      "y": 14.03,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "thematic_resolution"
+    },
+    {
+      "id": "concepts",
+      "label": "Concepts",
+      "x": 22.41,
+      "y": 91.64,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "concepts"
+    },
+    {
+      "id": "standard_uncertainty",
+      "label": "Standard Uncertainty",
+      "x": 85.22,
+      "y": 60.06,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "standard_uncertainty"
+    },
+    {
+      "id": "coverage_interval",
+      "label": "Coverage interval",
+      "x": 58.39,
+      "y": 94.99,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "coverage_interval"
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "x": 35.82,
+      "y": 84.52,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "path"
+    },
+    {
+      "id": "source_data",
+      "label": "Source Data",
+      "x": 13.17,
+      "y": 22.61,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "source_data"
+    },
+    {
+      "id": "atmosphere",
+      "label": "Atmosphere",
+      "x": 63.69,
+      "y": 45.55,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "atmosphere"
+    },
+    {
+      "id": "validation",
+      "label": "Validation",
+      "x": 86.3,
+      "y": 74.01,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "validation"
+    },
+    {
+      "id": "long_term_preservation",
+      "label": "Long Term Preservation",
+      "x": 50.27,
+      "y": 44.32,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "long_term_preservation"
+    },
+    {
+      "id": "catalogue",
+      "label": "Catalogue",
+      "x": 23.54,
+      "y": 49.16,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "catalogue"
+    },
+    {
+      "id": "minimum_mapping_unit",
+      "label": "Minimum Mapping Unit",
+      "x": 20.16,
+      "y": 90.26,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "minimum_mapping_unit"
+    },
+    {
+      "id": "temporal_reporting_period",
+      "label": "Temporal Reporting Period",
+      "x": 79.12,
+      "y": 52.19,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_reporting_period"
+    },
+    {
+      "id": "policy_file",
+      "label": "Policy file",
+      "x": 41.29,
+      "y": 51.35,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_file"
+    },
+    {
+      "id": "impact",
+      "label": "impact",
+      "x": 45.18,
+      "y": 43.76,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "impact"
+    },
+    {
+      "id": "calibration",
+      "label": "Calibration",
+      "x": 18.93,
+      "y": 91.54,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "calibration"
+    },
+    {
+      "id": "data",
+      "label": "Data",
+      "x": 15.63,
+      "y": 35.33,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data"
+    },
+    {
+      "id": "quantity",
+      "label": "Quantity",
+      "x": 32.79,
+      "y": 44.87,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "quantity"
+    },
+    {
+      "id": "contribution_guide",
+      "label": "Contribution Guide",
+      "x": 47.47,
+      "y": 82.46,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "contribute"
+    },
+    {
+      "id": "policy_milestone",
+      "label": "Policy milestone",
+      "x": 13.87,
+      "y": 19.85,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_milestone"
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "x": 86.82,
+      "y": 90.73,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "value"
+    },
+    {
+      "id": "collection_update",
+      "label": "Collection Update",
+      "x": 72.08,
+      "y": 39.88,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "collection_update"
+    },
+    {
+      "id": "laboratory_observation",
+      "label": "Laboratory Observation",
+      "x": 48.02,
+      "y": 94.34,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "laboratory_observation"
+    },
+    {
+      "id": "environmental_process",
+      "label": "Environmental process",
+      "x": 0.68,
+      "y": 97.58,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "environmental_process"
     },
     {
       "id": "measurement_uncertainty",
       "label": "Measurement uncertainty",
-      "x": 1.31,
-      "y": 27.37,
+      "x": 0.64,
+      "y": 13.52,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "measurement_uncertainty"
@@ -723,596 +579,758 @@
     {
       "id": "temporal_revisit",
       "label": "Temporal Revisit",
-      "x": 11.52,
-      "y": 3.24,
+      "x": 83.53,
+      "y": 55.82,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "temporal_revisit"
     },
     {
-      "id": "contribution_guide",
-      "label": "Contribution Guide",
-      "x": 77.63,
-      "y": 74.59,
+      "id": "period_identifier",
+      "label": "Period identifier",
+      "x": 44.18,
+      "y": 20.33,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "contribute"
+      "link_path": "period_identifier"
     },
     {
-      "id": "quality_indicator",
-      "label": "Quality indicator",
-      "x": 97.39,
-      "y": 24.66,
+      "id": "area_of_interest",
+      "label": "Area of Interest",
+      "x": 4.26,
+      "y": 88.21,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "quality_indicator"
+      "link_path": "area_of_interest"
     },
     {
-      "id": "temporal_consistency",
-      "label": "Temporal Consistency",
-      "x": 6.74,
-      "y": 67.6,
+      "id": "timeliness",
+      "label": "Timeliness",
+      "x": 21.74,
+      "y": 36.01,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "temporal_consistency"
-    },
-    {
-      "id": "confidence_interval",
-      "label": "Confidence interval",
-      "x": 34.88,
-      "y": 99.04,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "confidence_interval"
-    },
-    {
-      "id": "time_of_year",
-      "label": "Time of Year",
-      "x": 56.57,
-      "y": 4.61,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "time_of_year"
-    },
-    {
-      "id": "obsolete_product_or_collection",
-      "label": "Obsolete Product or Collection",
-      "x": 42.59,
-      "y": 59.86,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "obsolete_product_or_collection"
-    },
-    {
-      "id": "minimum_mapping_unit",
-      "label": "Minimum Mapping Unit",
-      "x": 82.9,
-      "y": 89.84,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "minimum_mapping_unit"
-    },
-    {
-      "id": "location_error",
-      "label": "Location error",
-      "x": 50.1,
-      "y": 41.66,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "location_error"
-    },
-    {
-      "id": "vertical_levels",
-      "label": "Vertical Levels",
-      "x": 68.29,
-      "y": 10.53,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "vertical_levels"
-    },
-    {
-      "id": "quantity",
-      "label": "Quantity",
-      "x": 1.63,
-      "y": 40.98,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "quantity"
-    },
-    {
-      "id": "baseline",
-      "label": "Baseline",
-      "x": 70.09,
-      "y": 41.17,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "baseline"
-    },
-    {
-      "id": "duration",
-      "label": "Duration",
-      "x": 83.62,
-      "y": 76.21,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "duration"
-    },
-    {
-      "id": "collection_upgrade",
-      "label": "Collection Upgrade",
-      "x": 78.36,
-      "y": 84.25,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "collection_upgrade"
-    },
-    {
-      "id": "observation",
-      "label": "Observation",
-      "x": 14.56,
-      "y": 39.6,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "observation"
-    },
-    {
-      "id": "data_access",
-      "label": "Data access",
-      "x": 70.15,
-      "y": 63.13,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "data_access"
-    },
-    {
-      "id": "policy_objective",
-      "label": "Policy objective",
-      "x": 92.12,
-      "y": 5.68,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "policy_objective"
-    },
-    {
-      "id": "cell",
-      "label": "Cell",
-      "x": 75.53,
-      "y": 91.18,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "cell"
-    },
-    {
-      "id": "policy_making",
-      "label": "Policy making",
-      "x": 3.24,
-      "y": 55.7,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "policy_making"
-    },
-    {
-      "id": "biosphere",
-      "label": "Biosphere",
-      "x": 37.19,
-      "y": 33.94,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "biosphere"
-    },
-    {
-      "id": "spectral_band",
-      "label": "Spectral band",
-      "x": 86.81,
-      "y": 45.91,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "spectral_band"
-    },
-    {
-      "id": "replicability",
-      "label": "Replicability",
-      "x": 49.13,
-      "y": 35.64,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "replicability"
-    },
-    {
-      "id": "trait",
-      "label": "Trait",
-      "x": 54.22,
-      "y": 28.59,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "trait"
-    },
-    {
-      "id": "classification_system_levels",
-      "label": "Classification system levels",
-      "x": 90.6,
-      "y": 23.33,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "classification_system_levels"
-    },
-    {
-      "id": "source_data",
-      "label": "Source Data",
-      "x": 35.02,
-      "y": 78.11,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "source_data"
-    },
-    {
-      "id": "earth_observation",
-      "label": "Earth Observation",
-      "x": 5.07,
-      "y": 1.28,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "earth_observation"
-    },
-    {
-      "id": "business_continuity",
-      "label": "Business Continuity",
-      "x": 89.15,
-      "y": 83.22,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "business_continuity"
-    },
-    {
-      "id": "provisional_product",
-      "label": "Provisional Product",
-      "x": 25.46,
-      "y": 7.98,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "provisional_product"
-    },
-    {
-      "id": "spectral_resolution",
-      "label": "Spectral resolution",
-      "x": 90.66,
-      "y": 17.22,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "spectral_resolution"
-    },
-    {
-      "id": "eo_space_data",
-      "label": "EO Space Data",
-      "x": 83.84,
-      "y": 17.38,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "eo_space_data"
-    },
-    {
-      "id": "dwell_time",
-      "label": "Dwell time",
-      "x": 82.76,
-      "y": 69.44,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "dwell_time"
-    },
-    {
-      "id": "representativeness",
-      "label": "Representativeness",
-      "x": 17.52,
-      "y": 60.04,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "representativeness"
-    },
-    {
-      "id": "time_of_day",
-      "label": "Time of Day",
-      "x": 41.75,
-      "y": 12.62,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "time_of_day"
-    },
-    {
-      "id": "data",
-      "label": "Data",
-      "x": 22.24,
-      "y": 60.57,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "data"
-    },
-    {
-      "id": "validation",
-      "label": "Validation",
-      "x": 23.82,
-      "y": 32.46,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "validation"
-    },
-    {
-      "id": "user",
-      "label": "User",
-      "x": 85.49,
-      "y": 47.42,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "user"
-    },
-    {
-      "id": "derivative_product",
-      "label": "Derivative Product",
-      "x": 51.06,
-      "y": 19.78,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "derivative_product"
-    },
-    {
-      "id": "value",
-      "label": "Value",
-      "x": 94.42,
-      "y": 31.97,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "value"
-    },
-    {
-      "id": "classification_system",
-      "label": "Classification System",
-      "x": 3.51,
-      "y": 53.38,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "classification_system"
-    },
-    {
-      "id": "environmental_process",
-      "label": "Environmental process",
-      "x": 90.02,
-      "y": 37.27,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "environmental_process"
-    },
-    {
-      "id": "geographic_identifier",
-      "label": "Geographic Identifier",
-      "x": 68.46,
-      "y": 93.79,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "geographic_identifier"
-    },
-    {
-      "id": "collection",
-      "label": "Collection",
-      "x": 17.77,
-      "y": 51.99,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "collection"
-    },
-    {
-      "id": "spatial_completeness",
-      "label": "Spatial completeness",
-      "x": 62.31,
-      "y": 70.59,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "spatial_completeness"
-    },
-    {
-      "id": "stability",
-      "label": "Stability",
-      "x": 77.71,
-      "y": 49.19,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "stability"
-    },
-    {
-      "id": "thematic_resolution",
-      "label": "Thematic Resolution",
-      "x": 61.48,
-      "y": 21.56,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "thematic_resolution"
-    },
-    {
-      "id": "user_interface",
-      "label": "User Interface",
-      "x": 14.71,
-      "y": 33.33,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "user_interface"
-    },
-    {
-      "id": "update_frequency",
-      "label": "Update frequency",
-      "x": 31.88,
-      "y": 69.51,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "update_frequency"
-    },
-    {
-      "id": "sensor",
-      "label": "Sensor",
-      "x": 53.35,
-      "y": 86.1,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "sensor"
-    },
-    {
-      "id": "measurand",
-      "label": "Measurand",
-      "x": 46.12,
-      "y": 21.91,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "measurand"
-    },
-    {
-      "id": "cartographic_projection",
-      "label": "Cartographic projection",
-      "x": 62.39,
-      "y": 99.37,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "cartographic_projection"
-    },
-    {
-      "id": "geographic_coordinate_reference_system",
-      "label": "Geographic Coordinate Reference System",
-      "x": 45.33,
-      "y": 89.74,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "geographic_coordinate_reference_system"
-    },
-    {
-      "id": "cryosphere",
-      "label": "Cryosphere",
-      "x": 91.23,
-      "y": 29.38,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "cryosphere"
-    },
-    {
-      "id": "lithosphere",
-      "label": "Lithosphere",
-      "x": 54.45,
-      "y": 61.69,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "lithosphere"
-    },
-    {
-      "id": "near_real_time_data",
-      "label": "Near Real Time Data",
-      "x": 70.58,
-      "y": 36.09,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "near_real_time_data"
-    },
-    {
-      "id": "traceability",
-      "label": "Traceability",
-      "x": 19.21,
-      "y": 15.39,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "traceability"
-    },
-    {
-      "id": "temporal_extent",
-      "label": "Temporal extent",
-      "x": 97.17,
-      "y": 44.98,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "temporal_extent"
-    },
-    {
-      "id": "long_term_preservation",
-      "label": "Long Term Preservation",
-      "x": 17.2,
-      "y": 63.24,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "long_term_preservation"
-    },
-    {
-      "id": "path",
-      "label": "Path",
-      "x": 14.27,
-      "y": 27.32,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "path"
-    },
-    {
-      "id": "final_product_version",
-      "label": "Final Product Version",
-      "x": 3.35,
-      "y": 69.06,
-      "size": 10,
-      "color": "#5A75DB",
-      "link_path": "final_product_version"
+      "link_path": "timeliness"
     },
     {
       "id": "hydrosphere",
       "label": "Hydrosphere",
-      "x": 44.74,
-      "y": 67.19,
+      "x": 79.52,
+      "y": 1.55,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "hydrosphere"
     },
     {
-      "id": "auxiliary_data",
-      "label": "Auxiliary Data",
-      "x": 94.95,
-      "y": 13.66,
+      "id": "accuracy",
+      "label": "Accuracy",
+      "x": 18.05,
+      "y": 0.32,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "auxiliary_data"
+      "link_path": "accuracy"
     },
     {
-      "id": "geopositioning",
-      "label": "Geopositioning",
-      "x": 41.25,
-      "y": 79.55,
+      "id": "traceability",
+      "label": "Traceability",
+      "x": 7.04,
+      "y": 88.34,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "geopositioning"
+      "link_path": "traceability"
     },
     {
-      "id": "geospatial_data",
-      "label": "Geospatial Data",
-      "x": 99.3,
-      "y": 92.6,
+      "id": "biosphere",
+      "label": "Biosphere",
+      "x": 80.2,
+      "y": 97.95,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "geospatial_data"
+      "link_path": "biosphere"
     },
     {
-      "id": "climate_projection",
-      "label": "Climate projection",
-      "x": 29.55,
-      "y": 8.55,
+      "id": "update_frequency",
+      "label": "Update frequency",
+      "x": 89.69,
+      "y": 93.94,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "climate_projection"
+      "link_path": "update_frequency"
+    },
+    {
+      "id": "lithosphere",
+      "label": "Lithosphere",
+      "x": 2.01,
+      "y": 94.67,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "lithosphere"
+    },
+    {
+      "id": "information",
+      "label": "Information",
+      "x": 44.04,
+      "y": 16.74,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "information"
+    },
+    {
+      "id": "temporal_consistency",
+      "label": "Temporal Consistency",
+      "x": 54.93,
+      "y": 74.76,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_consistency"
+    },
+    {
+      "id": "metadata",
+      "label": "Metadata",
+      "x": 83.42,
+      "y": 28.21,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "metadata"
+    },
+    {
+      "id": "spatial_resolution",
+      "label": "Spatial resolution",
+      "x": 89.01,
+      "y": 83.14,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_resolution"
+    },
+    {
+      "id": "phenomenon",
+      "label": "Phenomenon",
+      "x": 99.98,
+      "y": 8.12,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "phenomenon"
+    },
+    {
+      "id": "geolocation_information",
+      "label": "Geolocation Information",
+      "x": 48.89,
+      "y": 89.41,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geolocation_information"
+    },
+    {
+      "id": "verification",
+      "label": "Verification",
+      "x": 64.31,
+      "y": 74.75,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "verification"
+    },
+    {
+      "id": "property",
+      "label": "Property",
+      "x": 49.95,
+      "y": 7.78,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "property"
+    },
+    {
+      "id": "object",
+      "label": "Object",
+      "x": 6.61,
+      "y": 38.57,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "object"
+    },
+    {
+      "id": "time_of_day",
+      "label": "Time of Day",
+      "x": 56.45,
+      "y": 53.65,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "time_of_day"
+    },
+    {
+      "id": "obsolete_product_or_collection",
+      "label": "Obsolete Product or Collection",
+      "x": 22.77,
+      "y": 44.75,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "obsolete_product_or_collection"
+    },
+    {
+      "id": "baseline",
+      "label": "Baseline",
+      "x": 25.28,
+      "y": 29.48,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "baseline"
+    },
+    {
+      "id": "earth_observation",
+      "label": "Earth Observation",
+      "x": 10.45,
+      "y": 3.77,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "earth_observation"
+    },
+    {
+      "id": "spectral_resolution",
+      "label": "Spectral resolution",
+      "x": 86.43,
+      "y": 28.27,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spectral_resolution"
+    },
+    {
+      "id": "near_real_time_data",
+      "label": "Near Real Time Data",
+      "x": 2.76,
+      "y": 5.77,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "near_real_time_data"
+    },
+    {
+      "id": "measurand",
+      "label": "Measurand",
+      "x": 95.6,
+      "y": 82.85,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "measurand"
+    },
+    {
+      "id": "latency",
+      "label": "Latency",
+      "x": 47.59,
+      "y": 90.16,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "latency"
+    },
+    {
+      "id": "service_provider",
+      "label": "Service provider",
+      "x": 89.02,
+      "y": 26.75,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "service_provider"
+    },
+    {
+      "id": "policy_target",
+      "label": "Policy target",
+      "x": 75.27,
+      "y": 76.28,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_target"
+    },
+    {
+      "id": "policy_objective",
+      "label": "Policy objective",
+      "x": 83.68,
+      "y": 35.42,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_objective"
+    },
+    {
+      "id": "forecast_range",
+      "label": "Forecast range",
+      "x": 45.6,
+      "y": 26.49,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "forecast_range"
+    },
+    {
+      "id": "quality_indicator",
+      "label": "Quality indicator",
+      "x": 65.18,
+      "y": 88.56,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "quality_indicator"
+    },
+    {
+      "id": "user_interface",
+      "label": "User Interface",
+      "x": 89.32,
+      "y": 83.01,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "user_interface"
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "x": 17.75,
+      "y": 3.22,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "stability"
+    },
+    {
+      "id": "classification_system",
+      "label": "Classification System",
+      "x": 67.3,
+      "y": 59.93,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "classification_system"
+    },
+    {
+      "id": "spatial_consistency",
+      "label": "Spatial consistency",
+      "x": 96.85,
+      "y": 49.37,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_consistency"
+    },
+    {
+      "id": "expanded_uncertainty",
+      "label": "Expanded uncertainty",
+      "x": 89.0,
+      "y": 48.33,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "expanded_uncertainty"
+    },
+    {
+      "id": "sensor",
+      "label": "Sensor",
+      "x": 5.65,
+      "y": 64.79,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "sensor"
+    },
+    {
+      "id": "minimum_mapping_width",
+      "label": "Minimum Mapping Width",
+      "x": 26.46,
+      "y": 92.71,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "minimum_mapping_width"
+    },
+    {
+      "id": "backup",
+      "label": "Backup",
+      "x": 6.16,
+      "y": 3.11,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "backup"
+    },
+    {
+      "id": "temporal_resolution",
+      "label": "Temporal Resolution",
+      "x": 16.98,
+      "y": 19.11,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "temporal_resolution"
+    },
+    {
+      "id": "place",
+      "label": "Place",
+      "x": 23.53,
+      "y": 14.25,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "place"
+    },
+    {
+      "id": "ancillary_data",
+      "label": "Ancillary Data",
+      "x": 57.3,
+      "y": 33.35,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "ancillary_data"
+    },
+    {
+      "id": "observation",
+      "label": "Observation",
+      "x": 23.88,
+      "y": 99.81,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "observation"
+    },
+    {
+      "id": "grid",
+      "label": "Grid",
+      "x": 82.69,
+      "y": 3.88,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "grid"
+    },
+    {
+      "id": "user",
+      "label": "User",
+      "x": 60.43,
+      "y": 38.29,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "user"
+    },
+    {
+      "id": "remote_sensing",
+      "label": "Remote Sensing",
+      "x": 85.0,
+      "y": 81.25,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "remote_sensing"
+    },
+    {
+      "id": "earth_observation_product",
+      "label": "Earth observation product",
+      "x": 44.27,
+      "y": 36.3,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "earth_observation_product"
+    },
+    {
+      "id": "trait",
+      "label": "Trait",
+      "x": 97.61,
+      "y": 17.31,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "trait"
+    },
+    {
+      "id": "time_of_year",
+      "label": "Time of Year",
+      "x": 15.77,
+      "y": 67.26,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "time_of_year"
+    },
+    {
+      "id": "in-situ_observation",
+      "label": "In-Situ Observation",
+      "x": 77.85,
+      "y": 12.97,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "in-situ_observation"
+    },
+    {
+      "id": "characteristic",
+      "label": "Characteristic",
+      "x": 95.12,
+      "y": 24.93,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "characteristic"
     },
     {
       "id": "measurement",
       "label": "Measurement",
-      "x": 30.84,
-      "y": 32.8,
+      "x": 63.01,
+      "y": 0.37,
       "size": 10,
       "color": "#5A75DB",
       "link_path": "measurement"
     },
     {
-      "id": "forecast_range",
-      "label": "Forecast range",
-      "x": 17.67,
-      "y": 98.79,
+      "id": "preservation",
+      "label": "Preservation",
+      "x": 86.36,
+      "y": 92.42,
       "size": 10,
       "color": "#5A75DB",
-      "link_path": "forecast_range"
+      "link_path": "preservation"
+    },
+    {
+      "id": "provisional_product",
+      "label": "Provisional Product",
+      "x": 82.04,
+      "y": 51.14,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "provisional_product"
+    },
+    {
+      "id": "outcome",
+      "label": "Outcome",
+      "x": 86.47,
+      "y": 9.57,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "outcome"
+    },
+    {
+      "id": "policy",
+      "label": "Policy",
+      "x": 36.59,
+      "y": 81.07,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy"
+    },
+    {
+      "id": "geographic_identifier",
+      "label": "Geographic Identifier",
+      "x": 53.54,
+      "y": 34.63,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geographic_identifier"
+    },
+    {
+      "id": "earth_spheres",
+      "label": "Earth spheres",
+      "x": 25.07,
+      "y": 77.93,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "earth_spheres"
+    },
+    {
+      "id": "deprecated_product",
+      "label": "Deprecated Product",
+      "x": 61.9,
+      "y": 59.78,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "deprecated_product"
+    },
+    {
+      "id": "replicability",
+      "label": "Replicability",
+      "x": 44.69,
+      "y": 12.9,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "replicability"
+    },
+    {
+      "id": "feature",
+      "label": "Feature",
+      "x": 8.15,
+      "y": 3.03,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "feature"
+    },
+    {
+      "id": "final_product_version",
+      "label": "Final Product Version",
+      "x": 90.38,
+      "y": 66.48,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "final_product_version"
+    },
+    {
+      "id": "spatial_extent",
+      "label": "Spatial extent",
+      "x": 17.76,
+      "y": 98.17,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_extent"
+    },
+    {
+      "id": "policy_cycle",
+      "label": "Policy cycle",
+      "x": 78.84,
+      "y": 98.63,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "policy_cycle"
+    },
+    {
+      "id": "data_licencing",
+      "label": "Data licencing",
+      "x": 4.79,
+      "y": 30.81,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "data_licencing"
+    },
+    {
+      "id": "representativeness",
+      "label": "Representativeness",
+      "x": 62.82,
+      "y": 13.19,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "representativeness"
+    },
+    {
+      "id": "reproducibility",
+      "label": "Reproducibility",
+      "x": 27.79,
+      "y": 33.25,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "reproducibility"
+    },
+    {
+      "id": "custodian",
+      "label": "Custodian",
+      "x": 91.97,
+      "y": 41.61,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "custodian"
+    },
+    {
+      "id": "geosphere",
+      "label": "Geosphere",
+      "x": 7.97,
+      "y": 36.44,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geosphere"
+    },
+    {
+      "id": "cell",
+      "label": "Cell",
+      "x": 60.68,
+      "y": 60.0,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "cell"
+    },
+    {
+      "id": "geographic_coordinate_reference_system",
+      "label": "Geographic Coordinate Reference System",
+      "x": 84.96,
+      "y": 36.96,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geographic_coordinate_reference_system"
+    },
+    {
+      "id": "vertical_levels",
+      "label": "Vertical Levels",
+      "x": 18.26,
+      "y": 72.25,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "vertical_levels"
+    },
+    {
+      "id": "anthroposphere",
+      "label": "Anthroposphere",
+      "x": 42.15,
+      "y": 64.03,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "anthroposphere"
+    },
+    {
+      "id": "dwell_time",
+      "label": "Dwell time",
+      "x": 77.16,
+      "y": 50.56,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "dwell_time"
+    },
+    {
+      "id": "duration",
+      "label": "Duration",
+      "x": 59.87,
+      "y": 42.98,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "duration"
+    },
+    {
+      "id": "lead_time",
+      "label": "Lead time",
+      "x": 29.81,
+      "y": 30.63,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "lead_time"
+    },
+    {
+      "id": "eo_space_data",
+      "label": "EO Space Data",
+      "x": 34.66,
+      "y": 39.75,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "eo_space_data"
+    },
+    {
+      "id": "spatial_completeness",
+      "label": "Spatial completeness",
+      "x": 54.54,
+      "y": 34.56,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spatial_completeness"
+    },
+    {
+      "id": "derivative_product",
+      "label": "Derivative Product",
+      "x": 38.59,
+      "y": 18.76,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "derivative_product"
+    },
+    {
+      "id": "geopositioning",
+      "label": "Geopositioning",
+      "x": 17.77,
+      "y": 91.68,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geopositioning"
+    },
+    {
+      "id": "spectral_band",
+      "label": "Spectral band",
+      "x": 59.19,
+      "y": 70.71,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "spectral_band"
+    },
+    {
+      "id": "geographic_data",
+      "label": "Geographic Data",
+      "x": 2.25,
+      "y": 91.09,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "geographic_data"
+    },
+    {
+      "id": "business_continuity",
+      "label": "Business Continuity",
+      "x": 25.15,
+      "y": 76.65,
+      "size": 10,
+      "color": "#5A75DB",
+      "link_path": "business_continuity"
     }
   ],
   "edges": [
