@@ -4,6 +4,18 @@ description: Interactive force-directed graph showing relationships and dependen
 sidebar_label: Dependency Graph
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+export const GraphIframe = () => (
+  <iframe
+    src={useBaseUrl('/graph')}
+    width="100%"
+    height="700px"
+    style={{border: 'none', borderRadius: '8px'}}
+    title="EO Glossary Dependency Graph"
+  />
+);
+
 # Term Dependency Graph
 
 The interactive graph below visualises how glossary terms relate to and depend on each other. Terms that appear in the definition of other terms are connected by directed edges — revealing which concepts are truly foundational.
@@ -15,13 +27,7 @@ The interactive graph below visualises how glossary terms relate to and depend o
 - **Drag** to pan; drag nodes to rearrange
 - Use the **filter controls** (top-right) to show only specific term classes
 
-<iframe
-  src="/eo-glossary/graph/"
-  width="100%"
-  height="700px"
-  style={{border: 'none', borderRadius: '8px'}}
-  title="EO Glossary Dependency Graph"
-/>
+<GraphIframe />
 
 ## About the Graph
 

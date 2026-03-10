@@ -18,7 +18,7 @@
     }
     #graph-container { width: 100%; height: 100%; }
 
-    /* Tooltip */
+    /* ── Tooltip ── */
     #tooltip {
       position: fixed;
       background: rgba(15, 23, 42, 0.95);
@@ -29,15 +29,89 @@
       pointer-events: none;
       opacity: 0;
       transition: opacity 0.12s ease;
-      max-width: 220px;
-      z-index: 100;
+      max-width: 240px;
+      z-index: 300;
       backdrop-filter: blur(8px);
       line-height: 1.5;
     }
     #tooltip strong { color: #f1f5f9; display: block; }
-    #tooltip small { color: #64748b; font-size: 11px; }
+    #tooltip small  { color: #64748b; font-size: 11px; }
 
-    /* Legend */
+    /* ── Controls bar (top-centre) ── */
+    #controls {
+      position: fixed;
+      top: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      z-index: 200;
+      align-items: center;
+    }
+    #node-search {
+      padding: 7px 14px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+      background: rgba(13, 17, 23, 0.92);
+      color: #e2e8f0;
+      font-size: 13px;
+      width: 220px;
+      outline: none;
+      backdrop-filter: blur(8px);
+      font-family: inherit;
+      transition: border-color 0.15s;
+    }
+    #node-search:focus        { border-color: #60a5fa; }
+    #node-search::placeholder { color: #475569; }
+    .ctrl-btn {
+      padding: 7px 10px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+      background: rgba(13, 17, 23, 0.92);
+      color: #e2e8f0;
+      cursor: pointer;
+      font-size: 15px;
+      backdrop-filter: blur(8px);
+      transition: background 0.15s, border-color 0.15s;
+      line-height: 1;
+    }
+    .ctrl-btn:hover { background: rgba(30, 41, 59, 0.95); border-color: #60a5fa; }
+
+    /* ── Match count badge ── */
+    #search-count {
+      position: fixed;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(13, 17, 23, 0.9);
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 3px 10px;
+      font-size: 11px;
+      color: #64748b;
+      z-index: 200;
+      display: none;
+      pointer-events: none;
+    }
+
+    /* ── Centre-term label (neighbourhood mode) ── */
+    #center-label {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      background: rgba(13, 17, 23, 0.92);
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #60a5fa;
+      backdrop-filter: blur(8px);
+      z-index: 200;
+      display: none;
+    }
+
+    /* ── Legend ── */
     #legend {
       position: fixed;
       bottom: 20px;
@@ -60,9 +134,9 @@
       margin-bottom: 8px;
     }
     .legend-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; color: #cbd5e1; }
-    .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .legend-dot  { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
-    /* Controls hint */
+    /* ── Hint ── */
     #hint {
       position: fixed;
       bottom: 20px;
@@ -78,7 +152,7 @@
       line-height: 1.8;
     }
 
-    /* Error state */
+    /* ── Error state ── */
     #error {
       display: none;
       position: fixed;
@@ -102,6 +176,13 @@
 <body>
   <div id="graph-container"></div>
   <div id="tooltip"></div>
+  <div id="center-label"></div>
+
+  <div id="controls">
+    <input id="node-search" type="search" placeholder="Search term…" autocomplete="off" />
+    <button class="ctrl-btn" id="fullscreen-btn" title="Toggle fullscreen">⛶</button>
+  </div>
+  <div id="search-count"></div>
 
   <div id="legend">
     <h3>Term classes</h3>
@@ -118,19 +199,51 @@
 
   <div id="error">
     <p>Graph data not found.</p>
-    <p>Run <code>python scripts/generate_sigma_graph_data.py</code> from the repo root.</p>
+    <p>Run <code>npm start</code> or <code>npm run build</code> from the repo root.</p>
   </div>
 
   <script>
-    const container = document.getElementById('graph-container');
-    const tooltip   = document.getElementById('tooltip');
+    // ── URL context ────────────────────────────────────────────────────────────
+    const params     = new URLSearchParams(window.location.search);
+    const centerTerm = params.get('term');   // neighbourhood mode when set
+    const embedMode  = params.has('embed');  // embedded in term page
 
-    // Compute base URL from this page's location so navigation works regardless of baseUrl
-    // This HTML is served at: {baseUrl}graph/  →  terms are at {baseUrl}terms/{slug}
-    const graphPath = window.location.pathname;  // e.g. /eo-glossary/graph/
-    const basePath  = graphPath.replace(/\/graph\/?$/, '/');  // e.g. /eo-glossary/
+    const graphPath = window.location.pathname;
+    const basePath  = graphPath.replace(/\/graph\/?$/, '/');
 
-    fetch('./data.json')
+    // DOM refs
+    const container   = document.getElementById('graph-container');
+    const tooltip     = document.getElementById('tooltip');
+    const centerLabel = document.getElementById('center-label');
+    const searchInput = document.getElementById('node-search');
+    const searchCount = document.getElementById('search-count');
+    const fsBtn       = document.getElementById('fullscreen-btn');
+
+    // In embed mode: hide only the hint (scroll/pan instructions); controls stay visible
+    if (embedMode) {
+      document.getElementById('hint').style.display = 'none';
+    }
+    if (centerTerm) {
+      centerLabel.style.display = 'block';
+      centerLabel.textContent   = '⬤  Loading…';
+    }
+
+    // ── Fullscreen ─────────────────────────────────────────────────────────────
+    fsBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(() => {});
+      } else {
+        document.exitFullscreen();
+      }
+    });
+    document.addEventListener('fullscreenchange', () => {
+      fsBtn.textContent = document.fullscreenElement ? '✕' : '⛶';
+    });
+
+    // ── Data fetch ─────────────────────────────────────────────────────────────
+    // Compute path explicitly — works whether served at /graph, /graph/, or /graph/index.html
+    const graphDir = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/?$/, '/');
+    fetch(graphDir + 'data.json')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(data => buildGraph(data))
       .catch(() => {
@@ -138,107 +251,292 @@
         document.getElementById('error').style.display = 'flex';
       });
 
-    function buildGraph(data) {
+    // ── Graph construction ─────────────────────────────────────────────────────
+    function buildGraph(raw) {
       const Graph = typeof graphology !== 'undefined'
         ? (graphology.default || graphology.Graph || graphology)
         : window.Graph;
 
+      let nodes = raw.nodes;
+      let edges = raw.edges;
+
+      // ── Neighbourhood filtering & directed layout ─────────────────────────────
+      if (centerTerm) {
+        const centerNode = nodes.find(n => n.id === centerTerm);
+
+        if (centerNode) {
+          centerLabel.textContent = '⬤  ' + centerNode.label;
+
+          // parents    = terms C's definition mentions (C → X)
+          // children   = terms whose definition mentions C (Y → C)
+          const directParents  = new Set();
+          const directChildren = new Set();
+          for (const e of raw.edges) {
+            if (e.source === centerTerm) directParents.add(e.target);
+            if (e.target === centerTerm) directChildren.add(e.source);
+          }
+
+          const grandParents  = new Set();
+          const grandChildren = new Set();
+          for (const e of raw.edges) {
+            if (directParents.has(e.source) && e.target !== centerTerm && !directParents.has(e.target)) {
+              grandParents.add(e.target);
+            }
+            if (directChildren.has(e.target) && e.source !== centerTerm && !directChildren.has(e.source)) {
+              grandChildren.add(e.source);
+            }
+          }
+
+          // Deduplicate (priority: center > parent > child > grandparent > grandchild)
+          for (const id of directParents)  { grandParents.delete(id);  grandChildren.delete(id); }
+          for (const id of directChildren) { grandParents.delete(id);  grandChildren.delete(id); }
+          for (const id of grandParents)   { grandChildren.delete(id); }
+          grandParents.delete(centerTerm);
+          grandChildren.delete(centerTerm);
+
+          // Role map
+          const roleMap = new Map([[centerTerm, 'center']]);
+          for (const id of directParents)  roleMap.set(id, 'parent');
+          for (const id of directChildren) roleMap.set(id, 'child');
+          for (const id of grandParents)   roleMap.set(id, 'grandparent');
+          for (const id of grandChildren)  roleMap.set(id, 'grandchild');
+
+          const allNeighbourhood = new Set(roleMap.keys());
+
+          nodes = nodes
+            .filter(n => allNeighbourhood.has(n.id))
+            .map(n => ({ ...n, role: roleMap.get(n.id) }));
+          edges = edges.filter(e => allNeighbourhood.has(e.source) && allNeighbourhood.has(e.target));
+
+          // ── Sector layout: parents → right, children → left ─────────────────
+          const posMap = new Map([[centerTerm, { x: 50, y: 50 }]]);
+
+          const placeHemisphere = (ids, r, side) => {
+            ids.forEach((id, i) => {
+              const t     = ids.length <= 1 ? 0.5 : i / (ids.length - 1);
+              const angle = side - Math.PI * 0.5 + Math.PI * t;
+              posMap.set(id, { x: 50 + r * Math.cos(angle), y: 50 + r * Math.sin(angle) });
+            });
+          };
+
+          placeHemisphere([...directParents],  22, 0);          // right, inner
+          placeHemisphere([...grandParents],   44, 0);          // right, outer
+          placeHemisphere([...directChildren], 22, Math.PI);    // left, inner
+          placeHemisphere([...grandChildren],  44, Math.PI);    // left, outer
+
+          nodes = nodes.map(n => ({
+            ...n,
+            x: posMap.has(n.id) ? posMap.get(n.id).x : n.x,
+            y: posMap.has(n.id) ? posMap.get(n.id).y : n.y,
+          }));
+
+        } else {
+          centerLabel.textContent = '(term not found)';
+        }
+      }
+
+      // ── Graphology graph ─────────────────────────────────────────────────────
       const graph = new Graph({ type: 'directed', multi: false });
 
-      data.nodes.forEach(n => {
+      nodes.forEach(n => {
+        const isCenter = n.id === centerTerm;
+        const size     = isCenter ? Math.max((n.size || 8) * 1.6, 18) : (n.size || 8);
         graph.addNode(n.id, {
-          label:     n.label,
-          x:         n.x,
-          y:         n.y,
-          size:      n.size  || 8,
-          color:     n.color || '#94a3b8',
-          slug:      n.id,
+          label:         n.label,
+          x:             n.x,
+          y:             n.y,
+          size,
+          originalSize:  size,
+          color:         n.color || '#94a3b8',
+          originalColor: n.color || '#94a3b8',
+          slug:          n.id,
+          role:          n.role || null,
         });
       });
 
-      data.edges.forEach(e => {
-        if (graph.hasNode(e.source) && graph.hasNode(e.target) && !graph.hasEdge(e.source, e.target)) {
-          graph.addDirectedEdge(e.source, e.target, {
-            color: e.color || '#1e293b',
-            size:  e.size  || 1,
-            type:  'arrow',
-          });
-        }
+      edges.forEach(e => {
+        if (!graph.hasNode(e.source) || !graph.hasNode(e.target)) return;
+        if (graph.hasEdge(e.source, e.target)) return;
+        const isAdj  = centerTerm && (e.source === centerTerm || e.target === centerTerm);
+        const color  = isAdj ? '#3b82f6' : (e.color || '#1e293b');
+        const size   = isAdj ? 2 : (e.size || 1);
+        graph.addDirectedEdge(e.source, e.target, {
+          color,
+          originalColor: color,
+          size,
+          originalSize:  size,
+          type:          'arrow',
+        });
+      });
+
+      // ── Snapshot of original edges for hover clear-and-reorder ───────────────
+      // WebGL draws edges in submission order (later = on top). To make highlighted
+      // edges always appear on top of dimmed ones, we clear all edges and re-add
+      // them with non-adjacent first, adjacent last.
+      const originalEdges = [];
+      graph.forEachEdge((e, attr, src, tgt) => {
+        originalEdges.push({ source: src, target: tgt, attrs: { ...attr } });
       });
 
       const renderer = new Sigma(graph, container, {
-        renderEdgeLabels: false,
-        defaultEdgeColor:  '#1e293b',
-        defaultEdgeType:   'arrow',
-        labelFont:         'Inter, sans-serif',
-        labelSize:         12,
-        labelColor:        { color: '#cbd5e1' },
-        labelDensityThreshold: 1,
-        minCameraRatio:    0.05,
-        maxCameraRatio:    10,
+        renderEdgeLabels:      false,
+        defaultEdgeColor:      '#1e293b',
+        defaultEdgeType:       'arrow',
+        labelFont:             'Inter, sans-serif',
+        labelSize:             12,
+        labelColor:            { color: '#cbd5e1' },
+        labelDensityThreshold: centerTerm ? 0 : 1,
+        minCameraRatio:        0.05,
+        maxCameraRatio:        10,
       });
 
-      // ── Tooltip ─────────────────────────────────────────────────────────────
-      let hoveredNode = null;
+      // ── Layer-toggle listener (embed mode) ────────────────────────────────────
+      if (embedMode) {
+        window.addEventListener('message', ev => {
+          if (ev.data?.type !== 'setLayers') return;
+          const { layers } = ev.data;
+          const show = {
+            center:      true,
+            parent:      layers.parents      !== false,
+            grandparent: layers.grandparents !== false,
+            child:       layers.children     !== false,
+            grandchild:  layers.grandchildren !== false,
+          };
+          graph.forEachNode((n, attr) => {
+            graph.setNodeAttribute(n, 'hidden', !(show[attr.role] ?? true));
+          });
+          renderer.refresh();
+        });
+      }
 
+      // ── Color helper ─────────────────────────────────────────────────────────
+      const BG = [10, 15, 30]; // #0a0f1e
+      function blendToBackground(hex, factor) {
+        const r  = parseInt(hex.slice(1, 3), 16) || 0;
+        const g  = parseInt(hex.slice(3, 5), 16) || 0;
+        const b  = parseInt(hex.slice(5, 7), 16) || 0;
+        const dr = Math.round(r + (BG[0] - r) * factor);
+        const dg = Math.round(g + (BG[1] - g) * factor);
+        const db = Math.round(b + (BG[2] - b) * factor);
+        return '#' + [dr, dg, db].map(v => v.toString(16).padStart(2, '0')).join('');
+      }
+
+      // ── Restore edges in original order ──────────────────────────────────────
+      function restoreEdges() {
+        graph.clearEdges();
+        for (const ed of originalEdges) {
+          if (!graph.hasNode(ed.source) || !graph.hasNode(ed.target)) continue;
+          graph.addDirectedEdge(ed.source, ed.target, { ...ed.attrs });
+        }
+      }
+
+      // ── Hover highlight ───────────────────────────────────────────────────────
+      // Fix edge z-ordering: clear all edges and re-add non-adjacent first (drawn
+      // behind), adjacent last (drawn in front). WebGL submission order = draw order.
       renderer.on('enterNode', ({ node }) => {
-        hoveredNode = node;
+        // Tooltip
         const attr = graph.getNodeAttributes(node);
         const deg  = graph.degree(node);
         tooltip.innerHTML = `<strong>${attr.label}</strong><small>${deg} connection${deg !== 1 ? 's' : ''}</small>`;
         tooltip.style.opacity = '1';
         container.style.cursor = 'pointer';
-      });
 
-      renderer.on('leaveNode', () => {
-        hoveredNode = null;
-        tooltip.style.opacity = '0';
-        container.style.cursor = 'default';
-      });
-
-      container.addEventListener('mousemove', e => {
-        tooltip.style.left = (e.clientX + 16) + 'px';
-        tooltip.style.top  = (e.clientY - 10) + 'px';
-      });
-
-      // ── Click to navigate ───────────────────────────────────────────────────
-      renderer.on('clickNode', ({ node }) => {
-        const attr = graph.getNodeAttributes(node);
-        const slug = attr.slug || node;
-        // Navigate the top frame (Docusaurus SPA) to the term page
-        try {
-          window.top.location.href = basePath + 'terms/' + slug;
-        } catch (_) {
-          // cross-origin fallback: navigate the iframe itself
-          window.location.href = basePath + 'terms/' + slug;
-        }
-      });
-
-      // ── Highlight neighbours on hover ────────────────────────────────────────
-      renderer.on('enterNode', ({ node }) => {
+        // Node dimming + shrink: dimmed nodes are reduced in size so they can't
+        // visually "cut through" the thick highlighted edges (nodes always render
+        // on top of edges in WebGL; shrinking makes the overlap negligible).
         const neighbours = new Set(graph.neighbors(node));
-        graph.forEachNode((n, attr) => {
-          graph.setNodeAttribute(n, 'color',
-            n === node ? attr.color : (neighbours.has(n) ? attr.color : attr.color + '33'));
+        graph.forEachNode((n, a) => {
+          const dim = n !== node && !neighbours.has(n);
+          graph.setNodeAttribute(n, 'color', dim ? blendToBackground(a.originalColor, 0.88) : a.originalColor);
+          graph.setNodeAttribute(n, 'size',  dim ? Math.max(a.originalSize * 0.35, 2) : a.originalSize);
         });
-        graph.forEachEdge((e, attr, src, tgt) => {
-          const isAdj = src === node || tgt === node;
-          graph.setEdgeAttribute(e, 'color', isAdj ? '#60a5fa' : '#1e293b');
-        });
+
+        // Reorder edges: non-adjacent first (behind), adjacent last (in front)
+        graph.clearEdges();
+        for (const ed of originalEdges) {
+          if (!graph.hasNode(ed.source) || !graph.hasNode(ed.target)) continue;
+          if (ed.source === node || ed.target === node) continue; // skip adj
+          graph.addDirectedEdge(ed.source, ed.target, {
+            ...ed.attrs, color: '#0d1424', size: 0.3,
+          });
+        }
+        for (const ed of originalEdges) {
+          if (!graph.hasNode(ed.source) || !graph.hasNode(ed.target)) continue;
+          if (ed.source !== node && ed.target !== node) continue; // skip non-adj
+          graph.addDirectedEdge(ed.source, ed.target, {
+            ...ed.attrs, color: '#60a5fa', size: 3,
+          });
+        }
         renderer.refresh();
       });
 
       renderer.on('leaveNode', () => {
-        graph.forEachNode((n, attr) => {
-          // Restore original color (stored in `color` before hover dimming)
-          const origColor = data.nodes.find(d => d.id === n)?.color || '#94a3b8';
-          graph.setNodeAttribute(n, 'color', origColor);
+        tooltip.style.opacity  = '0';
+        container.style.cursor = 'default';
+
+        // Restore node colours and sizes (respect active search)
+        const q = searchInput ? searchInput.value.toLowerCase().trim() : '';
+        graph.forEachNode((n, a) => {
+          const color = (!q || a.label.toLowerCase().includes(q))
+            ? a.originalColor
+            : blendToBackground(a.originalColor, 0.75);
+          graph.setNodeAttribute(n, 'color', color);
+          graph.setNodeAttribute(n, 'size',  a.originalSize);
         });
-        graph.forEachEdge(e => {
-          graph.setEdgeAttribute(e, 'color', '#1e293b');
-        });
+
+        restoreEdges();
         renderer.refresh();
       });
+
+      container.addEventListener('mousemove', ev => {
+        tooltip.style.left = (ev.clientX + 16) + 'px';
+        tooltip.style.top  = (ev.clientY - 10) + 'px';
+      });
+
+      // ── Click → navigate ─────────────────────────────────────────────────────
+      renderer.on('clickNode', ({ node }) => {
+        const slug = graph.getNodeAttribute(node, 'slug') || node;
+        try   { window.top.location.href = basePath + 'terms/' + slug; }
+        catch (_) { window.location.href = basePath + 'terms/' + slug; }
+      });
+
+      // ── In-graph search ──────────────────────────────────────────────────────
+      if (searchInput) {
+        searchInput.addEventListener('input', () => {
+          const q = searchInput.value.toLowerCase().trim();
+          if (!q) {
+            searchCount.style.display = 'none';
+            graph.forEachNode((n, a) => {
+              graph.setNodeAttribute(n, 'color', a.originalColor);
+              graph.setNodeAttribute(n, 'size',  a.originalSize);
+            });
+            restoreEdges();
+            renderer.refresh();
+            return;
+          }
+          let matchCount = 0;
+          graph.forEachNode((n, a) => {
+            const hit = a.label.toLowerCase().includes(q);
+            if (hit) matchCount++;
+            graph.setNodeAttribute(n, 'color', hit
+              ? a.originalColor
+              : blendToBackground(a.originalColor, 0.88));
+          });
+          searchCount.textContent = matchCount
+            ? `${matchCount} match${matchCount !== 1 ? 'es' : ''}`
+            : 'no matches';
+          searchCount.style.display = 'block';
+          renderer.refresh();
+        });
+
+        searchInput.addEventListener('keydown', ev => {
+          if (ev.key === 'Escape') {
+            searchInput.value = '';
+            searchInput.dispatchEvent(new Event('input'));
+            searchInput.blur();
+          }
+        });
+      }
     }
   </script>
 </body>

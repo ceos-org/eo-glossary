@@ -1,45 +1,43 @@
 ---
-title: Test term
+title: Term Name
+description: "One-sentence substitutable definition (used for SEO and link previews)."
 tags:
-- base
+  - core          # term class: base | core | controversial | high-impact
+  - to be discussed  # status: to be defined | to be discussed | to be approved | approved
 ---
 
-# Test term
+# Term Name
 
 ## 1 Definition
 
-Definition_goes_here. 
+Substitutable definition here — written so it can replace the term in a sentence.
+Must NOT begin with "Term Name is…".
 
 ### Notes
-- here should be bullets
-- like this
 
-### Examples 
-- this is also bullets
-- like this
+- Explanatory note.
 
-### Sources 
-- KCEO (no link included, so no brackets)
-- [Website](https://en.wikipedia.org/) (use [markdown hyperlink](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) format for web pages)
+### Examples
 
-in case that there is more than one definition, just add three underscores to separate the definition, rest remains identical 
+- Concrete example.
+
+### Sources
+
+- [Source Organisation](https://example.com)
+- ISO 12345:2023, clause 4.1
 
 ___
 
-# Test term
+# Term Name
 
 ## 2 Definition
 
-Second_definition_goes_here. 
+Alternative definition (delete this block if the term has only one definition).
 
 ### Notes
-- here should be bullets
-- like this
 
-### Examples 
-- this is also bullets
-- like this
+- Note specific to this definition.
 
-### Sources 
-- KCEO (no link included, so no brackets)
-- [Website](https://en.wikipedia.org/wiki/Thai_script) ( if you have web references, just add the term goes into square [] brackets and the url into () normal brackets
+### Sources
+
+- [Alternative Source](https://example.com)

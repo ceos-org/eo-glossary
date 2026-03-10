@@ -178,53 +178,52 @@ export function remarkGlossaryLinks(options = {}) {
       }
     });
 
-    // Process paragraph text nodes only (not headings, code, links)
-    visit(tree, 'paragraph', (paragraphNode) => {
+    // Helper: linkify all text nodes inside a paragraph node
+    function linkifyParagraph(paragraphNode) {
       const newChildren = [];
       let modified = false;
-
       for (const child of paragraphNode.children) {
         if (child.type !== 'text') {
           newChildren.push(child);
           continue;
         }
-
         const linked = linkifyText(child.value, sortedEntries, selfSlugs);
         if (linked.length > 1 || (linked.length === 1 && linked[0].type !== 'text')) {
           modified = true;
         }
         newChildren.push(...linked);
       }
-
       if (modified) {
         paragraphNode.children = newChildren;
       }
-    });
+    }
 
-    // Also process list item text nodes
-    visit(tree, 'listItem', (listItemNode) => {
-      visit(listItemNode, 'paragraph', (paragraphNode) => {
-        const newChildren = [];
-        let modified = false;
-
-        for (const child of paragraphNode.children) {
-          if (child.type !== 'text') {
-            newChildren.push(child);
-            continue;
-          }
-
-          const linked = linkifyText(child.value, sortedEntries, selfSlugs);
-          if (linked.length > 1 || (linked.length === 1 && linked[0].type !== 'text')) {
-            modified = true;
-          }
-          newChildren.push(...linked);
+    // Section-aware walk: only linkify content under "## N Definition" and "### Notes".
+    // Skips Examples, Sources, and all other sections.
+    let inLinkableSection = false;
+    for (const node of tree.children) {
+      if (node.type === 'heading') {
+        const headingText = node.children
+          .filter((c) => c.type === 'text')
+          .map((c) => c.value)
+          .join('')
+          .trim();
+        if (node.depth === 2 && /^\d+\s+definition$/i.test(headingText)) {
+          inLinkableSection = true;
+        } else if (node.depth === 3 && /^notes?$/i.test(headingText)) {
+          inLinkableSection = true;
+        } else {
+          inLinkableSection = false;
         }
-
-        if (modified) {
-          paragraphNode.children = newChildren;
+      } else if (inLinkableSection) {
+        if (node.type === 'paragraph') {
+          linkifyParagraph(node);
+        } else {
+          // Handles lists and other block elements that contain paragraphs
+          visit(node, 'paragraph', linkifyParagraph);
         }
-      });
-    });
+      }
+    }
   };
 }
 

@@ -36,6 +36,109 @@ try {
   console.warn('[eo-glossary] Could not generate terms.json:', e);
 }
 
+// ── Generate dependency graph data ───────────────────────────────────────────
+// Runs at config load time so `npm start` always has up-to-date graph data.
+try {
+  const graphTermsDir = path.resolve(__dirname, 'docs/terms');
+  const graphFiles = fs
+    .readdirSync(graphTermsDir)
+    .filter((f) => f.endsWith('.md') && !f.startsWith('_'));
+
+  const TAG_COLORS: Record<string, string> = {
+    base: '#60a5fa',
+    core: '#4ade80',
+    controversial: '#fb923c',
+    'high-impact': '#c084fc',
+  };
+
+  const graphTerms = graphFiles.map((f) => {
+    const slug = f.replace('.md', '');
+    const content = fs.readFileSync(path.join(graphTermsDir, f), 'utf8');
+    const titleMatch = content.match(/^title:\s*["']?(.+?)["']?\s*$/m);
+    const title = titleMatch?.[1]?.trim() ?? slug;
+
+    const fmMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
+    const tags: string[] = [];
+    if (fmMatch) {
+      let inTags = false;
+      for (const line of fmMatch[1].split('\n')) {
+        if (/^tags:/.test(line)) { inTags = true; continue; }
+        if (inTags) {
+          if (line.startsWith(' ') || line.startsWith('-')) {
+            const tag = line.trim().replace(/^-\s*/, '');
+            if (tag) tags.push(tag);
+          } else { inTags = false; }
+        }
+      }
+    }
+
+    let definition = '';
+    let inDef = false;
+    for (const line of content.split('\n')) {
+      if (/^## 1 Definition/.test(line.trim())) { inDef = true; continue; }
+      if (inDef) {
+        if (/^##/.test(line.trim())) break;
+        definition += line + '\n';
+      }
+    }
+    return { slug, title, tags, definition: definition.trim() };
+  });
+
+  const edgesSet = new Set<string>();
+  for (const term of graphTerms) {
+    if (!term.definition) continue;
+    const textLower = term.definition.toLowerCase();
+    for (const other of graphTerms) {
+      if (other.slug === term.slug) continue;
+      const escaped = other.title.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      if (new RegExp(`(?<![a-z])${escaped}(?:es|s)?(?![a-z])`).test(textLower)) {
+        edgesSet.add(`${term.slug}__${other.slug}`);
+      }
+    }
+  }
+
+  const inDeg: Record<string, number> = {};
+  graphTerms.forEach((t) => { inDeg[t.slug] = 0; });
+  for (const e of edgesSet) {
+    const tgt = e.split('__')[1];
+    inDeg[tgt] = (inDeg[tgt] ?? 0) + 1;
+  }
+  const maxDeg = Math.max(1, ...Object.values(inDeg));
+
+  // Simple seeded LCG for reproducible node positions
+  let seed = 42;
+  const rand = () => {
+    seed = ((seed * 1664525) + 1013904223) & 0x7fffffff;
+    return seed / 0x7fffffff;
+  };
+
+  const graphNodes = graphTerms.map((term) => {
+    const colorKey = term.tags.find((t) => t in TAG_COLORS);
+    return {
+      id: term.slug,
+      label: term.title,
+      x: Math.round(rand() * 10000) / 100,
+      y: Math.round(rand() * 10000) / 100,
+      size: Math.round((8 + (inDeg[term.slug] / maxDeg) * 20) * 10) / 10,
+      color: colorKey ? TAG_COLORS[colorKey] : '#94a3b8',
+    };
+  });
+
+  const graphEdges = [...edgesSet].sort().map((e) => {
+    const [src, tgt] = e.split('__');
+    return { id: e, source: src, target: tgt, color: '#334155', size: 1 };
+  });
+
+  const graphDir = path.resolve(__dirname, 'static/graph');
+  fs.mkdirSync(graphDir, { recursive: true });
+  fs.writeFileSync(
+    path.join(graphDir, 'data.json'),
+    JSON.stringify({ nodes: graphNodes, edges: graphEdges }),
+  );
+} catch (e) {
+  console.warn('[eo-glossary] Could not generate graph data:', e);
+}
+
 const config: Config = {
   title: 'EO Glossary',
   tagline: 'The Community Thesaurus for Earth Observation Sciences',
@@ -119,7 +222,7 @@ const config: Config = {
         content:
           'earth observation, EO, glossary, thesaurus, remote sensing, CEOS, KCEO, JRC, vocabulary, calibration, validation, uncertainty, satellite, geospatial, interoperability',
       },
-      { name: 'author', content: 'CEOS & KCEO (JRC)' },
+      { name: 'author', content: 'CEOS & KCEO (EC)' },
       { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'EO Glossary' },
     ],
@@ -138,7 +241,7 @@ const config: Config = {
     navbar: {
       title: 'EO Glossary',
       logo: {
-        alt: 'EO Glossary — CEOS & KCEO',
+        alt: 'EO Glossary — CEOS & EC KCEO',
         src: 'assets/favicon.svg',
       },
       hideOnScroll: false,
@@ -181,7 +284,7 @@ const config: Config = {
             { label: 'Contribute', to: '/contribute' },
             { label: 'GitHub', href: 'https://github.com/ceos-org/eo-glossary' },
             { label: 'CEOS', href: 'https://ceos.org' },
-            { label: 'JRC KCEO', href: 'https://joint-research-centre.ec.europa.eu/scientific-activities-z/copernicus_en' },
+            { label: 'EC KCEO', href: 'https://knowledge4policy.ec.europa.eu/earth-observation' },
           ],
         },
         {
@@ -201,7 +304,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CEOS & KCEO (JRC). Content licensed under CC BY 4.0. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CEOS & KCEO (EC). Content licensed under CC BY 4.0. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
+    "prestart": "uv run scripts/export_glossary.py && uv run scripts/generate_sigma_graph_data.py || true",
+    "prebuild": "uv run scripts/export_glossary.py && uv run scripts/generate_sigma_graph_data.py || true",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
