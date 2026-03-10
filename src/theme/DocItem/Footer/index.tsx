@@ -3,7 +3,10 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import OriginalFooter from '@theme-original/DocItem/Footer';
 import { useLocation } from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
 
 interface TermRef { id: string; label: string; }
 interface Neighbourhood {
@@ -35,6 +38,8 @@ export default function DocItemFooter(props: any): React.JSX.Element {
   const { pathname } = useLocation();
   const graphBase    = useBaseUrl('/graph');
   const dataUrl      = useBaseUrl('/graph/data.json');
+  const { siteConfig } = useDocusaurusContext();
+  const { metadata: docMeta, frontMatter } = useDoc();
 
   const termMatch = pathname.match(/\/terms\/([^/]+?)\/?$/);
   const slug      = termMatch?.[1];
@@ -119,10 +124,29 @@ export default function DocItemFooter(props: any): React.JSX.Element {
     return <OriginalFooter {...props} />;
   }
 
+  const termUrl  = `${siteConfig.url}${siteConfig.baseUrl}terms/${slug}`;
+  const termJsonLd = {
+    '@context': 'https://schema.org',
+    '@type':    'DefinedTerm',
+    name:        docMeta.title,
+    description: ((frontMatter as Record<string, unknown>).description as string | undefined) ?? '',
+    url:         termUrl,
+    inDefinedTermSet: {
+      '@type': 'DefinedTermSet',
+      name:    'EO Glossary',
+      url:     `${siteConfig.url}${siteConfig.baseUrl}`,
+    },
+  };
+
   const hasAny = neighbourhood && LAYER_ORDER.some(k => neighbourhood[k].length > 0);
 
   return (
     <>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify(termJsonLd).replace(/<\/script>/gi, '<\\/script>')}
+        </script>
+      </Head>
       <div className="term-neighborhood-graph">
         <p className="term-graph-label">Term Relationships</p>
 

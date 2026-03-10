@@ -139,6 +139,65 @@ try {
   console.warn('[eo-glossary] Could not generate graph data:', e);
 }
 
+// ── Generate RSS feed ─────────────────────────────────────────────────────────
+try {
+  const rssTermsDir = path.resolve(__dirname, 'docs/terms');
+  const escXml = (s: string) =>
+    s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  const rssItems = fs
+    .readdirSync(rssTermsDir)
+    .filter(f => f.endsWith('.md') && !f.startsWith('_'))
+    .map(f => {
+      const filePath = path.join(rssTermsDir, f);
+      const content  = fs.readFileSync(filePath, 'utf8');
+      const title    = content.match(/^title:\s*["']?(.+?)["']?\s*$/m)?.[1]?.trim() ?? f.replace('.md', '');
+      const desc     = content.match(/^description:\s*["']?(.+?)["']?\s*$/m)?.[1]?.trim() ?? '';
+      const slug     = f.replace('.md', '');
+      const mtime    = fs.statSync(filePath).mtime;
+      return { title, desc, slug, mtime };
+    })
+    .sort((a, b) => b.mtime.getTime() - a.mtime.getTime())
+    .map(t => {
+      const url = `https://ceos-org.github.io/eo-glossary/terms/${t.slug}`;
+      return [
+        '    <item>',
+        `      <title>${escXml(t.title)}</title>`,
+        `      <link>${url}</link>`,
+        `      <guid isPermaLink="true">${url}</guid>`,
+        `      <pubDate>${t.mtime.toUTCString()}</pubDate>`,
+        t.desc ? `      <description>${escXml(t.desc)}</description>` : '',
+        '    </item>',
+      ].filter(Boolean).join('\n');
+    })
+    .join('\n');
+
+  const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>EO Glossary</title>
+    <link>https://ceos-org.github.io/eo-glossary/</link>
+    <description>Community thesaurus of terms and definitions for Earth Observation sciences, maintained by CEOS and the EC Knowledge Centre for Earth Observation (KCEO).</description>
+    <language>en</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <atom:link href="https://ceos-org.github.io/eo-glossary/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://ceos-org.github.io/eo-glossary/assets/og-banner.svg</url>
+      <title>EO Glossary</title>
+      <link>https://ceos-org.github.io/eo-glossary/</link>
+    </image>
+    <dc:creator>CEOS &amp; EC KCEO</dc:creator>
+${rssItems}
+  </channel>
+</rss>`;
+
+  const staticOut = path.resolve(__dirname, 'static');
+  fs.mkdirSync(staticOut, { recursive: true });
+  fs.writeFileSync(path.join(staticOut, 'rss.xml'), rssXml);
+} catch (e) {
+  console.warn('[eo-glossary] Could not generate rss.xml:', e);
+}
+
 const config: Config = {
   title: 'EO Glossary',
   tagline: 'The Community Thesaurus for Earth Observation Sciences',
@@ -225,8 +284,9 @@ const config: Config = {
       { name: 'author', content: 'CEOS & KCEO (EC)' },
       { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'EO Glossary' },
+      { name: 'twitter:card', content: 'summary_large_image' },
     ],
-    image: 'assets/EC_logo.png',
+    image: 'assets/og-banner.svg',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
@@ -334,6 +394,15 @@ const config: Config = {
       attributes: {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: 'EO Glossary RSS Feed',
+        href: 'https://ceos-org.github.io/eo-glossary/rss.xml',
       },
     },
     {
