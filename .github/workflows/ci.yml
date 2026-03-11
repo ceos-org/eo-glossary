@@ -35,7 +35,7 @@ jobs:
 
       - name: Commit exports and graph data back to main
         run: |
-          git add exports/ static/graph/data.json || true
+          git add -f exports/ static/graph/data.json || true
           git diff --cached --quiet || git commit -m "chore: update glossary exports"
           git push origin main
         env:

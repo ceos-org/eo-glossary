@@ -10,6 +10,10 @@ build/
 # Generated per-term raw files (produced at build time from docs/terms/)
 static/terms/
 
+# Auto-generated exports and graph data (committed by CI only, not locally)
+exports/
+static/graph/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
