@@ -12,7 +12,7 @@ static/terms/
 
 # Auto-generated exports and graph data (committed by CI only, not locally)
 exports/
-static/graph/
+static/graph/data.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
