@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 // @ts-ignore – swizzle wrapper; type provided by @theme-original alias
 import OriginalFooter from '@theme-original/DocItem/Footer';
 import { useLocation } from '@docusaurus/router';
@@ -7,6 +8,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
+import styles from './styles.module.css';
 
 interface TermRef { id: string; label: string; }
 interface Neighbourhood {
@@ -130,6 +132,7 @@ export default function DocItemFooter(props: any): React.JSX.Element {
     '@type':    'DefinedTerm',
     name:        docMeta.title,
     description: ((frontMatter as Record<string, unknown>).description as string | undefined) ?? '',
+    termCode:    slug,
     url:         termUrl,
     inDefinedTermSet: {
       '@type': 'DefinedTermSet',
@@ -138,7 +141,23 @@ export default function DocItemFooter(props: any): React.JSX.Element {
     },
   };
 
+  const mdUrl   = useBaseUrl(`/terms/${slug}.md`);
+  const jsonUrl = useBaseUrl(`/terms/${slug}.json`);
+
+  // Portal the buttons into the <header> that wraps the <h1>, so they sit top-right of the title
+  const [headerEl, setHeaderEl] = useState<Element | null>(null);
+  useEffect(() => {
+    setHeaderEl(document.querySelector('.theme-doc-markdown header'));
+  }, [slug]);
+
   const hasAny = neighbourhood && LAYER_ORDER.some(k => neighbourhood[k].length > 0);
+
+  const rawButtons = (
+    <div className={styles.rawButtons}>
+      <a href={mdUrl}   className={styles.rawButton} target="_blank" rel="noopener noreferrer">.md</a>
+      <a href={jsonUrl} className={styles.rawButton} target="_blank" rel="noopener noreferrer">.json</a>
+    </div>
+  );
 
   return (
     <>
@@ -147,6 +166,7 @@ export default function DocItemFooter(props: any): React.JSX.Element {
           {JSON.stringify(termJsonLd).replace(/<\/script>/gi, '<\\/script>')}
         </script>
       </Head>
+      {headerEl && createPortal(rawButtons, headerEl)}
       <div className="term-neighborhood-graph">
         <p className="term-graph-label">Term Relationships</p>
 

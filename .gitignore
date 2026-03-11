@@ -7,6 +7,9 @@ node_modules/
 build/
 .cache/
 
+# Generated per-term raw files (produced at build time from docs/terms/)
+static/terms/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

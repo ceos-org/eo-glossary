@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ceos-org.github.io/eo-glossary/sitemap.xml
+
+# AI crawlers: see /llms.txt for guidance on using this site's content

@@ -198,6 +198,126 @@ ${rssItems}
   console.warn('[eo-glossary] Could not generate rss.xml:', e);
 }
 
+// ── Generate llms-full.txt (plain-text for LLM ingestion) ─────────────────────
+// terms-full.json is NOT generated here — use exports/json/terms.json instead,
+// which is produced by scripts/export_glossary.py (run in prestart/prebuild).
+try {
+  const aiDir = path.resolve(__dirname, 'docs/terms');
+  const BASE_URL = 'https://ceos-org.github.io/eo-glossary';
+  const EXPORTS_JSON_URL = 'https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/json/terms.json';
+
+  const termFiles = fs
+    .readdirSync(aiDir)
+    .filter(f => f.endsWith('.md') && !f.startsWith('_'))
+    .map(f => {
+      const slug = f.replace('.md', '');
+      const raw = fs.readFileSync(path.join(aiDir, f), 'utf8');
+      const title = raw.match(/^title:\s*["']?(.+?)["']?\s*$/m)?.[1]?.trim() ?? slug;
+      const description = raw.match(/^description:\s*["']?(.+?)["']?\s*$/m)?.[1]?.trim() ?? '';
+
+      const tags: string[] = [];
+      const fmMatch = raw.match(/^---\s*\n([\s\S]*?)\n---/);
+      if (fmMatch) {
+        let inTags = false;
+        for (const line of fmMatch[1].split('\n')) {
+          if (/^tags:/.test(line)) { inTags = true; continue; }
+          if (inTags) {
+            if (line.startsWith(' ') || line.startsWith('-')) {
+              const tag = line.trim().replace(/^-\s*/, '');
+              if (tag) tags.push(tag);
+            } else { inTags = false; }
+          }
+        }
+      }
+
+      const body = raw.replace(/^---[\s\S]*?---\n/, '').replace(/^# .+\n\n?/, '').trim();
+      return { title, slug, description, tags, body };
+    })
+    .sort((a, b) => a.title.localeCompare(b.title));
+
+  const today = new Date().toISOString().slice(0, 10);
+  const header = `# EO Glossary — Full Term Definitions
+# Source: ${BASE_URL}/
+# ${termFiles.length} terms with formal definitions, notes, examples, and sources
+# Generated: ${today}
+# Structured JSON export: ${EXPORTS_JSON_URL}
+
+`;
+  const blocks = termFiles.map(t => {
+    const meta = [`URL: ${BASE_URL}/terms/${t.slug}`];
+    if (t.tags.length) meta.push(`Tags: ${t.tags.join(', ')}`);
+    if (t.description) meta.push(`Summary: ${t.description}`);
+    return `# ${t.title}\n${meta.join('\n')}\n\n${t.body}`;
+  }).join('\n\n---\n\n');
+
+  fs.writeFileSync(path.join(path.resolve(__dirname, 'static'), 'llms-full.txt'), header + blocks);
+} catch (e) {
+  console.warn('[eo-glossary] Could not generate llms-full.txt:', e);
+}
+
+// ── Generate per-term .md and .json static files ───────────────────────────────
+// Served at /terms/{slug}.md and /terms/{slug}.json — used by the raw-format buttons.
+// Output goes to static/terms/ (gitignored); available in both dev and prod.
+try {
+  const rawSrc = path.resolve(__dirname, 'docs/terms');
+  const rawDst = path.resolve(__dirname, 'static/terms');
+  const BASE_URL = 'https://ceos-org.github.io/eo-glossary';
+
+  fs.mkdirSync(rawDst, { recursive: true });
+
+  for (const f of fs.readdirSync(rawSrc).filter(f => f.endsWith('.md') && !f.startsWith('_'))) {
+    const slug = f.replace('.md', '');
+    const raw  = fs.readFileSync(path.join(rawSrc, f), 'utf8');
+
+    // .md — verbatim copy, served as plain text
+    fs.copyFileSync(path.join(rawSrc, f), path.join(rawDst, f));
+
+    // .json — parse frontmatter + multi-definition body
+    const title       = raw.match(/^title:\s*["']?(.+?)["']?\s*$/m)?.[1]?.trim() ?? slug;
+    const description = raw.match(/^description:\s*["']?(.+?)["']?\s*$/m)?.[1]?.trim() ?? '';
+    const tags: string[] = [];
+    const fm = raw.match(/^---\s*\n([\s\S]*?)\n---/);
+    if (fm) {
+      let inT = false;
+      for (const line of fm[1].split('\n')) {
+        if (/^tags:/.test(line)) { inT = true; continue; }
+        if (inT) {
+          if (line.startsWith(' ') || line.startsWith('-')) { const t = line.trim().replace(/^-\s*/, ''); if (t) tags.push(t); }
+          else inT = false;
+        }
+      }
+    }
+
+    const body = raw.replace(/^---[\s\S]*?---\n/, '').replace(/^# .+\n\n?/, '');
+    const definitions = body
+      .split(/\n(?=## \d+ Definition)/)
+      .map(sec => {
+        const secs: Record<string, string[]> = {};
+        let cur = '';
+        for (const line of sec.split('\n')) {
+          if (/^#{2,3} /.test(line)) { cur = line.trim(); secs[cur] = []; }
+          else if (cur) secs[cur].push(line);
+        }
+        const defKey = Object.keys(secs).find(k => /^## \d+ Definition/.test(k));
+        if (!defKey) return null;
+        return {
+          definition: (secs[defKey]      ?? []).join('\n').trim(),
+          notes:      (secs['### Notes']    ?? []).join('\n').trim(),
+          examples:   (secs['### Examples'] ?? []).join('\n').trim(),
+          sources:    (secs['### Sources']  ?? []).join('\n').trim(),
+        };
+      })
+      .filter(Boolean);
+
+    fs.writeFileSync(
+      path.join(rawDst, `${slug}.json`),
+      JSON.stringify({ title, slug, url: `${BASE_URL}/terms/${slug}`, description, tags, definitions }, null, 2),
+    );
+  }
+} catch (e) {
+  console.warn('[eo-glossary] Could not generate per-term raw files:', e);
+}
+
 const config: Config = {
   title: 'EO Glossary',
   tagline: 'The Community Thesaurus for Earth Observation Sciences',

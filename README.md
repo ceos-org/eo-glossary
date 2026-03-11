@@ -56,6 +56,10 @@ eo-glossary/
 │   ├── css/custom.css      ← design system (dark-mode-first)
 │   └── pages/index.tsx     ← custom homepage
 ├── static/                 ← static assets served at root
+│   ├── llms.txt            ← AI crawler guidance (llmstxt.org standard)
+│   └── llms-full.txt       ← all term definitions as plain Markdown (generated at build time)
+├── mcp/
+│   └── server.js           ← MCP server for AI assistant integration
 ├── sidebars.ts             ← sidebar navigation config
 └── docusaurus.config.ts    ← main Docusaurus config
 ```
@@ -152,6 +156,45 @@ WHERE term ILIKE 'climate projection';
 ```
 
 Run with `duckdb -ui` or any DuckDB client.
+
+## AI Access
+
+The glossary is designed to be AI-ready. All access patterns are described in [`static/llms.txt`](static/llms.txt) (served at `/llms.txt`, following the [llmstxt.org](https://llmstxt.org) standard).
+
+| Resource | URL | Format | Use case |
+|----------|-----|--------|----------|
+| AI guidance | `/llms.txt` | Markdown | LLM crawlers and agents |
+| All definitions (plain text) | `/llms-full.txt` | Markdown | Direct LLM ingestion, RAG chunking |
+| All definitions (structured) | [exports/json/terms.json](exports/json/terms.json) | JSON | RAG pipelines, programmatic access |
+| All definitions (columnar) | [exports/parquet/](exports/parquet/) | Parquet | DuckDB, data science |
+| Per-term pages | `/terms/{slug}` | HTML + JSON-LD | Web crawlers, semantic search |
+| Sitemap | `/sitemap.xml` | XML | Crawlers |
+| RSS | `/rss.xml` | RSS 2.0 | Feed readers |
+
+Each term page includes [Schema.org `DefinedTerm`](https://schema.org/DefinedTerm) JSON-LD structured data.
+
+### MCP Server (AI assistant integration)
+
+The [`mcp/`](mcp/) directory contains a [Model Context Protocol](https://modelcontextprotocol.io) server that lets AI assistants (Claude Desktop, etc.) query the glossary interactively.
+
+```shell
+cd mcp && npm install
+```
+
+Add to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "eo-glossary": {
+      "command": "node",
+      "args": ["/path/to/eo-glossary/mcp/server.js"]
+    }
+  }
+}
+```
+
+Available tools: `list_terms(tag?)`, `get_term(term)`, `search_terms(query)`.
 
 ## CI/CD
 
