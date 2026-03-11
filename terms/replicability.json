@@ -1,0 +1,17 @@
+{
+  "title": "Replicability",
+  "slug": "replicability",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/replicability",
+  "description": "Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Craglia, M., et al. (2018)."
+    }
+  ]
+}

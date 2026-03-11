@@ -1,0 +1,17 @@
+{
+  "title": "Observation",
+  "slug": "observation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/observation",
+  "description": "Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.",
+  "tags": [
+    "controversial"
+  ],
+  "definitions": [
+    {
+      "definition": "Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.",
+      "notes": "- The result of an Observation is a Value complemented by an Uncertainty, often itself being referred to as 'observation'.\n- An Observation result represents a Sample of the Phenomenon (otherwise it would be identical with the Phenomenon).",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

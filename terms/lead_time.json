@@ -1,0 +1,17 @@
+{
+  "title": "Lead Time",
+  "slug": "lead_time",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/lead_time",
+  "description": "Minimum time of interval between an Observation being tasked and being performed.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Minimum time of interval between an Observation being tasked and being performed.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

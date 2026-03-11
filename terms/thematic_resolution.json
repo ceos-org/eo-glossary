@@ -1,0 +1,17 @@
+{
+  "title": "Thematic Resolution",
+  "slug": "thematic_resolution",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/thematic_resolution",
+  "description": "Level of categorical detail of information expressed by the number of classes.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Level of categorical detail of information expressed by the number of classes.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CGLS"
+    }
+  ]
+}

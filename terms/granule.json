@@ -1,0 +1,17 @@
+{
+  "title": "Granule",
+  "slug": "granule",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/granule",
+  "description": "The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable).",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable). Granules may be managed as logical granules and/or physical granules.",
+      "notes": "- See also product.",
+      "examples": "",
+      "sources": "- [NASA EarthData](https://www.earthdata.nasa.gov/learn/glossary)"
+    }
+  ]
+}

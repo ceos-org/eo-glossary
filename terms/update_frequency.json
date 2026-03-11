@@ -1,0 +1,17 @@
+{
+  "title": "Update Frequency",
+  "slug": "update_frequency",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/update_frequency",
+  "description": "Frequency at which the product is available to users.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Frequency at which the product is available to users.",
+      "notes": "- Also known in product catalogues as dissemination frequency.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

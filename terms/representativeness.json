@@ -1,0 +1,17 @@
+{
+  "title": "Representativeness",
+  "slug": "representativeness",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/representativeness",
+  "description": "Quality or characteristic of a measurement or observation to accurately represent a specific geographic location, time period, or environmental condition.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Quality or characteristic of a measurement or Observation to accurately represent a specific geographic location, time Period, or environmental condition.",
+      "notes": "- WIGOS metadata standard defines representativeness as the extent of the region around the Observation of which it is representative.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

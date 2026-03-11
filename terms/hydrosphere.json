@@ -1,0 +1,17 @@
+{
+  "title": "Hydrosphere",
+  "slug": "hydrosphere",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/hydrosphere",
+  "description": "The masses of liquid water, such as oceans, lakes, and rivers.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "The masses of liquid water, such as oceans, lakes, and rivers.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Guth et al. 2021"
+    }
+  ]
+}

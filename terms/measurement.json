@@ -1,0 +1,17 @@
+{
+  "title": "Measurement",
+  "slug": "measurement",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/measurement",
+  "description": "Observation of a Quantity.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Observation of a Quantity.",
+      "notes": "- The Process of collecting a measurement is called measuring.",
+      "examples": "",
+      "sources": "- GEOGlos (VIM ?, modified)"
+    }
+  ]
+}

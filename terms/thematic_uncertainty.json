@@ -1,0 +1,17 @@
+{
+  "title": "Thematic Uncertainty",
+  "slug": "thematic_uncertainty",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/thematic_uncertainty",
+  "description": "Uncertainty associated with the method of classification.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Uncertainty associated with the method of classification.",
+      "notes": "- Typically, computed from the error matrix.\n- For a review of classification Uncertainty metrics, consult Ye et al. 2018.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

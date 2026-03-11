@@ -1,0 +1,18 @@
+{
+  "title": "Cryosphere",
+  "slug": "cryosphere",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/cryosphere",
+  "description": "Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Guth et al. 2021"
+    }
+  ]
+}

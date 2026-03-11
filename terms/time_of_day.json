@@ -1,0 +1,17 @@
+{
+  "title": "Time of Day",
+  "slug": "time_of_day",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/time_of_day",
+  "description": "Time of the day at which the variable or parameter is observed or simulated by a model.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Time of the day at which the variable or parameter is observed or simulated by a model.",
+      "notes": "- In Remote Sensing it is also known as time of overpass.",
+      "examples": "| Type      | Entry format example | Valid unit |\n|-----------|----------------------|------------|\n| timestamp | 18:00 h (0–24)       | Hours      |\n| timerange | 18:00 – 20:00 h      | Hours      |",
+      "sources": "- KCEO"
+    }
+  ]
+}

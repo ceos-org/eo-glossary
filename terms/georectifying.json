@@ -1,0 +1,23 @@
+{
+  "title": "Georectifying",
+  "slug": "georectifying",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/georectifying",
+  "description": "Correcting for positional displacement with respect to the surface of the Earth.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Correcting for positional displacement with respect to the surface of the Earth.",
+      "notes": "- Source: ISO 19115-2:2019, 3.11; ISO 19115-2:2009(E); https://www.iso.org/standard/67039.html, modified",
+      "examples": "",
+      "sources": "___"
+    },
+    {
+      "definition": "The correction of sample locations to achieve some sort of geometric regularity, e.g., a regular 2D geographic grid.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

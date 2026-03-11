@@ -1,0 +1,17 @@
+{
+  "title": "Earth Spheres",
+  "slug": "earth_spheres",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/earth_spheres",
+  "description": "Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.",
+      "notes": "",
+      "examples": "- Atmosphere\n- Hydrosphere\n- Cryosphere\n- Biosphere\n- Lithosphere\n- Anthroposphere",
+      "sources": "- Hugget, R., et al., 2024, DOI: 10.1177/03091333241275465\n- Guth, P., et al., 2021, https://doi.org/10.3390/rs13183581\n- Martin, Y.E., et al., 2012"
+    }
+  ]
+}

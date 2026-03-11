@@ -1,0 +1,17 @@
+{
+  "title": "Data Format",
+  "slug": "data_format",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_format",
+  "description": "Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS Wiki"
+    }
+  ]
+}

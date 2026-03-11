@@ -1,0 +1,17 @@
+{
+  "title": "Spatial Completeness",
+  "slug": "spatial_completeness",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/spatial_completeness",
+  "description": "Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.",
+      "notes": "",
+      "examples": "- Surface soil moisture retrieved from microwave satellite sensors may present gaps in mountainous terrains.",
+      "sources": "- KCEO"
+    }
+  ]
+}

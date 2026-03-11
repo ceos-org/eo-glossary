@@ -1,0 +1,17 @@
+{
+  "title": "Measurement Uncertainty",
+  "slug": "measurement_uncertainty",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/measurement_uncertainty",
+  "description": "Uncertainty associated with the method of Measurement.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Uncertainty associated with the method of Measurement.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS Wiki adopted from JCGM GUM"
+    }
+  ]
+}

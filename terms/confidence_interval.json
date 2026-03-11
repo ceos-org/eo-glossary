@@ -1,0 +1,18 @@
+{
+  "title": "Confidence Interval",
+  "slug": "confidence_interval",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/confidence_interval",
+  "description": "Probability that a Quantity lies in a given interval, conditioned on the measuring or modelling assumptions.",
+  "tags": [
+    "controversial",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Probability that the Quantity lies in the interval, conditioned on the measuring or modelling assumptions.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Period",
+  "slug": "period",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/period",
+  "description": "Particular era or span of time.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Particular era or span of time.",
+      "notes": "- Periods are intervals named with a Period Identifier.",
+      "examples": "",
+      "sources": "- ISO 19170:2021"
+    }
+  ]
+}

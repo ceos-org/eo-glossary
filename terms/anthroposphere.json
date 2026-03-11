@@ -1,0 +1,18 @@
+{
+  "title": "Anthroposphere",
+  "slug": "anthroposphere",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/anthroposphere",
+  "description": "One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Guth et al. 2021"
+    }
+  ]
+}

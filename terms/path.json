@@ -1,0 +1,17 @@
+{
+  "title": "Path",
+  "slug": "path",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/path",
+  "description": "Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).",
+      "notes": "- A Path is a 1-dimensional Place.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

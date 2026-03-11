@@ -1,0 +1,17 @@
+{
+  "title": "Earth Observation",
+  "slug": "earth_observation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/earth_observation",
+  "description": "Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.",
+  "tags": [
+    "high-impact"
+  ],
+  "definitions": [
+    {
+      "definition": "Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.",
+      "notes": "- Earth Observation (EO) can be categorised by location of the sensor into space-borne, air-borne, sea-borne, ground-based, underwater and underground EO.\n- Earth Observation (EO) includes Remote Sensing, such as satellite imagery, as well as in-situ observations, e.g., with ground-based devices.",
+      "examples": "",
+      "sources": "- Modified GEO definition [GEO (earthobservations.org)](https://earthobservations.org/resources#key)"
+    }
+  ]
+}

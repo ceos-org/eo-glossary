@@ -1,0 +1,17 @@
+{
+  "title": "Dwell Time",
+  "slug": "dwell_time",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/dwell_time",
+  "description": "Time that an antenna beam spends on a target.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Time that an antenna beam spends on a target.",
+      "notes": "- In the context of radar sensing.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

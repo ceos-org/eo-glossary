@@ -1,0 +1,17 @@
+{
+  "title": "Grid",
+  "slug": "grid",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/grid",
+  "description": "Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.",
+      "notes": "- The curves partition a space into grid cells or zones.\n- The intersection points of the curves are called nodes.",
+      "examples": "",
+      "sources": "- ISO 19123:2005, 4.1.23; Note 1 modified; Note 2 added"
+    }
+  ]
+}

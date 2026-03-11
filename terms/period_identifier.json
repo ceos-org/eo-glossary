@@ -1,0 +1,17 @@
+{
+  "title": "Period Identifier",
+  "slug": "period_identifier",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/period_identifier",
+  "description": "Temporal reference in the form of a label or code that identifies a Period.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Temporal reference in the form of a label or code that identifies a Period.",
+      "notes": "- Period Identifiers are the temporal equivalent of geographic identifiers as specified in ISO 19912.",
+      "examples": "",
+      "sources": "- ISO 19170:2021"
+    }
+  ]
+}

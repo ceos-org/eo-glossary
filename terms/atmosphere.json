@@ -1,0 +1,18 @@
+{
+  "title": "Atmosphere",
+  "slug": "atmosphere",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/atmosphere",
+  "description": "Layer of gases, commonly known as air, including suspended liquid and solid particles known as aerosols (incl. dust, clouds, snow and ice).",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Layer of gases, commonly known as air, including suspended liquid and solid particles known as aerosols (incl. dust, clouds, snow and ice).",
+      "notes": "",
+      "examples": "",
+      "sources": "- Guth et al. 2021"
+    }
+  ]
+}

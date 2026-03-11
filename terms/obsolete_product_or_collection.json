@@ -1,0 +1,17 @@
+{
+  "title": "Obsolete Product or Collection",
+  "slug": "obsolete_product_or_collection",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/obsolete_product_or_collection",
+  "description": "Products or collections which have been superseded by later versions of a product or collection.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Products or collections which have been superseded by later versions of a product or collection.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)"
+    }
+  ]
+}

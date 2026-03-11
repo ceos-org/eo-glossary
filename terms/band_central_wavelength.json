@@ -1,0 +1,18 @@
+{
+  "title": "Band Central Wavelength",
+  "slug": "band_central_wavelength",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/band_central_wavelength",
+  "description": "Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band. It could be the mean, median, maximum sensitivity, or any other reasonable representative Value.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band. It could be either the mean, the median, the maximum sensitivity, or any other reasonable Value chosen to be representative.",
+      "notes": "",
+      "examples": "| Entry format example | Valid unit                                        |\n|----------------------|---------------------------------------------------|\n| 0.545 μm             | micrometre (μm), millimetre (mm), centimetre (cm) |",
+      "sources": "- KCEO"
+    }
+  ]
+}

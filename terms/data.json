@@ -1,0 +1,23 @@
+{
+  "title": "Data",
+  "slug": "data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data",
+  "description": "Value and possibly Uncertainty of a Trait of a specific Entity.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Value and possibly Uncertainty of a Trait of a specific Entity.",
+      "notes": "- Data simply describe entities using certain traits and are not targeted at a particular use or audience.",
+      "examples": "Data can be categorised into:\n- factual (i.e. obtained by Observation) or fictional (obtained e.g. through modelling, estimating or assigning)\n- quantitative (continuous) or qualitative (categorical)\n- analogue or digital\n\n(list not exhaustive!)",
+      "sources": "- KCEO\n\n___"
+    },
+    {
+      "definition": "Scientific or technical measurements, values calculated therefrom, observations, or facts that can be represented by numbers, tables, graphs, models, text, or symbols which are used as a basis for reasoning and further calculation.",
+      "notes": "",
+      "examples": "",
+      "sources": "- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data"
+    }
+  ]
+}

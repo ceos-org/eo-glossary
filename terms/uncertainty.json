@@ -1,0 +1,41 @@
+{
+  "title": "Uncertainty",
+  "slug": "uncertainty",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/uncertainty",
+  "description": "Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.",
+      "notes": "",
+      "examples": "",
+      "sources": "- GUM\n\n___"
+    },
+    {
+      "definition": "Non-negative parameter, associated with data, which characterizes the dispersion of the values of a Trait that could reasonably be attributed to a Phenomenon by means of sensing or modelling.",
+      "notes": "- In case of quantitative (continuous) data the uncertainty may be, for example, a standard deviation (or a given multiple of it), or the half-width of an interval having a stated level of confidence (see e.g. Standard and Expanded Uncertainty).\n- For qualitative (categorical?) data, uncertainty may be expressed by commission and omission ('confusion matrix') or overall errors.",
+      "examples": "",
+      "sources": "- Modified from GUM, VIM4:3.1, FIDUCEO, Notes added\n\n___"
+    },
+    {
+      "definition": "Measure of the spread of the distribution of possible values.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [FIDUCEO Glossary](https://research.reading.ac.uk/fiduceo/glossary/), VIM?, modified\n\n___"
+    },
+    {
+      "definition": "Parameter, associated with the result of measurement, that characterizes the dispersion of values that could reasonably be attributed to the measurand.",
+      "notes": "- When the quality of accuracy or precision of measured values, such as coordinates, is to be characterized quantitatively, the quality parameter is an estimate of the uncertainty of the measurement results. Because accuracy is a qualitative concept, one should not use it quantitatively, that is associate numbers with it; numbers should be associated with measures of uncertainty instead.",
+      "examples": "",
+      "sources": "- ISO 19116:2004(E)\n\n___"
+    },
+    {
+      "definition": "Parameter characterizing the dispersion of the values being attributed to a measurand, based on the information used.",
+      "notes": "",
+      "examples": "",
+      "sources": "- VIM4: 3.1"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# EO Glossary
+
+> Community thesaurus of Earth Observation (EO) terminology, maintained by CEOS (Committee on Earth Observation Satellites) and KCEO (Knowledge Centre on Earth Observation). Covers 147 terms with formal definitions, notes, examples, and cited sources, following the Strobl et al. 2024 ontology.
+
+## Terms
+
+- [Full index](https://ceos-org.github.io/eo-glossary/terms): Browse all 146 terms with definitions
+- [Machine-readable JSON](https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/json/terms.json): All terms as structured JSON with definitions, notes, examples, and sources (also available as [XLSX](https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/xlsx/terms.xlsx) and [Parquet](https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/parquet/terms.parquet))
+- [RSS feed](https://ceos-org.github.io/eo-glossary/rss.xml): Term updates feed
+- [Sitemap](https://ceos-org.github.io/eo-glossary/sitemap.xml): All page URLs with modification dates
+
+## About
+
+- [Introduction](https://ceos-org.github.io/eo-glossary/introduction): Background, scope, and ontology description
+- [Concepts](https://ceos-org.github.io/eo-glossary/concepts): Term structure and tag system
+- [Contributing](https://ceos-org.github.io/eo-glossary/contribute): How to propose or discuss terms
+- [Changelog](https://ceos-org.github.io/eo-glossary/changelog): Version history
+
+## Tag System
+
+Each term carries one or more ontology tags:
+
+- `base` — fundamental EO ontology terms
+- `core` — mainstream EO vocabulary
+- `controversial` — contested terms requiring careful use (e.g. Observation, In-Situ, Model, Sample)
+- `high-impact` — policy-relevant terms (e.g. Near Real Time, Earth Observation)
+
+Each term also carries a status tag:
+
+- `approved` — definition approved by the community
+- `to be approved` — definition ready, awaiting formal approval
+- `to be discussed` — draft exists, community discussion needed
+- `to be defined` — placeholder, definition not yet written
+
+## Term Structure
+
+Each term page follows a standard structure:
+
+1. Definition (formal, using the substitution principle — no "X is…" framing)
+2. Notes (clarifications and edge cases)
+3. Examples (concrete illustrative cases)
+4. Sources (cited references)
+5. Cross-references (links to related terms)
+
+## Optional: Full Content
+
+- [llms-full.txt](https://ceos-org.github.io/eo-glossary/llms-full.txt): All 146 term definitions concatenated as plain Markdown — suitable for direct LLM ingestion or RAG chunking

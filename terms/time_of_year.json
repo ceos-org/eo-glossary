@@ -1,0 +1,17 @@
+{
+  "title": "Time of Year",
+  "slug": "time_of_year",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/time_of_year",
+  "description": "Time of the year at which the variable is observed or simulated by a model.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Time of the year at which the variable is observed or simulated by a model.",
+      "notes": "",
+      "examples": "| Type      | Entry format example | Valid unit     |\n|-----------|----------------------|----------------|\n| timestamp | m/d                  | Not Applicable |\n| timerange | m/d - m/d            | Not Applicable |",
+      "sources": "- KCEO"
+    }
+  ]
+}

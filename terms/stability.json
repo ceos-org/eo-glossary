@@ -1,0 +1,17 @@
+{
+  "title": "Stability",
+  "slug": "stability",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/stability",
+  "description": "Maximum acceptable change in Uncertainty per decade.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Maximum acceptable change in Uncertainty per decade.",
+      "notes": "- GCOS uses bias or systematic errors instead of Uncertainty.",
+      "examples": "",
+      "sources": "- Modified from GCOS 2022"
+    }
+  ]
+}

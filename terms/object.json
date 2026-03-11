@@ -1,0 +1,17 @@
+{
+  "title": "Object",
+  "slug": "object",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/object",
+  "description": "Entity with a well-defined boundary and identity that encapsulates state and behaviour.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Entity with a well-defined boundary and identity that encapsulates state and behaviour.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO/IEC 19501:2005"
+    }
+  ]
+}

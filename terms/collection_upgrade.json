@@ -1,0 +1,18 @@
+{
+  "title": "Collection Upgrade",
+  "slug": "collection_upgrade",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/collection_upgrade",
+  "description": "New and improved major version of all products within a collection due to comprehensive reprocessing.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "New and improved major version of all products within a collection due to comprehensive reprocessing.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)"
+    }
+  ]
+}

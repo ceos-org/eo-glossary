@@ -1,0 +1,3388 @@
+# EO Glossary — Full Term Definitions
+# Source: https://ceos-org.github.io/eo-glossary/
+# 146 terms with formal definitions, notes, examples, and sources
+# Generated: 2026-03-11
+# Structured JSON export: https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/json/terms.json
+
+# Accuracy
+URL: https://ceos-org.github.io/eo-glossary/terms/accuracy
+Tags: core, approved
+Summary: Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.
+
+# Accuracy
+
+## 1 Definition
+
+Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.
+
+### Notes
+- In essence, Accuracy reflects how close measurements are to the accepted Value, while precision gauges the reliability and consistency of those measurements.
+
+### Examples
+
+### Sources
+- BS ISO 5725-1
+
+---
+
+# Ancillary Data
+URL: https://ceos-org.github.io/eo-glossary/terms/ancillary_data
+Tags: core, approved
+Summary: Data acquired on the same platform but not obtained from the main Sensor itself (usually provided as part of Level 0 Data), with the primary purpose of serving the processing of main instrument Data.
+
+# Ancillary Data
+
+## 1 Definition
+
+Data acquired on the same platform but not obtained from the main Sensor itself (usually provided as part of Level 0 Data), with the primary purpose of serving the processing of main instrument Data (e.g. Position and velocity of platform).
+
+### Notes
+This can be divided into data referred to as spacecraft 'engineering', 'core housekeeping' or 'subsystem' data obtained from other parts of the platform, and includes parameters such as orbit position and velocity, attitude and its range of change, time, temperatures, pressures, jet firings, water dumps, internally produced magnetic fields, and other environmental measurements. Ancillary refers to data that exist purely to serve the data processing.
+
+### Examples
+
+### Sources
+- ESA/CEOS?, modified
+- EO Data Stewardship Glossary
+
+___
+
+## 2 Definition
+
+Data other than instrument measurements, originating in the instrument itself or from the satellite, required to perform processing of the Data. Includes orbit Data, attitude Data, time Information, and spacecraft engineering Data, Calibration Data, Data quality Information, and Data from other instruments or earth system models.
+
+### Notes
+
+### Examples
+
+### Sources
+- CEOS-ARD PFS template 20220302
+
+---
+
+# Anthroposphere
+URL: https://ceos-org.github.io/eo-glossary/terms/anthroposphere
+Tags: core, approved
+Summary: One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics.
+
+# Anthroposphere
+
+## 1 Definition
+
+One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics.
+
+### Notes
+
+### Examples
+
+### Sources
+- Guth et al. 2021
+
+---
+
+# Archive
+URL: https://ceos-org.github.io/eo-glossary/terms/archive
+Tags: core, approved
+Summary: System that stores data products, guaranteeing their preservation for future use, including all operations to identify, store and retrieve the data and ensure their integrity.
+
+# Archive
+
+## 1 Definition
+
+System that stores data products, guaranteeing their preservation for future use.
+
+### Notes
+- This function includes all operations to identify, store and retrieve the data and ensure their integrity.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Area of Interest
+URL: https://ceos-org.github.io/eo-glossary/terms/area_of_interest
+Tags: core, approved
+Summary: Zone in 2D or 3D for which Information or Data is requested. It can be discontinuous in space, consisting of the union of many separate zones.
+
+# Area of Interest
+
+## 1 Definition
+
+Zone in 2D or 3D for which the Information or Data is requested. It can be discontinuous in space — in other words it can consist of the union of many separate zones (e.g., Natural Reserves in Africa, Urban environments, etc.). The attribute indicates a request for spatially complete Data within the AOI zone(s).
+
+### Notes
+
+### Examples
+
+| Type                                    | Entry format example              | Valid units |
+|-----------------------------------------|-----------------------------------|-------------|
+| Geographical/administrative identifier  | NUTS3, LAU, Natura 2000 site      | unitless    |
+
+### Sources
+- KCEO
+
+---
+
+# Atmosphere
+URL: https://ceos-org.github.io/eo-glossary/terms/atmosphere
+Tags: core, approved
+Summary: Layer of gases, commonly known as air, including suspended liquid and solid particles known as aerosols (incl. dust, clouds, snow and ice).
+
+# Atmosphere
+
+## 1 Definition
+
+Layer of gases, commonly known as air, including suspended liquid and solid particles known as aerosols (incl. dust, clouds, snow and ice).
+
+### Notes
+
+### Examples
+
+### Sources
+- Guth et al. 2021
+
+---
+
+# Auxiliary Data
+URL: https://ceos-org.github.io/eo-glossary/terms/auxiliary_data
+Tags: core, approved
+Summary: Data that enhance the processing and utilisation of main Sensor Data, usually not captured by the same Data collection Process or on the same platform as the main Sensor Data.
+
+# Auxiliary Data
+
+## 1 Definition
+
+Data that enhance the processing and utilisation of main Sensor Data. Auxiliary Data are usually not captured by the same Data collection Process or on the same platform as the main Sensor Data. Examples include meteorological Data received from ECMWF/Met Offices or DEMs. Auxiliary Data help in Data processing, but are also Data sets in their own right.
+
+### Notes
+
+### Examples
+
+### Sources
+- ESA/CEOS?, modified
+- ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
+- EO Data Stewardship Glossary
+
+___
+
+## 2 Definition
+
+Data required to perform processing of Sensor Data which is not obtained from the Sensor itself. Includes: (a) Data provided by the spacecraft (e.g. orbit Position and velocity, attitude, instrument house-keeping Data, on-board time); (b) Data not available from on-board sources.
+
+### Notes
+For EnMAP, this includes (a) orbit files, attitude files, Calibration Data, instrument house-keeping Data; (b) atmospheric parameters, reference images.
+
+### Examples
+
+### Sources
+- ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624
+- EO Data Stewardship Glossary
+
+___
+
+## 3 Definition
+
+Data required for instrument processing that does not originate in the instrument itself or from the satellite. Some Auxiliary Data will be generated in the ground segment, whilst other Data will be provided from external sources.
+
+### Notes
+
+### Examples
+
+### Sources
+- CEOS-ARD PFS template 20220302
+
+---
+
+# Backup
+URL: https://ceos-org.github.io/eo-glossary/terms/backup
+Tags: core, approved
+Summary: General practice of making copies of current baseline and derived products of EO Collections at specified time intervals, storing those copies in a manner that will not affect the data if the primary distribution environment is compromised.
+
+# Backup
+
+## 1 Definition
+
+General practice of making copies of current baseline and derived products of EO Collections at specified time intervals, and storing those copies in a manner that will not affect the data if the primary distribution environment is compromised.
+
+### Notes
+- The emphasis is on the ability to retrieve a copy of the entire EO Collection on demand if the original data is lost or compromised.
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Band Central Wavelength
+URL: https://ceos-org.github.io/eo-glossary/terms/band_central_wavelength
+Tags: core, approved
+Summary: Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band. It could be the mean, median, maximum sensitivity, or any other reasonable representative Value.
+
+# Band Central Wavelength
+
+## 1 Definition
+
+Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band. It could be either the mean, the median, the maximum sensitivity, or any other reasonable Value chosen to be representative.
+
+### Notes
+
+### Examples
+
+| Entry format example | Valid unit                                        |
+|----------------------|---------------------------------------------------|
+| 0.545 μm             | micrometre (μm), millimetre (mm), centimetre (cm) |
+
+### Sources
+- KCEO
+
+---
+
+# Baseline
+URL: https://ceos-org.github.io/eo-glossary/terms/baseline
+Tags: core, approved
+Summary: Reference Period, time or measure against which Information is assessed or compared.
+
+# Baseline
+
+## 1 Definition
+
+Reference Period, time or measure against which the Information is assessed or compared.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+___
+
+## 2 Definition
+
+Source data that has been processed to a common set of requirements and organised into a form that allows immediate analysis and interoperability through time and with other collections.
+
+### Notes
+
+### Examples
+
+### Sources
+- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data
+
+---
+
+# Biosphere
+URL: https://ceos-org.github.io/eo-glossary/terms/biosphere
+Tags: core, approved
+Summary: Masses of living organisms, such as vegetation and animals, including dead but still connected parts such as roots, trunks or branches.
+
+# Biosphere
+
+## 1 Definition
+
+Masses of living organisms, such as vegetation and animals, including dead but still connected parts such as roots, trunks or branches.
+
+### Notes
+
+### Examples
+
+### Sources
+- Guth et al. 2021
+
+---
+
+# Business Continuity
+URL: https://ceos-org.github.io/eo-glossary/terms/business_continuity
+Tags: core, approved
+Summary: An organisation's readiness to continue functioning during times of disruption.
+
+# Business Continuity
+
+## 1 Definition
+
+An organisation's readiness to continue functioning during times of disruption.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Calibration
+URL: https://ceos-org.github.io/eo-glossary/terms/calibration
+Tags: core, approved
+Summary: Process of quantitatively defining a system's (e.g. a Sensor or Model's) response to known, controlled inputs produced by references. In Remote Sensing, implies the collection of pre-flight and in-flight calibration measurements and in-situ Data.
+
+# Calibration
+
+## 1 Definition
+
+Process of quantitatively defining a system's (e.g. a Sensor or Model's) response to known, controlled inputs produced for example by references. In Remote Sensing, it implies the collection of pre-flight and in-flight calibration measurements and in-situ Data that is to be used in the Data calibration processing routine.
+
+### Notes
+
+### Examples
+
+### Sources
+
+---
+
+# Cartographic Projection
+URL: https://ceos-org.github.io/eo-glossary/terms/cartographic_projection
+Tags: core
+Summary: "
+
+# Cartographic Projection
+
+## 1 Definition
+
+### Notes
+
+### Examples
+
+### Sources
+
+---
+
+# Catalogue
+URL: https://ceos-org.github.io/eo-glossary/terms/catalogue
+Tags: core, approved
+Summary: System that provides users with discovery of information on which EO products can be obtained.
+
+# Catalogue
+
+## 1 Definition
+
+System that provides users with discovery of information on which EO products can be obtained.
+
+### Notes
+
+### Examples
+- A 'Product Catalogue' can organise products and collections with varying access levels depending on product and user type.
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Cell
+URL: https://ceos-org.github.io/eo-glossary/terms/cell
+Tags: core, approved
+Summary: Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone.
+
+# Cell
+
+## 1 Definition
+
+Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone.
+
+### Notes
+- Cells are the unit of geometry in a DGGS, and the geometry of the region of space-time occupied by a zone is a Cell.
+
+### Examples
+
+### Sources
+- ISO 19170:2021
+
+---
+
+# Characteristic
+URL: https://ceos-org.github.io/eo-glossary/terms/characteristic
+Tags: base, approved
+Summary: Distinguishing Feature of an object or entity, which can be inherent or assigned, and qualitative or quantitative.
+
+# Characteristic
+
+## 1 Definition
+
+Distinguishing Feature.
+
+### Notes
+- A Characteristic can be inherent or assigned.
+- A Characteristic can be qualitative or quantitative.
+- There are various classes of Characteristics, such as the following:
+  - physical (e.g. mechanical, electrical, chemical, biological);
+  - sensory (e.g. relating to smell, touch, taste, sight, hearing);
+  - behavioural (e.g. courtesy, honesty, veracity);
+  - temporal (e.g. punctuality, reliability, availability);
+  - ergonomic (e.g. physiological characteristic or related to human safety);
+  - functional (e.g. maximum speed of an aircraft).
+
+### Examples
+
+### Sources
+- ISO 9000:2005, 3.5.1
+
+___
+
+## 2 Definition
+
+Abstraction of a Property of an Object or of a set of objects.
+
+### Notes
+- Characteristics are used for describing Concepts.
+
+### Examples
+
+### Sources
+- ISO 1087-1:2000, 3.2.4; ISO 19146:2010(E); https://www.iso.org/standard/20057.html
+
+---
+
+# Classification System
+URL: https://ceos-org.github.io/eo-glossary/terms/classification_system
+Tags: core, approved
+Summary: Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
+
+# Classification System
+
+## 1 Definition
+
+Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Classification System Levels
+URL: https://ceos-org.github.io/eo-glossary/terms/classification_system_levels
+Tags: core, approved
+Summary: Levels in a hierarchical Classification System.
+
+# Classification System Levels
+
+## 1 Definition
+
+Levels in a hierarchical Classification System.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Climate Projection
+URL: https://ceos-org.github.io/eo-glossary/terms/climate_projection
+Tags: core, approved
+Summary: Simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models.
+
+# Climate Projection
+
+## 1 Definition
+
+Simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models. Climate Projections are distinguished from climate predictions by their dependence on the emission/concentration/radiative forcing scenario used, which is in turn based on assumptions concerning, for example, future socioeconomic and technological developments that may or may not be realised.
+
+### Notes
+
+### Examples
+
+### Sources
+- IPCC
+
+---
+
+# Collection
+URL: https://ceos-org.github.io/eo-glossary/terms/collection
+Tags: core, approved
+Summary: Group of products that have been processed using a consistent radiometric calibration, geometric registration base, data/metadata format, and version of processing algorithms.
+
+# Collection
+
+## 1 Definition
+
+Group of products that have been processed using a consistent radiometric calibration, geometric registration base, data/metadata format, and version of processing algorithms.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Collection Update
+URL: https://ceos-org.github.io/eo-glossary/terms/collection_update
+Tags: core, approved
+Summary: Minor revisions to a relatively small number of products within a collection for the purpose of correcting errors and maintaining consistent quality.
+
+# Collection Update
+
+## 1 Definition
+
+Minor revisions to a relatively small number of products within a collection for the purpose of correcting errors and maintaining consistent quality.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Collection Upgrade
+URL: https://ceos-org.github.io/eo-glossary/terms/collection_upgrade
+Tags: core, approved
+Summary: New and improved major version of all products within a collection due to comprehensive reprocessing.
+
+# Collection Upgrade
+
+## 1 Definition
+
+New and improved major version of all products within a collection due to comprehensive reprocessing.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Confidence Interval
+URL: https://ceos-org.github.io/eo-glossary/terms/confidence_interval
+Tags: controversial, approved
+Summary: Probability that a Quantity lies in a given interval, conditioned on the measuring or modelling assumptions.
+
+# Confidence Interval
+
+## 1 Definition
+
+Probability that the Quantity lies in the interval, conditioned on the measuring or modelling assumptions.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Copernicus Service Provider
+URL: https://ceos-org.github.io/eo-glossary/terms/copernicus_service_provider
+Tags: core, approved
+Summary: Institutional body, organisation or programme that provides reliable, trusted EO Information and has the financial resources to sustain the provision.
+
+# Copernicus Service Provider
+
+## 1 Definition
+
+Institutional body, organisation or programme that provides reliable, trusted (authoritative?) EO Information and that has the financial resources to sustain the provision. It utilises satellite Data, ground-based measurements, and other sources to generate accurate and timely Data products related to various aspects of the Earth's environment, such as land, Atmosphere, oceans, and climate.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Coverage Interval
+URL: https://ceos-org.github.io/eo-glossary/terms/coverage_interval
+Tags: core, approved
+Summary: Range or specific subset of values associated with a coverage dataset.
+
+# Coverage Interval
+
+**Synonyms**: Coverage extent
+
+## 1 Definition
+
+Range or specific subset of values associated with a coverage dataset.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Cryosphere
+URL: https://ceos-org.github.io/eo-glossary/terms/cryosphere
+Tags: core, approved
+Summary: Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.
+
+# Cryosphere
+
+## 1 Definition
+
+Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.
+
+### Notes
+
+### Examples
+
+### Sources
+- Guth et al. 2021
+
+---
+
+# Custodian
+URL: https://ceos-org.github.io/eo-glossary/terms/custodian
+Tags: core
+Summary: Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
+
+# Custodian
+
+## 1 Definition
+
+Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
+
+### Notes
+- See also Steward.
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Data
+URL: https://ceos-org.github.io/eo-glossary/terms/data
+Tags: base
+Summary: Value and possibly Uncertainty of a Trait of a specific Entity.
+
+# Data
+
+## 1 Definition
+
+Value and possibly Uncertainty of a Trait of a specific Entity.
+
+### Notes
+- Data simply describe entities using certain traits and are not targeted at a particular use or audience.
+
+### Examples
+Data can be categorised into:
+- factual (i.e. obtained by Observation) or fictional (obtained e.g. through modelling, estimating or assigning)
+- quantitative (continuous) or qualitative (categorical)
+- analogue or digital
+
+(list not exhaustive!)
+
+### Sources
+- KCEO
+
+___
+
+## 2 Definition
+
+Scientific or technical measurements, values calculated therefrom, observations, or facts that can be represented by numbers, tables, graphs, models, text, or symbols which are used as a basis for reasoning and further calculation.
+
+### Notes
+
+### Examples
+
+### Sources
+- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data
+
+---
+
+# Data Access
+URL: https://ceos-org.github.io/eo-glossary/terms/data_access
+Tags: core
+Summary: Service to disseminate Data.
+
+# Data Access
+
+## 1 Definition
+
+Service to disseminate Data.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Data Format
+URL: https://ceos-org.github.io/eo-glossary/terms/data_format
+Tags: core
+Summary: Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.
+
+# Data Format
+
+## 1 Definition
+
+Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.
+
+### Notes
+
+### Examples
+
+### Sources
+- CEOS Wiki
+
+---
+
+# Data Licencing
+URL: https://ceos-org.github.io/eo-glossary/terms/data_licencing
+Tags: core
+Summary: Legal instrument by which a copyright holder may grant rights over the protected work.
+
+# Data Licencing
+
+## 1 Definition
+
+Legal instrument by which a copyright holder may grant rights over the protected work. Data and content is open if it is subject to an explicitly-applied licence that conforms to the Open Definition. A range of standard open licences are available, such as the Creative Commons CC-BY licence, which requires only attribution.
+
+### Notes
+
+### Examples
+
+### Sources
+- CEOS Wiki
+
+---
+
+# Decommissioned Product
+URL: https://ceos-org.github.io/eo-glossary/terms/decommissioned_product
+Tags: core
+Summary: Products and collections that have been superseded by new versions and are no longer available.
+
+# Decommissioned Product
+
+## 1 Definition
+
+Products and collections that have been superseded by new versions and are no longer available.
+
+### Notes
+- Decommissioned products are no longer supported, i.e. corrections will not be made, new data will not be added, and support is not available.
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Deprecated Product
+URL: https://ceos-org.github.io/eo-glossary/terms/deprecated_product
+Tags: core
+Summary: Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future.
+
+# Deprecated Product
+
+## 1 Definition
+
+Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Derivative Product
+URL: https://ceos-org.github.io/eo-glossary/terms/derivative_product
+Tags: core
+Summary: Product additionally processed from baseline or unenhanced mission data.
+
+# Derivative Product
+
+## 1 Definition
+
+Product additionally processed from baseline or unenhanced mission data.
+
+### Notes
+- Generally either a compilation of time-series data (e.g., all time, annual, monthly or seasonal summary data, > Level 3) or thematic versions of each individual data tile of baseline data.
+- Derived products are citable via a Digital Object Identifier (DOI).
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Dispose
+URL: https://ceos-org.github.io/eo-glossary/terms/dispose
+Tags: core
+Summary: Action of permanently and irrecoverably removing all copies of data held by an organization.
+
+# Dispose
+
+## 1 Definition
+
+Action of permanently and irrecoverably removing all copies of data held by an organization.
+
+### Notes
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Duration
+URL: https://ceos-org.github.io/eo-glossary/terms/duration
+Tags: core
+Summary: Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time interval.
+
+# Duration
+
+## 1 Definition
+
+Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time interval.
+
+### Notes
+- Duration is one of the base quantities in the International System of Quantities (ISQ) on which the International System of Units (SI) is based. The term "time" instead of "duration" is often used in this context and also for an infinitesimal duration.
+- For the term "duration", expressions such as "time" or "time interval" are often used, but the term "time" is not recommended in this sense and the term "time interval" is deprecated in this sense to avoid confusion with the concept of "time interval".
+- The exact duration of a time scale unit depends on the time scale used. For example, the durations of a year, month, week, day, hour or minute may depend on when they occur (in a Gregorian calendar, a calendar month can have a duration of 28, 29, 30, or 31 days; in a 24-hour clock, a clock minute can have a duration of 59, 60, or 61 seconds, etc.). Therefore, the exact duration can only be evaluated if the exact duration of each is known.
+- This definition is closely related to NOTE 1 of the terminological entry "duration" in IEC 60050-113:2011, 113-01-13.
+
+### Examples
+
+### Sources
+- ISO 8601-1:2019, 3.1.1.8
+
+---
+
+# Dwell Time
+URL: https://ceos-org.github.io/eo-glossary/terms/dwell_time
+Tags: core
+Summary: Time that an antenna beam spends on a target.
+
+# Dwell Time
+
+## 1 Definition
+
+Time that an antenna beam spends on a target.
+
+### Notes
+- In the context of radar sensing.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Earth Observation
+URL: https://ceos-org.github.io/eo-glossary/terms/earth_observation
+Tags: high-impact
+Summary: Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.
+
+# Earth Observation
+
+## 1 Definition
+
+Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.
+
+### Notes
+- Earth Observation (EO) can be categorised by location of the sensor into space-borne, air-borne, sea-borne, ground-based, underwater and underground EO.
+- Earth Observation (EO) includes Remote Sensing, such as satellite imagery, as well as in-situ observations, e.g., with ground-based devices.
+
+### Examples
+
+### Sources
+- Modified GEO definition [GEO (earthobservations.org)](https://earthobservations.org/resources#key)
+
+---
+
+# Earth Observation Based Output
+URL: https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output
+Tags: core
+Summary: Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing, often designed for policy or decision-making needs.
+
+# Earth Observation Based Output
+
+## 1 Definition
+
+Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing. These outputs are often designed specifically for policy or decision-making needs, and can be categorized into sub-categories:
+
+- Outputs from models/model integration: use of EO products as inputs in numerical models or combining them with other data sources in modelling frameworks.
+- Indicator-based outputs: EO products transformed through specialized algorithms (including statistical methods, machine learning, and pattern recognition) to create meaningful metrics based on spatio-temporal analysis.
+- Outputs from reanalysis: merging of EO products with other observations and models, creating consistent long-term records of past atmospheric, oceanic, and land surface conditions, and filling gaps through data assimilation techniques.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Earth Observation Product
+URL: https://ceos-org.github.io/eo-glossary/terms/earth_observation_product
+Tags: core
+Summary: Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables.
+
+# Earth Observation Product
+
+## 1 Definition
+
+Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables. These products demonstrate direct Traceability to original satellite measurements through rigorous Calibration and Validation processes. The processing methodology prioritizes the conversion of raw sensor data into quantifiable physical measurements, maintaining strict adherence to standardized processing protocols and Validation requirements.
+
+### Notes
+
+### Examples
+- Soil moisture from microwave sensors
+- Forest canopy height from LiDAR data
+
+### Sources
+- KCEO
+
+---
+
+# Earth Spheres
+URL: https://ceos-org.github.io/eo-glossary/terms/earth_spheres
+Tags: core
+Summary: Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.
+
+# Earth Spheres
+
+## 1 Definition
+
+Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.
+
+### Notes
+
+### Examples
+- Atmosphere
+- Hydrosphere
+- Cryosphere
+- Biosphere
+- Lithosphere
+- Anthroposphere
+
+### Sources
+- Hugget, R., et al., 2024, DOI: 10.1177/03091333241275465
+- Guth, P., et al., 2021, https://doi.org/10.3390/rs13183581
+- Martin, Y.E., et al., 2012
+
+---
+
+# Entity
+URL: https://ceos-org.github.io/eo-glossary/terms/entity
+Tags: base
+Summary: Something that has separate and distinct existence and objective or conceptual reality.
+
+# Entity
+
+## 1 Definition
+
+Something that has separate and distinct existence and objective or conceptual reality.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO 19119:2016, 4.1.6
+
+___
+
+## 2 Definition
+
+Government or business organization that is formed to conduct business or represent the government of the day.
+
+### Notes
+
+### Examples
+CEOS Entities include Working Groups, Virtual Constellations, etc.
+
+### Sources
+- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data
+
+---
+
+# Environmental Process
+URL: https://ceos-org.github.io/eo-glossary/terms/environmental_process
+Tags: core
+Summary: "
+
+# Environmental Process
+
+## 1 Definition
+
+### Notes
+
+### Examples
+
+### Sources
+
+---
+
+# EO Space Data
+URL: https://ceos-org.github.io/eo-glossary/terms/eo_space_data
+Tags: core
+Summary: Earth Observation data generated by spaceborne missions or instruments owned by public or private organizations.
+
+# EO Space Data
+
+## 1 Definition
+
+Earth Observation data generated by spaceborne missions or instruments owned by public or private organizations.
+
+### Notes
+- See also Instrument data.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Expanded Uncertainty
+URL: https://ceos-org.github.io/eo-glossary/terms/expanded_uncertainty
+Tags: core
+Summary: Standard Uncertainty multiplied by a coverage factor k, chosen to obtain a desired level of confidence.
+
+# Expanded Uncertainty
+
+## 1 Definition
+
+Standard Uncertainty multiplied by a coverage factor, k. The coverage factor is chosen to obtain a desired level of confidence. Most commonly a 95% confidence interval is chosen. For a Gaussian distribution, this is achieved with a coverage factor k = 2. (Note that strictly this provides a 95.45% confidence interval.)
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Feature
+URL: https://ceos-org.github.io/eo-glossary/terms/feature
+Tags: base
+Summary: Abstraction of real-world phenomena.
+
+# Feature
+
+## 1 Definition
+
+Abstraction of real-world phenomena.
+
+### Notes
+- A feature may occur as a type or an instance.
+
+### Examples
+
+### Sources
+- ISO 19101-1:2014, 4.1.11, modified
+
+---
+
+# Final Product Version
+URL: https://ceos-org.github.io/eo-glossary/terms/final_product_version
+Tags: core
+Summary: Product within an EO Collection that is not expected to be updated.
+
+# Final Product Version
+
+## 1 Definition
+
+Product within an EO Collection that is not expected to be updated.
+
+### Notes
+- In its production, all of the prerequisite auxiliary data were used as input.
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Forecast Range
+URL: https://ceos-org.github.io/eo-glossary/terms/forecast_range
+Tags: core
+Summary: The forecast period.
+
+# Forecast Range
+
+## 1 Definition
+
+The forecast period.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Geocoding
+URL: https://ceos-org.github.io/eo-glossary/terms/geocoding
+Tags: core
+Summary: Translation of one form of Location into another.
+
+# Geocoding
+
+## 1 Definition
+
+Translation of one form of Location into another.
+
+### Notes
+- Geocoding usually refers to the translation of "address" or "intersection" to "direct Position." Many service providers also include a "reverse geocoding" interface to their geocoder, thus extending the definition of the service as a general translator of Location. Because routing services use internal Location encodings not usually available to others, a geocoder is an integral part of the internals of such a service.
+
+### Examples
+
+### Sources
+- ISO 19133:2005; https://www.iso.org/standard/32551.html
+
+---
+
+# Geographic Coordinate Reference System
+URL: https://ceos-org.github.io/eo-glossary/terms/geographic_coordinate_reference_system
+Tags: core
+Summary: Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.
+
+# Geographic Coordinate Reference System
+
+## 1 Definition
+
+Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.
+
+### Notes
+- Also known as geographic CRS.
+
+### Examples
+
+### Sources
+- ISO 19111:2019, 3.1.35
+
+---
+
+# Geographic Data
+URL: https://ceos-org.github.io/eo-glossary/terms/geographic_data
+Tags: core
+Summary: Data with implicit or explicit reference to a Location relative to the Earth.
+
+# Geographic Data
+
+## 1 Definition
+
+Data with implicit or explicit reference to a Location relative to the Earth.
+
+### Notes
+- Geographic Information is also used as a term for information concerning phenomena implicitly or explicitly associated with a Location relative to the Earth.
+
+### Examples
+
+### Sources
+- ISO 19109:2015, 4.13; ISO 19109:2005
+
+---
+
+# Geographic Grid
+URL: https://ceos-org.github.io/eo-glossary/terms/geographic_grid
+Tags: core
+Summary: Regular grid based on a Geographic Coordinate Reference System (CRS).
+
+# Geographic Grid
+
+## 1 Definition
+
+Regular grid based on a Geographic Coordinate Reference System (CRS).
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Geographic Identifier
+URL: https://ceos-org.github.io/eo-glossary/terms/geographic_identifier
+Tags: core
+Summary: Spatial reference in the form of a label or code that identifies a Location.
+
+# Geographic Identifier
+
+## 1 Definition
+
+Spatial reference in the form of a label or code that identifies a Location.
+
+### Notes
+
+### Examples
+- "Spain" is an example of a label (country name); "SW1-3AD" is an example of a code (postcode).
+
+### Sources
+- ISO 19112:2019, 3.1.2
+
+---
+
+# Geolocating
+URL: https://ceos-org.github.io/eo-glossary/terms/geolocating
+Tags: core
+Summary: Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.
+
+# Geolocating
+
+## 1 Definition
+
+Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO 19115-2:2009, 4.11
+
+___
+
+## 2 Definition
+
+Determination of the geographic location of a feature of two or more dimensions.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO 19130-1:2018, 3.36 ('geopositioning'), modified
+
+---
+
+# Geolocation Information
+URL: https://ceos-org.github.io/eo-glossary/terms/geolocation_information
+Tags: core
+Summary: Information used to determine geographic Location.
+
+# Geolocation Information
+
+## 1 Definition
+
+Information used to determine geographic Location.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO 19130-1:2018, 3.34
+
+---
+
+# Geopositioning
+URL: https://ceos-org.github.io/eo-glossary/terms/geopositioning
+Tags: core
+Summary: Determination of the geographic Position of a point (0D) or linear (1D) Feature.
+
+# Geopositioning
+
+## 1 Definition
+
+Determination of the geographic Position of a point (0D) or linear (1D) Feature.
+
+### Notes
+- Modified from: ISO 19130-1:2018, 3.36
+
+### Examples
+
+### Sources
+
+---
+
+# Georectifying
+URL: https://ceos-org.github.io/eo-glossary/terms/georectifying
+Tags: core
+Summary: Correcting for positional displacement with respect to the surface of the Earth.
+
+# Georectifying
+
+**Synonyms**: Orthorectifying
+
+## 1 Definition
+
+Correcting for positional displacement with respect to the surface of the Earth.
+
+### Notes
+- Source: ISO 19115-2:2019, 3.11; ISO 19115-2:2009(E); https://www.iso.org/standard/67039.html, modified
+
+### Examples
+
+### Sources
+
+___
+
+## 2 Definition
+
+The correction of sample locations to achieve some sort of geometric regularity, e.g., a regular 2D geographic grid.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Geospatial Data
+URL: https://ceos-org.github.io/eo-glossary/terms/geospatial_data
+Tags: core
+Summary: Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.
+
+# Geospatial Data
+
+## 1 Definition
+
+Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.
+
+### Notes
+
+### Examples
+
+### Sources
+- https://www.merriam-webster.com/dictionary/geospatial
+- https://isotc211.geolexica.org/Concepts/202/, accessed 20221010
+
+---
+
+# Geosphere
+URL: https://ceos-org.github.io/eo-glossary/terms/geosphere
+Tags: core
+Summary: The masses of minerals that constitute planet Earth.
+
+# Geosphere
+
+## 1 Definition
+
+The masses of minerals that constitute planet Earth.
+
+### Notes
+
+### Examples
+
+### Sources
+- Guth et al. 2021
+
+---
+
+# Granule
+URL: https://ceos-org.github.io/eo-glossary/terms/granule
+Tags: core
+Summary: The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable).
+
+# Granule
+
+## 1 Definition
+
+The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable). Granules may be managed as logical granules and/or physical granules.
+
+### Notes
+- See also product.
+
+### Examples
+
+### Sources
+- [NASA EarthData](https://www.earthdata.nasa.gov/learn/glossary)
+
+---
+
+# Grid
+URL: https://ceos-org.github.io/eo-glossary/terms/grid
+Tags: core
+Summary: Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.
+
+# Grid
+
+## 1 Definition
+
+Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.
+
+### Notes
+- The curves partition a space into grid cells or zones.
+- The intersection points of the curves are called nodes.
+
+### Examples
+
+### Sources
+- ISO 19123:2005, 4.1.23; Note 1 modified; Note 2 added
+
+---
+
+# Hydrosphere
+URL: https://ceos-org.github.io/eo-glossary/terms/hydrosphere
+Tags: core
+Summary: The masses of liquid water, such as oceans, lakes, and rivers.
+
+# Hydrosphere
+
+## 1 Definition
+
+The masses of liquid water, such as oceans, lakes, and rivers.
+
+### Notes
+
+### Examples
+
+### Sources
+- Guth et al. 2021
+
+---
+
+# Impact
+URL: https://ceos-org.github.io/eo-glossary/terms/impact
+Tags: core
+Summary: Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.
+
+# Impact
+
+## 1 Definition
+
+Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# In-Situ Observation
+URL: https://ceos-org.github.io/eo-glossary/terms/in-situ_observation
+Tags: controversial
+Summary: Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems or altering its pre-Observation state.
+
+# In-Situ Observation
+
+## 1 Definition
+
+Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems (its environment) or altering its pre-Observation state.
+
+### Notes
+- The main Characteristic of such observations is that distance has no or only negligible (within Uncertainty) influence on the Value of the Property observed. In-Situ Observations therefore often require either direct physical contact or small distances between a Sensor and the observed Phenomenon.
+- Observations not fulfilling these conditions are considered Remote Sensing.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Information
+URL: https://ceos-org.github.io/eo-glossary/terms/information
+Tags: base
+Summary: The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.
+
+# Information
+
+## 1 Definition
+
+The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.
+
+### Notes
+- Information depends on Data and is targeted.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Instrument Data
+URL: https://ceos-org.github.io/eo-glossary/terms/instrument_data
+Tags: core
+Summary: Data specifically associated with the instrument, either because it was generated by the instrument or included in data packets identified with that instrument.
+
+# Instrument Data
+
+## 1 Definition
+
+Data specifically associated with the instrument, either because it was generated by the instrument or included in data packets identified with that instrument.
+
+### Notes
+- These data consist of instrument science and engineering data, and possibly ancillary data. Instrument engineering data is produced by engineering sensor(s) of an instrument, used either for operating the instrument or for processing the science data generated by the instrument. Instrument science data is produced by the science sensor(s) of an instrument, usually constituting the basic reason for existence of an instrument.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+___
+
+## 2 Definition
+
+Data created by an instrument including scientific measurements and any engineering or ancillary data which may be included in the data packets.
+
+### Notes
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+___
+
+## 3 Definition
+
+Data produced and transmitted by the science and engineering sensors of an instrument, and, in the spacecraft environment, any additional data packaged with the instrument's sensor data by virtue of services provided.
+
+### Notes
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Laboratory Observation
+URL: https://ceos-org.github.io/eo-glossary/terms/laboratory_observation
+Tags: core
+Summary: Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.
+
+# Laboratory Observation
+
+## 1 Definition
+
+Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.
+
+### Notes
+- It is important to consider that Laboratory Observations are typically conducted in controlled conditions, allowing for isolation or alteration of the Object or Phenomenon from its natural environment or other systems.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Latency
+URL: https://ceos-org.github.io/eo-glossary/terms/latency
+Tags: core
+Summary: Period between the end of sensing of a Phenomenon to the beginning of availability of a specific product.
+
+# Latency
+
+## 1 Definition
+
+Period between the end of sensing of a Phenomenon to the beginning of availability of a specific product.
+
+### Notes
+
+### Examples
+
+### Sources
+- ?
+
+---
+
+# Lead Time
+URL: https://ceos-org.github.io/eo-glossary/terms/lead_time
+Tags: core
+Summary: Minimum time of interval between an Observation being tasked and being performed.
+
+# Lead Time
+
+## 1 Definition
+
+Minimum time of interval between an Observation being tasked and being performed.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Lithosphere
+URL: https://ceos-org.github.io/eo-glossary/terms/lithosphere
+Tags: core
+Summary: The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, includes soils ('pedosphere').
+
+# Lithosphere
+
+## 1 Definition
+
+The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, the Lithosphere is considered to include soils ('pedosphere').
+
+### Notes
+
+### Examples
+
+### Sources
+- Guth et al. 2021
+
+---
+
+# Location
+URL: https://ceos-org.github.io/eo-glossary/terms/location
+Tags: base
+Summary: Particular Place referenced by an identifier.
+
+# Location
+
+## 1 Definition
+
+Particular Place referenced by an identifier.
+
+### Notes
+- While a (geo)location identifies a geographic Place, it may also be associated with objects other than the Earth.
+- While Location in principle covers 0- to 3-dimensional spatial geometries, it should not be used for 0- and 1-dimensional geometries (positions and paths).
+
+### Examples
+- Madrid
+- California
+
+### Sources
+- [ISO 19112:2019](https://www.iso.org/standard/70742.html), (E), 3.1.3, modified, note 2 added
+
+---
+
+# Location Error
+URL: https://ceos-org.github.io/eo-glossary/terms/location_error
+Tags: core
+Summary: Measure of the agreement between the represented Location of an Object and the true Location.
+
+# Location Error
+
+## 1 Definition
+
+Measure of the agreement between the represented Location of an Object and the true Location.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Long Term Preservation
+URL: https://ceos-org.github.io/eo-glossary/terms/long_term_preservation
+Tags: core
+Summary: The act of maintaining information in a correct and independently understandable form over the long term.
+
+# Long Term Preservation
+
+## 1 Definition
+
+The act of maintaining information in a correct and independently understandable form over the long term.
+
+### Notes
+- Long term refers to a period of time long enough to be concerned with the impact which changing technologies, including support for media and data formats, and changing user communities will have on the information being held in a repository.
+- See also preservation.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Measurand
+URL: https://ceos-org.github.io/eo-glossary/terms/measurand
+Tags: core
+Summary: Particular Quantity subject to Measurement.
+
+# Measurand
+
+## 1 Definition
+
+Particular Quantity subject to Measurement.
+
+### Notes
+
+### Examples
+
+| Step | Process description |
+| :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| (Raw) | The complete and unaltered/unprocessed set of Data acquired by one or several sensors on a platform |
+| M/0 uncalibrated | Unaltered/unprocessed Level 0 (main) Sensor Data annotated with processed Ancillary Data and supplemented by Auxiliary Data (including radiometric and geometric Calibration coefficients and geo-referencing parameters) allowing further processing to higher Levels. |
+| M/1 Sensor-calibrated | Level M/0 Sensor Data which have been calibrated (ideally traceable to SI) and spatially aligned (co-located, eventually co-gridded) to represent at-Sensor measurements (Value and Uncertainty) in Sensor nominal spatiotemporal sampling, supplemented by appropriate ancillary data. |
+| M/2 target-calibrated | Level M/1 Data processed to represent geophysical Property values (and uncertainties) for a specified target (Object, Feature of interest, e.g. surface reflectance, apparent temperature) derived from M/1 Sensor Data, as much as possible maintaining the sensors nominal spatial and temporal sampling (Observation preserving). |
+| M/3 homogenised | Level M/1 or M/2 Data which have been generalised and integrated across one or several platforms and acquisitions to achieve an increased, more regular or in any other form enhanced spatial or temporal coverage in which states geophysical values agnostic of the originally acquiring Sensor and Observation condition and thus directly comparable. This homogenisation and fusion may include measurand re-Calibration to external standards and references including use of modelling, aggregation and interpolation. |
+| M/4 derived/inferred | Model output or results from analyses of Level M/3 (or lower level) Data i.e., attributes that might not be directly observable by the Sensor(s) but are derived from observations in combination with other external incl. non-observational Data using techniques like modelling or machine learning (AI). |
+
+From http://doi.org/10.2760/46796
+
+### Sources
+- VIM: 1993, 2.6
+
+---
+
+# Measurement
+URL: https://ceos-org.github.io/eo-glossary/terms/measurement
+Tags: core
+Summary: Observation of a Quantity.
+
+# Measurement
+
+## 1 Definition
+
+Observation of a Quantity.
+
+### Notes
+- The Process of collecting a measurement is called measuring.
+
+### Examples
+
+### Sources
+- GEOGlos (VIM ?, modified)
+
+---
+
+# Measurement Uncertainty
+URL: https://ceos-org.github.io/eo-glossary/terms/measurement_uncertainty
+Tags: core
+Summary: Uncertainty associated with the method of Measurement.
+
+# Measurement Uncertainty
+
+## 1 Definition
+
+Uncertainty associated with the method of Measurement.
+
+### Notes
+
+### Examples
+
+### Sources
+- CEOS Wiki adopted from JCGM GUM
+
+---
+
+# Metadata
+URL: https://ceos-org.github.io/eo-glossary/terms/metadata
+Tags: core
+Summary: Data describing other data, providing an understanding of the content and utility of a product or collection.
+
+# Metadata
+
+## 1 Definition
+
+Data describing other data, providing an understanding of the content and utility of a product or collection.
+
+### Notes
+- Metadata may be used to select data for a particular scientific investigation.
+- Metadata is intended as information describing significant aspects of a resource (Earth Observation space data in this context). They are created for the purposes of data search, discovery and access management and may exist at various levels, typically from data collection through to the individual variables of each product in a collection.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Minimum Mapping Unit
+URL: https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_unit
+Tags: core
+Summary: The area of the smallest Feature that is still represented on a map.
+
+# Minimum Mapping Unit
+
+## 1 Definition
+
+The area of the smallest Feature that is still represented on a map.
+
+### Notes
+
+### Examples
+
+### Sources
+- CGLS
+
+---
+
+# Minimum Mapping Width
+URL: https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_width
+Tags: core
+Summary: The width of the smallest linear Feature that is still represented on a map.
+
+# Minimum Mapping Width
+
+## 1 Definition
+
+The width of the smallest linear Feature that is still represented on a map.
+
+### Notes
+
+### Examples
+
+### Sources
+- CGLS
+
+---
+
+# Model
+URL: https://ceos-org.github.io/eo-glossary/terms/model
+Tags: controversial
+Summary: An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits.
+
+# Model
+
+## 1 Definition
+
+An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits (as a result of pre-set conditions).
+
+### Notes
+- The Process of generating Data using a model is called modelling.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Near Real Time Data
+URL: https://ceos-org.github.io/eo-glossary/terms/near_real_time_data
+Tags: high-impact
+Summary: Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.
+
+# Near Real Time Data
+
+## 1 Definition
+
+Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.
+
+### Notes
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Object
+URL: https://ceos-org.github.io/eo-glossary/terms/object
+Tags: base
+Summary: Entity with a well-defined boundary and identity that encapsulates state and behaviour.
+
+# Object
+
+## 1 Definition
+
+Entity with a well-defined boundary and identity that encapsulates state and behaviour.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO/IEC 19501:2005
+
+---
+
+# Observation
+URL: https://ceos-org.github.io/eo-glossary/terms/observation
+Tags: controversial
+Summary: Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.
+
+# Observation
+
+## 1 Definition
+
+Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.
+
+### Notes
+- The result of an Observation is a Value complemented by an Uncertainty, often itself being referred to as 'observation'.
+- An Observation result represents a Sample of the Phenomenon (otherwise it would be identical with the Phenomenon).
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Obsolete Product or Collection
+URL: https://ceos-org.github.io/eo-glossary/terms/obsolete_product_or_collection
+Tags: core
+Summary: Products or collections which have been superseded by later versions of a product or collection.
+
+# Obsolete Product or Collection
+
+## 1 Definition
+
+Products or collections which have been superseded by later versions of a product or collection.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Outcome
+URL: https://ceos-org.github.io/eo-glossary/terms/outcome
+Tags: core
+Summary: "
+
+# Outcome
+
+## 1 Definition
+
+### Notes
+
+### Examples
+
+### Sources
+
+---
+
+# Path
+URL: https://ceos-org.github.io/eo-glossary/terms/path
+Tags: base
+Summary: Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).
+
+# Path
+
+## 1 Definition
+
+Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).
+
+### Notes
+- A Path is a 1-dimensional Place.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Period
+URL: https://ceos-org.github.io/eo-glossary/terms/period
+Tags: base
+Summary: Particular era or span of time.
+
+# Period
+
+## 1 Definition
+
+Particular era or span of time.
+
+### Notes
+- Periods are intervals named with a Period Identifier.
+
+### Examples
+
+### Sources
+- ISO 19170:2021
+
+---
+
+# Period Identifier
+URL: https://ceos-org.github.io/eo-glossary/terms/period_identifier
+Tags: core
+Summary: Temporal reference in the form of a label or code that identifies a Period.
+
+# Period Identifier
+
+## 1 Definition
+
+Temporal reference in the form of a label or code that identifies a Period.
+
+### Notes
+- Period Identifiers are the temporal equivalent of geographic identifiers as specified in ISO 19912.
+
+### Examples
+
+### Sources
+- ISO 19170:2021
+
+---
+
+# Phenomenon
+URL: https://ceos-org.github.io/eo-glossary/terms/phenomenon
+Tags: base
+Summary: Entity with at least one Property referenced by an identifier.
+
+# Phenomenon
+
+## 1 Definition
+
+Entity with at least one Property referenced by an identifier.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO, modified after Wikipedia and the Columbia Encyclopaedia 2008
+
+---
+
+# Place
+URL: https://ceos-org.github.io/eo-glossary/terms/place
+Tags: base
+Summary: Part of any space referenced by an identifier.
+
+# Place
+
+## 1 Definition
+
+Part of any space referenced by an identifier.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO 19155:2012, 4.8
+
+---
+
+# Policy
+URL: https://ceos-org.github.io/eo-glossary/terms/policy
+Tags: high-impact
+Summary: Deliberate system of guidelines to guide decisions and achieve rational outcomes, implemented as a procedure or protocol and typically promulgated through official written documents.
+
+# Policy
+
+## 1 Definition
+
+Deliberate system of guidelines to guide decisions and achieve rational outcomes. Statement of intent implemented as a procedure or protocol. Typically promulgated through official written documents.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Policy Cycle
+URL: https://ceos-org.github.io/eo-glossary/terms/policy_cycle
+Tags: high-impact
+Summary: Well-established concept typically taught as the rational model of policy decision-making, representing an idealised view of the policy process.
+
+# Policy Cycle
+
+## 1 Definition
+
+Well-established concept, typically taught as the rational model of policy decision-making. Idealised view of the policy process.
+
+### Notes
+
+### Examples
+
+### Sources
+- [ESA/CEOS?, modified](https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners)
+
+---
+
+# Policy File
+URL: https://ceos-org.github.io/eo-glossary/terms/policy_file
+Tags: high-impact
+Summary: Policy documents that represent the official written reference for a given Policy.
+
+# Policy File
+
+## 1 Definition
+
+Policy documents that represent the official written reference for a given Policy.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Policy Making
+URL: https://ceos-org.github.io/eo-glossary/terms/policy_making
+Tags: high-impact
+Summary: Process by which governments translate their political vision into programmes and actions to deliver outcomes — desired change in the real world.
+
+# Policy Making
+
+## 1 Definition
+
+Process by which governments translate their political vision into programmes and actions to deliver outcomes — desired change in the real world.
+
+### Notes
+
+### Examples
+
+### Sources
+- [ESA/CEOS?, modified](https://digital-strategy.ec.europa.eu/en/library/quality-public-administration-toolbox-practitioners)
+
+---
+
+# Policy Milestone
+URL: https://ceos-org.github.io/eo-glossary/terms/policy_milestone
+Tags: high-impact
+Summary: Markers of significant progress in addressing specific issues, or crucial decision points where significant choices are made within a policy process.
+
+# Policy Milestone
+
+## 1 Definition
+
+Markers of significant progress in addressing specific issues, or crucial decision points where significant choices are made. Concrete examples include: policy planning and proposing, impact assessment, implementation, or implementation cycles (e.g., Water Framework Directive, Marine Strategy Framework Directive), achievement of Policy Objectives and Policy Targets, and evaluating and improving existing laws.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Policy Objective
+URL: https://ceos-org.github.io/eo-glossary/terms/policy_objective
+Tags: high-impact
+Summary: Desired outcome that policymakers wish to achieve.
+
+# Policy Objective
+
+## 1 Definition
+
+Desired outcome that policymakers wish to achieve.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Policy Target
+URL: https://ceos-org.github.io/eo-glossary/terms/policy_target
+Tags: high-impact
+Summary: Specific level or rate set for the Policy Objective.
+
+# Policy Target
+
+## 1 Definition
+
+Specific level or rate set for the Policy Objective.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Position
+URL: https://ceos-org.github.io/eo-glossary/terms/position
+Tags: base, controversial
+Summary: Place referenced by a single set of coordinates within a coordinate reference system.
+
+# Position
+
+## 1 Definition
+
+Place referenced by a single set of coordinates within a coordinate reference system.
+
+### Notes
+- Opposite to (previous) ISO definition, Position shall be used only for 0-dimensional primitives (points).
+
+### Examples
+
+### Sources
+- ISO 19133:2005, modified to cover only points, also called 'direct position'
+
+---
+
+# Preservation
+URL: https://ceos-org.github.io/eo-glossary/terms/preservation
+Tags: core
+Summary: Processes and operations used to ensure data technical and intellectual survival through time.
+
+# Preservation
+
+## 1 Definition
+
+Processes and operations used to ensure data technical and intellectual survival through time.
+
+### Notes
+- Grants data integrity, discoverability and accessibility, and facilitates its (re-)use in the long term.
+- Preservation is one of the tasks of data curation.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Process
+URL: https://ceos-org.github.io/eo-glossary/terms/process
+Tags: base
+Summary: Series of activities that interact to produce a result.
+
+# Process
+
+## 1 Definition
+
+Series of activities that interact to produce a result.
+
+### Notes
+- A Process may occur once-only or be recurrent or periodic.
+
+### Examples
+
+### Sources
+- [Wikipedia](https://en.wikipedia.org/wiki/Process)
+
+---
+
+# Product
+URL: https://ceos-org.github.io/eo-glossary/terms/product
+Tags: core
+Summary: Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.
+
+# Product
+
+## 1 Definition
+
+Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.
+
+### Notes
+- Products may be accompanied by metadata and browse images.
+- A Product may be part of a collection — a distinction useful for archiving and cataloguing purposes.
+- The term Product may be used to denote a product type, such as e.g. ENVISAT_ASAR_L1B_PRI data products.
+- End users may distinguish between (input, "raw") data and products, i.e., the derived geophysical parameters.
+- See also granule.
+
+### Examples
+
+### Sources
+- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+---
+
+# Property
+URL: https://ceos-org.github.io/eo-glossary/terms/property
+Tags: base
+Summary: Observable Trait.
+
+# Property
+
+## 1 Definition
+
+Observable Trait.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Provisional Product
+URL: https://ceos-org.github.io/eo-glossary/terms/provisional_product
+Tags: core
+Summary: Products in a research and development phase not yet published into a standardized collection.
+
+# Provisional Product
+
+## 1 Definition
+
+Products in a research and development phase not yet published into a standardized collection.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Quality Indicator
+URL: https://ceos-org.github.io/eo-glossary/terms/quality_indicator
+Tags: core
+Summary: Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product.
+
+# Quality Indicator
+
+## 1 Definition
+
+Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product. May be a number, set of numbers, graph, Uncertainty budget, or a simple flag.
+
+### Notes
+
+### Examples
+
+### Sources
+- CEOS Wiki
+
+---
+
+# Quantity
+URL: https://ceos-org.github.io/eo-glossary/terms/quantity
+Tags: base
+Summary: Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.
+
+# Quantity
+
+## 1 Definition
+
+Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO/IEC Guide 99:2007, 1.1, modified — Notes omitted
+
+___
+
+## 2 Definition
+
+Property whose instances can be compared by ratio or only by order.
+
+### Notes
+
+### Examples
+
+### Sources
+- gEOGlos (VIM4 Notes omitted)
+
+---
+
+# Reference
+URL: https://ceos-org.github.io/eo-glossary/terms/reference
+Tags: core
+Summary: Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower than that of the Observation with which it is compared.
+
+# Reference
+
+## 1 Definition
+
+Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower (quantify?) than that of the Observation with which it is compared.
+
+### Notes
+
+### Examples
+
+### Sources
+
+___
+
+## 2 Definition
+
+Sort of data acquired with an Uncertainty significantly lower (quantify?) than that of the data it is being compared with.
+
+### Notes
+
+### Examples
+
+### Sources
+- VIM?, modified
+
+---
+
+# Remote Sensing
+URL: https://ceos-org.github.io/eo-glossary/terms/remote_sensing
+Tags: controversial
+Summary: Type of Observation performed at a significant distance from a Phenomenon.
+
+# Remote Sensing
+
+**Synonyms**: Remote Observation
+
+## 1 Definition
+
+Type of Observation performed at a significant distance from a Phenomenon.
+
+### Notes
+- 'Significant' in this context means that the distance has, or may have, a non-negligible impact on the Value of the Property observed.
+- The effect of the distance on the acquired data is the main distinction criterion between 'remote' and 'in-situ' observations.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Replicability
+URL: https://ceos-org.github.io/eo-glossary/terms/replicability
+Tags: core
+Summary: Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.
+
+# Replicability
+
+## 1 Definition
+
+Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.
+
+### Notes
+
+### Examples
+
+### Sources
+- Craglia, M., et al. (2018).
+
+---
+
+# Representativeness
+URL: https://ceos-org.github.io/eo-glossary/terms/representativeness
+Tags: core
+Summary: Quality or characteristic of a measurement or observation to accurately represent a specific geographic location, time period, or environmental condition.
+
+# Representativeness
+
+## 1 Definition
+
+Quality or characteristic of a measurement or Observation to accurately represent a specific geographic location, time Period, or environmental condition.
+
+### Notes
+- WIGOS metadata standard defines representativeness as the extent of the region around the Observation of which it is representative.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Reproducibility
+URL: https://ceos-org.github.io/eo-glossary/terms/reproducibility
+Tags: core
+Summary: Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.
+
+# Reproducibility
+
+## 1 Definition
+
+Concerned with the validity of the results of a particular study, i.e., the possibility for readers to check whether results have been manipulated, by reproducing exactly the same study using the same data and methods.
+
+### Notes
+
+### Examples
+
+### Sources
+- Ostermann and Granell (2015)
+
+---
+
+# Sample
+URL: https://ceos-org.github.io/eo-glossary/terms/sample
+Tags: controversial
+Summary: Subset of one or more entities.
+
+# Sample
+
+## 1 Definition
+
+Subset of one or more entities.
+
+### Notes
+- A Sample may be spatial, temporal, spectral, or in any other dimension or Trait.
+- Each Sample is contiguous, i.e. it does not consist of more than one discontinuous geometry in any dimension.
+- The Process of obtaining a Sample is called sampling.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Sensor
+URL: https://ceos-org.github.io/eo-glossary/terms/sensor
+Tags: core
+Summary: Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.
+
+# Sensor
+
+## 1 Definition
+
+Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.
+
+### Notes
+- Sensing is therefore a synonym for Observation (the Process).
+- As by their definition, sensors perform sampling.
+- Sensors used to obtain measurements must be calibrated and provide uncertainties.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Source Data
+URL: https://ceos-org.github.io/eo-glossary/terms/source_data
+Tags: core
+Summary: Data required for production of an EO Collection (e.g., unenhanced satellite mission data) as well as further processed Level-1 data, or any other pre-processed format meeting program requirements.
+
+# Source Data
+
+## 1 Definition
+
+Data required for production of an EO Collection (e.g., unenhanced satellite mission data) as well as further processed Level-1 data (precision geometrically and radiometrically corrected radiance at the sensor), or any other pre-processed format that suppliers are providing access to that meets program requirements.
+
+### Notes
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Spatial Completeness
+URL: https://ceos-org.github.io/eo-glossary/terms/spatial_completeness
+Tags: core
+Summary: Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.
+
+# Spatial Completeness
+
+## 1 Definition
+
+Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.
+
+### Notes
+
+### Examples
+- Surface soil moisture retrieved from microwave satellite sensors may present gaps in mountainous terrains.
+
+### Sources
+- KCEO
+
+---
+
+# Spatial Consistency
+URL: https://ceos-org.github.io/eo-glossary/terms/spatial_consistency
+Tags: core
+Summary: Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.
+
+# Spatial Consistency
+
+## 1 Definition
+
+Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors. Also, the validity of the assumptions of the procedure to produce information holds true across the whole spatial range.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Spatial Extent
+URL: https://ceos-org.github.io/eo-glossary/terms/spatial_extent
+Tags: core
+Summary: Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box, representing the maximum spatial boundary within which the user is requesting data.
+
+# Spatial Extent
+
+## 1 Definition
+
+Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box. Represents the maximum extent (the spatial boundary or limits) within which the User is requesting data.
+
+The attribute represents the maximum spatial extent of the AOI, and in case the AOI is made of many discontinuous zones then it represents the maximum extent of the union of all the zones.
+
+### Notes
+- WIGOS metadata standard defines it as the typical spatial georeferenced volume covered by the observations.
+
+### Examples
+- If a User is requesting information about degradation of African protected sites, then the AOIs are the protected sites, and the spatial extent is the African continent.
+
+### Sources
+- Adapted from ISO 19170-1:2021
+
+---
+
+# Spatial Reporting Unit
+URL: https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit
+Tags: core
+Summary: Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.
+
+# Spatial Reporting Unit
+
+## 1 Definition
+
+Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.
+
+### Notes
+- WIGOS 2019 uses 'spatial reporting interval', probably assuming observations are reported on a grid with regular spacing/intervals.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Spatial Resolution
+URL: https://ceos-org.github.io/eo-glossary/terms/spatial_resolution
+Tags: core
+Summary: '
+
+# Spatial Resolution
+
+## 1 Definition
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Spectral Band
+URL: https://ceos-org.github.io/eo-glossary/terms/spectral_band
+Tags: core
+Summary: Part of the electromagnetic spectrum of specific wavelengths, in remote sensing usually described by central wavelength and bandwidth.
+
+# Spectral Band
+
+## 1 Definition
+
+Part of the electromagnetic spectrum of specific wavelengths. In Remote Sensing, usually described by central wavelength and bandwidth.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Spectral Bandwidth
+URL: https://ceos-org.github.io/eo-glossary/terms/spectral_bandwidth
+Tags: core
+Summary: Range of the Spectral Band.
+
+# Spectral Bandwidth
+
+## 1 Definition
+
+Range of the Spectral Band.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Spectral Resolution
+URL: https://ceos-org.github.io/eo-glossary/terms/spectral_resolution
+Tags: core
+Summary: Measure of the ability to resolve features in the electromagnetic spectrum.
+
+# Spectral Resolution
+
+## 1 Definition
+
+Measure of the ability to resolve features in the electromagnetic spectrum.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Stability
+URL: https://ceos-org.github.io/eo-glossary/terms/stability
+Tags: core
+Summary: Maximum acceptable change in Uncertainty per decade.
+
+# Stability
+
+## 1 Definition
+
+Maximum acceptable change in Uncertainty per decade.
+
+### Notes
+- GCOS uses bias or systematic errors instead of Uncertainty.
+
+### Examples
+
+### Sources
+- Modified from GCOS 2022
+
+---
+
+# Standard Uncertainty
+URL: https://ceos-org.github.io/eo-glossary/terms/standard_uncertainty
+Tags: core
+Summary: Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.
+
+# Standard Uncertainty
+
+## 1 Definition
+
+Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Steward
+URL: https://ceos-org.github.io/eo-glossary/terms/steward
+Tags: core
+Summary: Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
+
+# Steward
+
+## 1 Definition
+
+Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
+
+### Notes
+- See also Custodian.
+
+### Examples
+
+### Sources
+- [WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data](https://ceos.org/document_management/Working_Groups/WGISS/Documents/Shared%20Collection%20Lifecycle%20Management%20Principles%20for%20Earth%20Observation%20Data_March2025.pdf)
+
+---
+
+# Temporal Consistency
+URL: https://ceos-org.github.io/eo-glossary/terms/temporal_consistency
+Tags: core
+Summary: Condition where the temporal statistical properties of the sample depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.
+
+# Temporal Consistency
+
+## 1 Definition
+
+Condition where the temporal statistical properties of the Sample depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Temporal Extent
+URL: https://ceos-org.github.io/eo-glossary/terms/temporal_extent
+Tags: core
+Summary: Period during which data was collected, observations were made, or for which the model was run.
+
+# Temporal Extent
+
+## 1 Definition
+
+Period during which data was collected, observations were made, or for which the model was run.
+
+### Notes
+- In W3C this is the definition of temporal coverage.
+- Time Period covered by a series of observations inclusive of the specified date/time indications (measurement history). Defined based on the beginning and end dates of observations.
+
+### Examples
+- WIGOS Metadata
+
+### Sources
+- Adapted from W3C
+
+---
+
+# Temporal Reporting Period
+URL: https://ceos-org.github.io/eo-glossary/terms/temporal_reporting_period
+Tags: core
+Summary: Time period used for reporting and for which the information should be aggregated from the native temporal resolution.
+
+# Temporal Reporting Period
+
+## 1 Definition
+
+Time Period used for reporting and for which the information should be aggregated from the native Temporal Resolution.
+
+### Notes
+
+### Examples
+
+| Entry format example | Valid unit                     |
+|----------------------|-------------------------------|
+| 1 s, 2 h, 1 d        | second, hour, day, month, year |
+
+### Sources
+- Modified WIGOS Metadata Standard 2019
+
+---
+
+# Temporal Resolution
+URL: https://ceos-org.github.io/eo-glossary/terms/temporal_resolution
+Tags: core
+Summary: Observation or model output representing regular intervals, specifying the length of the interval that determines the smallest event or process that can be resolved.
+
+# Temporal Resolution
+
+## 1 Definition
+
+Observation or model output representing regular intervals, specifying the length of the interval that determines the smallest event or Process that can be resolved (e.g., the Period between observations, the time steps in a model).
+
+### Notes
+- WIGOS 2019 distinguishes between sampling time Period, as the Period over which a Measurement is taken, and temporal sampling interval as the time Period between the beginning of consecutive sampling periods. Temporal Resolution in this Glossary is equivalent to sampling time Period as used by WIGOS.
+
+### Examples
+
+| Entry format example | Valid unit                     |
+|----------------------|-------------------------------|
+| 1 s, 2 h, 1 m        | second, hour, day, month, year |
+
+### Sources
+- KCEO
+
+---
+
+# Temporal Revisit
+URL: https://ceos-org.github.io/eo-glossary/terms/temporal_revisit
+Tags: core
+Summary: Interval between successive observations.
+
+# Temporal Revisit
+
+## 1 Definition
+
+Interval between successive observations.
+
+### Notes
+- In Remote Sensing it is also called repeat cycle.
+- More generally it is known as temporal sampling interval.
+
+### Examples
+
+| Entry format example | Valid unit                     |
+|----------------------|-------------------------------|
+| 1 s, 2 h             | second, hour, day, month, year |
+
+### Sources
+- KCEO
+
+---
+
+# Thematic Resolution
+URL: https://ceos-org.github.io/eo-glossary/terms/thematic_resolution
+Tags: core
+Summary: Level of categorical detail of information expressed by the number of classes.
+
+# Thematic Resolution
+
+## 1 Definition
+
+Level of categorical detail of information expressed by the number of classes.
+
+### Notes
+
+### Examples
+
+### Sources
+- CGLS
+
+---
+
+# Thematic Uncertainty
+URL: https://ceos-org.github.io/eo-glossary/terms/thematic_uncertainty
+Tags: core
+Summary: Uncertainty associated with the method of classification.
+
+# Thematic Uncertainty
+
+## 1 Definition
+
+Uncertainty associated with the method of classification.
+
+### Notes
+- Typically, computed from the error matrix.
+- For a review of classification Uncertainty metrics, consult Ye et al. 2018.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Time of Day
+URL: https://ceos-org.github.io/eo-glossary/terms/time_of_day
+Tags: core
+Summary: Time of the day at which the variable or parameter is observed or simulated by a model.
+
+# Time of Day
+
+## 1 Definition
+
+Time of the day at which the variable or parameter is observed or simulated by a model.
+
+### Notes
+- In Remote Sensing it is also known as time of overpass.
+
+### Examples
+
+| Type      | Entry format example | Valid unit |
+|-----------|----------------------|------------|
+| timestamp | 18:00 h (0–24)       | Hours      |
+| timerange | 18:00 – 20:00 h      | Hours      |
+
+### Sources
+- KCEO
+
+---
+
+# Time of Year
+URL: https://ceos-org.github.io/eo-glossary/terms/time_of_year
+Tags: core
+Summary: Time of the year at which the variable is observed or simulated by a model.
+
+# Time of Year
+
+## 1 Definition
+
+Time of the year at which the variable is observed or simulated by a model.
+
+### Notes
+
+### Examples
+
+| Type      | Entry format example | Valid unit     |
+|-----------|----------------------|----------------|
+| timestamp | m/d                  | Not Applicable |
+| timerange | m/d - m/d            | Not Applicable |
+
+### Sources
+- KCEO
+
+---
+
+# Timeliness
+URL: https://ceos-org.github.io/eo-glossary/terms/timeliness
+Tags: core
+Summary: Period between the moment of requesting information and the moment of availability of information.
+
+# Timeliness
+
+## 1 Definition
+
+Period between the moment of requesting information and the moment of availability of information.
+
+- Near Real-Time (NRT): delivered less than 3 hours after requesting information.
+- Slow-Time Critical (STC): delivered within 48 hours after requesting information.
+- Non-Time Critical (NTC): typically delivered within 1 month after requesting information.
+
+### Notes
+- In some contexts also known as delivery time.
+- C3S URDB describes timeliness as "the ability of the publish/subscribe middleware to provide the expected service within known time bounds".
+
+### Examples
+
+### Sources
+- Adapted from ESA S3 User Guide
+
+---
+
+# Traceability
+URL: https://ceos-org.github.io/eo-glossary/terms/traceability
+Tags: core
+Summary: Property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations each contributing to the measurement uncertainty.
+
+# Traceability
+
+## 1 Definition
+
+Property of a measurement result whereby the result can be related to a Reference through a documented unbroken chain of calibrations, each contributing to the measurement uncertainty.
+
+### Notes
+
+### Examples
+
+### Sources
+- https://www.isobudgets.com/Measurement-traceability-complying-iso-17025-requirements/
+
+---
+
+# Trait
+URL: https://ceos-org.github.io/eo-glossary/terms/trait
+Tags: base
+Summary: Characteristic belonging to an entity and referenced by an identifier.
+
+# Trait
+
+## 1 Definition
+
+Characteristic belonging to an entity and referenced by an identifier.
+
+### Notes
+- Traits can be objective (inherent?) in which case they are also observable and called properties. Traits which are not observable (directly or indirectly) need to be assigned.
+
+### Examples
+
+### Sources
+- Based on ISO 19143:2010, 4.21, ISO/IEC 2382:2015, 2121440, significantly modified, Note 1 added
+
+---
+
+# Uncertainty
+URL: https://ceos-org.github.io/eo-glossary/terms/uncertainty
+Tags: core
+Summary: Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.
+
+# Uncertainty
+
+## 1 Definition
+
+Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.
+
+### Notes
+
+### Examples
+
+### Sources
+- GUM
+
+___
+
+## 2 Definition
+
+Non-negative parameter, associated with data, which characterizes the dispersion of the values of a Trait that could reasonably be attributed to a Phenomenon by means of sensing or modelling.
+
+### Notes
+- In case of quantitative (continuous) data the uncertainty may be, for example, a standard deviation (or a given multiple of it), or the half-width of an interval having a stated level of confidence (see e.g. Standard and Expanded Uncertainty).
+- For qualitative (categorical?) data, uncertainty may be expressed by commission and omission ('confusion matrix') or overall errors.
+
+### Examples
+
+### Sources
+- Modified from GUM, VIM4:3.1, FIDUCEO, Notes added
+
+___
+
+## 3 Definition
+
+Measure of the spread of the distribution of possible values.
+
+### Notes
+
+### Examples
+
+### Sources
+- [FIDUCEO Glossary](https://research.reading.ac.uk/fiduceo/glossary/), VIM?, modified
+
+___
+
+## 4 Definition
+
+Parameter, associated with the result of measurement, that characterizes the dispersion of values that could reasonably be attributed to the measurand.
+
+### Notes
+- When the quality of accuracy or precision of measured values, such as coordinates, is to be characterized quantitatively, the quality parameter is an estimate of the uncertainty of the measurement results. Because accuracy is a qualitative concept, one should not use it quantitatively, that is associate numbers with it; numbers should be associated with measures of uncertainty instead.
+
+### Examples
+
+### Sources
+- ISO 19116:2004(E)
+
+___
+
+## 5 Definition
+
+Parameter characterizing the dispersion of the values being attributed to a measurand, based on the information used.
+
+### Notes
+
+### Examples
+
+### Sources
+- VIM4: 3.1
+
+---
+
+# Update Frequency
+URL: https://ceos-org.github.io/eo-glossary/terms/update_frequency
+Tags: core
+Summary: Frequency at which the product is available to users.
+
+# Update Frequency
+
+## 1 Definition
+
+Frequency at which the product is available to users.
+
+### Notes
+- Also known in product catalogues as dissemination frequency.
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# User
+URL: https://ceos-org.github.io/eo-glossary/terms/user
+Tags: core
+Summary: Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.
+
+# User
+
+## 1 Definition
+
+In the context of the KCEO, entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+___
+
+## 2 Definition
+
+External person, institution or system that consumes provided services.
+
+### Notes
+- Includes Data Access or Science and Service Exploitation Platforms provided by a payload data ground segment.
+
+### Examples
+
+### Sources
+- EO Data Stewardship Glossary
+
+---
+
+# User Interface
+URL: https://ceos-org.github.io/eo-glossary/terms/user_interface
+Tags: core
+Summary: Set of all the components of an interactive system that provide information and controls for the user to accomplish specific tasks with the interactive system.
+
+# User Interface
+
+## 1 Definition
+
+Set of all the components of an interactive system that provide information and controls for the User to accomplish specific tasks with the interactive system.
+
+### Notes
+
+### Examples
+
+### Sources
+- ISO 9241-110:2020, 3.10
+
+---
+
+# Validation
+URL: https://ceos-org.github.io/eo-glossary/terms/validation
+Tags: core
+Summary: Process of assessing, by independent means, the quality of the data products derived from the system outputs.
+
+# Validation
+
+## 1 Definition
+
+Process of assessing, by independent means, the quality of the data products derived from the system outputs.
+
+### Notes
+- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.
+
+### Examples
+
+### Sources
+- ISO/TS 19101‑2:2008, 4.41
+
+___
+
+## 2 Definition
+
+Process aimed at verifying that the specified requirements are achieved or compliant. Involves comparing mission products with representative reference data, considering various observation conditions, ensuring the quality and traceability of the reference data used.
+
+### Notes
+- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.
+
+### Examples
+
+### Sources
+- BIPM; QA4EO; ESA?, modified
+
+___
+
+## 3 Definition
+
+Assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. Often involves acceptance and suitability with external customers.
+
+### Notes
+- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.
+
+### Examples
+
+### Sources
+- EU-US Land Imaging EO Collaboration
+
+---
+
+# Value
+URL: https://ceos-org.github.io/eo-glossary/terms/value
+Tags: base
+Summary: Element of a type domain.
+
+# Value
+
+## 1 Definition
+
+Element of a type domain.
+
+### Notes
+- A Value may consider a possible state of an object within a class or type (domain).
+- A data value is an instance of a data type, a value without identity.
+
+### Examples
+
+### Sources
+- ISO/IEC 19501:2005, 0000_5
+
+---
+
+# Verification
+URL: https://ceos-org.github.io/eo-glossary/terms/verification
+Tags: core
+Summary: Provision of objective evidence that a given item fulfils specified requirements.
+
+# Verification
+
+## 1 Definition
+
+Provision of objective evidence that a given item fulfils specified requirements.
+
+### Notes
+- When applicable, measurement uncertainty should be taken into consideration.
+- The item may be, e.g. a Process, measurement procedure, material, compound, or measuring system.
+- The specified requirements may be, e.g. that a manufacturer's specifications are met.
+- Verification should not be confused with Calibration. Not every verification is a Validation.
+
+### Examples
+
+### Sources
+- ISO/IEC Guide 99:2007, 2.44
+
+___
+
+## 2 Definition
+
+Evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. Often an internal Process.
+
+### Notes
+
+### Examples
+
+### Sources
+- EU-US Land Imaging EO Collaboration
+
+___
+
+## 3 Definition
+
+Means to evaluate the reliability of the data in the absence of a reference dataset, allowing for an assessment of its standalone performance. Involves confirming the consistency and internal coherence of the data without direct comparison to external reference sources.
+
+### Notes
+
+### Examples
+
+### Sources
+- KCEO
+
+---
+
+# Version Control
+URL: https://ceos-org.github.io/eo-glossary/terms/version_control
+Tags: core
+Summary: Method of working with collections, similar to version control systems used in traditional software development but optimized to allow better processing of data and collaboration in data analytics and research contexts.
+
+# Version Control
+
+## 1 Definition
+
+Method of working with collections, similar to the version control systems used in traditional software development but optimized to allow better processing of data and collaboration in the context of data analytics, research, and any other form of data analysis.
+
+### Notes
+
+### Examples
+
+### Sources
+- [Wikipedia](https://en.wikipedia.org/wiki/Data_version_control)
+
+---
+
+# Vertical Levels
+URL: https://ceos-org.github.io/eo-glossary/terms/vertical_levels
+Tags: core
+Summary: Levels of a vertical discretization, e.g. pressure levels in an atmospheric model reanalysis or height levels in a forest biomass EO product.
+
+# Vertical Levels
+
+## 1 Definition
+
+Levels of a vertical discretization. Examples may be pressure levels in an atmospheric model reanalysis or height levels in a forest biomass EO product.
+
+### Notes
+
+### Examples
+
+| Entry format example                | Valid unit           |
+|------------------------------------|----------------------|
+| 1, 5, 10 meter; 1000, 850, 500 hPa | meter, hPa, unitless |
+
+### Sources
+- KCEO

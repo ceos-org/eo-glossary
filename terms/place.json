@@ -1,0 +1,17 @@
+{
+  "title": "Place",
+  "slug": "place",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/place",
+  "description": "Part of any space referenced by an identifier.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Part of any space referenced by an identifier.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO 19155:2012, 4.8"
+    }
+  ]
+}

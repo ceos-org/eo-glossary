@@ -1,0 +1,17 @@
+{
+  "title": "Policy Target",
+  "slug": "policy_target",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/policy_target",
+  "description": "Specific level or rate set for the Policy Objective.",
+  "tags": [
+    "high-impact"
+  ],
+  "definitions": [
+    {
+      "definition": "Specific level or rate set for the Policy Objective.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

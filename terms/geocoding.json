@@ -1,0 +1,17 @@
+{
+  "title": "Geocoding",
+  "slug": "geocoding",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geocoding",
+  "description": "Translation of one form of Location into another.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Translation of one form of Location into another.",
+      "notes": "- Geocoding usually refers to the translation of \"address\" or \"intersection\" to \"direct Position.\" Many service providers also include a \"reverse geocoding\" interface to their geocoder, thus extending the definition of the service as a general translator of Location. Because routing services use internal Location encodings not usually available to others, a geocoder is an integral part of the internals of such a service.",
+      "examples": "",
+      "sources": "- ISO 19133:2005; https://www.iso.org/standard/32551.html"
+    }
+  ]
+}

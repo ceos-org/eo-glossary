@@ -1,0 +1,17 @@
+{
+  "title": "Spectral Resolution",
+  "slug": "spectral_resolution",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/spectral_resolution",
+  "description": "Measure of the ability to resolve features in the electromagnetic spectrum.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Measure of the ability to resolve features in the electromagnetic spectrum.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

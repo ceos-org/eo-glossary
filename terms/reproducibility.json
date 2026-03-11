@@ -1,0 +1,17 @@
+{
+  "title": "Reproducibility",
+  "slug": "reproducibility",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/reproducibility",
+  "description": "Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Concerned with the validity of the results of a particular study, i.e., the possibility for readers to check whether results have been manipulated, by reproducing exactly the same study using the same data and methods.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Ostermann and Granell (2015)"
+    }
+  ]
+}

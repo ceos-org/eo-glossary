@@ -1,0 +1,17 @@
+{
+  "title": "Policy File",
+  "slug": "policy_file",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/policy_file",
+  "description": "Policy documents that represent the official written reference for a given Policy.",
+  "tags": [
+    "high-impact"
+  ],
+  "definitions": [
+    {
+      "definition": "Policy documents that represent the official written reference for a given Policy.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

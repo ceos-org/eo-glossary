@@ -1,0 +1,17 @@
+{
+  "title": "Trait",
+  "slug": "trait",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/trait",
+  "description": "Characteristic belonging to an entity and referenced by an identifier.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Characteristic belonging to an entity and referenced by an identifier.",
+      "notes": "- Traits can be objective (inherent?) in which case they are also observable and called properties. Traits which are not observable (directly or indirectly) need to be assigned.",
+      "examples": "",
+      "sources": "- Based on ISO 19143:2010, 4.21, ISO/IEC 2382:2015, 2121440, significantly modified, Note 1 added"
+    }
+  ]
+}

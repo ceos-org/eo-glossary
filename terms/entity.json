@@ -1,0 +1,23 @@
+{
+  "title": "Entity",
+  "slug": "entity",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/entity",
+  "description": "Something that has separate and distinct existence and objective or conceptual reality.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Something that has separate and distinct existence and objective or conceptual reality.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO 19119:2016, 4.1.6\n\n___"
+    },
+    {
+      "definition": "Government or business organization that is formed to conduct business or represent the government of the day.",
+      "notes": "",
+      "examples": "CEOS Entities include Working Groups, Virtual Constellations, etc.",
+      "sources": "- WGISS Shared Collection Lifecycle Management Principles for Earth Observation Data"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Feature",
+  "slug": "feature",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/feature",
+  "description": "Abstraction of real-world phenomena.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Abstraction of real-world phenomena.",
+      "notes": "- A feature may occur as a type or an instance.",
+      "examples": "",
+      "sources": "- ISO 19101-1:2014, 4.1.11, modified"
+    }
+  ]
+}

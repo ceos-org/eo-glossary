@@ -1,0 +1,17 @@
+{
+  "title": "Spectral Band",
+  "slug": "spectral_band",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/spectral_band",
+  "description": "Part of the electromagnetic spectrum of specific wavelengths, in remote sensing usually described by central wavelength and bandwidth.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Part of the electromagnetic spectrum of specific wavelengths. In Remote Sensing, usually described by central wavelength and bandwidth.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Timeliness",
+  "slug": "timeliness",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/timeliness",
+  "description": "Period between the moment of requesting information and the moment of availability of information.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Period between the moment of requesting information and the moment of availability of information.\n\n- Near Real-Time (NRT): delivered less than 3 hours after requesting information.\n- Slow-Time Critical (STC): delivered within 48 hours after requesting information.\n- Non-Time Critical (NTC): typically delivered within 1 month after requesting information.",
+      "notes": "- In some contexts also known as delivery time.\n- C3S URDB describes timeliness as \"the ability of the publish/subscribe middleware to provide the expected service within known time bounds\".",
+      "examples": "",
+      "sources": "- Adapted from ESA S3 User Guide"
+    }
+  ]
+}

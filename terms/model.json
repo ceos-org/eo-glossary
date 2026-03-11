@@ -1,0 +1,17 @@
+{
+  "title": "Model",
+  "slug": "model",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/model",
+  "description": "An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits.",
+  "tags": [
+    "controversial"
+  ],
+  "definitions": [
+    {
+      "definition": "An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits (as a result of pre-set conditions).",
+      "notes": "- The Process of generating Data using a model is called modelling.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

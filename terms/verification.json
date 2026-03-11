@@ -1,0 +1,29 @@
+{
+  "title": "Verification",
+  "slug": "verification",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/verification",
+  "description": "Provision of objective evidence that a given item fulfils specified requirements.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Provision of objective evidence that a given item fulfils specified requirements.",
+      "notes": "- When applicable, measurement uncertainty should be taken into consideration.\n- The item may be, e.g. a Process, measurement procedure, material, compound, or measuring system.\n- The specified requirements may be, e.g. that a manufacturer's specifications are met.\n- Verification should not be confused with Calibration. Not every verification is a Validation.",
+      "examples": "",
+      "sources": "- ISO/IEC Guide 99:2007, 2.44\n\n___"
+    },
+    {
+      "definition": "Evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. Often an internal Process.",
+      "notes": "",
+      "examples": "",
+      "sources": "- EU-US Land Imaging EO Collaboration\n\n___"
+    },
+    {
+      "definition": "Means to evaluate the reliability of the data in the absence of a reference dataset, allowing for an assessment of its standalone performance. Involves confirming the consistency and internal coherence of the data without direct comparison to external reference sources.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

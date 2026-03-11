@@ -1,0 +1,17 @@
+{
+  "title": "Preservation",
+  "slug": "preservation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/preservation",
+  "description": "Processes and operations used to ensure data technical and intellectual survival through time.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Processes and operations used to ensure data technical and intellectual survival through time.",
+      "notes": "- Grants data integrity, discoverability and accessibility, and facilitates its (re-)use in the long term.\n- Preservation is one of the tasks of data curation.",
+      "examples": "",
+      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Geographic Coordinate Reference System",
+  "slug": "geographic_coordinate_reference_system",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geographic_coordinate_reference_system",
+  "description": "Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.",
+      "notes": "- Also known as geographic CRS.",
+      "examples": "",
+      "sources": "- ISO 19111:2019, 3.1.35"
+    }
+  ]
+}

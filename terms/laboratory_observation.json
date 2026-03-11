@@ -1,0 +1,17 @@
+{
+  "title": "Laboratory Observation",
+  "slug": "laboratory_observation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/laboratory_observation",
+  "description": "Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.",
+      "notes": "- It is important to consider that Laboratory Observations are typically conducted in controlled conditions, allowing for isolation or alteration of the Object or Phenomenon from its natural environment or other systems.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

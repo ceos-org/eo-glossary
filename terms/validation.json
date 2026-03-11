@@ -1,0 +1,29 @@
+{
+  "title": "Validation",
+  "slug": "validation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/validation",
+  "description": "Process of assessing, by independent means, the quality of the data products derived from the system outputs.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Process of assessing, by independent means, the quality of the data products derived from the system outputs.",
+      "notes": "- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.",
+      "examples": "",
+      "sources": "- ISO/TS 19101‑2:2008, 4.41\n\n___"
+    },
+    {
+      "definition": "Process aimed at verifying that the specified requirements are achieved or compliant. Involves comparing mission products with representative reference data, considering various observation conditions, ensuring the quality and traceability of the reference data used.",
+      "notes": "- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.",
+      "examples": "",
+      "sources": "- BIPM; QA4EO; ESA?, modified\n\n___"
+    },
+    {
+      "definition": "Assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. Often involves acceptance and suitability with external customers.",
+      "notes": "- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.",
+      "examples": "",
+      "sources": "- EU-US Land Imaging EO Collaboration"
+    }
+  ]
+}

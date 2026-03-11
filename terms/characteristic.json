@@ -1,0 +1,24 @@
+{
+  "title": "Characteristic",
+  "slug": "characteristic",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/characteristic",
+  "description": "Distinguishing Feature of an object or entity, which can be inherent or assigned, and qualitative or quantitative.",
+  "tags": [
+    "base",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Distinguishing Feature.",
+      "notes": "- A Characteristic can be inherent or assigned.\n- A Characteristic can be qualitative or quantitative.\n- There are various classes of Characteristics, such as the following:\n  - physical (e.g. mechanical, electrical, chemical, biological);\n  - sensory (e.g. relating to smell, touch, taste, sight, hearing);\n  - behavioural (e.g. courtesy, honesty, veracity);\n  - temporal (e.g. punctuality, reliability, availability);\n  - ergonomic (e.g. physiological characteristic or related to human safety);\n  - functional (e.g. maximum speed of an aircraft).",
+      "examples": "",
+      "sources": "- ISO 9000:2005, 3.5.1\n\n___"
+    },
+    {
+      "definition": "Abstraction of a Property of an Object or of a set of objects.",
+      "notes": "- Characteristics are used for describing Concepts.",
+      "examples": "",
+      "sources": "- ISO 1087-1:2000, 3.2.4; ISO 19146:2010(E); https://www.iso.org/standard/20057.html"
+    }
+  ]
+}

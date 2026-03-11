@@ -1,0 +1,18 @@
+{
+  "title": "Classification System Levels",
+  "slug": "classification_system_levels",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/classification_system_levels",
+  "description": "Levels in a hierarchical Classification System.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Levels in a hierarchical Classification System.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

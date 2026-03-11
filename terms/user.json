@@ -1,0 +1,23 @@
+{
+  "title": "User",
+  "slug": "user",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/user",
+  "description": "Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "In the context of the KCEO, entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO\n\n___"
+    },
+    {
+      "definition": "External person, institution or system that consumes provided services.",
+      "notes": "- Includes Data Access or Science and Service Exploitation Platforms provided by a payload data ground segment.",
+      "examples": "",
+      "sources": "- EO Data Stewardship Glossary"
+    }
+  ]
+}

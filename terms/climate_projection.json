@@ -1,0 +1,18 @@
+{
+  "title": "Climate Projection",
+  "slug": "climate_projection",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/climate_projection",
+  "description": "Simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models. Climate Projections are distinguished from climate predictions by their dependence on the emission/concentration/radiative forcing scenario used, which is in turn based on assumptions concerning, for example, future socioeconomic and technological developments that may or may not be realised.",
+      "notes": "",
+      "examples": "",
+      "sources": "- IPCC"
+    }
+  ]
+}

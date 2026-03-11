@@ -1,0 +1,17 @@
+{
+  "title": "Earth Observation Based Output",
+  "slug": "earth_observation_based_output",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output",
+  "description": "Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing, often designed for policy or decision-making needs.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing. These outputs are often designed specifically for policy or decision-making needs, and can be categorized into sub-categories:\n\n- Outputs from models/model integration: use of EO products as inputs in numerical models or combining them with other data sources in modelling frameworks.\n- Indicator-based outputs: EO products transformed through specialized algorithms (including statistical methods, machine learning, and pattern recognition) to create meaningful metrics based on spatio-temporal analysis.\n- Outputs from reanalysis: merging of EO products with other observations and models, creating consistent long-term records of past atmospheric, oceanic, and land surface conditions, and filling gaps through data assimilation techniques.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

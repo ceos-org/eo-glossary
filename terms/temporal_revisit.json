@@ -1,0 +1,17 @@
+{
+  "title": "Temporal Revisit",
+  "slug": "temporal_revisit",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/temporal_revisit",
+  "description": "Interval between successive observations.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Interval between successive observations.",
+      "notes": "- In Remote Sensing it is also called repeat cycle.\n- More generally it is known as temporal sampling interval.",
+      "examples": "| Entry format example | Valid unit                     |\n|----------------------|-------------------------------|\n| 1 s, 2 h             | second, hour, day, month, year |",
+      "sources": "- KCEO"
+    }
+  ]
+}

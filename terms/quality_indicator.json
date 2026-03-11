@@ -1,0 +1,17 @@
+{
+  "title": "Quality Indicator",
+  "slug": "quality_indicator",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/quality_indicator",
+  "description": "Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product. May be a number, set of numbers, graph, Uncertainty budget, or a simple flag.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS Wiki"
+    }
+  ]
+}

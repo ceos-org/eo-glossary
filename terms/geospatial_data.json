@@ -1,0 +1,17 @@
+{
+  "title": "Geospatial Data",
+  "slug": "geospatial_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geospatial_data",
+  "description": "Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.",
+      "notes": "",
+      "examples": "",
+      "sources": "- https://www.merriam-webster.com/dictionary/geospatial\n- https://isotc211.geolexica.org/Concepts/202/, accessed 20221010"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Accuracy",
+  "slug": "accuracy",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/accuracy",
+  "description": "Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.",
+      "notes": "- In essence, Accuracy reflects how close measurements are to the accepted Value, while precision gauges the reliability and consistency of those measurements.",
+      "examples": "",
+      "sources": "- BS ISO 5725-1"
+    }
+  ]
+}

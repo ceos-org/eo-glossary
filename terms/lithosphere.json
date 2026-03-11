@@ -1,0 +1,17 @@
+{
+  "title": "Lithosphere",
+  "slug": "lithosphere",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/lithosphere",
+  "description": "The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, includes soils ('pedosphere').",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, the Lithosphere is considered to include soils ('pedosphere').",
+      "notes": "",
+      "examples": "",
+      "sources": "- Guth et al. 2021"
+    }
+  ]
+}

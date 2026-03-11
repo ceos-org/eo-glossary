@@ -1,0 +1,18 @@
+{
+  "title": "Cell",
+  "slug": "cell",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/cell",
+  "description": "Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone.",
+      "notes": "- Cells are the unit of geometry in a DGGS, and the geometry of the region of space-time occupied by a zone is a Cell.",
+      "examples": "",
+      "sources": "- ISO 19170:2021"
+    }
+  ]
+}

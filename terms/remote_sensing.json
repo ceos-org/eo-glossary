@@ -1,0 +1,17 @@
+{
+  "title": "Remote Sensing",
+  "slug": "remote_sensing",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/remote_sensing",
+  "description": "Type of Observation performed at a significant distance from a Phenomenon.",
+  "tags": [
+    "controversial"
+  ],
+  "definitions": [
+    {
+      "definition": "Type of Observation performed at a significant distance from a Phenomenon.",
+      "notes": "- 'Significant' in this context means that the distance has, or may have, a non-negligible impact on the Value of the Property observed.\n- The effect of the distance on the acquired data is the main distinction criterion between 'remote' and 'in-situ' observations.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

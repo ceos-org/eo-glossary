@@ -1,0 +1,17 @@
+{
+  "title": "Forecast Range",
+  "slug": "forecast_range",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/forecast_range",
+  "description": "The forecast period.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "The forecast period.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Location Error",
+  "slug": "location_error",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/location_error",
+  "description": "Measure of the agreement between the represented Location of an Object and the true Location.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Measure of the agreement between the represented Location of an Object and the true Location.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

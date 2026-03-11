@@ -1,0 +1,23 @@
+{
+  "title": "Reference",
+  "slug": "reference",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/reference",
+  "description": "Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower than that of the Observation with which it is compared.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower (quantify?) than that of the Observation with which it is compared.",
+      "notes": "",
+      "examples": "",
+      "sources": "___"
+    },
+    {
+      "definition": "Sort of data acquired with an Uncertainty significantly lower (quantify?) than that of the data it is being compared with.",
+      "notes": "",
+      "examples": "",
+      "sources": "- VIM?, modified"
+    }
+  ]
+}

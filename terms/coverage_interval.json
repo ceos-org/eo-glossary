@@ -1,0 +1,18 @@
+{
+  "title": "Coverage Interval",
+  "slug": "coverage_interval",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/coverage_interval",
+  "description": "Range or specific subset of values associated with a coverage dataset.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Range or specific subset of values associated with a coverage dataset.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

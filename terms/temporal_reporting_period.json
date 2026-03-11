@@ -1,0 +1,17 @@
+{
+  "title": "Temporal Reporting Period",
+  "slug": "temporal_reporting_period",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/temporal_reporting_period",
+  "description": "Time period used for reporting and for which the information should be aggregated from the native temporal resolution.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Time Period used for reporting and for which the information should be aggregated from the native Temporal Resolution.",
+      "notes": "",
+      "examples": "| Entry format example | Valid unit                     |\n|----------------------|-------------------------------|\n| 1 s, 2 h, 1 d        | second, hour, day, month, year |",
+      "sources": "- Modified WIGOS Metadata Standard 2019"
+    }
+  ]
+}

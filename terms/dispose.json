@@ -1,0 +1,17 @@
+{
+  "title": "Dispose",
+  "slug": "dispose",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/dispose",
+  "description": "Action of permanently and irrecoverably removing all copies of data held by an organization.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Action of permanently and irrecoverably removing all copies of data held by an organization.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

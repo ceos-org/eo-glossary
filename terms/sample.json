@@ -1,0 +1,17 @@
+{
+  "title": "Sample",
+  "slug": "sample",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/sample",
+  "description": "Subset of one or more entities.",
+  "tags": [
+    "controversial"
+  ],
+  "definitions": [
+    {
+      "definition": "Subset of one or more entities.",
+      "notes": "- A Sample may be spatial, temporal, spectral, or in any other dimension or Trait.\n- Each Sample is contiguous, i.e. it does not consist of more than one discontinuous geometry in any dimension.\n- The Process of obtaining a Sample is called sampling.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

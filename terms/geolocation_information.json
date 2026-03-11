@@ -1,0 +1,17 @@
+{
+  "title": "Geolocation Information",
+  "slug": "geolocation_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geolocation_information",
+  "description": "Information used to determine geographic Location.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Information used to determine geographic Location.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO 19130-1:2018, 3.34"
+    }
+  ]
+}

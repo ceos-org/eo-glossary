@@ -1,0 +1,17 @@
+{
+  "title": "Earth Observation Product",
+  "slug": "earth_observation_product",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/earth_observation_product",
+  "description": "Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables. These products demonstrate direct Traceability to original satellite measurements through rigorous Calibration and Validation processes. The processing methodology prioritizes the conversion of raw sensor data into quantifiable physical measurements, maintaining strict adherence to standardized processing protocols and Validation requirements.",
+      "notes": "",
+      "examples": "- Soil moisture from microwave sensors\n- Forest canopy height from LiDAR data",
+      "sources": "- KCEO"
+    }
+  ]
+}

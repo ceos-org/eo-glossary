@@ -1,0 +1,17 @@
+{
+  "title": "Traceability",
+  "slug": "traceability",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/traceability",
+  "description": "Property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations each contributing to the measurement uncertainty.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Property of a measurement result whereby the result can be related to a Reference through a documented unbroken chain of calibrations, each contributing to the measurement uncertainty.",
+      "notes": "",
+      "examples": "",
+      "sources": "- https://www.isobudgets.com/Measurement-traceability-complying-iso-17025-requirements/"
+    }
+  ]
+}

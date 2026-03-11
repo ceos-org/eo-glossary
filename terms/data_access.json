@@ -1,0 +1,17 @@
+{
+  "title": "Data Access",
+  "slug": "data_access",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_access",
+  "description": "Service to disseminate Data.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Service to disseminate Data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

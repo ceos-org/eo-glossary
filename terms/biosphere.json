@@ -1,0 +1,18 @@
+{
+  "title": "Biosphere",
+  "slug": "biosphere",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/biosphere",
+  "description": "Masses of living organisms, such as vegetation and animals, including dead but still connected parts such as roots, trunks or branches.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Masses of living organisms, such as vegetation and animals, including dead but still connected parts such as roots, trunks or branches.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Guth et al. 2021"
+    }
+  ]
+}

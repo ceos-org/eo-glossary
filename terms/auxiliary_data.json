@@ -1,0 +1,30 @@
+{
+  "title": "Auxiliary Data",
+  "slug": "auxiliary_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/auxiliary_data",
+  "description": "Data that enhance the processing and utilisation of main Sensor Data, usually not captured by the same Data collection Process or on the same platform as the main Sensor Data.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Data that enhance the processing and utilisation of main Sensor Data. Auxiliary Data are usually not captured by the same Data collection Process or on the same platform as the main Sensor Data. Examples include meteorological Data received from ECMWF/Met Offices or DEMs. Auxiliary Data help in Data processing, but are also Data sets in their own right.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ESA/CEOS?, modified\n- ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624\n- EO Data Stewardship Glossary\n\n___"
+    },
+    {
+      "definition": "Data required to perform processing of Sensor Data which is not obtained from the Sensor itself. Includes: (a) Data provided by the spacecraft (e.g. orbit Position and velocity, attitude, instrument house-keeping Data, on-board time); (b) Data not available from on-board sources.",
+      "notes": "For EnMAP, this includes (a) orbit files, attitude files, Calibration Data, instrument house-keeping Data; (b) atmospheric parameters, reference images.",
+      "examples": "",
+      "sources": "- ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624\n- EO Data Stewardship Glossary\n\n___"
+    },
+    {
+      "definition": "Data required for instrument processing that does not originate in the instrument itself or from the satellite. Some Auxiliary Data will be generated in the ground segment, whilst other Data will be provided from external sources.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS-ARD PFS template 20220302"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Spatial Reporting Unit",
+  "slug": "spatial_reporting_unit",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit",
+  "description": "Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.",
+      "notes": "- WIGOS 2019 uses 'spatial reporting interval', probably assuming observations are reported on a grid with regular spacing/intervals.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

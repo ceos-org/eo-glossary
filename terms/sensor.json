@@ -1,0 +1,17 @@
+{
+  "title": "Sensor",
+  "slug": "sensor",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/sensor",
+  "description": "Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.",
+      "notes": "- Sensing is therefore a synonym for Observation (the Process).\n- As by their definition, sensors perform sampling.\n- Sensors used to obtain measurements must be calibrated and provide uncertainties.",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

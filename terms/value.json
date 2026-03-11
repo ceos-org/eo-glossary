@@ -1,0 +1,17 @@
+{
+  "title": "Value",
+  "slug": "value",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/value",
+  "description": "Element of a type domain.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Element of a type domain.",
+      "notes": "- A Value may consider a possible state of an object within a class or type (domain).\n- A data value is an instance of a data type, a value without identity.",
+      "examples": "",
+      "sources": "- ISO/IEC 19501:2005, 0000_5"
+    }
+  ]
+}

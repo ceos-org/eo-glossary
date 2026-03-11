@@ -1,0 +1,18 @@
+{
+  "title": "Copernicus Service Provider",
+  "slug": "copernicus_service_provider",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/copernicus_service_provider",
+  "description": "Institutional body, organisation or programme that provides reliable, trusted EO Information and has the financial resources to sustain the provision.",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Institutional body, organisation or programme that provides reliable, trusted (authoritative?) EO Information and that has the financial resources to sustain the provision. It utilises satellite Data, ground-based measurements, and other sources to generate accurate and timely Data products related to various aspects of the Earth's environment, such as land, Atmosphere, oceans, and climate.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

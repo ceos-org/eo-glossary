@@ -1,0 +1,17 @@
+{
+  "title": "Property",
+  "slug": "property",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/property",
+  "description": "Observable Trait.",
+  "tags": [
+    "base"
+  ],
+  "definitions": [
+    {
+      "definition": "Observable Trait.",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

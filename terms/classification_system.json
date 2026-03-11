@@ -1,0 +1,18 @@
+{
+  "title": "Classification System",
+  "slug": "classification_system",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/classification_system",
+  "description": "Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).",
+  "tags": [
+    "core",
+    "approved"
+  ],
+  "definitions": [
+    {
+      "definition": "Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).",
+      "notes": "",
+      "examples": "",
+      "sources": "- KCEO"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Geolocating",
+  "slug": "geolocating",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geolocating",
+  "description": "Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO 19115-2:2009, 4.11\n\n___"
+    },
+    {
+      "definition": "Determination of the geographic location of a feature of two or more dimensions.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO 19130-1:2018, 3.36 ('geopositioning'), modified"
+    }
+  ]
+}

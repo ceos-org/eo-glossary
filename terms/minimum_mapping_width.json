@@ -1,0 +1,17 @@
+{
+  "title": "Minimum Mapping Width",
+  "slug": "minimum_mapping_width",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_width",
+  "description": "The width of the smallest linear Feature that is still represented on a map.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "The width of the smallest linear Feature that is still represented on a map.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CGLS"
+    }
+  ]
+}

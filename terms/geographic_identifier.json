@@ -1,0 +1,17 @@
+{
+  "title": "Geographic Identifier",
+  "slug": "geographic_identifier",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geographic_identifier",
+  "description": "Spatial reference in the form of a label or code that identifies a Location.",
+  "tags": [
+    "core"
+  ],
+  "definitions": [
+    {
+      "definition": "Spatial reference in the form of a label or code that identifies a Location.",
+      "notes": "",
+      "examples": "- \"Spain\" is an example of a label (country name); \"SW1-3AD\" is an example of a code (postcode).",
+      "sources": "- ISO 19112:2019, 3.1.2"
+    }
+  ]
+}
