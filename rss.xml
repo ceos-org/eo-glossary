@@ -5,7 +5,7 @@
     <link>https://ceos-org.github.io/eo-glossary/</link>
     <description>Community thesaurus of terms and definitions for Earth Observation sciences, maintained by CEOS and the EC Knowledge Centre for Earth Observation (KCEO).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Mar 2026 12:57:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 13:07:14 GMT</lastBuildDate>
     <atom:link href="https://ceos-org.github.io/eo-glossary/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://ceos-org.github.io/eo-glossary/assets/og-banner.svg</url>
@@ -14,1061 +14,1061 @@
     </image>
     <dc:creator>CEOS &amp; EC KCEO</dc:creator>
     <item>
-      <title>Temporal Extent</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_extent</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_extent</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Period during which data was collected, observations were made, or for which the model was run.</description>
-    </item>
-    <item>
-      <title>Temporal Reporting Period</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_reporting_period</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_reporting_period</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Time period used for reporting and for which the information should be aggregated from the native temporal resolution.</description>
-    </item>
-    <item>
-      <title>Temporal Resolution</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_resolution</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_resolution</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Observation or model output representing regular intervals, specifying the length of the interval that determines the smallest event or process that can be resolved.</description>
-    </item>
-    <item>
-      <title>Temporal Revisit</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_revisit</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_revisit</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Interval between successive observations.</description>
-    </item>
-    <item>
-      <title>Thematic Resolution</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/thematic_resolution</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/thematic_resolution</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Level of categorical detail of information expressed by the number of classes.</description>
-    </item>
-    <item>
-      <title>Thematic Uncertainty</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/thematic_uncertainty</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/thematic_uncertainty</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Uncertainty associated with the method of classification.</description>
-    </item>
-    <item>
-      <title>Time of Day</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/time_of_day</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/time_of_day</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Time of the day at which the variable or parameter is observed or simulated by a model.</description>
-    </item>
-    <item>
-      <title>Time of Year</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/time_of_year</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/time_of_year</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Time of the year at which the variable is observed or simulated by a model.</description>
-    </item>
-    <item>
-      <title>Timeliness</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/timeliness</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/timeliness</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Period between the moment of requesting information and the moment of availability of information.</description>
-    </item>
-    <item>
-      <title>Tolerance</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/tolerance</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/tolerance</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>&quot;</description>
-    </item>
-    <item>
-      <title>Traceability</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/traceability</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/traceability</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations each contributing to the measurement uncertainty.</description>
-    </item>
-    <item>
-      <title>Trait</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/trait</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/trait</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Characteristic belonging to an entity and referenced by an identifier.</description>
-    </item>
-    <item>
-      <title>Uncertainty</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/uncertainty</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/uncertainty</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.</description>
-    </item>
-    <item>
-      <title>Update Frequency</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/update_frequency</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/update_frequency</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Frequency at which the product is available to users.</description>
-    </item>
-    <item>
-      <title>User</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/user</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/user</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.</description>
-    </item>
-    <item>
-      <title>User Interface</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/user_interface</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/user_interface</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Set of all the components of an interactive system that provide information and controls for the user to accomplish specific tasks with the interactive system.</description>
-    </item>
-    <item>
-      <title>Validation</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/validation</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/validation</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Process of assessing, by independent means, the quality of the data products derived from the system outputs.</description>
-    </item>
-    <item>
-      <title>Value</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/value</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/value</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Element of a type domain.</description>
-    </item>
-    <item>
-      <title>Verification</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/verification</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/verification</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Provision of objective evidence that a given item fulfils specified requirements.</description>
-    </item>
-    <item>
-      <title>Version Control</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/version_control</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/version_control</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Method of working with collections, similar to version control systems used in traditional software development but optimized to allow better processing of data and collaboration in data analytics and research contexts.</description>
-    </item>
-    <item>
-      <title>Vertical Levels</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/vertical_levels</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/vertical_levels</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Levels of a vertical discretization, e.g. pressure levels in an atmospheric model reanalysis or height levels in a forest biomass EO product.</description>
-    </item>
-    <item>
-      <title>Replicability</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/replicability</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/replicability</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.</description>
-    </item>
-    <item>
-      <title>Representativeness</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/representativeness</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/representativeness</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Quality or characteristic of a measurement or observation to accurately represent a specific geographic location, time period, or environmental condition.</description>
-    </item>
-    <item>
-      <title>Reproducibility</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/reproducibility</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/reproducibility</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.</description>
-    </item>
-    <item>
-      <title>Resolution</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/resolution</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/resolution</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>&quot;</description>
-    </item>
-    <item>
-      <title>Sample</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/sample</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/sample</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Subset of one or more entities.</description>
-    </item>
-    <item>
-      <title>Sensor</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/sensor</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/sensor</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.</description>
-    </item>
-    <item>
-      <title>Source Data</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/source_data</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/source_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Data required for production of an EO Collection (e.g., unenhanced satellite mission data) as well as further processed Level-1 data, or any other pre-processed format meeting program requirements.</description>
-    </item>
-    <item>
-      <title>Spatial Completeness</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_completeness</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_completeness</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.</description>
-    </item>
-    <item>
-      <title>Spatial Consistency</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_consistency</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_consistency</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.</description>
-    </item>
-    <item>
-      <title>Spatial Extent</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_extent</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_extent</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box, representing the maximum spatial boundary within which the user is requesting data.</description>
-    </item>
-    <item>
-      <title>Spatial Reporting Unit</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.</description>
-    </item>
-    <item>
-      <title>Spatial Resolution</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_resolution</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_resolution</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>'</description>
-    </item>
-    <item>
-      <title>Spectral Band</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spectral_band</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spectral_band</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Part of the electromagnetic spectrum of specific wavelengths, in remote sensing usually described by central wavelength and bandwidth.</description>
-    </item>
-    <item>
-      <title>Spectral Bandwidth</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spectral_bandwidth</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spectral_bandwidth</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Range of the Spectral Band.</description>
-    </item>
-    <item>
-      <title>Spectral Resolution</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/spectral_resolution</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spectral_resolution</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Measure of the ability to resolve features in the electromagnetic spectrum.</description>
-    </item>
-    <item>
-      <title>Stability</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/stability</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/stability</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Maximum acceptable change in Uncertainty per decade.</description>
-    </item>
-    <item>
-      <title>Standard Uncertainty</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/standard_uncertainty</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/standard_uncertainty</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.</description>
-    </item>
-    <item>
       <title>Steward</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/steward</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/steward</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.</description>
     </item>
     <item>
       <title>Temporal Consistency</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/temporal_consistency</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_consistency</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Condition where the temporal statistical properties of the sample depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.</description>
     </item>
     <item>
-      <title>Obsolete Product or Collection</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/obsolete_product_or_collection</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/obsolete_product_or_collection</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Products or collections which have been superseded by later versions of a product or collection.</description>
+      <title>Temporal Extent</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_extent</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_extent</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Period during which data was collected, observations were made, or for which the model was run.</description>
     </item>
     <item>
-      <title>Outcome</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/outcome</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/outcome</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <title>Temporal Reporting Period</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_reporting_period</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_reporting_period</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Time period used for reporting and for which the information should be aggregated from the native temporal resolution.</description>
+    </item>
+    <item>
+      <title>Temporal Resolution</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_resolution</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_resolution</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Observation or model output representing regular intervals, specifying the length of the interval that determines the smallest event or process that can be resolved.</description>
+    </item>
+    <item>
+      <title>Temporal Revisit</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/temporal_revisit</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/temporal_revisit</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Interval between successive observations.</description>
+    </item>
+    <item>
+      <title>Thematic Resolution</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/thematic_resolution</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/thematic_resolution</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Level of categorical detail of information expressed by the number of classes.</description>
+    </item>
+    <item>
+      <title>Thematic Uncertainty</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/thematic_uncertainty</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/thematic_uncertainty</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Uncertainty associated with the method of classification.</description>
+    </item>
+    <item>
+      <title>Time of Day</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/time_of_day</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/time_of_day</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Time of the day at which the variable or parameter is observed or simulated by a model.</description>
+    </item>
+    <item>
+      <title>Time of Year</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/time_of_year</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/time_of_year</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Time of the year at which the variable is observed or simulated by a model.</description>
+    </item>
+    <item>
+      <title>Timeliness</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/timeliness</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/timeliness</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Period between the moment of requesting information and the moment of availability of information.</description>
+    </item>
+    <item>
+      <title>Tolerance</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/tolerance</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/tolerance</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
-      <title>Path</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/path</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/path</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).</description>
+      <title>Traceability</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/traceability</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/traceability</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations each contributing to the measurement uncertainty.</description>
     </item>
     <item>
-      <title>Period</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/period</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/period</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Particular era or span of time.</description>
+      <title>Trait</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/trait</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/trait</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Characteristic belonging to an entity and referenced by an identifier.</description>
     </item>
     <item>
-      <title>Period Identifier</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/period_identifier</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/period_identifier</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Temporal reference in the form of a label or code that identifies a Period.</description>
+      <title>Uncertainty</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/uncertainty</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/uncertainty</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.</description>
     </item>
     <item>
-      <title>Phenomenon</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/phenomenon</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/phenomenon</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Entity with at least one Property referenced by an identifier.</description>
+      <title>Update Frequency</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/update_frequency</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/update_frequency</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Frequency at which the product is available to users.</description>
     </item>
     <item>
-      <title>Place</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/place</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/place</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Part of any space referenced by an identifier.</description>
+      <title>User</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/user</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/user</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.</description>
     </item>
     <item>
-      <title>Policy</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/policy</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Deliberate system of guidelines to guide decisions and achieve rational outcomes, implemented as a procedure or protocol and typically promulgated through official written documents.</description>
+      <title>User Interface</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/user_interface</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/user_interface</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Set of all the components of an interactive system that provide information and controls for the user to accomplish specific tasks with the interactive system.</description>
     </item>
     <item>
-      <title>Policy Cycle</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/policy_cycle</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_cycle</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Well-established concept typically taught as the rational model of policy decision-making, representing an idealised view of the policy process.</description>
+      <title>Validation</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/validation</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/validation</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Process of assessing, by independent means, the quality of the data products derived from the system outputs.</description>
     </item>
     <item>
-      <title>Policy File</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/policy_file</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_file</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Policy documents that represent the official written reference for a given Policy.</description>
+      <title>Value</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/value</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/value</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Element of a type domain.</description>
     </item>
     <item>
-      <title>Policy Making</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/policy_making</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_making</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Process by which governments translate their political vision into programmes and actions to deliver outcomes — desired change in the real world.</description>
+      <title>Verification</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/verification</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/verification</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Provision of objective evidence that a given item fulfils specified requirements.</description>
     </item>
     <item>
-      <title>Policy Milestone</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/policy_milestone</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_milestone</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Markers of significant progress in addressing specific issues, or crucial decision points where significant choices are made within a policy process.</description>
+      <title>Version Control</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/version_control</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/version_control</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Method of working with collections, similar to version control systems used in traditional software development but optimized to allow better processing of data and collaboration in data analytics and research contexts.</description>
     </item>
     <item>
-      <title>Policy Objective</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/policy_objective</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_objective</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Desired outcome that policymakers wish to achieve.</description>
-    </item>
-    <item>
-      <title>Policy Target</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/policy_target</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_target</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Specific level or rate set for the Policy Objective.</description>
-    </item>
-    <item>
-      <title>Position</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/position</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/position</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Place referenced by a single set of coordinates within a coordinate reference system.</description>
-    </item>
-    <item>
-      <title>Preservation</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/preservation</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/preservation</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Processes and operations used to ensure data technical and intellectual survival through time.</description>
-    </item>
-    <item>
-      <title>Process</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/process</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/process</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Series of activities that interact to produce a result.</description>
+      <title>Vertical Levels</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/vertical_levels</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/vertical_levels</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Levels of a vertical discretization, e.g. pressure levels in an atmospheric model reanalysis or height levels in a forest biomass EO product.</description>
     </item>
     <item>
       <title>Product</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/product</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/product</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.</description>
     </item>
     <item>
       <title>Property</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/property</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/property</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Observable Trait.</description>
     </item>
     <item>
       <title>Provisional Product</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/provisional_product</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/provisional_product</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Products in a research and development phase not yet published into a standardized collection.</description>
     </item>
     <item>
       <title>Quality Indicator</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/quality_indicator</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/quality_indicator</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product.</description>
     </item>
     <item>
       <title>Quantity</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/quantity</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/quantity</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.</description>
     </item>
     <item>
       <title>Reference</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/reference</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/reference</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower than that of the Observation with which it is compared.</description>
     </item>
     <item>
       <title>Remote Sensing</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/remote_sensing</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/remote_sensing</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Type of Observation performed at a significant distance from a Phenomenon.</description>
     </item>
     <item>
-      <title>Geospatial Data</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/geospatial_data</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geospatial_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.</description>
+      <title>Replicability</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/replicability</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/replicability</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.</description>
     </item>
     <item>
-      <title>Geosphere</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/geosphere</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geosphere</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>The masses of minerals that constitute planet Earth.</description>
+      <title>Representativeness</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/representativeness</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/representativeness</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Quality or characteristic of a measurement or observation to accurately represent a specific geographic location, time period, or environmental condition.</description>
     </item>
     <item>
-      <title>Granule</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/granule</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/granule</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable).</description>
+      <title>Reproducibility</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/reproducibility</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/reproducibility</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.</description>
     </item>
     <item>
-      <title>Grid</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/grid</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/grid</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.</description>
+      <title>Resolution</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/resolution</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/resolution</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>&quot;</description>
     </item>
     <item>
-      <title>Hydrosphere</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/hydrosphere</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/hydrosphere</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>The masses of liquid water, such as oceans, lakes, and rivers.</description>
+      <title>Sample</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/sample</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/sample</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Subset of one or more entities.</description>
     </item>
     <item>
-      <title>Impact</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/impact</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/impact</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.</description>
+      <title>Sensor</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/sensor</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/sensor</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.</description>
     </item>
     <item>
-      <title>In-Situ Observation</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/in-situ_observation</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/in-situ_observation</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems or altering its pre-Observation state.</description>
+      <title>Source Data</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/source_data</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/source_data</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Data required for production of an EO Collection (e.g., unenhanced satellite mission data) as well as further processed Level-1 data, or any other pre-processed format meeting program requirements.</description>
     </item>
     <item>
-      <title>Information</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/information</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/information</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.</description>
+      <title>Spatial Completeness</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_completeness</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_completeness</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.</description>
     </item>
     <item>
-      <title>Instrument Data</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/instrument_data</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/instrument_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Data specifically associated with the instrument, either because it was generated by the instrument or included in data packets identified with that instrument.</description>
+      <title>Spatial Consistency</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_consistency</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_consistency</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.</description>
     </item>
     <item>
-      <title>Laboratory Observation</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/laboratory_observation</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/laboratory_observation</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.</description>
+      <title>Spatial Extent</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_extent</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_extent</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box, representing the maximum spatial boundary within which the user is requesting data.</description>
     </item>
     <item>
-      <title>Latency</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/latency</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/latency</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Period between the end of sensing of a Phenomenon to the beginning of availability of a specific product.</description>
+      <title>Spatial Reporting Unit</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.</description>
     </item>
     <item>
-      <title>Lead Time</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/lead_time</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/lead_time</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Minimum time of interval between an Observation being tasked and being performed.</description>
+      <title>Spatial Resolution</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spatial_resolution</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spatial_resolution</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>'</description>
     </item>
     <item>
-      <title>Lithosphere</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/lithosphere</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/lithosphere</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, includes soils ('pedosphere').</description>
+      <title>Spectral Band</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spectral_band</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spectral_band</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Part of the electromagnetic spectrum of specific wavelengths, in remote sensing usually described by central wavelength and bandwidth.</description>
     </item>
     <item>
-      <title>Location</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/location</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/location</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Particular Place referenced by an identifier.</description>
+      <title>Spectral Bandwidth</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spectral_bandwidth</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spectral_bandwidth</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Range of the Spectral Band.</description>
     </item>
     <item>
-      <title>Location Error</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/location_error</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/location_error</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Measure of the agreement between the represented Location of an Object and the true Location.</description>
+      <title>Spectral Resolution</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/spectral_resolution</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/spectral_resolution</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Measure of the ability to resolve features in the electromagnetic spectrum.</description>
     </item>
     <item>
-      <title>Long Term Preservation</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/long_term_preservation</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/long_term_preservation</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>The act of maintaining information in a correct and independently understandable form over the long term.</description>
+      <title>Stability</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/stability</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/stability</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Maximum acceptable change in Uncertainty per decade.</description>
     </item>
     <item>
-      <title>Measurand</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/measurand</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/measurand</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Particular Quantity subject to Measurement.</description>
+      <title>Standard Uncertainty</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/standard_uncertainty</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/standard_uncertainty</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.</description>
     </item>
     <item>
       <title>Measurement</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/measurement</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/measurement</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Observation of a Quantity.</description>
     </item>
     <item>
       <title>Measurement Uncertainty</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/measurement_uncertainty</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/measurement_uncertainty</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Uncertainty associated with the method of Measurement.</description>
     </item>
     <item>
       <title>Metadata</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/metadata</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/metadata</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Data describing other data, providing an understanding of the content and utility of a product or collection.</description>
     </item>
     <item>
       <title>Minimum Mapping Unit</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_unit</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_unit</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>The area of the smallest Feature that is still represented on a map.</description>
     </item>
     <item>
       <title>Minimum Mapping Width</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_width</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_width</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>The width of the smallest linear Feature that is still represented on a map.</description>
     </item>
     <item>
       <title>Model</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/model</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/model</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits.</description>
     </item>
     <item>
       <title>Near Real Time Data</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/near_real_time_data</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/near_real_time_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.</description>
     </item>
     <item>
       <title>Object</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/object</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/object</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Entity with a well-defined boundary and identity that encapsulates state and behaviour.</description>
     </item>
     <item>
       <title>Observation</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/observation</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/observation</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.</description>
     </item>
     <item>
-      <title>Deprecated Product</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/deprecated_product</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/deprecated_product</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future.</description>
+      <title>Obsolete Product or Collection</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/obsolete_product_or_collection</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/obsolete_product_or_collection</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Products or collections which have been superseded by later versions of a product or collection.</description>
     </item>
     <item>
-      <title>Derivative Product</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/derivative_product</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/derivative_product</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Product additionally processed from baseline or unenhanced mission data.</description>
-    </item>
-    <item>
-      <title>Dispose</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/dispose</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/dispose</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Action of permanently and irrecoverably removing all copies of data held by an organization.</description>
-    </item>
-    <item>
-      <title>Duration</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/duration</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/duration</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time interval.</description>
-    </item>
-    <item>
-      <title>Dwell Time</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/dwell_time</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/dwell_time</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Time that an antenna beam spends on a target.</description>
-    </item>
-    <item>
-      <title>Earth Observation</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/earth_observation</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_observation</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.</description>
-    </item>
-    <item>
-      <title>Earth Observation Based Output</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing, often designed for policy or decision-making needs.</description>
-    </item>
-    <item>
-      <title>Earth Observation Product</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/earth_observation_product</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_observation_product</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables.</description>
-    </item>
-    <item>
-      <title>Earth Spheres</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/earth_spheres</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_spheres</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.</description>
-    </item>
-    <item>
-      <title>Entity</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/entity</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/entity</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Something that has separate and distinct existence and objective or conceptual reality.</description>
-    </item>
-    <item>
-      <title>Environmental Process</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/environmental_process</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/environmental_process</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <title>Outcome</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/outcome</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/outcome</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
-      <title>EO Space Data</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/eo_space_data</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/eo_space_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Earth Observation data generated by spaceborne missions or instruments owned by public or private organizations.</description>
+      <title>Path</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/path</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/path</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).</description>
     </item>
     <item>
-      <title>Equivalence</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/equivalence</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/equivalence</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>&quot;</description>
+      <title>Period</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/period</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/period</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Particular era or span of time.</description>
     </item>
     <item>
-      <title>Expanded Uncertainty</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/expanded_uncertainty</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/expanded_uncertainty</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Standard Uncertainty multiplied by a coverage factor k, chosen to obtain a desired level of confidence.</description>
+      <title>Period Identifier</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/period_identifier</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/period_identifier</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Temporal reference in the form of a label or code that identifies a Period.</description>
     </item>
     <item>
-      <title>Feature</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/feature</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/feature</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Abstraction of real-world phenomena.</description>
+      <title>Phenomenon</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/phenomenon</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/phenomenon</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Entity with at least one Property referenced by an identifier.</description>
     </item>
     <item>
-      <title>Final Product Version</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/final_product_version</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/final_product_version</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Product within an EO Collection that is not expected to be updated.</description>
+      <title>Place</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/place</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/place</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Part of any space referenced by an identifier.</description>
+    </item>
+    <item>
+      <title>Policy</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/policy</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Deliberate system of guidelines to guide decisions and achieve rational outcomes, implemented as a procedure or protocol and typically promulgated through official written documents.</description>
+    </item>
+    <item>
+      <title>Policy Cycle</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/policy_cycle</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_cycle</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Well-established concept typically taught as the rational model of policy decision-making, representing an idealised view of the policy process.</description>
+    </item>
+    <item>
+      <title>Policy File</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/policy_file</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_file</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Policy documents that represent the official written reference for a given Policy.</description>
+    </item>
+    <item>
+      <title>Policy Making</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/policy_making</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_making</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Process by which governments translate their political vision into programmes and actions to deliver outcomes — desired change in the real world.</description>
+    </item>
+    <item>
+      <title>Policy Milestone</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/policy_milestone</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_milestone</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Markers of significant progress in addressing specific issues, or crucial decision points where significant choices are made within a policy process.</description>
+    </item>
+    <item>
+      <title>Policy Objective</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/policy_objective</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_objective</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Desired outcome that policymakers wish to achieve.</description>
+    </item>
+    <item>
+      <title>Policy Target</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/policy_target</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/policy_target</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Specific level or rate set for the Policy Objective.</description>
+    </item>
+    <item>
+      <title>Position</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/position</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/position</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Place referenced by a single set of coordinates within a coordinate reference system.</description>
+    </item>
+    <item>
+      <title>Preservation</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/preservation</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/preservation</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Processes and operations used to ensure data technical and intellectual survival through time.</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/process</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/process</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Series of activities that interact to produce a result.</description>
     </item>
     <item>
       <title>Forecast Range</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/forecast_range</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/forecast_range</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>The forecast period.</description>
     </item>
     <item>
       <title>Geocoding</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geocoding</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geocoding</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Translation of one form of Location into another.</description>
     </item>
     <item>
       <title>Geographic Coordinate Reference System</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geographic_coordinate_reference_system</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geographic_coordinate_reference_system</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.</description>
     </item>
     <item>
       <title>Geographic Data</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geographic_data</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geographic_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Data with implicit or explicit reference to a Location relative to the Earth.</description>
     </item>
     <item>
       <title>Geographic Grid</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geographic_grid</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geographic_grid</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Regular grid based on a Geographic Coordinate Reference System (CRS).</description>
     </item>
     <item>
       <title>Geographic Identifier</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geographic_identifier</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geographic_identifier</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Spatial reference in the form of a label or code that identifies a Location.</description>
     </item>
     <item>
       <title>Geolocating</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geolocating</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geolocating</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.</description>
     </item>
     <item>
       <title>Geolocation Information</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geolocation_information</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geolocation_information</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Information used to determine geographic Location.</description>
     </item>
     <item>
       <title>Geopositioning</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/geopositioning</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geopositioning</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Determination of the geographic Position of a point (0D) or linear (1D) Feature.</description>
     </item>
     <item>
       <title>Georectifying</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/georectifying</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/georectifying</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Correcting for positional displacement with respect to the surface of the Earth.</description>
     </item>
     <item>
-      <title>Accuracy</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/accuracy</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/accuracy</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
-      <description>Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.</description>
+      <title>Geospatial Data</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/geospatial_data</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geospatial_data</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.</description>
+    </item>
+    <item>
+      <title>Geosphere</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/geosphere</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/geosphere</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>The masses of minerals that constitute planet Earth.</description>
+    </item>
+    <item>
+      <title>Granule</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/granule</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/granule</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable).</description>
+    </item>
+    <item>
+      <title>Grid</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/grid</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/grid</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.</description>
+    </item>
+    <item>
+      <title>Hydrosphere</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/hydrosphere</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/hydrosphere</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>The masses of liquid water, such as oceans, lakes, and rivers.</description>
+    </item>
+    <item>
+      <title>Impact</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/impact</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/impact</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.</description>
+    </item>
+    <item>
+      <title>In-Situ Observation</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/in-situ_observation</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/in-situ_observation</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems or altering its pre-Observation state.</description>
+    </item>
+    <item>
+      <title>Information</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/information</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/information</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.</description>
+    </item>
+    <item>
+      <title>Instrument Data</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/instrument_data</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/instrument_data</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Data specifically associated with the instrument, either because it was generated by the instrument or included in data packets identified with that instrument.</description>
+    </item>
+    <item>
+      <title>Laboratory Observation</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/laboratory_observation</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/laboratory_observation</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.</description>
+    </item>
+    <item>
+      <title>Latency</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/latency</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/latency</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Period between the end of sensing of a Phenomenon to the beginning of availability of a specific product.</description>
+    </item>
+    <item>
+      <title>Lead Time</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/lead_time</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/lead_time</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Minimum time of interval between an Observation being tasked and being performed.</description>
+    </item>
+    <item>
+      <title>Lithosphere</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/lithosphere</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/lithosphere</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, includes soils ('pedosphere').</description>
+    </item>
+    <item>
+      <title>Location</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/location</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/location</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Particular Place referenced by an identifier.</description>
+    </item>
+    <item>
+      <title>Location Error</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/location_error</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/location_error</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Measure of the agreement between the represented Location of an Object and the true Location.</description>
+    </item>
+    <item>
+      <title>Long Term Preservation</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/long_term_preservation</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/long_term_preservation</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>The act of maintaining information in a correct and independently understandable form over the long term.</description>
+    </item>
+    <item>
+      <title>Measurand</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/measurand</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/measurand</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Particular Quantity subject to Measurement.</description>
     </item>
     <item>
       <title>Ancillary Data</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/ancillary_data</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/ancillary_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Data acquired on the same platform but not obtained from the main Sensor itself (usually provided as part of Level 0 Data), with the primary purpose of serving the processing of main instrument Data.</description>
     </item>
     <item>
       <title>Anthroposphere</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/anthroposphere</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/anthroposphere</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics.</description>
     </item>
     <item>
       <title>Archive</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/archive</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/archive</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>System that stores data products, guaranteeing their preservation for future use, including all operations to identify, store and retrieve the data and ensure their integrity.</description>
     </item>
     <item>
       <title>Area of Interest</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/area_of_interest</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/area_of_interest</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Zone in 2D or 3D for which Information or Data is requested. It can be discontinuous in space, consisting of the union of many separate zones.</description>
     </item>
     <item>
       <title>Atmosphere</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/atmosphere</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/atmosphere</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Layer of gases, commonly known as air, including suspended liquid and solid particles known as aerosols (incl. dust, clouds, snow and ice).</description>
     </item>
     <item>
       <title>Auxiliary Data</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/auxiliary_data</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/auxiliary_data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Data that enhance the processing and utilisation of main Sensor Data, usually not captured by the same Data collection Process or on the same platform as the main Sensor Data.</description>
     </item>
     <item>
       <title>Backup</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/backup</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/backup</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>General practice of making copies of current baseline and derived products of EO Collections at specified time intervals, storing those copies in a manner that will not affect the data if the primary distribution environment is compromised.</description>
     </item>
     <item>
       <title>Band Central Wavelength</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/band_central_wavelength</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/band_central_wavelength</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band. It could be the mean, median, maximum sensitivity, or any other reasonable representative Value.</description>
     </item>
     <item>
       <title>Baseline</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/baseline</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/baseline</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Reference Period, time or measure against which Information is assessed or compared.</description>
     </item>
     <item>
       <title>Biosphere</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/biosphere</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/biosphere</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Masses of living organisms, such as vegetation and animals, including dead but still connected parts such as roots, trunks or branches.</description>
     </item>
     <item>
       <title>Business Continuity</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/business_continuity</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/business_continuity</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>An organisation's readiness to continue functioning during times of disruption.</description>
     </item>
     <item>
       <title>Calibration</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/calibration</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/calibration</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Process of quantitatively defining a system's (e.g. a Sensor or Model's) response to known, controlled inputs produced by references. In Remote Sensing, implies the collection of pre-flight and in-flight calibration measurements and in-situ Data.</description>
     </item>
     <item>
       <title>Cartographic Projection</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/cartographic_projection</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/cartographic_projection</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
       <title>Catalogue</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/catalogue</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/catalogue</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>System that provides users with discovery of information on which EO products can be obtained.</description>
     </item>
     <item>
       <title>Cell</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/cell</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/cell</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone.</description>
     </item>
     <item>
       <title>Characteristic</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/characteristic</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/characteristic</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Distinguishing Feature of an object or entity, which can be inherent or assigned, and qualitative or quantitative.</description>
     </item>
     <item>
       <title>Classification System</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/classification_system</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/classification_system</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).</description>
     </item>
     <item>
       <title>Classification System Levels</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/classification_system_levels</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/classification_system_levels</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Levels in a hierarchical Classification System.</description>
     </item>
     <item>
       <title>Climate Projection</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/climate_projection</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/climate_projection</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models.</description>
     </item>
     <item>
       <title>Collection</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/collection</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/collection</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Group of products that have been processed using a consistent radiometric calibration, geometric registration base, data/metadata format, and version of processing algorithms.</description>
     </item>
     <item>
       <title>Collection Update</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/collection_update</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/collection_update</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Minor revisions to a relatively small number of products within a collection for the purpose of correcting errors and maintaining consistent quality.</description>
     </item>
     <item>
       <title>Collection Upgrade</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/collection_upgrade</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/collection_upgrade</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>New and improved major version of all products within a collection due to comprehensive reprocessing.</description>
     </item>
     <item>
       <title>Confidence Interval</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/confidence_interval</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/confidence_interval</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Probability that a Quantity lies in a given interval, conditioned on the measuring or modelling assumptions.</description>
     </item>
     <item>
       <title>Consistency</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/consistency</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/consistency</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
       <title>Continuity</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/continuity</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/continuity</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
       <title>Copernicus Service Provider</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/copernicus_service_provider</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/copernicus_service_provider</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Institutional body, organisation or programme that provides reliable, trusted EO Information and has the financial resources to sustain the provision.</description>
     </item>
     <item>
       <title>Coverage Interval</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/coverage_interval</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/coverage_interval</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Range or specific subset of values associated with a coverage dataset.</description>
     </item>
     <item>
       <title>Cryosphere</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/cryosphere</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/cryosphere</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.</description>
     </item>
     <item>
       <title>Custodian</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/custodian</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/custodian</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.</description>
     </item>
     <item>
       <title>Data</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/data</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/data</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Value and possibly Uncertainty of a Trait of a specific Entity.</description>
     </item>
     <item>
       <title>Data Access</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/data_access</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/data_access</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Service to disseminate Data.</description>
     </item>
     <item>
       <title>Data Format</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/data_format</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/data_format</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.</description>
     </item>
     <item>
       <title>Data Licencing</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/data_licencing</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/data_licencing</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Legal instrument by which a copyright holder may grant rights over the protected work.</description>
     </item>
     <item>
       <title>Decommissioned Product</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/decommissioned_product</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/decommissioned_product</guid>
-      <pubDate>Wed, 11 Mar 2026 12:56:52 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
       <description>Products and collections that have been superseded by new versions and are no longer available.</description>
+    </item>
+    <item>
+      <title>Deprecated Product</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/deprecated_product</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/deprecated_product</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future.</description>
+    </item>
+    <item>
+      <title>Derivative Product</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/derivative_product</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/derivative_product</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Product additionally processed from baseline or unenhanced mission data.</description>
+    </item>
+    <item>
+      <title>Dispose</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/dispose</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/dispose</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Action of permanently and irrecoverably removing all copies of data held by an organization.</description>
+    </item>
+    <item>
+      <title>Duration</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/duration</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/duration</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time interval.</description>
+    </item>
+    <item>
+      <title>Dwell Time</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/dwell_time</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/dwell_time</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Time that an antenna beam spends on a target.</description>
+    </item>
+    <item>
+      <title>Earth Observation</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/earth_observation</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_observation</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.</description>
+    </item>
+    <item>
+      <title>Earth Observation Based Output</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing, often designed for policy or decision-making needs.</description>
+    </item>
+    <item>
+      <title>Earth Observation Product</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/earth_observation_product</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_observation_product</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables.</description>
+    </item>
+    <item>
+      <title>Earth Spheres</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/earth_spheres</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/earth_spheres</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.</description>
+    </item>
+    <item>
+      <title>Entity</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/entity</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/entity</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Something that has separate and distinct existence and objective or conceptual reality.</description>
+    </item>
+    <item>
+      <title>Environmental Process</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/environmental_process</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/environmental_process</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>&quot;</description>
+    </item>
+    <item>
+      <title>EO Space Data</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/eo_space_data</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/eo_space_data</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Earth Observation data generated by spaceborne missions or instruments owned by public or private organizations.</description>
+    </item>
+    <item>
+      <title>Equivalence</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/equivalence</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/equivalence</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>&quot;</description>
+    </item>
+    <item>
+      <title>Expanded Uncertainty</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/expanded_uncertainty</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/expanded_uncertainty</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Standard Uncertainty multiplied by a coverage factor k, chosen to obtain a desired level of confidence.</description>
+    </item>
+    <item>
+      <title>Feature</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/feature</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/feature</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Abstraction of real-world phenomena.</description>
+    </item>
+    <item>
+      <title>Final Product Version</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/final_product_version</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/final_product_version</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Product within an EO Collection that is not expected to be updated.</description>
+    </item>
+    <item>
+      <title>Accuracy</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/accuracy</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/accuracy</guid>
+      <pubDate>Wed, 11 Mar 2026 13:06:27 GMT</pubDate>
+      <description>Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.</description>
     </item>
   </channel>
 </rss>
