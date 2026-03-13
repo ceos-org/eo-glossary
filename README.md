@@ -6,6 +6,8 @@ Vocabulary companion to the [CEOS Interoperability Handbook 2.0](https://github.
 
 > Strobl, P. A., Woolliams, E. R., & Molch, K. (2024). *Lost in Translation: The Need for Common Vocabularies and an Interoperable Thesaurus in Earth Observation Sciences.* Surveys in Geophysics. DOI: [10.1007/s10712-024-09854-8](https://doi.org/10.1007/s10712-024-09854-8)
 
+> **Note:** This glossary is currently at an early stage and still work in progress. It is not 100% reviewed yet and some things might change over time. Stay tuned on [GitHub](https://github.com/ceos-org/eo-glossary) or reach out to us!
+
 ## Local Development
 
 Built with [Docusaurus 3.9.2](https://docusaurus.io/). Requires **Node.js ≥ 18** and [**uv**](https://docs.astral.sh/uv/) (Python package manager, used for export scripts).

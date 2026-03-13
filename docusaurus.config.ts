@@ -362,6 +362,10 @@ const config: Config = {
     ],
   ],
 
+  clientModules: [
+    './src/clientModules/announcementBarReset.js',
+  ],
+
   plugins: [],
 
   presets: [
@@ -395,6 +399,12 @@ const config: Config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      id: 'wip_disclaimer',
+      content:
+        'This glossary is currently at an early stage and still work in progress. It is not 100% reviewed yet and some things might change over time. Stay tuned on <a href="https://github.com/ceos-org/eo-glossary" target="_blank" rel="noreferrer">GitHub</a> or reach out to us!',
+      isCloseable: true,
+    },
     metadata: [
       {
         name: 'keywords',

@@ -111,6 +111,35 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 255, 0.2);
 }
 
+/* ─── Announcement bar ─────────────────────────────────────────────────────── */
+div[class*='announcementBar'] {
+  background: var(--ifm-background-surface-color);
+  border: none;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none;
+  padding: 0;
+  min-height: 0;
+  font-size: 0.8rem;
+}
+
+div[class*='announcementBar'] > div {
+  border: none;
+}
+
+div[class*='announcementBar'] .close {
+  opacity: 0.5;
+}
+
+div[class*='announcementBar'] .close:hover {
+  opacity: 1;
+}
+
+div[class*='announcementBar'] a {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* ─── Global type improvements ──────────────────────────────────────────────── */
 body {
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
@@ -377,6 +406,34 @@ article h3[id$="examples"] + ul li::before {
 
 .page-header-stats strong {
   font-weight: 700;
+}
+
+.page-header-disclaimer {
+  margin-top: 1.25rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border-radius: 8px;
+  background: rgba(234, 179, 8, 0.1);
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  color: #92400e;
+  max-width: 640px;
+}
+
+.page-header-disclaimer a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+[data-theme='dark'] .page-header-disclaimer {
+  background: rgba(234, 179, 8, 0.08);
+  border-color: rgba(234, 179, 8, 0.2);
+  color: #fbbf24;
+}
+
+[data-theme='dark'] .page-header-disclaimer a {
+  color: #fbbf24;
 }
 
 /* ─── Shared section typography ──────────────────────────────────────────────── */

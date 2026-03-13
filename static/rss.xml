@@ -5,7 +5,7 @@
     <link>https://ceos-org.github.io/eo-glossary/</link>
     <description>Community thesaurus of terms and definitions for Earth Observation sciences, maintained by CEOS and the EC Knowledge Centre for Earth Observation (KCEO).</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Mar 2026 12:55:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 09:06:28 GMT</lastBuildDate>
     <atom:link href="https://ceos-org.github.io/eo-glossary/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://ceos-org.github.io/eo-glossary/assets/og-banner.svg</url>
@@ -14,38 +14,38 @@
     </image>
     <dc:creator>CEOS &amp; EC KCEO</dc:creator>
     <item>
-      <title>Resolution</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/resolution</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/resolution</guid>
-      <pubDate>Wed, 11 Mar 2026 12:51:27 GMT</pubDate>
+      <title>Equivalence</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/equivalence</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/equivalence</guid>
+      <pubDate>Wed, 11 Mar 2026 12:56:23 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
-      <title>Continuity</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/continuity</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/continuity</guid>
-      <pubDate>Wed, 11 Mar 2026 12:51:23 GMT</pubDate>
+      <title>Resolution</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/resolution</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/resolution</guid>
+      <pubDate>Wed, 11 Mar 2026 12:56:23 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
       <title>Tolerance</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/tolerance</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/tolerance</guid>
-      <pubDate>Wed, 11 Mar 2026 12:51:19 GMT</pubDate>
-      <description>&quot;</description>
-    </item>
-    <item>
-      <title>Equivalence</title>
-      <link>https://ceos-org.github.io/eo-glossary/terms/equivalence</link>
-      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/equivalence</guid>
-      <pubDate>Wed, 11 Mar 2026 12:51:15 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 12:56:23 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
       <title>Consistency</title>
       <link>https://ceos-org.github.io/eo-glossary/terms/consistency</link>
       <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/consistency</guid>
-      <pubDate>Wed, 11 Mar 2026 12:51:10 GMT</pubDate>
+      <pubDate>Wed, 11 Mar 2026 12:56:23 GMT</pubDate>
+      <description>&quot;</description>
+    </item>
+    <item>
+      <title>Continuity</title>
+      <link>https://ceos-org.github.io/eo-glossary/terms/continuity</link>
+      <guid isPermaLink="true">https://ceos-org.github.io/eo-glossary/terms/continuity</guid>
+      <pubDate>Wed, 11 Mar 2026 12:56:23 GMT</pubDate>
       <description>&quot;</description>
     </item>
     <item>
