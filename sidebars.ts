@@ -5,6 +5,7 @@ const sidebars: SidebarsConfig = {
     { type: 'doc', id: 'introduction', label: 'Introduction' },
     { type: 'doc', id: 'concepts', label: 'Concepts' },
     { type: 'doc', id: 'contribute', label: 'Contribute' },
+    { type: 'doc', id: 'governance', label: 'Governance' },
     { type: 'doc', id: 'data-access', label: 'Data Access' },
     { type: 'doc', id: 'changelog', label: 'Changelog' },
     { type: 'doc', id: 'impressum', label: 'Contact' },
