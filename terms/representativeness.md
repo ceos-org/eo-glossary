@@ -2,6 +2,7 @@
 title: Representativeness
 tags:
 - core
+- to be approved
 description: Quality or characteristic of a measurement or observation to accurately represent a specific geographic location, time period, or environmental condition.
 ---
 

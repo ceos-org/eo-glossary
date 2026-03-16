@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/spatial_consistency",
   "description": "Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

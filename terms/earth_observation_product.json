@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/earth_observation_product",
   "description": "Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

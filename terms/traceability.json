@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/traceability",
   "description": "Property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations each contributing to the measurement uncertainty.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

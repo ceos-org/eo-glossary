@@ -2,6 +2,7 @@
 title: Dispose
 tags:
 - core
+- to be approved
 description: Action of permanently and irrecoverably removing all copies of data held by an organization.
 ---
 

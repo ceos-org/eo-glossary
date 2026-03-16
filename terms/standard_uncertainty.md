@@ -2,6 +2,7 @@
 title: Standard Uncertainty
 tags:
 - core
+- to be approved
 description: Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.
 ---
 

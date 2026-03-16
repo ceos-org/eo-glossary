@@ -2,6 +2,7 @@
 title: Outcome
 tags:
   - core
+  - to be defined
 description: ""
 ---
 

@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/location_error",
   "description": "Measure of the agreement between the represented Location of an Object and the true Location.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

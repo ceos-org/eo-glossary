@@ -2,6 +2,7 @@
 title: Grid
 tags:
   - core
+  - to be approved
 description: Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.
 ---
 

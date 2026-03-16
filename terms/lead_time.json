@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/lead_time",
   "description": "Minimum time of interval between an Observation being tasked and being performed.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

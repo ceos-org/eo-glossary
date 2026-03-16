@@ -2,6 +2,7 @@
 title: Product
 tags:
 - core
+- to be approved
 description: Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.
 ---
 

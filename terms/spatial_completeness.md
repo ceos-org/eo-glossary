@@ -2,6 +2,7 @@
 title: Spatial Completeness
 tags:
 - core
+- to be approved
 description: Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.
 ---
 

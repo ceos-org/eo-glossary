@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/geolocating",
   "description": "Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

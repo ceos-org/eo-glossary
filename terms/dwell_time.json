@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/dwell_time",
   "description": "Time that an antenna beam spends on a target.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

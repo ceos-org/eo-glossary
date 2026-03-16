@@ -2,6 +2,7 @@
 title: Long Term Preservation
 tags:
   - core
+  - to be approved
 description: The act of maintaining information in a correct and independently understandable form over the long term.
 ---
 

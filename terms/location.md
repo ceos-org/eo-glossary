@@ -2,6 +2,7 @@
 title: Location
 tags:
   - base
+  - to be approved
 description: Particular Place referenced by an identifier.
 ---
 

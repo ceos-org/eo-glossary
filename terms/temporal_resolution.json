@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/temporal_resolution",
   "description": "Observation or model output representing regular intervals, specifying the length of the interval that determines the smallest event or process that can be resolved.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

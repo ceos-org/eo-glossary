@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/grid",
   "description": "Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

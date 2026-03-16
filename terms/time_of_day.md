@@ -2,6 +2,7 @@
 title: Time of Day
 tags:
 - core
+- to be approved
 description: Time of the day at which the variable or parameter is observed or simulated by a model.
 ---
 

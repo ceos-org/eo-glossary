@@ -2,6 +2,7 @@
 title: Data
 tags:
 - base
+- to be approved
 description: Value and possibly Uncertainty of a Trait of a specific Entity.
 ---
 

@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit",
   "description": "Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

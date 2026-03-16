@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/data",
   "description": "Value and possibly Uncertainty of a Trait of a specific Entity.",
   "tags": [
-    "base"
+    "base",
+    "to be approved"
   ],
   "definitions": [
     {

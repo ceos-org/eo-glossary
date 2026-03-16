@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/period_identifier",
   "description": "Temporal reference in the form of a label or code that identifies a Period.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

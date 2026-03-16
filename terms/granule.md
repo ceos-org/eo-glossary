@@ -2,6 +2,7 @@
 title: Granule
 tags:
   - core
+  - to be approved
 description: The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable).
 ---
 

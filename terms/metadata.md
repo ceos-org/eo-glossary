@@ -2,6 +2,7 @@
 title: Metadata
 tags:
   - core
+  - to be approved
 description: Data describing other data, providing an understanding of the content and utility of a product or collection.
 ---
 

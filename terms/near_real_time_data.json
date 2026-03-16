@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/near_real_time_data",
   "description": "Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.",
   "tags": [
-    "high-impact"
+    "high-impact",
+    "to be discussed"
   ],
   "definitions": [
     {

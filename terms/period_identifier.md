@@ -2,6 +2,7 @@
 title: Period Identifier
 tags:
 - core
+- to be approved
 description: Temporal reference in the form of a label or code that identifies a Period.
 ---
 

@@ -2,6 +2,7 @@
 title: Verification
 tags:
 - core
+- to be approved
 description: Provision of objective evidence that a given item fulfils specified requirements.
 ---
 

@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/geographic_data",
   "description": "Data with implicit or explicit reference to a Location relative to the Earth.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

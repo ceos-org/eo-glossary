@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/granule",
   "description": "The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable).",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

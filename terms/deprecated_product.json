@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/deprecated_product",
   "description": "Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

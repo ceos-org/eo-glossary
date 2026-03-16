@@ -3,7 +3,7 @@ title: Accuracy
 description: Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Accuracy

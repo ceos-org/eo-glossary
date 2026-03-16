@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_unit",
   "description": "The area of the smallest Feature that is still represented on a map.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

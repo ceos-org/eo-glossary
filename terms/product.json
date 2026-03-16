@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/product",
   "description": "Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

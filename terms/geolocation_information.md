@@ -2,6 +2,7 @@
 title: Geolocation Information
 tags:
 - core
+- to be discussed
 description: Information used to determine geographic Location.
 ---
 

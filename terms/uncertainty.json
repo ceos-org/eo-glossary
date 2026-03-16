@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/uncertainty",
   "description": "Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

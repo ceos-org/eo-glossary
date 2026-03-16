@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/custodian",
   "description": "Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

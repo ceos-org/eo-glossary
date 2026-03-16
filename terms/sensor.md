@@ -2,6 +2,7 @@
 title: Sensor
 tags:
 - core
+- to be approved
 description: Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.
 ---
 

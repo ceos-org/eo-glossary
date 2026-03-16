@@ -3,7 +3,7 @@ title: Business Continuity
 description: An organisation's readiness to continue functioning during times of disruption.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Business Continuity

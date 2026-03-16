@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/stability",
   "description": "Maximum acceptable change in Uncertainty per decade.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

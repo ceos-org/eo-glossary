@@ -2,6 +2,7 @@
 title: Version Control
 tags:
 - core
+- to be approved
 description: Method of working with collections, similar to version control systems used in traditional software development but optimized to allow better processing of data and collaboration in data analytics and research contexts.
 ---
 

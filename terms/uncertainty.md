@@ -2,6 +2,7 @@
 title: Uncertainty
 tags:
 - core
+- to be approved
 description: Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.
 ---
 

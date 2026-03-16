@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/latency",
   "description": "Period between the end of sensing of a Phenomenon to the beginning of availability of a specific product.",
   "tags": [
-    "core"
+    "core",
+    "to be discussed"
   ],
   "definitions": [
     {

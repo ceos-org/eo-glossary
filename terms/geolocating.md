@@ -2,6 +2,7 @@
 title: Geolocating
 tags:
 - core
+- to be approved
 description: Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.
 ---
 

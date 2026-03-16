@@ -2,6 +2,7 @@
 title: Information
 tags:
   - base
+  - to be approved
 description: The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.
 ---
 

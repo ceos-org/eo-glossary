@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/final_product_version",
   "description": "Product within an EO Collection that is not expected to be updated.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

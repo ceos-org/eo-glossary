@@ -2,6 +2,7 @@
 title: Property
 tags:
 - base
+- to be discussed
 description: Observable Trait.
 ---
 

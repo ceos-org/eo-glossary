@@ -3,7 +3,7 @@ title: Area of Interest
 description: Zone in 2D or 3D for which Information or Data is requested. It can be discontinuous in space, consisting of the union of many separate zones.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Area of Interest

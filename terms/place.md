@@ -2,6 +2,7 @@
 title: Place
 tags:
 - base
+- to be approved
 description: Part of any space referenced by an identifier.
 ---
 

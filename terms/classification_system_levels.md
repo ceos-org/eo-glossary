@@ -3,7 +3,7 @@ title: Classification System Levels
 description: Levels in a hierarchical Classification System.
 tags:
 - core
-- approved
+- to be discussed
 ---
 
 # Classification System Levels

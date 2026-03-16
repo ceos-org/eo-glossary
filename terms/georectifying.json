@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/georectifying",
   "description": "Correcting for positional displacement with respect to the surface of the Earth.",
   "tags": [
-    "core"
+    "core",
+    "to be discussed"
   ],
   "definitions": [
     {

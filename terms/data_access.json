@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/data_access",
   "description": "Service to disseminate Data.",
   "tags": [
-    "core"
+    "core",
+    "to be discussed"
   ],
   "definitions": [
     {

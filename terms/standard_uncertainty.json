@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/standard_uncertainty",
   "description": "Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

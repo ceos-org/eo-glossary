@@ -2,6 +2,7 @@
 title: Time of Year
 tags:
 - core
+- to be approved
 description: Time of the year at which the variable is observed or simulated by a model.
 ---
 

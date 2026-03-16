@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/temporal_extent",
   "description": "Period during which data was collected, observations were made, or for which the model was run.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

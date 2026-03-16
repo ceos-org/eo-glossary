@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/model",
   "description": "An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits.",
   "tags": [
-    "controversial"
+    "controversial",
+    "to be discussed"
   ],
   "definitions": [
     {

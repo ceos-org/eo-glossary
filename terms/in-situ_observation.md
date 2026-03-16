@@ -2,6 +2,7 @@
 title: In-Situ Observation
 tags:
   - controversial
+  - to be discussed
 description: Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems or altering its pre-Observation state.
 ---
 

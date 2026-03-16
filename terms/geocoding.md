@@ -2,6 +2,7 @@
 title: Geocoding
 tags:
 - core
+- to be approved
 description: Translation of one form of Location into another.
 ---
 

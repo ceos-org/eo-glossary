@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/sensor",
   "description": "Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

@@ -2,6 +2,7 @@
 title: Spatial Resolution
 tags:
 - core
+- to be defined
 description: ''
 ---
 

@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/geographic_coordinate_reference_system",
   "description": "Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/time_of_day",
   "description": "Time of the day at which the variable or parameter is observed or simulated by a model.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

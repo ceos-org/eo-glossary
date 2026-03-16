@@ -2,6 +2,7 @@
 title: Source Data
 tags:
 - core
+- to be approved
 description: Data required for production of an EO Collection (e.g., unenhanced satellite mission data) as well as further processed Level-1 data, or any other pre-processed format meeting program requirements.
 ---
 

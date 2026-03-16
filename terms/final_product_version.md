@@ -2,6 +2,7 @@
 title: Final Product Version
 tags:
 - core
+- to be approved
 description: Product within an EO Collection that is not expected to be updated.
 ---
 

@@ -3,7 +3,7 @@ title: Climate Projection
 description: Simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Climate Projection

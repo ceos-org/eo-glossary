@@ -2,6 +2,7 @@
 title: Decommissioned Product
 tags:
 - core
+- to be approved
 description: Products and collections that have been superseded by new versions and are no longer available.
 ---
 

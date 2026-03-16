@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/phenomenon",
   "description": "Entity with at least one Property referenced by an identifier.",
   "tags": [
-    "base"
+    "base",
+    "to be approved"
   ],
   "definitions": [
     {

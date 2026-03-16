@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/geographic_grid",
   "description": "Regular grid based on a Geographic Coordinate Reference System (CRS).",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

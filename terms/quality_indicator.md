@@ -2,6 +2,7 @@
 title: Quality Indicator
 tags:
 - core
+- to be approved
 description: Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product.
 ---
 

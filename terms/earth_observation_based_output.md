@@ -2,6 +2,7 @@
 title: Earth Observation Based Output
 tags:
 - core
+- to be approved
 description: Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing, often designed for policy or decision-making needs.
 ---
 

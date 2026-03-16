@@ -2,6 +2,7 @@
 title: Phenomenon
 tags:
 - base
+- to be approved
 description: Entity with at least one Property referenced by an identifier.
 ---
 

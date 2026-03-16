@@ -2,6 +2,7 @@
 title: Traceability
 tags:
 - core
+- to be approved
 description: Property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations each contributing to the measurement uncertainty.
 ---
 

@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/version_control",
   "description": "Method of working with collections, similar to version control systems used in traditional software development but optimized to allow better processing of data and collaboration in data analytics and research contexts.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

@@ -2,6 +2,7 @@
 title: Geosphere
 tags:
   - core
+  - to be approved
 description: The masses of minerals that constitute planet Earth.
 ---
 

@@ -3,7 +3,7 @@ title: Collection
 description: Group of products that have been processed using a consistent radiometric calibration, geometric registration base, data/metadata format, and version of processing algorithms.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Collection

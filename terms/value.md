@@ -2,6 +2,7 @@
 title: Value
 tags:
 - base
+- to be approved
 description: Element of a type domain.
 ---
 

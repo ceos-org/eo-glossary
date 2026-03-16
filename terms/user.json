@@ -4,7 +4,8 @@
   "url": "https://ceos-org.github.io/eo-glossary/terms/user",
   "description": "Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.",
   "tags": [
-    "core"
+    "core",
+    "to be approved"
   ],
   "definitions": [
     {

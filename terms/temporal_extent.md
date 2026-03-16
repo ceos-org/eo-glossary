@@ -2,6 +2,7 @@
 title: Temporal Extent
 tags:
 - core
+- to be approved
 description: Period during which data was collected, observations were made, or for which the model was run.
 ---
 
