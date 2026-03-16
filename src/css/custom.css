@@ -202,6 +202,14 @@ p {
 
 .header-github-link:hover::before { opacity: 0.7; }
 
+/* ─── Doc tags inline (after heading) ────────────────────────────────────────── */
+.markdown {
+  display: flex;
+  flex-direction: column;
+}
+.markdown > h1 { order: -2; }
+.doc-tags-badges { order: -1; }
+
 /* ─── Tags (term classification badges) ─────────────────────────────────────── */
 .badge {
   border-radius: 4px;
@@ -213,9 +221,9 @@ p {
   margin: 0 3px 4px 0;
   display: inline-block;
   border: 1px solid transparent;
-  transition: transform 0.15s ease;
 }
-.badge:hover { transform: translateY(-1px); }
+a.badge { text-decoration: none; }
+a.badge:hover { opacity: 0.85; }
 
 /* Docusaurus tag pills */
 .tag_node_modules-\@docusaurus-theme-classic-lib-theme-Tag-styles-module,
@@ -233,6 +241,7 @@ article .theme-doc-version-badge,
 [data-tag="to-be-defined"], .tag--to-be-defined { background: var(--tag-to-be-defined-bg); color: var(--tag-to-be-defined-color); border-color: var(--tag-to-be-defined-color); }
 [data-tag="to-be-discussed"], .tag--to-be-discussed { background: var(--tag-to-be-discussed-bg); color: var(--tag-to-be-discussed-color); border-color: var(--tag-to-be-discussed-color); }
 [data-tag="to-be-approved"], .tag--to-be-approved { background: var(--tag-to-be-approved-bg); color: var(--tag-to-be-approved-color); border-color: var(--tag-to-be-approved-color); }
+[data-tag="source-missing"], .tag--source-missing { background: var(--tag-to-be-defined-bg); color: var(--tag-to-be-defined-color); border-color: var(--tag-to-be-defined-color); }
 
 /* Docusaurus tags list styling */
 .theme-doc-version-badge + .tags-list { margin-top: 12px; }

@@ -1,12 +1,12 @@
 # EO Glossary — Full Term Definitions
 # Source: https://ceos-org.github.io/eo-glossary/
 # 151 terms with formal definitions, notes, examples, and sources
-# Generated: 2026-03-13
+# Generated: 2026-03-16
 # Structured JSON export: https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/json/terms.json
 
 # Accuracy
 URL: https://ceos-org.github.io/eo-glossary/terms/accuracy
-Tags: core, approved
+Tags: core, to be approved
 Summary: Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.
 
 # Accuracy
@@ -27,7 +27,7 @@ Proximity of Measurement results to the accepted Value; precision is the degree 
 
 # Ancillary Data
 URL: https://ceos-org.github.io/eo-glossary/terms/ancillary_data
-Tags: core, approved
+Tags: core, to be approved
 Summary: Data acquired on the same platform but not obtained from the main Sensor itself (usually provided as part of Level 0 Data), with the primary purpose of serving the processing of main instrument Data.
 
 # Ancillary Data
@@ -62,7 +62,7 @@ Data other than instrument measurements, originating in the instrument itself or
 
 # Anthroposphere
 URL: https://ceos-org.github.io/eo-glossary/terms/anthroposphere
-Tags: core, approved
+Tags: core, to be approved
 Summary: One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics.
 
 # Anthroposphere
@@ -82,7 +82,7 @@ One of the Earth spheres consisting predominantly of matter processed by humans,
 
 # Archive
 URL: https://ceos-org.github.io/eo-glossary/terms/archive
-Tags: core, approved
+Tags: core, to be approved
 Summary: System that stores data products, guaranteeing their preservation for future use, including all operations to identify, store and retrieve the data and ensure their integrity.
 
 # Archive
@@ -103,7 +103,7 @@ System that stores data products, guaranteeing their preservation for future use
 
 # Area of Interest
 URL: https://ceos-org.github.io/eo-glossary/terms/area_of_interest
-Tags: core, approved
+Tags: core, to be approved
 Summary: Zone in 2D or 3D for which Information or Data is requested. It can be discontinuous in space, consisting of the union of many separate zones.
 
 # Area of Interest
@@ -127,7 +127,7 @@ Zone in 2D or 3D for which the Information or Data is requested. It can be disco
 
 # Atmosphere
 URL: https://ceos-org.github.io/eo-glossary/terms/atmosphere
-Tags: core, approved
+Tags: core, to be approved
 Summary: Layer of gases, commonly known as air, including suspended liquid and solid particles known as aerosols (incl. dust, clouds, snow and ice).
 
 # Atmosphere
@@ -147,7 +147,7 @@ Layer of gases, commonly known as air, including suspended liquid and solid part
 
 # Auxiliary Data
 URL: https://ceos-org.github.io/eo-glossary/terms/auxiliary_data
-Tags: core, approved
+Tags: core, to be approved
 Summary: Data that enhance the processing and utilisation of main Sensor Data, usually not captured by the same Data collection Process or on the same platform as the main Sensor Data.
 
 # Auxiliary Data
@@ -197,7 +197,7 @@ Data required for instrument processing that does not originate in the instrumen
 
 # Backup
 URL: https://ceos-org.github.io/eo-glossary/terms/backup
-Tags: core, approved
+Tags: core, to be approved
 Summary: General practice of making copies of current baseline and derived products of EO Collections at specified time intervals, storing those copies in a manner that will not affect the data if the primary distribution environment is compromised.
 
 # Backup
@@ -218,7 +218,7 @@ General practice of making copies of current baseline and derived products of EO
 
 # Band Central Wavelength
 URL: https://ceos-org.github.io/eo-glossary/terms/band_central_wavelength
-Tags: core, approved
+Tags: core, to be approved
 Summary: Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band. It could be the mean, median, maximum sensitivity, or any other reasonable representative Value.
 
 # Band Central Wavelength
@@ -242,7 +242,7 @@ Single wavelength Value within the sensitivity interval of a spectroradiometric 
 
 # Baseline
 URL: https://ceos-org.github.io/eo-glossary/terms/baseline
-Tags: core, approved
+Tags: core, to be approved
 Summary: Reference Period, time or measure against which Information is assessed or compared.
 
 # Baseline
@@ -275,7 +275,7 @@ Source data that has been processed to a common set of requirements and organise
 
 # Biosphere
 URL: https://ceos-org.github.io/eo-glossary/terms/biosphere
-Tags: core, approved
+Tags: core, to be approved
 Summary: Masses of living organisms, such as vegetation and animals, including dead but still connected parts such as roots, trunks or branches.
 
 # Biosphere
@@ -295,7 +295,7 @@ Masses of living organisms, such as vegetation and animals, including dead but s
 
 # Business Continuity
 URL: https://ceos-org.github.io/eo-glossary/terms/business_continuity
-Tags: core, approved
+Tags: core, to be approved
 Summary: An organisation's readiness to continue functioning during times of disruption.
 
 # Business Continuity
@@ -315,7 +315,7 @@ An organisation's readiness to continue functioning during times of disruption.
 
 # Calibration
 URL: https://ceos-org.github.io/eo-glossary/terms/calibration
-Tags: core, approved
+Tags: core, source missing, to be discussed
 Summary: Process of quantitatively defining a system's (e.g. a Sensor or Model's) response to known, controlled inputs produced by references. In Remote Sensing, implies the collection of pre-flight and in-flight calibration measurements and in-situ Data.
 
 # Calibration
@@ -334,7 +334,7 @@ Process of quantitatively defining a system's (e.g. a Sensor or Model's) respons
 
 # Cartographic Projection
 URL: https://ceos-org.github.io/eo-glossary/terms/cartographic_projection
-Tags: core
+Tags: core, to be defined
 Summary: "
 
 # Cartographic Projection
@@ -351,7 +351,7 @@ Summary: "
 
 # Catalogue
 URL: https://ceos-org.github.io/eo-glossary/terms/catalogue
-Tags: core, approved
+Tags: core, to be approved
 Summary: System that provides users with discovery of information on which EO products can be obtained.
 
 # Catalogue
@@ -372,7 +372,7 @@ System that provides users with discovery of information on which EO products ca
 
 # Cell
 URL: https://ceos-org.github.io/eo-glossary/terms/cell
-Tags: core, approved
+Tags: core, to be approved
 Summary: Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone.
 
 # Cell
@@ -393,7 +393,7 @@ Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality g
 
 # Characteristic
 URL: https://ceos-org.github.io/eo-glossary/terms/characteristic
-Tags: base, approved
+Tags: base, to be discussed
 Summary: Distinguishing Feature of an object or entity, which can be inherent or assigned, and qualitative or quantitative.
 
 # Characteristic
@@ -436,7 +436,7 @@ Abstraction of a Property of an Object or of a set of objects.
 
 # Classification System
 URL: https://ceos-org.github.io/eo-glossary/terms/classification_system
-Tags: core, approved
+Tags: core, to be approved
 Summary: Nomenclature used to classify Information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
 
 # Classification System
@@ -456,7 +456,7 @@ Nomenclature used to classify Information into categorical thematic classes (e.g
 
 # Classification System Levels
 URL: https://ceos-org.github.io/eo-glossary/terms/classification_system_levels
-Tags: core, approved
+Tags: core, to be discussed
 Summary: Levels in a hierarchical Classification System.
 
 # Classification System Levels
@@ -476,7 +476,7 @@ Levels in a hierarchical Classification System.
 
 # Climate Projection
 URL: https://ceos-org.github.io/eo-glossary/terms/climate_projection
-Tags: core, approved
+Tags: core, to be approved
 Summary: Simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models.
 
 # Climate Projection
@@ -496,7 +496,7 @@ Simulated response of the climate system to a scenario of future emission or con
 
 # Collection
 URL: https://ceos-org.github.io/eo-glossary/terms/collection
-Tags: core, approved
+Tags: core, to be approved
 Summary: Group of products that have been processed using a consistent radiometric calibration, geometric registration base, data/metadata format, and version of processing algorithms.
 
 # Collection
@@ -516,7 +516,7 @@ Group of products that have been processed using a consistent radiometric calibr
 
 # Collection Update
 URL: https://ceos-org.github.io/eo-glossary/terms/collection_update
-Tags: core, approved
+Tags: core, to be approved
 Summary: Minor revisions to a relatively small number of products within a collection for the purpose of correcting errors and maintaining consistent quality.
 
 # Collection Update
@@ -536,7 +536,7 @@ Minor revisions to a relatively small number of products within a collection for
 
 # Collection Upgrade
 URL: https://ceos-org.github.io/eo-glossary/terms/collection_upgrade
-Tags: core, approved
+Tags: core, to be approved
 Summary: New and improved major version of all products within a collection due to comprehensive reprocessing.
 
 # Collection Upgrade
@@ -556,7 +556,7 @@ New and improved major version of all products within a collection due to compre
 
 # Confidence Interval
 URL: https://ceos-org.github.io/eo-glossary/terms/confidence_interval
-Tags: controversial, approved
+Tags: controversial, to be approved
 Summary: Probability that a Quantity lies in a given interval, conditioned on the measuring or modelling assumptions.
 
 # Confidence Interval
@@ -610,7 +610,7 @@ Summary: "
 
 # Copernicus Service Provider
 URL: https://ceos-org.github.io/eo-glossary/terms/copernicus_service_provider
-Tags: core, approved
+Tags: core, to be discussed
 Summary: Institutional body, organisation or programme that provides reliable, trusted EO Information and has the financial resources to sustain the provision.
 
 # Copernicus Service Provider
@@ -630,7 +630,7 @@ Institutional body, organisation or programme that provides reliable, trusted (a
 
 # Coverage Interval
 URL: https://ceos-org.github.io/eo-glossary/terms/coverage_interval
-Tags: core, approved
+Tags: core, to be approved
 Summary: Range or specific subset of values associated with a coverage dataset.
 
 # Coverage Interval
@@ -652,7 +652,7 @@ Range or specific subset of values associated with a coverage dataset.
 
 # Cryosphere
 URL: https://ceos-org.github.io/eo-glossary/terms/cryosphere
-Tags: core, approved
+Tags: core, to be approved
 Summary: Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.
 
 # Cryosphere
@@ -672,7 +672,7 @@ Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.
 
 # Custodian
 URL: https://ceos-org.github.io/eo-glossary/terms/custodian
-Tags: core
+Tags: core, to be approved
 Summary: Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
 
 # Custodian
@@ -693,7 +693,7 @@ Entity responsible for the safe custody, transport, storage of the data and impl
 
 # Data
 URL: https://ceos-org.github.io/eo-glossary/terms/data
-Tags: base
+Tags: base, to be approved
 Summary: Value and possibly Uncertainty of a Trait of a specific Entity.
 
 # Data
@@ -733,7 +733,7 @@ Scientific or technical measurements, values calculated therefrom, observations,
 
 # Data Access
 URL: https://ceos-org.github.io/eo-glossary/terms/data_access
-Tags: core
+Tags: core, to be discussed
 Summary: Service to disseminate Data.
 
 # Data Access
@@ -753,7 +753,7 @@ Service to disseminate Data.
 
 # Data Format
 URL: https://ceos-org.github.io/eo-glossary/terms/data_format
-Tags: core
+Tags: core, to be approved
 Summary: Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.
 
 # Data Format
@@ -773,7 +773,7 @@ Structured Data that is machine readable and can be automatically read and proce
 
 # Data Licencing
 URL: https://ceos-org.github.io/eo-glossary/terms/data_licencing
-Tags: core
+Tags: core, to be approved
 Summary: Legal instrument by which a copyright holder may grant rights over the protected work.
 
 # Data Licencing
@@ -793,7 +793,7 @@ Legal instrument by which a copyright holder may grant rights over the protected
 
 # Decommissioned Product
 URL: https://ceos-org.github.io/eo-glossary/terms/decommissioned_product
-Tags: core
+Tags: core, to be approved
 Summary: Products and collections that have been superseded by new versions and are no longer available.
 
 # Decommissioned Product
@@ -814,7 +814,7 @@ Products and collections that have been superseded by new versions and are no lo
 
 # Deprecated Product
 URL: https://ceos-org.github.io/eo-glossary/terms/deprecated_product
-Tags: core
+Tags: core, to be approved
 Summary: Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future.
 
 # Deprecated Product
@@ -834,7 +834,7 @@ Products and collections that have been superseded by a newer version and are st
 
 # Derivative Product
 URL: https://ceos-org.github.io/eo-glossary/terms/derivative_product
-Tags: core
+Tags: core, to be approved
 Summary: Product additionally processed from baseline or unenhanced mission data.
 
 # Derivative Product
@@ -856,7 +856,7 @@ Product additionally processed from baseline or unenhanced mission data.
 
 # Dispose
 URL: https://ceos-org.github.io/eo-glossary/terms/dispose
-Tags: core
+Tags: core, to be approved
 Summary: Action of permanently and irrecoverably removing all copies of data held by an organization.
 
 # Dispose
@@ -876,7 +876,7 @@ Action of permanently and irrecoverably removing all copies of data held by an o
 
 # Duration
 URL: https://ceos-org.github.io/eo-glossary/terms/duration
-Tags: core
+Tags: core, to be approved
 Summary: Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time interval.
 
 # Duration
@@ -900,7 +900,7 @@ Non-negative interval Quantity of time equal to the difference between the final
 
 # Dwell Time
 URL: https://ceos-org.github.io/eo-glossary/terms/dwell_time
-Tags: core
+Tags: core, to be approved
 Summary: Time that an antenna beam spends on a target.
 
 # Dwell Time
@@ -921,7 +921,7 @@ Time that an antenna beam spends on a target.
 
 # Earth Observation
 URL: https://ceos-org.github.io/eo-glossary/terms/earth_observation
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.
 
 # Earth Observation
@@ -943,7 +943,7 @@ Science domain dealing with technologies and methods of collecting and analyzing
 
 # Earth Observation Based Output
 URL: https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output
-Tags: core
+Tags: core, to be approved
 Summary: Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing, often designed for policy or decision-making needs.
 
 # Earth Observation Based Output
@@ -967,7 +967,7 @@ Higher-level processing and integration output (indicative level 4 and beyond) t
 
 # Earth Observation Product
 URL: https://ceos-org.github.io/eo-glossary/terms/earth_observation_product
-Tags: core
+Tags: core, to be approved
 Summary: Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables.
 
 # Earth Observation Product
@@ -989,7 +989,7 @@ Direct output from standardized satellite data processing chains (indicative lev
 
 # Earth Spheres
 URL: https://ceos-org.github.io/eo-glossary/terms/earth_spheres
-Tags: core
+Tags: core, to be approved
 Summary: Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.
 
 # Earth Spheres
@@ -1017,7 +1017,7 @@ Spheres dividing planet Earth into subsystems, which are collectives of (physica
 
 # Entity
 URL: https://ceos-org.github.io/eo-glossary/terms/entity
-Tags: base
+Tags: base, to be approved
 Summary: Something that has separate and distinct existence and objective or conceptual reality.
 
 # Entity
@@ -1051,7 +1051,7 @@ CEOS Entities include Working Groups, Virtual Constellations, etc.
 
 # Environmental Process
 URL: https://ceos-org.github.io/eo-glossary/terms/environmental_process
-Tags: core
+Tags: core, to be defined
 Summary: "
 
 # Environmental Process
@@ -1068,7 +1068,7 @@ Summary: "
 
 # EO Space Data
 URL: https://ceos-org.github.io/eo-glossary/terms/eo_space_data
-Tags: core
+Tags: core, to be approved
 Summary: Earth Observation data generated by spaceborne missions or instruments owned by public or private organizations.
 
 # EO Space Data
@@ -1106,7 +1106,7 @@ Summary: "
 
 # Expanded Uncertainty
 URL: https://ceos-org.github.io/eo-glossary/terms/expanded_uncertainty
-Tags: core
+Tags: core, to be approved
 Summary: Standard Uncertainty multiplied by a coverage factor k, chosen to obtain a desired level of confidence.
 
 # Expanded Uncertainty
@@ -1126,7 +1126,7 @@ Standard Uncertainty multiplied by a coverage factor, k. The coverage factor is 
 
 # Feature
 URL: https://ceos-org.github.io/eo-glossary/terms/feature
-Tags: base
+Tags: base, to be discussed
 Summary: Abstraction of real-world phenomena.
 
 # Feature
@@ -1147,7 +1147,7 @@ Abstraction of real-world phenomena.
 
 # Final Product Version
 URL: https://ceos-org.github.io/eo-glossary/terms/final_product_version
-Tags: core
+Tags: core, to be approved
 Summary: Product within an EO Collection that is not expected to be updated.
 
 # Final Product Version
@@ -1168,7 +1168,7 @@ Product within an EO Collection that is not expected to be updated.
 
 # Forecast Range
 URL: https://ceos-org.github.io/eo-glossary/terms/forecast_range
-Tags: core
+Tags: core, to be discussed
 Summary: The forecast period.
 
 # Forecast Range
@@ -1188,7 +1188,7 @@ The forecast period.
 
 # Geocoding
 URL: https://ceos-org.github.io/eo-glossary/terms/geocoding
-Tags: core
+Tags: core, to be approved
 Summary: Translation of one form of Location into another.
 
 # Geocoding
@@ -1209,7 +1209,7 @@ Translation of one form of Location into another.
 
 # Geographic Coordinate Reference System
 URL: https://ceos-org.github.io/eo-glossary/terms/geographic_coordinate_reference_system
-Tags: core
+Tags: core, to be approved
 Summary: Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.
 
 # Geographic Coordinate Reference System
@@ -1230,7 +1230,7 @@ Coordinate Reference System (CRS) that has a geodetic Reference frame and an ell
 
 # Geographic Data
 URL: https://ceos-org.github.io/eo-glossary/terms/geographic_data
-Tags: core
+Tags: core, to be approved
 Summary: Data with implicit or explicit reference to a Location relative to the Earth.
 
 # Geographic Data
@@ -1251,7 +1251,7 @@ Data with implicit or explicit reference to a Location relative to the Earth.
 
 # Geographic Grid
 URL: https://ceos-org.github.io/eo-glossary/terms/geographic_grid
-Tags: core
+Tags: core, to be approved
 Summary: Regular grid based on a Geographic Coordinate Reference System (CRS).
 
 # Geographic Grid
@@ -1271,7 +1271,7 @@ Regular grid based on a Geographic Coordinate Reference System (CRS).
 
 # Geographic Identifier
 URL: https://ceos-org.github.io/eo-glossary/terms/geographic_identifier
-Tags: core
+Tags: core, to be approved
 Summary: Spatial reference in the form of a label or code that identifies a Location.
 
 # Geographic Identifier
@@ -1292,7 +1292,7 @@ Spatial reference in the form of a label or code that identifies a Location.
 
 # Geolocating
 URL: https://ceos-org.github.io/eo-glossary/terms/geolocating
-Tags: core
+Tags: core, to be approved
 Summary: Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.
 
 # Geolocating
@@ -1325,7 +1325,7 @@ Determination of the geographic location of a feature of two or more dimensions.
 
 # Geolocation Information
 URL: https://ceos-org.github.io/eo-glossary/terms/geolocation_information
-Tags: core
+Tags: core, to be discussed
 Summary: Information used to determine geographic Location.
 
 # Geolocation Information
@@ -1345,7 +1345,7 @@ Information used to determine geographic Location.
 
 # Geopositioning
 URL: https://ceos-org.github.io/eo-glossary/terms/geopositioning
-Tags: core
+Tags: core, to be discussed
 Summary: Determination of the geographic Position of a point (0D) or linear (1D) Feature.
 
 # Geopositioning
@@ -1365,7 +1365,7 @@ Determination of the geographic Position of a point (0D) or linear (1D) Feature.
 
 # Georectifying
 URL: https://ceos-org.github.io/eo-glossary/terms/georectifying
-Tags: core
+Tags: core, to be discussed
 Summary: Correcting for positional displacement with respect to the surface of the Earth.
 
 # Georectifying
@@ -1400,7 +1400,7 @@ The correction of sample locations to achieve some sort of geometric regularity,
 
 # Geospatial Data
 URL: https://ceos-org.github.io/eo-glossary/terms/geospatial_data
-Tags: core
+Tags: core, to be approved
 Summary: Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.
 
 # Geospatial Data
@@ -1421,7 +1421,7 @@ Data consisting of, derived from, or relating to information that is directly li
 
 # Geosphere
 URL: https://ceos-org.github.io/eo-glossary/terms/geosphere
-Tags: core
+Tags: core, to be approved
 Summary: The masses of minerals that constitute planet Earth.
 
 # Geosphere
@@ -1441,7 +1441,7 @@ The masses of minerals that constitute planet Earth.
 
 # Granule
 URL: https://ceos-org.github.io/eo-glossary/terms/granule
-Tags: core
+Tags: core, to be approved
 Summary: The smallest aggregation of data which is independently managed (i.e. described, inventoried, retrievable).
 
 # Granule
@@ -1462,7 +1462,7 @@ The smallest aggregation of data which is independently managed (i.e. described,
 
 # Grid
 URL: https://ceos-org.github.io/eo-glossary/terms/grid
-Tags: core
+Tags: core, to be approved
 Summary: Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.
 
 # Grid
@@ -1484,7 +1484,7 @@ Network composed of two or more sets of curves in which the members of each set 
 
 # Hydrosphere
 URL: https://ceos-org.github.io/eo-glossary/terms/hydrosphere
-Tags: core
+Tags: core, to be approved
 Summary: The masses of liquid water, such as oceans, lakes, and rivers.
 
 # Hydrosphere
@@ -1504,7 +1504,7 @@ The masses of liquid water, such as oceans, lakes, and rivers.
 
 # Impact
 URL: https://ceos-org.github.io/eo-glossary/terms/impact
-Tags: core
+Tags: core, to be discussed
 Summary: Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.
 
 # Impact
@@ -1524,7 +1524,7 @@ Regarded long-term according to X. However, in the Horizon Europe Missions termi
 
 # In-Situ Observation
 URL: https://ceos-org.github.io/eo-glossary/terms/in-situ_observation
-Tags: controversial
+Tags: controversial, to be discussed
 Summary: Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems or altering its pre-Observation state.
 
 # In-Situ Observation
@@ -1546,7 +1546,7 @@ Observations performed in the same Place where a Phenomenon occurs, normally wit
 
 # Information
 URL: https://ceos-org.github.io/eo-glossary/terms/information
-Tags: base
+Tags: base, to be approved
 Summary: The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.
 
 # Information
@@ -1567,7 +1567,7 @@ The result of organisation, interpretation, categorisation, classification, or s
 
 # Instrument Data
 URL: https://ceos-org.github.io/eo-glossary/terms/instrument_data
-Tags: core
+Tags: core, to be approved
 Summary: Data specifically associated with the instrument, either because it was generated by the instrument or included in data packets identified with that instrument.
 
 # Instrument Data
@@ -1614,7 +1614,7 @@ Data produced and transmitted by the science and engineering sensors of an instr
 
 # Laboratory Observation
 URL: https://ceos-org.github.io/eo-glossary/terms/laboratory_observation
-Tags: core
+Tags: core, to be discussed
 Summary: Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.
 
 # Laboratory Observation
@@ -1635,7 +1635,7 @@ Usually in-situ observations in which the Object or Phenomenon is isolated from 
 
 # Latency
 URL: https://ceos-org.github.io/eo-glossary/terms/latency
-Tags: core
+Tags: core, to be discussed
 Summary: Period between the end of sensing of a Phenomenon to the beginning of availability of a specific product.
 
 # Latency
@@ -1655,7 +1655,7 @@ Period between the end of sensing of a Phenomenon to the beginning of availabili
 
 # Lead Time
 URL: https://ceos-org.github.io/eo-glossary/terms/lead_time
-Tags: core
+Tags: core, to be approved
 Summary: Minimum time of interval between an Observation being tasked and being performed.
 
 # Lead Time
@@ -1675,7 +1675,7 @@ Minimum time of interval between an Observation being tasked and being performed
 
 # Lithosphere
 URL: https://ceos-org.github.io/eo-glossary/terms/lithosphere
-Tags: core
+Tags: core, to be approved
 Summary: The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, includes soils ('pedosphere').
 
 # Lithosphere
@@ -1695,7 +1695,7 @@ The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Obs
 
 # Location
 URL: https://ceos-org.github.io/eo-glossary/terms/location
-Tags: base
+Tags: base, to be approved
 Summary: Particular Place referenced by an identifier.
 
 # Location
@@ -1719,7 +1719,7 @@ Particular Place referenced by an identifier.
 
 # Location Error
 URL: https://ceos-org.github.io/eo-glossary/terms/location_error
-Tags: core
+Tags: core, to be approved
 Summary: Measure of the agreement between the represented Location of an Object and the true Location.
 
 # Location Error
@@ -1739,7 +1739,7 @@ Measure of the agreement between the represented Location of an Object and the t
 
 # Long Term Preservation
 URL: https://ceos-org.github.io/eo-glossary/terms/long_term_preservation
-Tags: core
+Tags: core, to be approved
 Summary: The act of maintaining information in a correct and independently understandable form over the long term.
 
 # Long Term Preservation
@@ -1761,7 +1761,7 @@ The act of maintaining information in a correct and independently understandable
 
 # Measurand
 URL: https://ceos-org.github.io/eo-glossary/terms/measurand
-Tags: core
+Tags: core, to be approved
 Summary: Particular Quantity subject to Measurement.
 
 # Measurand
@@ -1775,7 +1775,8 @@ Particular Quantity subject to Measurement.
 ### Examples
 
 | Step | Process description |
-| :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- |
 | (Raw) | The complete and unaltered/unprocessed set of Data acquired by one or several sensors on a platform |
 | M/0 uncalibrated | Unaltered/unprocessed Level 0 (main) Sensor Data annotated with processed Ancillary Data and supplemented by Auxiliary Data (including radiometric and geometric Calibration coefficients and geo-referencing parameters) allowing further processing to higher Levels. |
 | M/1 Sensor-calibrated | Level M/0 Sensor Data which have been calibrated (ideally traceable to SI) and spatially aligned (co-located, eventually co-gridded) to represent at-Sensor measurements (Value and Uncertainty) in Sensor nominal spatiotemporal sampling, supplemented by appropriate ancillary data. |
@@ -1792,7 +1793,7 @@ From http://doi.org/10.2760/46796
 
 # Measurement
 URL: https://ceos-org.github.io/eo-glossary/terms/measurement
-Tags: core
+Tags: core, to be discussed
 Summary: Observation of a Quantity.
 
 # Measurement
@@ -1813,7 +1814,7 @@ Observation of a Quantity.
 
 # Measurement Uncertainty
 URL: https://ceos-org.github.io/eo-glossary/terms/measurement_uncertainty
-Tags: core
+Tags: core, to be discussed
 Summary: Uncertainty associated with the method of Measurement.
 
 # Measurement Uncertainty
@@ -1833,7 +1834,7 @@ Uncertainty associated with the method of Measurement.
 
 # Metadata
 URL: https://ceos-org.github.io/eo-glossary/terms/metadata
-Tags: core
+Tags: core, to be approved
 Summary: Data describing other data, providing an understanding of the content and utility of a product or collection.
 
 # Metadata
@@ -1855,7 +1856,7 @@ Data describing other data, providing an understanding of the content and utilit
 
 # Minimum Mapping Unit
 URL: https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_unit
-Tags: core
+Tags: core, to be approved
 Summary: The area of the smallest Feature that is still represented on a map.
 
 # Minimum Mapping Unit
@@ -1875,7 +1876,7 @@ The area of the smallest Feature that is still represented on a map.
 
 # Minimum Mapping Width
 URL: https://ceos-org.github.io/eo-glossary/terms/minimum_mapping_width
-Tags: core
+Tags: core, to be approved
 Summary: The width of the smallest linear Feature that is still represented on a map.
 
 # Minimum Mapping Width
@@ -1895,7 +1896,7 @@ The width of the smallest linear Feature that is still represented on a map.
 
 # Model
 URL: https://ceos-org.github.io/eo-glossary/terms/model
-Tags: controversial
+Tags: controversial, to be discussed
 Summary: An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits.
 
 # Model
@@ -1916,7 +1917,7 @@ An, often numeric, theoretical (or otherwise abstract) representation of an Enti
 
 # Near Real Time Data
 URL: https://ceos-org.github.io/eo-glossary/terms/near_real_time_data
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.
 
 # Near Real Time Data
@@ -1936,7 +1937,7 @@ Data available for use with a specified (small and application dependent) latenc
 
 # Object
 URL: https://ceos-org.github.io/eo-glossary/terms/object
-Tags: base
+Tags: base, to be approved
 Summary: Entity with a well-defined boundary and identity that encapsulates state and behaviour.
 
 # Object
@@ -1956,7 +1957,7 @@ Entity with a well-defined boundary and identity that encapsulates state and beh
 
 # Observation
 URL: https://ceos-org.github.io/eo-glossary/terms/observation
-Tags: controversial
+Tags: controversial, to be discussed
 Summary: Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.
 
 # Observation
@@ -1978,7 +1979,7 @@ Act of determining the Value of a Property by interacting in a reproducible way 
 
 # Obsolete Product or Collection
 URL: https://ceos-org.github.io/eo-glossary/terms/obsolete_product_or_collection
-Tags: core
+Tags: core, to be approved
 Summary: Products or collections which have been superseded by later versions of a product or collection.
 
 # Obsolete Product or Collection
@@ -1998,7 +1999,7 @@ Products or collections which have been superseded by later versions of a produc
 
 # Outcome
 URL: https://ceos-org.github.io/eo-glossary/terms/outcome
-Tags: core
+Tags: core, to be defined
 Summary: "
 
 # Outcome
@@ -2015,7 +2016,7 @@ Summary: "
 
 # Path
 URL: https://ceos-org.github.io/eo-glossary/terms/path
-Tags: base
+Tags: base, to be approved
 Summary: Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).
 
 # Path
@@ -2036,7 +2037,7 @@ Line defined in an algorithmic way using at least two positions (can be open-end
 
 # Period
 URL: https://ceos-org.github.io/eo-glossary/terms/period
-Tags: base
+Tags: base, to be approved
 Summary: Particular era or span of time.
 
 # Period
@@ -2057,7 +2058,7 @@ Particular era or span of time.
 
 # Period Identifier
 URL: https://ceos-org.github.io/eo-glossary/terms/period_identifier
-Tags: core
+Tags: core, to be approved
 Summary: Temporal reference in the form of a label or code that identifies a Period.
 
 # Period Identifier
@@ -2078,7 +2079,7 @@ Temporal reference in the form of a label or code that identifies a Period.
 
 # Phenomenon
 URL: https://ceos-org.github.io/eo-glossary/terms/phenomenon
-Tags: base
+Tags: base, to be approved
 Summary: Entity with at least one Property referenced by an identifier.
 
 # Phenomenon
@@ -2098,7 +2099,7 @@ Entity with at least one Property referenced by an identifier.
 
 # Place
 URL: https://ceos-org.github.io/eo-glossary/terms/place
-Tags: base
+Tags: base, to be approved
 Summary: Part of any space referenced by an identifier.
 
 # Place
@@ -2118,7 +2119,7 @@ Part of any space referenced by an identifier.
 
 # Policy
 URL: https://ceos-org.github.io/eo-glossary/terms/policy
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Deliberate system of guidelines to guide decisions and achieve rational outcomes, implemented as a procedure or protocol and typically promulgated through official written documents.
 
 # Policy
@@ -2138,7 +2139,7 @@ Deliberate system of guidelines to guide decisions and achieve rational outcomes
 
 # Policy Cycle
 URL: https://ceos-org.github.io/eo-glossary/terms/policy_cycle
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Well-established concept typically taught as the rational model of policy decision-making, representing an idealised view of the policy process.
 
 # Policy Cycle
@@ -2158,7 +2159,7 @@ Well-established concept, typically taught as the rational model of policy decis
 
 # Policy File
 URL: https://ceos-org.github.io/eo-glossary/terms/policy_file
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Policy documents that represent the official written reference for a given Policy.
 
 # Policy File
@@ -2178,7 +2179,7 @@ Policy documents that represent the official written reference for a given Polic
 
 # Policy Making
 URL: https://ceos-org.github.io/eo-glossary/terms/policy_making
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Process by which governments translate their political vision into programmes and actions to deliver outcomes — desired change in the real world.
 
 # Policy Making
@@ -2198,7 +2199,7 @@ Process by which governments translate their political vision into programmes an
 
 # Policy Milestone
 URL: https://ceos-org.github.io/eo-glossary/terms/policy_milestone
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Markers of significant progress in addressing specific issues, or crucial decision points where significant choices are made within a policy process.
 
 # Policy Milestone
@@ -2218,7 +2219,7 @@ Markers of significant progress in addressing specific issues, or crucial decisi
 
 # Policy Objective
 URL: https://ceos-org.github.io/eo-glossary/terms/policy_objective
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Desired outcome that policymakers wish to achieve.
 
 # Policy Objective
@@ -2238,7 +2239,7 @@ Desired outcome that policymakers wish to achieve.
 
 # Policy Target
 URL: https://ceos-org.github.io/eo-glossary/terms/policy_target
-Tags: high-impact
+Tags: high-impact, to be discussed
 Summary: Specific level or rate set for the Policy Objective.
 
 # Policy Target
@@ -2258,7 +2259,7 @@ Specific level or rate set for the Policy Objective.
 
 # Position
 URL: https://ceos-org.github.io/eo-glossary/terms/position
-Tags: base, controversial
+Tags: base, to be discussed, controversial
 Summary: Place referenced by a single set of coordinates within a coordinate reference system.
 
 # Position
@@ -2279,7 +2280,7 @@ Place referenced by a single set of coordinates within a coordinate reference sy
 
 # Preservation
 URL: https://ceos-org.github.io/eo-glossary/terms/preservation
-Tags: core
+Tags: core, to be approved
 Summary: Processes and operations used to ensure data technical and intellectual survival through time.
 
 # Preservation
@@ -2301,7 +2302,7 @@ Processes and operations used to ensure data technical and intellectual survival
 
 # Process
 URL: https://ceos-org.github.io/eo-glossary/terms/process
-Tags: base
+Tags: base, to be approved
 Summary: Series of activities that interact to produce a result.
 
 # Process
@@ -2322,7 +2323,7 @@ Series of activities that interact to produce a result.
 
 # Product
 URL: https://ceos-org.github.io/eo-glossary/terms/product
-Tags: core
+Tags: core, to be approved
 Summary: Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.
 
 # Product
@@ -2347,7 +2348,7 @@ Electronic data package distributable to users; content is derived from instrume
 
 # Property
 URL: https://ceos-org.github.io/eo-glossary/terms/property
-Tags: base
+Tags: base, to be discussed
 Summary: Observable Trait.
 
 # Property
@@ -2367,7 +2368,7 @@ Observable Trait.
 
 # Provisional Product
 URL: https://ceos-org.github.io/eo-glossary/terms/provisional_product
-Tags: core
+Tags: core, to be approved
 Summary: Products in a research and development phase not yet published into a standardized collection.
 
 # Provisional Product
@@ -2387,7 +2388,7 @@ Products in a research and development phase not yet published into a standardiz
 
 # Quality Indicator
 URL: https://ceos-org.github.io/eo-glossary/terms/quality_indicator
-Tags: core
+Tags: core, to be approved
 Summary: Indicator providing sufficient information to allow all users to readily evaluate the fitness for purpose of the data or derived product.
 
 # Quality Indicator
@@ -2407,7 +2408,7 @@ Indicator providing sufficient information to allow all users to readily evaluat
 
 # Quantity
 URL: https://ceos-org.github.io/eo-glossary/terms/quantity
-Tags: base
+Tags: base, to be approved
 Summary: Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.
 
 # Quantity
@@ -2440,7 +2441,7 @@ Property whose instances can be compared by ratio or only by order.
 
 # Reference
 URL: https://ceos-org.github.io/eo-glossary/terms/reference
-Tags: core
+Tags: core, to be discussed
 Summary: Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower than that of the Observation with which it is compared.
 
 # Reference
@@ -2472,7 +2473,7 @@ Sort of data acquired with an Uncertainty significantly lower (quantify?) than t
 
 # Remote Sensing
 URL: https://ceos-org.github.io/eo-glossary/terms/remote_sensing
-Tags: controversial
+Tags: controversial, to be discussed
 Summary: Type of Observation performed at a significant distance from a Phenomenon.
 
 # Remote Sensing
@@ -2496,7 +2497,7 @@ Type of Observation performed at a significant distance from a Phenomenon.
 
 # Replicability
 URL: https://ceos-org.github.io/eo-glossary/terms/replicability
-Tags: core
+Tags: core, to be approved
 Summary: Property enabling other researchers to conduct an independent study with different data and similar but not identical methods, yet arriving at results that confirm the original study's hypothesis.
 
 # Replicability
@@ -2516,7 +2517,7 @@ Property enabling other researchers to conduct an independent study with differe
 
 # Representativeness
 URL: https://ceos-org.github.io/eo-glossary/terms/representativeness
-Tags: core
+Tags: core, to be approved
 Summary: Quality or characteristic of a measurement or observation to accurately represent a specific geographic location, time period, or environmental condition.
 
 # Representativeness
@@ -2537,7 +2538,7 @@ Quality or characteristic of a measurement or Observation to accurately represen
 
 # Reproducibility
 URL: https://ceos-org.github.io/eo-glossary/terms/reproducibility
-Tags: core
+Tags: core, to be approved
 Summary: Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.
 
 # Reproducibility
@@ -2574,7 +2575,7 @@ Summary: "
 
 # Sample
 URL: https://ceos-org.github.io/eo-glossary/terms/sample
-Tags: controversial
+Tags: controversial, to be discussed
 Summary: Subset of one or more entities.
 
 # Sample
@@ -2597,7 +2598,7 @@ Subset of one or more entities.
 
 # Sensor
 URL: https://ceos-org.github.io/eo-glossary/terms/sensor
-Tags: core
+Tags: core, to be approved
 Summary: Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.
 
 # Sensor
@@ -2620,7 +2621,7 @@ Device or instrument suited (through physical/chemical interaction) to measure o
 
 # Source Data
 URL: https://ceos-org.github.io/eo-glossary/terms/source_data
-Tags: core
+Tags: core, to be approved
 Summary: Data required for production of an EO Collection (e.g., unenhanced satellite mission data) as well as further processed Level-1 data, or any other pre-processed format meeting program requirements.
 
 # Source Data
@@ -2640,7 +2641,7 @@ Data required for production of an EO Collection (e.g., unenhanced satellite mis
 
 # Spatial Completeness
 URL: https://ceos-org.github.io/eo-glossary/terms/spatial_completeness
-Tags: core
+Tags: core, to be approved
 Summary: Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.
 
 # Spatial Completeness
@@ -2661,7 +2662,7 @@ Presence or absence of gaps, which are missing values in an otherwise continuous
 
 # Spatial Consistency
 URL: https://ceos-org.github.io/eo-glossary/terms/spatial_consistency
-Tags: core
+Tags: core, to be approved
 Summary: Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.
 
 # Spatial Consistency
@@ -2681,7 +2682,7 @@ Condition where the spatial statistical properties of the data depend only on th
 
 # Spatial Extent
 URL: https://ceos-org.github.io/eo-glossary/terms/spatial_extent
-Tags: core
+Tags: core, to be approved
 Summary: Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box, representing the maximum spatial boundary within which the user is requesting data.
 
 # Spatial Extent
@@ -2705,7 +2706,7 @@ The attribute represents the maximum spatial extent of the AOI, and in case the 
 
 # Spatial Reporting Unit
 URL: https://ceos-org.github.io/eo-glossary/terms/spatial_reporting_unit
-Tags: core
+Tags: core, to be approved
 Summary: Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.
 
 # Spatial Reporting Unit
@@ -2726,7 +2727,7 @@ Smallest spatial object of interest that may be used for reporting and for which
 
 # Spatial Resolution
 URL: https://ceos-org.github.io/eo-glossary/terms/spatial_resolution
-Tags: core
+Tags: core, to be defined
 Summary: '
 
 # Spatial Resolution
@@ -2744,7 +2745,7 @@ Summary: '
 
 # Spectral Band
 URL: https://ceos-org.github.io/eo-glossary/terms/spectral_band
-Tags: core
+Tags: core, to be approved
 Summary: Part of the electromagnetic spectrum of specific wavelengths, in remote sensing usually described by central wavelength and bandwidth.
 
 # Spectral Band
@@ -2764,7 +2765,7 @@ Part of the electromagnetic spectrum of specific wavelengths. In Remote Sensing,
 
 # Spectral Bandwidth
 URL: https://ceos-org.github.io/eo-glossary/terms/spectral_bandwidth
-Tags: core
+Tags: core, to be discussed
 Summary: Range of the Spectral Band.
 
 # Spectral Bandwidth
@@ -2784,7 +2785,7 @@ Range of the Spectral Band.
 
 # Spectral Resolution
 URL: https://ceos-org.github.io/eo-glossary/terms/spectral_resolution
-Tags: core
+Tags: core, to be approved
 Summary: Measure of the ability to resolve features in the electromagnetic spectrum.
 
 # Spectral Resolution
@@ -2804,7 +2805,7 @@ Measure of the ability to resolve features in the electromagnetic spectrum.
 
 # Stability
 URL: https://ceos-org.github.io/eo-glossary/terms/stability
-Tags: core
+Tags: core, to be approved
 Summary: Maximum acceptable change in Uncertainty per decade.
 
 # Stability
@@ -2825,7 +2826,7 @@ Maximum acceptable change in Uncertainty per decade.
 
 # Standard Uncertainty
 URL: https://ceos-org.github.io/eo-glossary/terms/standard_uncertainty
-Tags: core
+Tags: core, to be approved
 Summary: Standard deviation of the probability distribution describing the spread of possible values in quantitative/continuous data.
 
 # Standard Uncertainty
@@ -2845,7 +2846,7 @@ Standard deviation of the probability distribution describing the spread of poss
 
 # Steward
 URL: https://ceos-org.github.io/eo-glossary/terms/steward
-Tags: core
+Tags: core, to be discussed
 Summary: Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
 
 # Steward
@@ -2866,7 +2867,7 @@ Entity responsible for the safe custody, transport, storage of the data and impl
 
 # Temporal Consistency
 URL: https://ceos-org.github.io/eo-glossary/terms/temporal_consistency
-Tags: core
+Tags: core, to be approved
 Summary: Condition where the temporal statistical properties of the sample depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.
 
 # Temporal Consistency
@@ -2886,7 +2887,7 @@ Condition where the temporal statistical properties of the Sample depend only on
 
 # Temporal Extent
 URL: https://ceos-org.github.io/eo-glossary/terms/temporal_extent
-Tags: core
+Tags: core, to be approved
 Summary: Period during which data was collected, observations were made, or for which the model was run.
 
 # Temporal Extent
@@ -2909,7 +2910,7 @@ Period during which data was collected, observations were made, or for which the
 
 # Temporal Reporting Period
 URL: https://ceos-org.github.io/eo-glossary/terms/temporal_reporting_period
-Tags: core
+Tags: core, to be approved
 Summary: Time period used for reporting and for which the information should be aggregated from the native temporal resolution.
 
 # Temporal Reporting Period
@@ -2933,7 +2934,7 @@ Time Period used for reporting and for which the information should be aggregate
 
 # Temporal Resolution
 URL: https://ceos-org.github.io/eo-glossary/terms/temporal_resolution
-Tags: core
+Tags: core, to be approved
 Summary: Observation or model output representing regular intervals, specifying the length of the interval that determines the smallest event or process that can be resolved.
 
 # Temporal Resolution
@@ -2958,7 +2959,7 @@ Observation or model output representing regular intervals, specifying the lengt
 
 # Temporal Revisit
 URL: https://ceos-org.github.io/eo-glossary/terms/temporal_revisit
-Tags: core
+Tags: core, to be discussed
 Summary: Interval between successive observations.
 
 # Temporal Revisit
@@ -2984,7 +2985,7 @@ Interval between successive observations.
 
 # Thematic Resolution
 URL: https://ceos-org.github.io/eo-glossary/terms/thematic_resolution
-Tags: core
+Tags: core, to be approved
 Summary: Level of categorical detail of information expressed by the number of classes.
 
 # Thematic Resolution
@@ -3004,7 +3005,7 @@ Level of categorical detail of information expressed by the number of classes.
 
 # Thematic Uncertainty
 URL: https://ceos-org.github.io/eo-glossary/terms/thematic_uncertainty
-Tags: core
+Tags: core, to be discussed
 Summary: Uncertainty associated with the method of classification.
 
 # Thematic Uncertainty
@@ -3026,7 +3027,7 @@ Uncertainty associated with the method of classification.
 
 # Time of Day
 URL: https://ceos-org.github.io/eo-glossary/terms/time_of_day
-Tags: core
+Tags: core, to be approved
 Summary: Time of the day at which the variable or parameter is observed or simulated by a model.
 
 # Time of Day
@@ -3052,7 +3053,7 @@ Time of the day at which the variable or parameter is observed or simulated by a
 
 # Time of Year
 URL: https://ceos-org.github.io/eo-glossary/terms/time_of_year
-Tags: core
+Tags: core, to be approved
 Summary: Time of the year at which the variable is observed or simulated by a model.
 
 # Time of Year
@@ -3077,7 +3078,7 @@ Time of the year at which the variable is observed or simulated by a model.
 
 # Timeliness
 URL: https://ceos-org.github.io/eo-glossary/terms/timeliness
-Tags: core
+Tags: core, to be approved
 Summary: Period between the moment of requesting information and the moment of availability of information.
 
 # Timeliness
@@ -3120,7 +3121,7 @@ Summary: "
 
 # Traceability
 URL: https://ceos-org.github.io/eo-glossary/terms/traceability
-Tags: core
+Tags: core, to be approved
 Summary: Property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations each contributing to the measurement uncertainty.
 
 # Traceability
@@ -3140,7 +3141,7 @@ Property of a measurement result whereby the result can be related to a Referenc
 
 # Trait
 URL: https://ceos-org.github.io/eo-glossary/terms/trait
-Tags: base
+Tags: base, to be approved
 Summary: Characteristic belonging to an entity and referenced by an identifier.
 
 # Trait
@@ -3161,7 +3162,7 @@ Characteristic belonging to an entity and referenced by an identifier.
 
 # Uncertainty
 URL: https://ceos-org.github.io/eo-glossary/terms/uncertainty
-Tags: core
+Tags: core, to be approved
 Summary: Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.
 
 # Uncertainty
@@ -3236,7 +3237,7 @@ Parameter characterizing the dispersion of the values being attributed to a meas
 
 # Update Frequency
 URL: https://ceos-org.github.io/eo-glossary/terms/update_frequency
-Tags: core
+Tags: core, to be approved
 Summary: Frequency at which the product is available to users.
 
 # Update Frequency
@@ -3257,7 +3258,7 @@ Frequency at which the product is available to users.
 
 # User
 URL: https://ceos-org.github.io/eo-glossary/terms/user
-Tags: core
+Tags: core, to be approved
 Summary: Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.
 
 # User
@@ -3291,7 +3292,7 @@ External person, institution or system that consumes provided services.
 
 # User Interface
 URL: https://ceos-org.github.io/eo-glossary/terms/user_interface
-Tags: core
+Tags: core, to be approved
 Summary: Set of all the components of an interactive system that provide information and controls for the user to accomplish specific tasks with the interactive system.
 
 # User Interface
@@ -3311,7 +3312,7 @@ Set of all the components of an interactive system that provide information and 
 
 # Validation
 URL: https://ceos-org.github.io/eo-glossary/terms/validation
-Tags: core
+Tags: core, to be approved
 Summary: Process of assessing, by independent means, the quality of the data products derived from the system outputs.
 
 # Validation
@@ -3360,7 +3361,7 @@ Assurance that a product, service, or system meets the needs of the customer and
 
 # Value
 URL: https://ceos-org.github.io/eo-glossary/terms/value
-Tags: base
+Tags: base, to be approved
 Summary: Element of a type domain.
 
 # Value
@@ -3382,7 +3383,7 @@ Element of a type domain.
 
 # Verification
 URL: https://ceos-org.github.io/eo-glossary/terms/verification
-Tags: core
+Tags: core, to be approved
 Summary: Provision of objective evidence that a given item fulfils specified requirements.
 
 # Verification
@@ -3432,7 +3433,7 @@ Means to evaluate the reliability of the data in the absence of a reference data
 
 # Version Control
 URL: https://ceos-org.github.io/eo-glossary/terms/version_control
-Tags: core
+Tags: core, to be approved
 Summary: Method of working with collections, similar to version control systems used in traditional software development but optimized to allow better processing of data and collaboration in data analytics and research contexts.
 
 # Version Control
@@ -3452,7 +3453,7 @@ Method of working with collections, similar to the version control systems used 
 
 # Vertical Levels
 URL: https://ceos-org.github.io/eo-glossary/terms/vertical_levels
-Tags: core
+Tags: core, to be approved
 Summary: Levels of a vertical discretization, e.g. pressure levels in an atmospheric model reanalysis or height levels in a forest biomass EO product.
 
 # Vertical Levels

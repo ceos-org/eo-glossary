@@ -7,6 +7,8 @@ description: Governance model, roles, and review cycles for the CEOS Common Dict
 
 # Governance
 
+**This page is a draft!** 
+
 The CEOS Common Dictionary operates on a balance of **Agility** (quick development and community contribution) and **Authority** (trusted, stable definitions backed by domain experts). 
 
 Following the decisions made at [WGISS-60](https://ceos.org/document_management/Working_Groups/WGISS/Meetings/WGISS-60/WGISS-60%20Minutes%20and%20Actions%20v1.0.pdf) (see p. 50), this document outlines the governance model and lifecycle of contributions.
