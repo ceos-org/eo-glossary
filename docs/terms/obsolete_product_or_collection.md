@@ -2,6 +2,7 @@
 title: Obsolete Product or Collection
 tags:
   - core
+  - to be approved
 description: Products or collections which have been superseded by later versions of a product or collection.
 ---
 

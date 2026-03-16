@@ -2,6 +2,7 @@
 title: Provisional Product
 tags:
 - core
+- to be approved
 description: Products in a research and development phase not yet published into a standardized collection.
 ---
 

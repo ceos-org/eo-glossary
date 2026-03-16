@@ -2,6 +2,7 @@
 title: Temporal Resolution
 tags:
 - core
+- to be approved
 description: Observation or model output representing regular intervals, specifying the length of the interval that determines the smallest event or process that can be resolved.
 ---
 

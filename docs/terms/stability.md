@@ -2,6 +2,7 @@
 title: Stability
 tags:
 - core
+- to be approved
 description: Maximum acceptable change in Uncertainty per decade.
 ---
 

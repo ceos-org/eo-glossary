@@ -2,6 +2,7 @@
 title: Trait
 tags:
 - base
+- to be approved
 description: Characteristic belonging to an entity and referenced by an identifier.
 ---
 

@@ -2,6 +2,7 @@
 title: Path
 tags:
 - base
+- to be approved
 description: "Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points)."
 ---
 

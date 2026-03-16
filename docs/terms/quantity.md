@@ -2,6 +2,7 @@
 title: Quantity
 tags:
 - base
+- to be approved
 description: Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.
 ---
 

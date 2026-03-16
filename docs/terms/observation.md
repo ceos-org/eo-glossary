@@ -2,6 +2,7 @@
 title: Observation
 tags:
   - controversial
+  - to be discussed
 description: Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.
 ---
 

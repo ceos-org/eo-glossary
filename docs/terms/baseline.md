@@ -3,7 +3,7 @@ title: Baseline
 description: Reference Period, time or measure against which Information is assessed or compared.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Baseline

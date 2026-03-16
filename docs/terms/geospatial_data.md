@@ -2,6 +2,7 @@
 title: Geospatial Data
 tags:
   - core
+  - to be approved
 description: Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.
 ---
 

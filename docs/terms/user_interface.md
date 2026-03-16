@@ -2,6 +2,7 @@
 title: User Interface
 tags:
 - core
+- to be approved
 description: Set of all the components of an interactive system that provide information and controls for the user to accomplish specific tasks with the interactive system.
 ---
 

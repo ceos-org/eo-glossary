@@ -2,6 +2,7 @@
 title: Spatial Reporting Unit
 tags:
 - core
+- to be approved
 description: Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.
 ---
 

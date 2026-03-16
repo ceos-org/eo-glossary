@@ -3,7 +3,7 @@ title: Auxiliary Data
 description: Data that enhance the processing and utilisation of main Sensor Data, usually not captured by the same Data collection Process or on the same platform as the main Sensor Data.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Auxiliary Data

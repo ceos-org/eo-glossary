@@ -2,6 +2,7 @@
 title: Derivative Product
 tags:
 - core
+- to be approved
 description: Product additionally processed from baseline or unenhanced mission data.
 ---
 

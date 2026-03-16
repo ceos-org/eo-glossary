@@ -3,7 +3,7 @@ title: Copernicus Service Provider
 description: Institutional body, organisation or programme that provides reliable, trusted EO Information and has the financial resources to sustain the provision.
 tags:
 - core
-- approved
+- to be discussed
 ---
 
 # Copernicus Service Provider

@@ -2,6 +2,7 @@
 title: Near Real Time Data
 tags:
   - high-impact
+  - to be discussed
 description: Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.
 ---
 

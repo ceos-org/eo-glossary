@@ -2,6 +2,7 @@
 title: Spectral Bandwidth
 tags:
 - core
+- to be discussed
 description: Range of the Spectral Band.
 ---
 

@@ -2,6 +2,7 @@
 title: Earth Spheres
 tags:
 - core
+- to be approved
 description: Spheres dividing planet Earth into subsystems, which are collectives of (physical) matter sharing specific traits.
 ---
 

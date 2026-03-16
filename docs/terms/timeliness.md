@@ -2,6 +2,7 @@
 title: Timeliness
 tags:
 - core
+- to be approved
 description: Period between the moment of requesting information and the moment of availability of information.
 ---
 

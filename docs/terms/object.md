@@ -2,6 +2,7 @@
 title: Object
 tags:
   - base
+  - to be approved
 description: Entity with a well-defined boundary and identity that encapsulates state and behaviour.
 ---
 

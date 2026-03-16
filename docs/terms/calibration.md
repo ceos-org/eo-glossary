@@ -3,7 +3,8 @@ title: Calibration
 description: Process of quantitatively defining a system's (e.g. a Sensor or Model's) response to known, controlled inputs produced by references. In Remote Sensing, implies the collection of pre-flight and in-flight calibration measurements and in-situ Data.
 tags:
 - core
-- approved
+- source missing
+- to be discussed
 ---
 
 # Calibration

@@ -3,7 +3,7 @@ title: Archive
 description: System that stores data products, guaranteeing their preservation for future use, including all operations to identify, store and retrieve the data and ensure their integrity.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Archive

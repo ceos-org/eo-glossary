@@ -2,6 +2,7 @@
 title: Measurement
 tags:
   - core
+  - to be discussed
 description: Observation of a Quantity.
 ---
 

@@ -2,6 +2,7 @@
 title: Geographic Data
 tags:
 - core
+- to be approved
 description: Data with implicit or explicit reference to a Location relative to the Earth.
 ---
 

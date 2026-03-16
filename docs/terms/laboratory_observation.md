@@ -2,6 +2,7 @@
 title: Laboratory Observation
 tags:
   - core
+  - to be discussed
 description: Usually in-situ observations in which the Object or Phenomenon is isolated from other systems or altered in its original conditions or environment.
 ---
 

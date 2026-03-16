@@ -2,6 +2,7 @@
 title: Sample
 tags:
 - controversial
+- to be discussed
 description: Subset of one or more entities.
 ---
 

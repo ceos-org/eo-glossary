@@ -2,6 +2,7 @@
 title: Geographic Coordinate Reference System
 tags:
 - core
+- to be approved
 description: Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.
 ---
 

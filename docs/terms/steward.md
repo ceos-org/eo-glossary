@@ -2,6 +2,7 @@
 title: Steward
 tags:
 - core
+- to be discussed
 description: Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
 ---
 

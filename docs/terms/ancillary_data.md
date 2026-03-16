@@ -3,7 +3,7 @@ title: Ancillary Data
 description: Data acquired on the same platform but not obtained from the main Sensor itself (usually provided as part of Level 0 Data), with the primary purpose of serving the processing of main instrument Data.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Ancillary Data

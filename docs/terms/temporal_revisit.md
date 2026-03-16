@@ -2,6 +2,7 @@
 title: Temporal Revisit
 tags:
 - core
+- to be discussed
 description: Interval between successive observations.
 ---
 

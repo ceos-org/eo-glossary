@@ -2,6 +2,7 @@
 title: Reproducibility
 tags:
 - core
+- to be approved
 description: Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.
 ---
 

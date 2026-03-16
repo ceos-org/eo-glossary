@@ -2,6 +2,7 @@
 title: Data Licencing
 tags:
 - core
+- to be approved
 description: Legal instrument by which a copyright holder may grant rights over the protected work.
 ---
 

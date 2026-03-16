@@ -2,6 +2,7 @@
 title: Earth Observation Product
 tags:
 - core
+- to be approved
 description: Direct output from standardized satellite data processing chains (indicative levels 2 and 3), representing fundamental geophysical and biophysical variables.
 ---
 

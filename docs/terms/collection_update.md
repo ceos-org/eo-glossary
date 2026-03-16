@@ -3,7 +3,7 @@ title: Collection Update
 description: Minor revisions to a relatively small number of products within a collection for the purpose of correcting errors and maintaining consistent quality.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Collection Update

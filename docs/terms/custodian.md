@@ -2,6 +2,7 @@
 title: Custodian
 tags:
 - core
+- to be approved
 description: Entity responsible for the safe custody, transport, storage of the data and implementation of business rules.
 ---
 

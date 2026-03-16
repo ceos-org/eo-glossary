@@ -2,6 +2,7 @@
 title: Thematic Uncertainty
 tags:
 - core
+- to be discussed
 description: Uncertainty associated with the method of classification.
 ---
 

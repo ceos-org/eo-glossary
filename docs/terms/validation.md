@@ -2,6 +2,7 @@
 title: Validation
 tags:
 - core
+- to be approved
 description: Process of assessing, by independent means, the quality of the data products derived from the system outputs.
 ---
 

@@ -2,6 +2,7 @@
 title: Period
 tags:
 - base
+- to be approved
 description: Particular era or span of time.
 ---
 

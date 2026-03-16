@@ -3,7 +3,7 @@ title: Confidence Interval
 description: Probability that a Quantity lies in a given interval, conditioned on the measuring or modelling assumptions.
 tags:
 - controversial
-- approved
+- to be approved
 ---
 
 # Confidence Interval

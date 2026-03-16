@@ -3,6 +3,7 @@ title: Cartographic Projection
 description: ""
 tags:
 - core
+- to be defined
 ---
 
 # Cartographic Projection

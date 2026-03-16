@@ -2,6 +2,7 @@
 title: Preservation
 tags:
 - core
+- to be approved
 description: Processes and operations used to ensure data technical and intellectual survival through time.
 ---
 

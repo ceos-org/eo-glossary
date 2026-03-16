@@ -3,7 +3,7 @@ title: Catalogue
 description: System that provides users with discovery of information on which EO products can be obtained.
 tags:
 - core
-- approved
+- to be approved
 ---
 
 # Catalogue

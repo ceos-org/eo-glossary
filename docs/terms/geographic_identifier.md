@@ -2,6 +2,7 @@
 title: Geographic Identifier
 tags:
 - core
+- to be approved
 description: Spatial reference in the form of a label or code that identifies a Location.
 ---
 

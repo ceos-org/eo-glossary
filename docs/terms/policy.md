@@ -2,6 +2,7 @@
 title: Policy
 tags:
 - high-impact
+- to be discussed
 description: Deliberate system of guidelines to guide decisions and achieve rational outcomes, implemented as a procedure or protocol and typically promulgated through official written documents.
 ---
 

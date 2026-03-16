@@ -2,6 +2,7 @@
 title: Temporal Consistency
 tags:
 - core
+- to be approved
 description: Condition where the temporal statistical properties of the sample depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.
 ---
 

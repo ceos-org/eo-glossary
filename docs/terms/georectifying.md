@@ -2,6 +2,7 @@
 title: Georectifying
 tags:
   - core
+  - to be discussed
 description: Correcting for positional displacement with respect to the surface of the Earth.
 ---
 

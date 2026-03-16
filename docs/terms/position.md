@@ -2,6 +2,7 @@
 title: Position
 tags:
 - base
+- to be discussed
 - controversial
 description: Place referenced by a single set of coordinates within a coordinate reference system.
 ---

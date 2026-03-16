@@ -2,6 +2,7 @@
 title: Geopositioning
 tags:
 - core
+- to be discussed
 description: Determination of the geographic Position of a point (0D) or linear (1D) Feature.
 ---
 

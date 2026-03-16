@@ -3,7 +3,7 @@ title: Characteristic
 description: Distinguishing Feature of an object or entity, which can be inherent or assigned, and qualitative or quantitative.
 tags:
 - base
-- approved
+- to be discussed
 ---
 
 # Characteristic

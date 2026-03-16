@@ -2,6 +2,7 @@
 title: Minimum Mapping Unit
 tags:
   - core
+  - to be approved
 description: The area of the smallest Feature that is still represented on a map.
 ---
 

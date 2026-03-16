@@ -2,6 +2,7 @@
 title: Temporal Reporting Period
 tags:
 - core
+- to be approved
 description: Time period used for reporting and for which the information should be aggregated from the native temporal resolution.
 ---
 

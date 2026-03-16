@@ -2,6 +2,7 @@
 title: Environmental Process
 tags:
 - core
+- to be defined
 description: ""
 ---
 

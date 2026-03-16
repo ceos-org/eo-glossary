@@ -2,6 +2,7 @@
 title: User
 tags:
 - core
+- to be approved
 description: Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.
 ---
 

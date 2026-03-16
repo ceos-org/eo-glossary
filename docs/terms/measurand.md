@@ -2,6 +2,7 @@
 title: Measurand
 tags:
   - core
+  - to be approved
 description: Particular Quantity subject to Measurement.
 ---
 
@@ -16,7 +17,8 @@ Particular Quantity subject to Measurement.
 ### Examples
 
 | Step | Process description |
-| :----- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- |
 | (Raw) | The complete and unaltered/unprocessed set of Data acquired by one or several sensors on a platform |
 | M/0 uncalibrated | Unaltered/unprocessed Level 0 (main) Sensor Data annotated with processed Ancillary Data and supplemented by Auxiliary Data (including radiometric and geometric Calibration coefficients and geo-referencing parameters) allowing further processing to higher Levels. |
 | M/1 Sensor-calibrated | Level M/0 Sensor Data which have been calibrated (ideally traceable to SI) and spatially aligned (co-located, eventually co-gridded) to represent at-Sensor measurements (Value and Uncertainty) in Sensor nominal spatiotemporal sampling, supplemented by appropriate ancillary data. |

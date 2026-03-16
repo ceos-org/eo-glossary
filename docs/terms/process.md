@@ -2,6 +2,7 @@
 title: Process
 tags:
 - base
+- to be approved
 description: Series of activities that interact to produce a result.
 ---
 
