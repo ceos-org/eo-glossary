@@ -1,7 +1,7 @@
 ---
 title: Contribution Guide
 description: How to contribute terms and definitions to the EO Glossary — the community thesaurus for Earth Observation sciences.
-displayed_sidebar: null
+displayed_sidebar: glossary
 ---
 
 # Contribution Guide

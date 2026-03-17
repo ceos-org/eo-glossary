@@ -2,6 +2,7 @@
 title: Term Dependency Graph
 description: Interactive force-directed graph showing relationships and dependencies between EO Glossary terms, built with Sigma.js.
 sidebar_label: Dependency Graph
+displayed_sidebar: glossary
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -801,6 +801,21 @@ article h3[id$="examples"] + ul li::before {
 ::-webkit-scrollbar-thumb { background: var(--ifm-color-emphasis-300); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--ifm-color-primary); }
 
+/* ─── Sidebar: hide menu when collapsed ───────────────────────────────────────── */
+/* When the sidebar is collapsed (30px), Docusaurus still renders menu items
+   which clip to single letters. Container query hides them cleanly. */
+@media (min-width: 997px) {
+  .theme-doc-sidebar-container {
+    container-type: inline-size;
+    container-name: sidebar;
+  }
+  @container sidebar (max-width: 80px) {
+    .menu {
+      display: none !important;
+    }
+  }
+}
+
 /* ─── Print styles ───────────────────────────────────────────────────────────── */
 @media print {
   .navbar, .footer, .theme-doc-sidebar-container, .table-of-contents { display: none; }
@@ -809,11 +824,7 @@ article h3[id$="examples"] + ul li::before {
 
 /* ─── Annotate page ──────────────────────────────────────────────────────────── */
 .annotate-page {
-  padding: 2.5rem 2rem 4rem;
-}
-
-.annotate-page .container {
-  max-width: 840px;
+  padding: 1rem 0 2rem;
 }
 
 .annotate-header {

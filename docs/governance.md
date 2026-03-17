@@ -2,7 +2,7 @@
 id: governance
 title: Governance
 description: Governance model, roles, and review cycles for the CEOS Common Dictionary.
-displayed_sidebar: null
+displayed_sidebar: glossary
 ---
 
 # Governance

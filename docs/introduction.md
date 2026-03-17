@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: The EO Glossary of Terms and Definitions — an interactive, community-maintained thesaurus for everyone involved in Earth Observation sciences.
-displayed_sidebar: null
+displayed_sidebar: glossary
 ---
 
 # Introduction

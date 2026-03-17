@@ -1,6 +1,5 @@
-import React, { type ReactNode, useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import Layout from '@theme/Layout';
 
 // ── Types ────────────────────────────────────────────────────────────────────
 interface ProcessedTerm {
@@ -44,15 +43,6 @@ function IconCheck({ size = 16 }: { size?: number }) {
   );
 }
 
-function IconAnnotate({ size = 20 }: { size?: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M12 20h9" />
-      <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
-    </svg>
-  );
-}
-
 // ── Annotation engine ────────────────────────────────────────────────────────
 function annotateText(
   inputText: string,
@@ -62,17 +52,14 @@ function annotateText(
     return { html: '', markdown: '', plain: '', matchCount: 0 };
   }
 
-  // Build a single regex alternating all terms, longest first (already sorted)
   const pattern = terms.map(t => escapeRegex(t.term)).join('|');
   const regex = new RegExp(`\\b(${pattern})\\b`, 'gi');
 
-  // Map lowercase term → ProcessedTerm for fast lookup
   const lookup = new Map<string, ProcessedTerm>();
   for (const t of terms) {
     lookup.set(t.term.toLowerCase(), t);
   }
 
-  // Track which positions have already been replaced (avoid overlapping matches)
   const matches: { start: number; end: number; term: ProcessedTerm; original: string }[] = [];
   let m: RegExpExecArray | null;
   while ((m = regex.exec(inputText)) !== null) {
@@ -93,7 +80,6 @@ function annotateText(
   let cursor = 0;
 
   for (const match of matches) {
-    // Text before this match
     const before = inputText.slice(cursor, match.start);
     html += escapeHtml(before);
     markdown += before;
@@ -102,23 +88,18 @@ function annotateText(
     const url = `${GLOSSARY_BASE}/terms/${match.term.slug}`;
     const def = match.term.definition;
 
-    // HTML output
     html +=
       `<span class="annotate-match" title="${escapeHtml(def)}">` +
       `<strong>${escapeHtml(def)}</strong> ` +
       `[<a href="${url}" target="_blank" rel="noreferrer">${escapeHtml(match.original)}</a>]` +
       `</span>`;
 
-    // Markdown output
     markdown += `**${def}** ([${match.original}](${url}))`;
-
-    // Plain text output
     plain += `${def} [${match.original}]`;
 
     cursor = match.end;
   }
 
-  // Remaining text
   const tail = inputText.slice(cursor);
   html += escapeHtml(tail);
   markdown += tail;
@@ -155,7 +136,6 @@ function SplitButton({
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // fallback
       const ta = document.createElement('textarea');
       ta.value = content;
       document.body.appendChild(ta);
@@ -217,7 +197,6 @@ function WordSplitButton({ html }: { html: string }) {
 
   const handleCopy = useCallback(async () => {
     try {
-      // Copy as rich text via ClipboardItem
       const blob = new Blob([html], { type: 'text/html' });
       await navigator.clipboard.write([
         new ClipboardItem({ 'text/html': blob }),
@@ -225,7 +204,6 @@ function WordSplitButton({ html }: { html: string }) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Fallback: copy plain HTML
       await navigator.clipboard.writeText(html);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -264,8 +242,8 @@ function WordSplitButton({ html }: { html: string }) {
   );
 }
 
-// ── Main page ───────────────────────────────────────────────────────────────
-export default function AnnotatePage(): ReactNode {
+// ── Main component ──────────────────────────────────────────────────────────
+export default function Annotator() {
   const [terms, setTerms] = useState<ProcessedTerm[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -284,7 +262,6 @@ export default function AnnotatePage(): ReactNode {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const termsUrl = useBaseUrl(ANNOTATE_TERMS_PATH);
 
-  // Load pre-built terms from static JSON (generated at build time)
   useEffect(() => {
     fetch(termsUrl)
       .then(r => {
@@ -313,101 +290,82 @@ export default function AnnotatePage(): ReactNode {
   }, []);
 
   return (
-    <Layout
-      title="Annotate Text"
-      description="Paste any text and automatically annotate it with EO Glossary definitions."
-    >
-      <div className="annotate-page">
-        <div className="container">
-          {/* Header */}
-          <header className="annotate-header">
-            <div className="annotate-header-icon"><IconAnnotate size={24} /></div>
-            <div>
-              <h1 className="annotate-title">Text Annotator</h1>
-              <p className="annotate-subtitle">
-                Paste any text below and every recognised EO Glossary term will be
-                replaced with its definition, linked back to the glossary.
-              </p>
-            </div>
-          </header>
+    <div className="annotate-page">
+      {/* Status */}
+      <div className="annotate-status">
+        {loading && <span className="annotate-status-loading">Loading glossary terms...</span>}
+        {error && <span className="annotate-status-error">Failed to load terms: {error}</span>}
+        {!loading && !error && (
+          <span className="annotate-status-ready">{terms.length} terms loaded (sorted longest-first)</span>
+        )}
+      </div>
 
-          {/* Status */}
-          <div className="annotate-status">
-            {loading && <span className="annotate-status-loading">Loading glossary terms...</span>}
-            {error && <span className="annotate-status-error">Failed to load terms: {error}</span>}
-            {!loading && !error && (
-              <span className="annotate-status-ready">{terms.length} terms loaded (sorted longest-first)</span>
-            )}
-          </div>
-
-          {/* Input */}
-          <div className="annotate-input-section">
-            <label htmlFor="annotate-input" className="annotate-label">Input text</label>
-            <textarea
-              id="annotate-input"
-              ref={textareaRef}
-              className="annotate-textarea"
-              rows={10}
-              placeholder="Paste your text here... e.g. &quot;The Accuracy of the Sensor Calibration depends on Auxiliary Data quality.&quot;"
-              value={inputText}
-              onChange={e => setInputText(e.target.value)}
-            />
-            <div className="annotate-input-actions">
-              <button
-                className="page-btn page-btn--primary"
-                onClick={handleAnnotate}
-                disabled={loading || !inputText.trim()}
-              >
-                Annotate
-              </button>
-              <button
-                className="page-btn page-btn--ghost"
-                onClick={handleClear}
-                disabled={!inputText && !result}
-              >
-                Clear
-              </button>
-            </div>
-          </div>
-
-          {/* Output */}
-          {result && result.matchCount > 0 && (
-            <div className="annotate-output-section">
-              <div className="annotate-output-header">
-                <h2 className="annotate-output-title">Annotated text</h2>
-                <span className="annotate-match-count">{result.matchCount} term{result.matchCount !== 1 ? 's' : ''} matched</span>
-              </div>
-
-              <div
-                className="annotate-output-body"
-                dangerouslySetInnerHTML={{ __html: result.html }}
-              />
-
-              <div className="annotate-export-bar">
-                <SplitButton
-                  label="Text"
-                  content={result.plain}
-                  filename="annotated-text.txt"
-                  mimeType="text/plain"
-                />
-                <SplitButton
-                  label="Markdown"
-                  content={result.markdown}
-                  filename="annotated-text.md"
-                  mimeType="text/markdown"
-                />
-                <WordSplitButton html={result.html} />
-              </div>
-            </div>
-          )}
-
-          {result && result.matchCount === 0 && (
-            <div className="annotate-output-section">
-              <p className="annotate-no-match">No glossary terms found in the input text.</p>
-            </div>
-          )}
+      {/* Input */}
+      <div className="annotate-input-section">
+        <label htmlFor="annotate-input" className="annotate-label">Input text</label>
+        <textarea
+          id="annotate-input"
+          ref={textareaRef}
+          className="annotate-textarea"
+          rows={10}
+          placeholder='Paste your text here... e.g. "The Accuracy of the Sensor Calibration depends on Auxiliary Data quality."'
+          value={inputText}
+          onChange={e => setInputText(e.target.value)}
+        />
+        <div className="annotate-input-actions">
+          <button
+            className="page-btn page-btn--primary"
+            onClick={handleAnnotate}
+            disabled={loading || !inputText.trim()}
+          >
+            Annotate
+          </button>
+          <button
+            className="page-btn page-btn--ghost"
+            onClick={handleClear}
+            disabled={!inputText && !result}
+          >
+            Clear
+          </button>
         </div>
       </div>
-    </Layout>
+
+      {/* Output */}
+      {result && result.matchCount > 0 && (
+        <div className="annotate-output-section">
+          <div className="annotate-output-header">
+            <h2 className="annotate-output-title">Annotated text</h2>
+            <span className="annotate-match-count">{result.matchCount} term{result.matchCount !== 1 ? 's' : ''} matched</span>
+          </div>
+
+          <div
+            className="annotate-output-body"
+            dangerouslySetInnerHTML={{ __html: result.html }}
+          />
+
+          <div className="annotate-export-bar">
+            <SplitButton
+              label="Text"
+              content={result.plain}
+              filename="annotated-text.txt"
+              mimeType="text/plain"
+            />
+            <SplitButton
+              label="Markdown"
+              content={result.markdown}
+              filename="annotated-text.md"
+              mimeType="text/markdown"
+            />
+            <WordSplitButton html={result.html} />
+          </div>
+        </div>
+      )}
+
+      {result && result.matchCount === 0 && (
+        <div className="annotate-output-section">
+          <p className="annotate-no-match">No glossary terms found in the input text.</p>
+        </div>
+      )}
+    </div>
   );
 }

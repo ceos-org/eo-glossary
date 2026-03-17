@@ -51,9 +51,9 @@ try {
       const title = titleMatch?.[1]?.trim();
       if (!title) return null;
 
-      // Extract first definition: the paragraph right after "## 1 Definition"
+      // Extract first definition: the first non-heading paragraph after "## 1 Definition"
       const defMatch = content.match(
-        /^##\s*1\s+Definition\s*\n+(.+)/m,
+        /^##\s*1\s+Definition\s*\n+(?!#)(.+)/m,
       );
       const definition = defMatch?.[1]?.trim();
       if (!definition) return null;
@@ -403,6 +403,7 @@ const config: Config = {
 
   clientModules: [
     './src/clientModules/announcementBarReset.js',
+    './src/clientModules/sidebarAutoCollapse.js',
   ],
 
   plugins: [],
@@ -476,10 +477,10 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'glossary',
-          position: 'left',
+          to: '/terms/accuracy',
           label: 'Glossary',
+          position: 'left',
+          activeBaseRegex: '/terms/',
         },
         { to: '/introduction', label: 'Introduction', position: 'left' },
         { to: '/concepts', label: 'Concepts', position: 'left' },
@@ -487,7 +488,7 @@ const config: Config = {
         { to: '/data-access', label: 'Data Access', position: 'left' },
         { to: '/contribute', label: 'Contribute', position: 'left' },
         { to: '/dependency-graph', label: 'Graph', position: 'left' },
-        { to: '/tags', label: 'Tags', position: 'left' },
+        { to: '/tags-overview', label: 'Tags', position: 'left' },
         { to: '/annotate', label: 'Annotate', position: 'left' },
         { to: '/impressum', label: 'Contact', position: 'left' },
         {
@@ -508,7 +509,7 @@ const config: Config = {
             { label: 'All Terms (A–Z)', to: '/terms/accuracy' },
             { label: 'Concepts', to: '/concepts' },
             { label: 'Dependency Graph', to: '/dependency-graph' },
-            { label: 'Tags', to: '/tags' },
+            { label: 'Tags', to: '/tags-overview' },
           ],
         },
         {
