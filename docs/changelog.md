@@ -1,6 +1,7 @@
 ---
 title: Changelog
 description: Version history and changes to the EO Glossary.
+displayed_sidebar: null
 ---
 
 # Changelog

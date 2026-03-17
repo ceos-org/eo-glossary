@@ -2,6 +2,7 @@
 title: Conceptual Framework
 description: Conceptual value chains describing how Earth Observation data creates value for society and how processing enhances raw data into actionable information.
 sidebar_label: Concepts
+displayed_sidebar: null
 ---
 
 # Conceptual Framework

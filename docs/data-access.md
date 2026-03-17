@@ -1,6 +1,7 @@
 ---
 title: Data Access
 description: How to access the EO Glossary data programmatically — exports in JSON, Parquet, and XLSX, plain-text for LLM ingestion, MCP server for AI assistants, and structured data on every term page.
+displayed_sidebar: null
 ---
 
 # Data Access

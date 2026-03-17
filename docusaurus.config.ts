@@ -483,10 +483,13 @@ const config: Config = {
         },
         { to: '/introduction', label: 'Introduction', position: 'left' },
         { to: '/concepts', label: 'Concepts', position: 'left' },
+        { to: '/governance', label: 'Governance', position: 'left' },
+        { to: '/data-access', label: 'Data Access', position: 'left' },
         { to: '/contribute', label: 'Contribute', position: 'left' },
         { to: '/dependency-graph', label: 'Graph', position: 'left' },
         { to: '/tags', label: 'Tags', position: 'left' },
         { to: '/annotate', label: 'Annotate', position: 'left' },
+        { to: '/impressum', label: 'Contact', position: 'left' },
         {
           href: 'https://github.com/ceos-org/eo-glossary',
           position: 'right',
