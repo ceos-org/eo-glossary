@@ -36,6 +36,45 @@ try {
   console.warn('[eo-glossary] Could not generate terms.json:', e);
 }
 
+// ── Generate annotate-terms.json for the Text Annotator page ────────────────
+// Reads term frontmatter + first definition section, sorted longest-first.
+try {
+  const annTermsDir = path.resolve(__dirname, 'docs/terms');
+  const annFiles = fs
+    .readdirSync(annTermsDir)
+    .filter((f) => f.endsWith('.md') && !f.startsWith('_'));
+
+  const annotateTerms = annFiles
+    .map((f) => {
+      const content = fs.readFileSync(path.join(annTermsDir, f), 'utf8');
+      const titleMatch = content.match(/^title:\s*["']?(.+?)["']?\s*$/m);
+      const title = titleMatch?.[1]?.trim();
+      if (!title) return null;
+
+      // Extract first definition: the paragraph right after "## 1 Definition"
+      const defMatch = content.match(
+        /^##\s*1\s+Definition\s*\n+(.+)/m,
+      );
+      const definition = defMatch?.[1]?.trim();
+      if (!definition) return null;
+
+      const slug = f.replace('.md', '');
+      return { term: title, slug, definition };
+    })
+    .filter(Boolean)
+    // Sort by term length descending (longest first for greedy matching)
+    .sort((a, b) => b!.term.length - a!.term.length);
+
+  const staticDir = path.resolve(__dirname, 'static');
+  fs.mkdirSync(staticDir, { recursive: true });
+  fs.writeFileSync(
+    path.join(staticDir, 'annotate-terms.json'),
+    JSON.stringify(annotateTerms),
+  );
+} catch (e) {
+  console.warn('[eo-glossary] Could not generate annotate-terms.json:', e);
+}
+
 // ── Generate dependency graph data ───────────────────────────────────────────
 // Runs at config load time so `npm start` always has up-to-date graph data.
 try {
@@ -447,6 +486,7 @@ const config: Config = {
         { to: '/contribute', label: 'Contribute', position: 'left' },
         { to: '/dependency-graph', label: 'Graph', position: 'left' },
         { to: '/tags', label: 'Tags', position: 'left' },
+        { to: '/annotate', label: 'Annotate', position: 'left' },
         {
           href: 'https://github.com/ceos-org/eo-glossary',
           position: 'right',

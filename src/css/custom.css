@@ -807,6 +807,218 @@ article h3[id$="examples"] + ul li::before {
   article { max-width: none; }
 }
 
+/* ─── Annotate page ──────────────────────────────────────────────────────────── */
+.annotate-page {
+  padding: 2.5rem 2rem 4rem;
+}
+
+.annotate-page .container {
+  max-width: 840px;
+}
+
+.annotate-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.annotate-header-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  margin-top: 2px;
+}
+
+.annotate-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.35rem;
+}
+
+.annotate-subtitle {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.annotate-status {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.annotate-status-loading { color: var(--ifm-color-warning); }
+.annotate-status-error { color: var(--ifm-color-danger); }
+.annotate-status-ready { opacity: 0.6; }
+
+.annotate-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ifm-color-secondary-darkest);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+[data-theme='dark'] .annotate-label {
+  color: var(--ifm-color-secondary-lightest);
+}
+
+.annotate-textarea {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 0.95rem;
+  font-family: var(--ifm-font-family-base);
+  line-height: 1.7;
+  border: 1px solid var(--glossary-card-border);
+  border-radius: 10px;
+  background: var(--glossary-card-bg);
+  color: var(--ifm-font-color-base);
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.annotate-textarea:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+[data-theme='dark'] .annotate-textarea:focus {
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
+}
+
+.annotate-input-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+/* ── Output ─── */
+.annotate-output-section {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--ifm-toc-border-color);
+  padding-top: 2rem;
+}
+
+.annotate-output-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.annotate-output-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.annotate-match-count {
+  font-size: 0.78rem;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+.annotate-output-body {
+  padding: 1.25rem 1.5rem;
+  background: var(--glossary-card-bg);
+  border: 1px solid var(--glossary-card-border);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.annotate-match {
+  background: rgba(37, 99, 235, 0.08);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+[data-theme='dark'] .annotate-match {
+  background: rgba(96, 165, 250, 0.12);
+}
+
+.annotate-match strong {
+  color: var(--ifm-color-primary-dark);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .annotate-match strong {
+  color: var(--ifm-color-primary-light);
+}
+
+.annotate-match a {
+  font-size: 0.82rem;
+  color: var(--ifm-link-color);
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.annotate-match a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.annotate-no-match {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+/* ── Export bar / split buttons ─── */
+.annotate-export-bar {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.annotate-split-btn {
+  display: inline-flex;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--glossary-card-border);
+  background: var(--glossary-card-bg);
+}
+
+.annotate-split-btn__copy,
+.annotate-split-btn__download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 7px 12px;
+  font-size: 0.8rem;
+  font-family: var(--ifm-font-family-base);
+  font-weight: 500;
+  color: var(--ifm-font-color-base);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+
+.annotate-split-btn__copy {
+  border-right: 1px solid var(--glossary-card-border);
+}
+
+.annotate-split-btn__copy:hover,
+.annotate-split-btn__download:hover {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-primary);
+}
+
 /* ─── Responsive adjustments ─────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .hero-stats { gap: 1.5rem; }
