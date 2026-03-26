@@ -26,9 +26,9 @@ Our governance model relies on three tiers of participation to ensure broad comm
 *   **How to join:** Anyone can contribute by opening a Pull Request (PR) or Issue in the GitHub repository. Please refer to our [Contribution Guidelines](/contribute) for step-by-step instructions.
 
 ### 2. Moderators
-*   **Who:** Trusted technical experts and glossary maintainers managing daily repository operations.
+*   **Who:** Trusted technical experts and glossary maintainers managing daily repository operations. Moderator is approved by any one of the Steering Group members.
 *   **Responsibilities:**
-    *   Review incoming edits for formatting, clarity, and adherence to dictionary principles (e.g., ensuring no circular definitions).
+    *   Review incoming edits for relevance, formatting, clarity, and adherence to dictionary principles (e.g., ensuring no circular definitions).
     *   Approve and merge simple, non-controversial changes ("Agile" workflow).
     *   Tag terms appropriately (e.g., `base`, `core`, `controversial`, `to be discussed`).
     *   Flag foundational changes or controversial terms for review by the CEOS Expert Groups.
