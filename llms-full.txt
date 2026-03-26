@@ -1,7 +1,7 @@
 # EO Glossary — Full Term Definitions
 # Source: https://ceos-org.github.io/eo-glossary/
 # 151 terms with formal definitions, notes, examples, and sources
-# Generated: 2026-03-17
+# Generated: 2026-03-26
 # Structured JSON export: https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/json/terms.json
 
 # Accuracy
