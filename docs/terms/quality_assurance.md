@@ -1,0 +1,26 @@
+---
+title: Quality Assurance
+description: "Part of quality management focused on providing confidence that quality requirements will be fulfilled."
+tags:
+- core
+- to be discussed
+- calval ingest
+- WGISS
+- WGCV
+---
+
+# Quality Assurance
+
+## 1 Definition
+
+Part of quality management focused on providing confidence that quality requirements will be fulfilled
+
+### Notes
+
+### Examples
+
+### Sources
+
+- CEOS/ISO:19159 [ [RD10](https://www.iso.org/standard/60080.html) ], ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]
+- RD10: ISO/TS 19159-1:2014(en), Geographic information - Calibration and validation of remote sensing imagery sensors and data — Part 1: Optical sensors
+- RD7: ISO 9000:2015(en), Quality management systems - Fundamentals and vocabulary

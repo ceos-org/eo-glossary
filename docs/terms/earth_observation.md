@@ -1,9 +1,9 @@
 ---
 title: Earth Observation
+description: "Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres."
 tags:
 - high-impact
 - to be discussed
-description: Science domain dealing with technologies and methods of collecting and analyzing observations about the different Earth spheres.
 ---
 
 # Earth Observation

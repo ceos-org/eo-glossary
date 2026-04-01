@@ -1,9 +1,12 @@
 ---
 title: Verification
+description: "Provision of objective evidence that a given item fulfils specified requirements."
 tags:
 - core
 - to be approved
-description: Provision of objective evidence that a given item fulfils specified requirements.
+- calval ingest
+- WGCV
+- WGISS
 ---
 
 # Verification
@@ -27,7 +30,7 @@ ___
 
 ## 2 Definition
 
-Evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. Often an internal Process.
+Evaluation of whether a product, service, or system complies with a regulation, specification, or imposed condition.
 
 ### Notes
 
@@ -40,7 +43,7 @@ ___
 
 ## 3 Definition
 
-Means to evaluate the reliability of the data in the absence of a reference dataset, allowing for an assessment of its standalone performance. Involves confirming the consistency and internal coherence of the data without direct comparison to external reference sources.
+Evaluation of data reliability in the absence of a reference dataset, confirming consistency and internal coherence.
 
 ### Notes
 
@@ -48,3 +51,17 @@ Means to evaluate the reliability of the data in the absence of a reference data
 
 ### Sources
 - KCEO
+
+___
+
+## 4 Definition
+
+Provision of objective evidence that specified requirements have been fulfilled.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- (1) VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]; (2) ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]; (3) CDRH [ [RD1](https://www.fda.gov/media/73141/download) ]

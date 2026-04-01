@@ -1,0 +1,27 @@
+---
+title: Bulk Order
+description: "An order request for data from tape or disk cache which spans a month or more."
+tags:
+- core
+- to be discussed
+- calval ingest
+- WGISS
+- WGCV
+---
+
+# Bulk Order
+
+## 1 Definition
+
+An order request for data from tape or disk cache which spans a month or more. This requires incremental direct download management or copy to alternative devices for delivery to a customer.
+
+### Notes
+
+A customer request which exceeds the customer’s ability to download the data requested immediately thus necessitating incremental direct download management or a data copy to an alternative device for shipment. In either case, an order processing function is needed to managed and track the request. This type of request would likely always involve the transfer of data from Glacier to S3/EFS.
+
+### Examples
+
+### Sources
+
+- OSGS/CLASS - NCEI/DAB
+- NESDIS Data Management Lexicon and Related Terms

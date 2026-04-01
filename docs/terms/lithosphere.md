@@ -1,9 +1,9 @@
 ---
 title: Lithosphere
+description: "The solid, inanimate outer layer of the Geosphere."
 tags:
-  - core
-  - to be approved
-description: The solid, inanimate outer layer of the Geosphere. For the purposes of Earth Observation, includes soils ('pedosphere').
+- core
+- to be approved
 ---
 
 # Lithosphere

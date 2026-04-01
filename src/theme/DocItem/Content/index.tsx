@@ -23,8 +23,8 @@ function tagSlug(tag: string): string {
 }
 
 function DocTagsBadges(): ReactNode {
-  const {frontMatter} = useDoc();
-  const tags = (frontMatter as {tags?: string[]}).tags;
+  const {metadata} = useDoc();
+  const tags = metadata.tags;
   if (!tags || tags.length === 0) {
     return null;
   }
@@ -37,12 +37,12 @@ function DocTagsBadges(): ReactNode {
     }}>
       {tags.map((tag) => (
         <Link
-          key={tag}
-          to={`/tags/${tagSlug(tag)}`}
-          className={clsx('badge', `tag--${tagSlug(tag)}`)}
-          data-tag={tagSlug(tag)}
+          key={tag.permalink}
+          to={tag.permalink}
+          className={clsx('badge', `tag--${tagSlug(tag.label)}`)}
+          data-tag={tagSlug(tag.label)}
         >
-          {tag}
+          {tag.label}
         </Link>
       ))}
     </div>

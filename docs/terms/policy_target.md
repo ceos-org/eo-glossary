@@ -1,9 +1,9 @@
 ---
 title: Policy Target
+description: "Specific level or rate set for the Policy Objective."
 tags:
 - high-impact
 - to be discussed
-description: Specific level or rate set for the Policy Objective.
 ---
 
 # Policy Target

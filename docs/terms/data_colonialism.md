@@ -1,0 +1,25 @@
+---
+title: Data Colonialism
+description: "The process by which governments, non-governmental organizations and corporations claim ownership of and privatize the data that is produced by their users and citizens."
+tags:
+- core
+- to be discussed
+- calval ingest
+- WGISS
+- WGCV
+---
+
+# Data Colonialism
+
+## 1 Definition
+
+The process by which governments, non-governmental organizations and corporations claim ownership of and privatize the data that is produced by their users and citizens.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- [Purdue University](https://www.purdue.edu/critical-data-studies/collaborative-glossary/data-colonialism.php#:~:text=The%20definition%20of%20%E2%80%9Cdata%20colonialism%E2%80%9D%20is%20the%20process,that%20is%20produced%20by%20their%20users%20and%20citizens.)
+- NESDIS Data Management Lexicon and Related Terms

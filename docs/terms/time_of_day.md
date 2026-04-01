@@ -1,9 +1,9 @@
 ---
 title: Time of Day
+description: "Time of the day at which the variable or parameter is observed or simulated by a model."
 tags:
 - core
 - to be approved
-description: Time of the day at which the variable or parameter is observed or simulated by a model.
 ---
 
 # Time of Day

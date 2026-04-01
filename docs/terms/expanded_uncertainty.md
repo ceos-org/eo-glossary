@@ -1,9 +1,9 @@
 ---
 title: Expanded Uncertainty
+description: "Standard Uncertainty multiplied by a coverage factor, k."
 tags:
 - core
 - to be approved
-description: Standard Uncertainty multiplied by a coverage factor k, chosen to obtain a desired level of confidence.
 ---
 
 # Expanded Uncertainty

@@ -1,9 +1,9 @@
 ---
 title: Model
+description: "An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits (as a result of pre-set conditions)."
 tags:
-  - controversial
-  - to be discussed
-description: An, often numeric, theoretical (or otherwise abstract) representation of an Entity intended to generate Data describing one or more of its traits.
+- controversial
+- to be discussed
 ---
 
 # Model

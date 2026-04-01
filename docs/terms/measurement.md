@@ -1,9 +1,9 @@
 ---
 title: Measurement
+description: "Observation of a Quantity."
 tags:
-  - core
-  - to be discussed
-description: Observation of a Quantity.
+- core
+- to be discussed
 ---
 
 # Measurement

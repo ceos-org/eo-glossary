@@ -1,9 +1,9 @@
 ---
 title: Forecast Range
+description: "The forecast period."
 tags:
 - core
 - to be discussed
-description: The forecast period.
 ---
 
 # Forecast Range

@@ -1,9 +1,9 @@
 ---
 title: Geosphere
+description: "The masses of minerals that constitute planet Earth."
 tags:
-  - core
-  - to be approved
-description: The masses of minerals that constitute planet Earth.
+- core
+- to be approved
 ---
 
 # Geosphere

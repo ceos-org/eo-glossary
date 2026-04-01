@@ -1,9 +1,9 @@
 ---
 title: Outcome
+description: "### Notes."
 tags:
-  - core
-  - to be defined
-description: ""
+- core
+- to be defined
 ---
 
 # Outcome

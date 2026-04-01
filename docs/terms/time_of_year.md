@@ -1,9 +1,9 @@
 ---
 title: Time of Year
+description: "Time of the year at which the variable is observed or simulated by a model."
 tags:
 - core
 - to be approved
-description: Time of the year at which the variable is observed or simulated by a model.
 ---
 
 # Time of Year

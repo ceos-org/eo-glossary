@@ -1,9 +1,9 @@
 ---
 title: Period
+description: "Particular era or span of time."
 tags:
 - base
 - to be approved
-description: Particular era or span of time.
 ---
 
 # Period

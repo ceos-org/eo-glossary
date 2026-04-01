@@ -1,9 +1,9 @@
 ---
 title: User Interface
+description: "Set of all the components of an interactive system that provide information and controls for the User to accomplish specific tasks with the interactive system."
 tags:
 - core
 - to be approved
-description: Set of all the components of an interactive system that provide information and controls for the user to accomplish specific tasks with the interactive system.
 ---
 
 # User Interface

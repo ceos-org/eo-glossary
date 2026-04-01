@@ -1,6 +1,6 @@
 ---
 title: Cell
-description: Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone.
+description: "Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone."
 tags:
 - core
 - to be approved

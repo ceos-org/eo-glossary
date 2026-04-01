@@ -1,9 +1,9 @@
 ---
 title: Spatial Consistency
+description: "Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors."
 tags:
 - core
 - to be approved
-description: Condition where the spatial statistical properties of the data depend only on the underlying physical processes and not on other factors such as fusing different products or sensors.
 ---
 
 # Spatial Consistency

@@ -1,6 +1,6 @@
 ---
 title: Cartographic Projection
-description: ""
+description: "### Notes."
 tags:
 - core
 - to be defined

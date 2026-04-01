@@ -1,9 +1,9 @@
 ---
 title: Vertical Levels
+description: "Levels of a vertical discretization."
 tags:
 - core
 - to be approved
-description: Levels of a vertical discretization, e.g. pressure levels in an atmospheric model reanalysis or height levels in a forest biomass EO product.
 ---
 
 # Vertical Levels

@@ -1,9 +1,9 @@
 ---
 title: Remote Sensing
+description: "Type of Observation performed at a significant distance from a Phenomenon."
 tags:
 - controversial
 - to be discussed
-description: Type of Observation performed at a significant distance from a Phenomenon.
 ---
 
 # Remote Sensing

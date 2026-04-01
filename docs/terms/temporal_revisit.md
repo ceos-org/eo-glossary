@@ -1,9 +1,9 @@
 ---
 title: Temporal Revisit
+description: "Interval between successive observations."
 tags:
 - core
 - to be discussed
-description: Interval between successive observations.
 ---
 
 # Temporal Revisit

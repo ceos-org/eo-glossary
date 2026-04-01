@@ -1,9 +1,12 @@
 ---
 title: Measurand
+description: "Particular Quantity subject to Measurement."
 tags:
-  - core
-  - to be approved
-description: Particular Quantity subject to Measurement.
+- core
+- to be approved
+- calval ingest
+- WGCV
+- WGISS
 ---
 
 # Measurand
@@ -30,3 +33,5 @@ From http://doi.org/10.2760/46796
 
 ### Sources
 - VIM: 1993, 2.6
+
+- VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]

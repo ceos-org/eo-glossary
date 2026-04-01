@@ -1,9 +1,9 @@
 ---
 title: Measurement Uncertainty
+description: "Uncertainty associated with the method of Measurement."
 tags:
-  - core
-  - to be discussed
-description: Uncertainty associated with the method of Measurement.
+- core
+- to be discussed
 ---
 
 # Measurement Uncertainty

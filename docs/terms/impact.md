@@ -1,9 +1,9 @@
 ---
 title: Impact
+description: "Regarded long-term according to X."
 tags:
-  - core
-  - to be discussed
-description: Regarded long-term according to X. However, in the Horizon Europe Missions terminology, regarded short-term.
+- core
+- to be discussed
 ---
 
 # Impact

@@ -1,9 +1,9 @@
 ---
 title: Lead Time
+description: "Minimum time of interval between an Observation being tasked and being performed."
 tags:
-  - core
-  - to be approved
-description: Minimum time of interval between an Observation being tasked and being performed.
+- core
+- to be approved
 ---
 
 # Lead Time

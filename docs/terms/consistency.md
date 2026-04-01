@@ -1,9 +1,9 @@
 ---
 title: Consistency
-description: ""
+description: "### Notes."
 tags:
-  - core
-  - to be defined
+- core
+- to be defined
 ---
 
 # Consistency

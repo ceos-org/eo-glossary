@@ -1,9 +1,9 @@
 ---
 title: Duration
+description: "Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time interval."
 tags:
 - core
 - to be approved
-description: Non-negative interval Quantity of time equal to the difference between the final and initial instants of a time interval.
 ---
 
 # Duration

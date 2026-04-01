@@ -1,9 +1,12 @@
 ---
 title: Stability
+description: "Maximum acceptable change in Uncertainty per decade."
 tags:
 - core
 - to be approved
-description: Maximum acceptable change in Uncertainty per decade.
+- calval ingest
+- WGISS
+- WGCV
 ---
 
 # Stability
@@ -19,3 +22,17 @@ Maximum acceptable change in Uncertainty per decade.
 
 ### Sources
 - Modified from GCOS 2022
+
+___
+
+## 2 Definition
+
+Property of a measuring instrument, whereby its metrological properties remain constant in time
+
+### Notes
+
+### Examples
+
+### Sources
+
+- VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]

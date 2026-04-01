@@ -1,9 +1,9 @@
 ---
 title: Environmental Process
+description: "### Notes."
 tags:
 - core
 - to be defined
-description: ""
 ---
 
 # Environmental Process

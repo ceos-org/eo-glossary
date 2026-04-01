@@ -1,12 +1,14 @@
 ---
 title: Data Format
+description: "Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc."
 tags:
 - core
 - to be approved
-description: Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.
 ---
 
 # Data Format
+
+**Synonyms**: Data Formats
 
 ## 1 Definition
 
@@ -18,3 +20,6 @@ Structured Data that is machine readable and can be automatically read and proce
 
 ### Sources
 - CEOS Wiki
+
+- [Opendatahandbook.org](https://opendatahandbook.org/)
+- NESDIS Data Management Lexicon and Related Terms

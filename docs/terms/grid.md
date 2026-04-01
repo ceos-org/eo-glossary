@@ -1,9 +1,9 @@
 ---
 title: Grid
+description: "Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way."
 tags:
-  - core
-  - to be approved
-description: Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in an algorithmic way.
+- core
+- to be approved
 ---
 
 # Grid

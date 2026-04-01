@@ -1,6 +1,6 @@
 ---
 title: Business Continuity
-description: An organisation's readiness to continue functioning during times of disruption.
+description: "An organisation's readiness to continue functioning during times of disruption."
 tags:
 - core
 - to be approved

@@ -55,6 +55,18 @@
   --tag-to-be-approved-bg: #e0f2fe;
   --tag-to-be-approved-color: #075985;
 
+  /* Ingestion provenance */
+  --tag-calval-ingest-bg: #fce7f3;
+  --tag-calval-ingest-color: #9d174d;
+
+  /* CEOS working group tags */
+  --tag-wgcv-bg: #ede9fe;
+  --tag-wgcv-color: #5b21b6;
+  --tag-wgiss-bg: #dbeafe;
+  --tag-wgiss-color: #1e40af;
+  --tag-wgclimate-bg: #d1fae5;
+  --tag-wgclimate-color: #065f46;
+
   /* Glossary-specific surfaces */
   --glossary-card-bg: #ffffff;
   --glossary-card-border: #e2e8f0;
@@ -101,6 +113,16 @@
   --tag-to-be-discussed-color: #fcd34d;
   --tag-to-be-approved-bg: #0c2e44;
   --tag-to-be-approved-color: #7dd3fc;
+
+  --tag-calval-ingest-bg: #4a1942;
+  --tag-calval-ingest-color: #f9a8d4;
+
+  --tag-wgcv-bg: #2e1065;
+  --tag-wgcv-color: #c4b5fd;
+  --tag-wgiss-bg: #1e3a5f;
+  --tag-wgiss-color: #93c5fd;
+  --tag-wgclimate-bg: #064e3b;
+  --tag-wgclimate-color: #6ee7b7;
 
   --glossary-card-bg: #161b22;
   --glossary-card-border: #21262d;
@@ -242,6 +264,10 @@ article .theme-doc-version-badge,
 [data-tag="to-be-discussed"], .tag--to-be-discussed { background: var(--tag-to-be-discussed-bg); color: var(--tag-to-be-discussed-color); border-color: var(--tag-to-be-discussed-color); }
 [data-tag="to-be-approved"], .tag--to-be-approved { background: var(--tag-to-be-approved-bg); color: var(--tag-to-be-approved-color); border-color: var(--tag-to-be-approved-color); }
 [data-tag="source-missing"], .tag--source-missing { background: var(--tag-to-be-defined-bg); color: var(--tag-to-be-defined-color); border-color: var(--tag-to-be-defined-color); }
+[data-tag="calval-ingest"], .tag--calval-ingest { background: var(--tag-calval-ingest-bg); color: var(--tag-calval-ingest-color); border-color: var(--tag-calval-ingest-color); }
+[data-tag="wgcv"], .tag--wgcv { background: var(--tag-wgcv-bg); color: var(--tag-wgcv-color); border-color: var(--tag-wgcv-color); }
+[data-tag="wgiss"], .tag--wgiss { background: var(--tag-wgiss-bg); color: var(--tag-wgiss-color); border-color: var(--tag-wgiss-color); }
+[data-tag="wgclimate"], .tag--wgclimate, [data-tag="wg-climate"], .tag--wg-climate { background: var(--tag-wgclimate-bg); color: var(--tag-wgclimate-color); border-color: var(--tag-wgclimate-color); }
 
 /* Docusaurus tags list styling */
 .theme-doc-version-badge + .tags-list { margin-top: 12px; }
@@ -250,6 +276,9 @@ article .theme-doc-version-badge,
   font-size: 0.7rem;
   font-weight: 600;
 }
+
+/* Hide the duplicate tags row rendered in the doc footer (tags are shown above the heading) */
+.theme-doc-footer-tags-row { display: none; }
 
 /* ─── Doc article layout ────────────────────────────────────────────────────── */
 article.docPage {

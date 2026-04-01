@@ -26,6 +26,10 @@ const TAG_DESCRIPTIONS: Record<string, string> = {
   'to-be-discussed': 'Terms under active discussion',
   'to-be-approved': 'Terms pending formal approval',
   'source-missing': 'Terms lacking source attribution',
+  'calval-ingest': 'Terms ingested from the CEOS CalVal Portal glossary',
+  wgcv: 'Assigned to the Working Group on Calibration & Validation',
+  wgiss: 'Assigned to the Working Group on Information Systems & Services',
+  'wg-climate': 'Assigned to the CEOS/CGMS Working Group on Climate',
 };
 
 const TAG_ORDER = [
@@ -38,6 +42,10 @@ const TAG_ORDER = [
   'to-be-discussed',
   'to-be-defined',
   'source-missing',
+  'calval-ingest',
+  'wgcv',
+  'wgiss',
+  'wg-climate',
 ];
 
 export default function TagsOverview() {

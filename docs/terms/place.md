@@ -1,9 +1,9 @@
 ---
 title: Place
+description: "Part of any space referenced by an identifier."
 tags:
 - base
 - to be approved
-description: Part of any space referenced by an identifier.
 ---
 
 # Place

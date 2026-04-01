@@ -1,9 +1,9 @@
 ---
 title: Reference
+description: "Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower (quantify?) than that of the Observation with which it is compared."
 tags:
 - core
 - to be discussed
-description: Phenomenon whose values for specific properties are known and understood with an Uncertainty significantly lower than that of the Observation with which it is compared.
 ---
 
 # Reference

@@ -1,6 +1,6 @@
 ---
 title: Cryosphere
-description: Masses of frozen water, such as sea ice, ice shields, glaciers, and snow.
+description: "Masses of frozen water, such as sea ice, ice shields, glaciers, and snow."
 tags:
 - core
 - to be approved

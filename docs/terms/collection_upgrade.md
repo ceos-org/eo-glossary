@@ -1,6 +1,6 @@
 ---
 title: Collection Upgrade
-description: New and improved major version of all products within a collection due to comprehensive reprocessing.
+description: "New and improved major version of all products within a collection due to comprehensive reprocessing."
 tags:
 - core
 - to be approved

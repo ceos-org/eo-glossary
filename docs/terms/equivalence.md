@@ -1,9 +1,9 @@
 ---
 title: Equivalence
-description: ""
+description: "### Notes."
 tags:
-  - core
-  - to be defined
+- core
+- to be defined
 ---
 
 # Equivalence

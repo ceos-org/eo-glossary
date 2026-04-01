@@ -1,9 +1,9 @@
 ---
 title: Entity
+description: "Something that has separate and distinct existence and objective or conceptual reality."
 tags:
 - base
 - to be approved
-description: Something that has separate and distinct existence and objective or conceptual reality.
 ---
 
 # Entity

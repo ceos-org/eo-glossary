@@ -1,9 +1,9 @@
 ---
 title: Derivative Product
+description: "Product additionally processed from baseline or unenhanced mission data."
 tags:
 - core
 - to be approved
-description: Product additionally processed from baseline or unenhanced mission data.
 ---
 
 # Derivative Product

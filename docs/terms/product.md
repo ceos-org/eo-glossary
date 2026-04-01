@@ -1,9 +1,12 @@
 ---
 title: Product
+description: "Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data."
 tags:
 - core
 - to be approved
-description: Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.
+- calval ingest
+- WGCV
+- WGClimate
 ---
 
 # Product
@@ -23,3 +26,20 @@ Electronic data package distributable to users; content is derived from instrume
 
 ### Sources
 - [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+___
+
+## 2 Definition
+
+Output of an organization distributable to users without transaction, derived from instrument data via processing with ancillary data, and may include metadata and browse images.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]
+- RD7: ISO 9000:2015(en), Quality management systems - Fundamentals and vocabulary
+- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+- NESDIS Data Management Lexicon and Related Terms

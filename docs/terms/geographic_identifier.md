@@ -1,9 +1,9 @@
 ---
 title: Geographic Identifier
+description: "Spatial reference in the form of a label or code that identifies a Location."
 tags:
 - core
 - to be approved
-description: Spatial reference in the form of a label or code that identifies a Location.
 ---
 
 # Geographic Identifier

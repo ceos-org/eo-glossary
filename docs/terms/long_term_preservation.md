@@ -1,9 +1,12 @@
 ---
 title: Long Term Preservation
+description: "The act of maintaining information in a correct and independently understandable form over the long term."
 tags:
-  - core
-  - to be approved
-description: The act of maintaining information in a correct and independently understandable form over the long term.
+- core
+- to be approved
+- calval ingest
+- WGISS
+- WGCV
 ---
 
 # Long Term Preservation
@@ -20,3 +23,7 @@ The act of maintaining information in a correct and independently understandable
 
 ### Sources
 - [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf) ; [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+- NESDIS Data Management Lexicon and Related Terms
