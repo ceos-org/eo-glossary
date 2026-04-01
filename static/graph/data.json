@@ -3492,7 +3492,7 @@
       "label": "Information",
       "x": 54.61,
       "y": 60.33,
-      "size": 16.1,
+      "size": 16.0,
       "color": "#60a5fa",
       "tags": [
         "base",
@@ -4092,7 +4092,7 @@
       "label": "Measurand",
       "x": 70.73,
       "y": 43.55,
-      "size": 8.3,
+      "size": 8.2,
       "color": "#4ade80",
       "tags": [
         "core",
@@ -4107,7 +4107,7 @@
       "label": "Measurement",
       "x": 73.38,
       "y": 96.55,
-      "size": 11.4,
+      "size": 11.3,
       "color": "#4ade80",
       "tags": [
         "core",
@@ -4776,7 +4776,7 @@
       "label": "Phenomenon",
       "x": 79.07,
       "y": 22.57,
-      "size": 8.8,
+      "size": 8.9,
       "color": "#60a5fa",
       "tags": [
         "base",
@@ -5197,7 +5197,7 @@
       "label": "Product",
       "x": 67.23,
       "y": 26.95,
-      "size": 15.8,
+      "size": 15.7,
       "color": "#4ade80",
       "tags": [
         "core",
@@ -6565,7 +6565,7 @@
       "label": "System",
       "x": 60.71,
       "y": 35.23,
-      "size": 14.1,
+      "size": 14.0,
       "color": "#4ade80",
       "tags": [
         "core",
@@ -6835,7 +6835,7 @@
       "label": "Trait",
       "x": 36.58,
       "y": 79.07,
-      "size": 8.4,
+      "size": 8.5,
       "color": "#60a5fa",
       "tags": [
         "base",
@@ -20135,17 +20135,9 @@
       "type": "arrow"
     },
     {
-      "id": "uncertainty__measurand",
+      "id": "uncertainty__data",
       "source": "uncertainty",
-      "target": "measurand",
-      "color": "#334155",
-      "size": 1,
-      "type": "arrow"
-    },
-    {
-      "id": "uncertainty__measurement",
-      "source": "uncertainty",
-      "target": "measurement",
+      "target": "data",
       "color": "#334155",
       "size": 1,
       "type": "arrow"
@@ -20154,6 +20146,22 @@
       "id": "uncertainty__parameter",
       "source": "uncertainty",
       "target": "parameter",
+      "color": "#334155",
+      "size": 1,
+      "type": "arrow"
+    },
+    {
+      "id": "uncertainty__phenomenon",
+      "source": "uncertainty",
+      "target": "phenomenon",
+      "color": "#334155",
+      "size": 1,
+      "type": "arrow"
+    },
+    {
+      "id": "uncertainty__trait",
+      "source": "uncertainty",
+      "target": "trait",
       "color": "#334155",
       "size": 1,
       "type": "arrow"
