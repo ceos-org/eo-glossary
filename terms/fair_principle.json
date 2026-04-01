@@ -1,0 +1,21 @@
+{
+  "title": "F.A.I.R. principle",
+  "slug": "fair_principle",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/fair_principle",
+  "description": "Guiding principles for enhancing Findability, Accessibility, Interoperability, and Reuse of digital assets with machine-actionability.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Guiding principles for enhancing Findability, Accessibility, Interoperability, and Reuse of digital assets with machine-actionability.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [https://www.go-fair.org/](https://www.go-fair.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

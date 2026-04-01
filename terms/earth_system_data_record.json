@@ -1,0 +1,21 @@
+{
+  "title": "Earth System Data Record",
+  "slug": "earth_system_data_record",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/earth_system_data_record",
+  "description": "A unified and coherent set of observations of a given parameter of the Earth system, which is optimized to meet specific requirements in addressing science questions.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "A unified and coherent set of observations of a given parameter of the Earth system, which is optimized to meet specific requirements in addressing science questions.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

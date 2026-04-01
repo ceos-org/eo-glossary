@@ -1,0 +1,21 @@
+{
+  "title": "Product Type Collection",
+  "slug": "product_type_collection",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/product_type_collection",
+  "description": "Ensemble of all available products of a specific product type.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Ensemble of all available products of a specific product type.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

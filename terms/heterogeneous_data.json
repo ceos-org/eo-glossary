@@ -1,0 +1,21 @@
+{
+  "title": "Heterogeneous Data",
+  "slug": "heterogeneous_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/heterogeneous_data",
+  "description": "Heterogeneous data are any data with high variability of data types and formats.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Heterogeneous data are any data with high variability of data types and formats. They are possibly ambiguous and low quality due to missing values, high data redundancy, and untruthfulness.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

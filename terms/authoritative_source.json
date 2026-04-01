@@ -1,0 +1,21 @@
+{
+  "title": "Authoritative Source",
+  "slug": "authoritative_source",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/authoritative_source",
+  "description": "Entity with verified access to accurate information from an issuing source to validate identity evidence during proofing.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Entity with verified access to accurate information from an issuing source to validate identity evidence during proofing.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST Glossary](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

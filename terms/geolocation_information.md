@@ -1,9 +1,9 @@
 ---
 title: Geolocation Information
+description: "Information used to determine geographic Location."
 tags:
 - core
 - to be discussed
-description: Information used to determine geographic Location.
 ---
 
 # Geolocation Information

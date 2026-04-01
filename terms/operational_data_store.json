@@ -1,0 +1,21 @@
+{
+  "title": "Operational Data Store",
+  "slug": "operational_data_store",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/operational_data_store",
+  "description": "Database optimized for frequent queries on transactional data, updated during business operations and typically serving as an interim staging area for a data warehouse.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Database optimized for frequent queries on transactional data, updated during business operations and typically serving as an interim staging area for a data warehouse.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [PC Magazine](https://www.pcmag.com/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Vicarious Calibration",
+  "slug": "vicarious_calibration",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/vicarious_calibration",
+  "description": "Post-launch calibration of sensors that make use of natural or artificial sites on the surface of the Earth.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Post-launch calibration of sensors that make use of natural or artificial sites on the surface of the Earth",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS/ISO:19159 [ [RD10](https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-1:ed-1:v1:en) ]\n- RD10: ISO/TS 19159-1:2014(en), Geographic information - Calibration and validation of remote sensing imagery sensors and data — Part 1: Optical sensors"
+    }
+  ]
+}

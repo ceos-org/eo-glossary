@@ -1,0 +1,27 @@
+---
+title: Tagging
+description: "Process of adding tags or annotations to components of unstructured data at a granular level to prepare it for analysis, enabling deeper insight beyond broad categorization."
+tags:
+- core
+- to be discussed
+- calval ingest
+- WGISS
+- WGCV
+---
+
+# Tagging
+
+## 1 Definition
+
+Process of adding tags or annotations to components of unstructured data at a granular level to prepare it for analysis, enabling deeper insight beyond broad categorization.
+
+### Notes
+
+see metadata; Metadata tagging has traditionally been a manual and often laborious process. It was mainly executed through a rule-based system encoded by a specific knowledge worker or subject matter expert (SME) alongside software engineers. Rule-based tagging focuses on tagging recognizable elements clearly defined within the content.
+
+### Examples
+
+### Sources
+
+- [innodata.com](https://calvalportal.ceos.org/web/guest/t-d_wiki?p_p_id=com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_mvcRenderCommandName=%2Fwiki%2Fedit_page&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_redirect=https%3A%2F%2Fcalvalportal.ceos.org%2Fweb%2Fguest%2Ft-d_wiki%3Fp_p_id%3Dcom_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_mvcRenderCommandName%3D%252Fwiki%252Fview_page%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_nodeName%3DCEOS_Terms_and_Definitions%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_title%3DTagging&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_nodeId=668236&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_title=innodata.com)
+- NESDIS Data Management Lexicon and Related Terms

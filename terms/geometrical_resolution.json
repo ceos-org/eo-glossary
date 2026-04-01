@@ -1,0 +1,21 @@
+{
+  "title": "Geometrical Resolution",
+  "slug": "geometrical_resolution",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geometrical_resolution",
+  "description": "Ability of a sensor system to distinguish signals from neighboring object structures.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Ability of a sensor system to distinguish signals from neighboring object structures.",
+      "notes": "",
+      "examples": "",
+      "sources": "- DIN 18716-3 [RD3]\n- RD3: DIN 18716-3: 1997-07, Photogrammetry and remote sensing - Part 3: Remote sensing terms"
+    }
+  ]
+}

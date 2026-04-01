@@ -1,6 +1,6 @@
 ---
 title: Backup
-description: General practice of making copies of current baseline and derived products of EO Collections at specified time intervals, storing those copies in a manner that will not affect the data if the primary distribution environment is compromised.
+description: "General practice of making copies of current baseline and derived products of EO Collections at specified time intervals, and storing those copies in a manner that will not affect the data if the p..."
 tags:
 - core
 - to be approved

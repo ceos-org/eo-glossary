@@ -1,0 +1,21 @@
+{
+  "title": "Interoperable Products",
+  "slug": "interoperable_products",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/interoperable_products",
+  "description": "Set of two or more ARD products sufficiently documented to enable processing across a continuum of geometric and/or radiometric standards for direct quantitative comparison.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Set of two or more ARD products sufficiently documented to enable processing across a continuum of geometric and/or radiometric standards for direct quantitative comparison.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

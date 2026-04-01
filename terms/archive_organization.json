@@ -1,0 +1,21 @@
+{
+  "title": "Archive Organization",
+  "slug": "archive_organization",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/archive_organization",
+  "description": "The organizational structure of an archive based on a sufficient number of qualified staffs with clear roles and responsibilities.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The organizational structure of an archive based on a sufficient number of qualified staffs with clear roles and responsibilities.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

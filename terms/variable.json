@@ -1,0 +1,21 @@
+{
+  "title": "Variable",
+  "slug": "variable",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/variable",
+  "description": "Physical property whose value determines the characteristics or behavior of a system, such as temperature, pressure, or density.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Physical property whose value determines the characteristics or behavior of a system, such as temperature, pressure, or density.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NASA Earthdata](https://earthdata.nasa.gov/learn/user-resources/glossary#parameter)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "System",
+  "slug": "system",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/system",
+  "description": "Set of interrelated or interacting elements.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Set of interrelated or interacting elements",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Unstructured Data",
+  "slug": "unstructured_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/unstructured_data",
+  "description": "Information in diverse forms that does not conform to conventional data models, complicating storage and management in relational databases.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Information in diverse forms that does not conform to conventional data models, complicating storage and management in relational databases.",
+      "notes": "Data that are not in fixed locations. The term refers to free-form text in business documents and reports, news articles and social media. For example, unstructured data are found in word processing files, PDF files, email messages, Internet forums, blogs, Web pages, Twitter feeds and Facebook pages. It is estimated that 80% of all electronic data are unstructured in contrast to highly organized tables in databases.",
+      "examples": "",
+      "sources": "- [PC Magazine](https://www.pcmag.com/encyclopedia/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

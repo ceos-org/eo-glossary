@@ -1,9 +1,9 @@
 ---
 title: Hydrosphere
+description: "The masses of liquid water, such as oceans, lakes, and rivers."
 tags:
-  - core
-  - to be approved
-description: The masses of liquid water, such as oceans, lakes, and rivers.
+- core
+- to be approved
 ---
 
 # Hydrosphere

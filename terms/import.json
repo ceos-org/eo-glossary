@@ -1,0 +1,21 @@
+{
+  "title": "Import",
+  "slug": "import",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/import",
+  "description": "Automated or semi-automated input of data sets between different software applications.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Automated or semi-automated input of data sets between different software applications.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -5,14 +5,17 @@
   "description": "Series of activities that interact to produce a result.",
   "tags": [
     "base",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {
       "definition": "Series of activities that interact to produce a result.",
       "notes": "- A Process may occur once-only or be recurrent or periodic.",
       "examples": "",
-      "sources": "- [Wikipedia](https://en.wikipedia.org/wiki/Process)"
+      "sources": "- [Wikipedia](https://en.wikipedia.org/wiki/Process)\n\n- ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]\n- RD7: ISO 9000:2015(en), Quality management systems - Fundamentals and vocabulary"
     }
   ]
 }

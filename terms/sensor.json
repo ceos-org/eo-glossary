@@ -5,14 +5,23 @@
   "description": "Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
   ],
   "definitions": [
     {
       "definition": "Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.",
       "notes": "- Sensing is therefore a synonym for Observation (the Process).\n- As by their definition, sensors perform sampling.\n- Sensors used to obtain measurements must be calibrated and provide uncertainties.",
       "examples": "",
-      "sources": "- KCEO"
+      "sources": "- KCEO\n\n___"
+    },
+    {
+      "definition": "Device which transmits an output signal in response to a physical input stimulus as voltage. In Earth observation a distinction between passives sensors, such as radiometers, and active sensors, such as radars, is common. Earth observation sensors – or instruments – are operated from different ground-/water-based, airborne, or spaceborne platforms.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
     }
   ]
 }

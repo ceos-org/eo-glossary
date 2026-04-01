@@ -1,0 +1,21 @@
+{
+  "title": "Domain Expert",
+  "slug": "domain_expert",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/domain_expert",
+  "description": "Subject-matter expert with authoritative knowledge in a specific domain, especially in expert systems development.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Subject-matter expert with authoritative knowledge in a specific domain, especially in expert systems development.",
+      "notes": "",
+      "examples": "",
+      "sources": "- wikipedia\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

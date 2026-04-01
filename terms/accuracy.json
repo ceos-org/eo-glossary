@@ -2,17 +2,26 @@
   "title": "Accuracy",
   "slug": "accuracy",
   "url": "https://ceos-org.github.io/eo-glossary/terms/accuracy",
-  "description": "Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.",
+  "description": "Closeness of agreement between a measured quantity value and a true quantity value of a measurand.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
   ],
   "definitions": [
     {
-      "definition": "Proximity of Measurement results to the accepted Value; precision is the degree to which repeated or reproducible measurements under unchanged conditions show the same results.",
+      "definition": "Closeness of agreement between a measured quantity value and a true quantity value of a measurand.",
       "notes": "- In essence, Accuracy reflects how close measurements are to the accepted Value, while precision gauges the reliability and consistency of those measurements.",
       "examples": "",
-      "sources": "- BS ISO 5725-1"
+      "sources": "- BS ISO 5725-1\n\n___"
+    },
+    {
+      "definition": "Closeness of agreement between a measured quantity value and a true quantity value of a measurand.",
+      "notes": "",
+      "examples": "",
+      "sources": "- VIM [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ], GUM [ [RD4](https://www.bipm.org/utils/common/documents/jcgm/JCGM_100_2008_E.pdf) ]\n- Definitions used in other communities\n- ACIX community\n- [Community, not standard, definition]\n- Used in the atmospheric correction community to represent the average difference between the modelled and measured quantities"
     }
   ]
 }

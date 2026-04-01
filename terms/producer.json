@@ -1,0 +1,21 @@
+{
+  "title": "Producer",
+  "slug": "producer",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/producer",
+  "description": "Role of persons or systems providing information to be preserved, including other OAISs or internal entities.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Role of persons or systems providing information to be preserved, including other OAISs or internal entities.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

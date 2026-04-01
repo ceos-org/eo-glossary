@@ -1,0 +1,21 @@
+{
+  "title": "Documentation",
+  "slug": "documentation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/documentation",
+  "description": "The information component of a data set's associated knowledge may include mission, instrument, calibration, and other information in the form of text documents.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The information component of a data set's associated knowledge may include mission, instrument, calibration, and other information in the form of text documents.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

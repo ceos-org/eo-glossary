@@ -1,0 +1,21 @@
+{
+  "title": "Swath",
+  "slug": "swath",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/swath",
+  "description": "Area covered by spatial samples collected during a scan of a spaceborne instrument, determined by its incidence angle.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Area covered by spatial samples collected during a scan of a spaceborne instrument, determined by its incidence angle.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

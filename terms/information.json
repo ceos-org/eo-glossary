@@ -2,17 +2,26 @@
   "title": "Information",
   "slug": "information",
   "url": "https://ceos-org.github.io/eo-glossary/terms/information",
-  "description": "The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.",
+  "description": "Result of organizing, interpreting, categorizing, or classifying data to assign meaning understandable by the addressee.",
   "tags": [
     "base",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {
-      "definition": "The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.",
+      "definition": "Result of organizing, interpreting, categorizing, or classifying data to assign meaning understandable by the addressee.",
       "notes": "- Information depends on Data and is targeted.",
       "examples": "",
-      "sources": "- KCEO"
+      "sources": "- KCEO\n\n___"
+    },
+    {
+      "definition": "Knowledge exchangeable in the form of data, including representation information that enables interpretation of the data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
     }
   ]
 }

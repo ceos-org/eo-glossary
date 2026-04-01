@@ -1,9 +1,9 @@
 ---
 title: In-Situ Observation
+description: "Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems (its environment) or altering its pre-Observation state."
 tags:
-  - controversial
-  - to be discussed
-description: Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems or altering its pre-Observation state.
+- controversial
+- to be discussed
 ---
 
 # In-Situ Observation

@@ -1,0 +1,21 @@
+{
+  "title": "Orbit Prediction and Determination",
+  "slug": "orbit_prediction_and_determination",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/orbit_prediction_and_determination",
+  "description": "Generation of attitude and state vectors to describe spacecraft position over time, computed either in advance (predicted) or after observation (restituted or precise).",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Generation of attitude and state vectors to describe spacecraft position over time, computed either in advance (predicted) or after observation (restituted or precise).",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

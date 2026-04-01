@@ -1,0 +1,21 @@
+{
+  "title": "EO Space Data Holders and Archive Owners",
+  "slug": "eo_space_data_holders_and_archive_owners",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/eo_space_data_holders_and_archive_owners",
+  "description": "This category is intended to include all entities dealing with the archiving of EO space data and responsible for their preservation in the long term.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "This category is intended to include all entities dealing with the archiving of EO space data and responsible for their preservation in the long term. It includes data providers, data and mission owners, archive holders, etc...",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

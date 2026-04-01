@@ -1,0 +1,21 @@
+{
+  "title": "Maturity Matrix",
+  "slug": "maturity_matrix",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/maturity_matrix",
+  "description": "Maturity Matrix/Model is a measurement of the ability of an organization for continuous improvement in a particular discipline.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Maturity Matrix/Model is a measurement of the ability of an organization for continuous improvement in a particular discipline. It defines of all activities needed to preserve and improve the information content, quality, accessibility, and usability of data and metadata.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

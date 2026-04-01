@@ -1,0 +1,21 @@
+{
+  "title": "Area of Representativeness",
+  "slug": "area_of_representativeness",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/area_of_representativeness",
+  "description": "Area (or volume) where concentration does not deviate from the station value by more than a specified range.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Area (or volume) where concentration does not deviate from the station value by more than a specified range.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Larssen [ [RD12](https://www.eea.europa.eu/publications/TEC12) ]"
+    }
+  ]
+}

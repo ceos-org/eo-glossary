@@ -1,0 +1,21 @@
+{
+  "title": "Data Use Metrics",
+  "slug": "data_use_metrics",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_use_metrics",
+  "description": "Data Use Metrics represent statistics on data access volumes, user groups, usefulness/popularity of tools and services.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data Use Metrics represent statistics on data access volumes, user groups, usefulness/popularity of tools and services.",
+      "notes": "These metrics are used by data managers to report and monitor the usefulness of datasets and products and are an effective means to engage users and stakeholders to improve products and services.",
+      "examples": "",
+      "sources": "- NCEI/DAB\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Common Data Elements",
+  "slug": "common_data_elements",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/common_data_elements",
+  "description": "The purpose of the CDE Project is to standardize the collection of investigational data to facilitate comparison of results across studies and more effectively aggregate information into significan...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The purpose of the CDE Project is to standardize the collection of investigational data to facilitate comparison of results across studies and more effectively aggregate information into significant metadata results.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIH](https://www.commondataelements.ninds.nih.gov/ProjReview)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

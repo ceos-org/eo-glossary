@@ -1,0 +1,21 @@
+{
+  "title": "Data Distributor",
+  "slug": "data_distributor",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_distributor",
+  "description": "Entity that provides access to data for end users, ensuring accessibility and reliability across disciplinary boundaries.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Entity that provides access to data for end users, ensuring accessibility and reliability across disciplinary boundaries.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

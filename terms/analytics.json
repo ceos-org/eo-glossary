@@ -1,0 +1,21 @@
+{
+  "title": "Analytics",
+  "slug": "analytics",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/analytics",
+  "description": "Systematic computational analysis of data or statistics to discover, interpret, and communicate meaningful patterns for decision-making.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Systematic computational analysis of data or statistics to discover, interpret, and communicate meaningful patterns for decision-making.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Oxford Definition of Analytics](https://www.lexico.com/en/definition/analytics) ; [Oracle: What is Analytics](https://www.oracle.com/business-analytics/what-is-analytics/) ;\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

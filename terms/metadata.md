@@ -1,9 +1,12 @@
 ---
 title: Metadata
+description: "Data describing other data, providing an understanding of the content and utility of a product or collection."
 tags:
-  - core
-  - to be approved
-description: Data describing other data, providing an understanding of the content and utility of a product or collection.
+- core
+- to be approved
+- calval ingest
+- WGISS
+- WGCV
 ---
 
 # Metadata
@@ -20,3 +23,19 @@ Data describing other data, providing an understanding of the content and utilit
 
 ### Sources
 - [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+
+___
+
+## 2 Definition
+
+Data describing characteristics, content, and utility of a dataset to enable search, discovery, and access management, particularly for Earth Observation resources.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- WMO [ [RD19](http://www.bom.gov.au/wmo/quality_management.shtml) ]
+- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf) ; [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+- NESDIS Data Management Lexicon and Related Terms

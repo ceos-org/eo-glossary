@@ -1,9 +1,9 @@
 ---
 title: Dispose
+description: "Action of permanently and irrecoverably removing all copies of data held by an organization."
 tags:
 - core
 - to be approved
-description: Action of permanently and irrecoverably removing all copies of data held by an organization.
 ---
 
 # Dispose

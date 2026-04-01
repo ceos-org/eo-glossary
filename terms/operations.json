@@ -1,0 +1,21 @@
+{
+  "title": "Operations",
+  "slug": "operations",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/operations",
+  "description": "Activities directly related to the acquisition, archiving, distribution, and processing of mission-related information.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Activities directly related to the acquisition, archiving, distribution, and processing of mission-related information.",
+      "notes": "Relating to the NESDIS user requirements for routine data and services with established schedules, formats, and completeness. - UE Lexicon",
+      "examples": "",
+      "sources": "- [EOSDIS Project Science Office](https://eospso.nasa.gov/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "title": "Path",
   "slug": "path",
   "url": "https://ceos-org.github.io/eo-glossary/terms/path",
-  "description": "Line defined in an algorithmic way using at least two positions (can be open-ended). Alternative: line connecting two positions in an algorithmic way (limited by end points).",
+  "description": "Line defined in an algorithmic way using at least two positions (can be open-ended).",
   "tags": [
     "base",
     "to be approved"

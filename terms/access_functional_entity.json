@@ -1,0 +1,21 @@
+{
+  "title": "Access Functional Entity",
+  "slug": "access_functional_entity",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/access_functional_entity",
+  "description": "OAIS functional entity that makes archival information holdings and related services visible to consumers.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "OAIS functional entity that makes archival information holdings and related services visible to consumers.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

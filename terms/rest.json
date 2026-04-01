@@ -1,0 +1,21 @@
+{
+  "title": "REST",
+  "slug": "rest",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/rest",
+  "description": "A software architectural style that defines a common method for defining APIs for Web services.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A software architectural style that defines a common method for defining APIs for Web services.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

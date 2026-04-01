@@ -1,0 +1,21 @@
+{
+  "title": "Access Rights Information",
+  "slug": "access_rights_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/access_rights_information",
+  "description": "Information specifying access restrictions on content, including legal terms, licensing, access control, and rights enforcement specifications as defined in submission agreements.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Information specifying access restrictions on content, including legal terms, licensing, access control, and rights enforcement specifications as defined in submission agreements.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

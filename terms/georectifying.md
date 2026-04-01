@@ -1,9 +1,9 @@
 ---
 title: Georectifying
+description: "Correcting for positional displacement with respect to the surface of the Earth."
 tags:
-  - core
-  - to be discussed
-description: Correcting for positional displacement with respect to the surface of the Earth.
+- core
+- to be discussed
 ---
 
 # Georectifying

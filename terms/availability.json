@@ -1,0 +1,21 @@
+{
+  "title": "Availability",
+  "slug": "availability",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/availability",
+  "description": "The quality of being at hand when needed.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The quality of being at hand when needed",
+      "notes": "",
+      "examples": "",
+      "sources": "- Proposed Working Definition"
+    }
+  ]
+}

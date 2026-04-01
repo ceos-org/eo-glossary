@@ -1,9 +1,12 @@
 ---
 title: Timeliness
+description: "Period between the moment of requesting information and the moment of availability of information.
+
+- Near Real-Time (NRT): delivered less than 3 hours after requesting information.
+- Slow-Time Cri..."
 tags:
 - core
 - to be approved
-description: Period between the moment of requesting information and the moment of availability of information.
 ---
 
 # Timeliness

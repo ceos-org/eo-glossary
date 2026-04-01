@@ -1,0 +1,21 @@
+{
+  "title": "Processing Levels",
+  "slug": "processing_levels",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/processing_levels",
+  "description": "Raw Data",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Raw Data\nThe physical telemetry payload data as received from the satellite, i.e. a serial data stream without de-multiplexing.\nLevel 0\nReconstructed unprocessed data at full space-time resolution with all available supplemental information to be used in subsequent processing (e.g. ephemeris, health and safety) appended.\nLevel 1A\nReconstructed unprocessed data at full resolution, time-referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and geo-referencing parameters (e.g. ephemeris) computed and appended but not applied to the Level 0 data.\nLevel 1B\nRadiometrically corrected and calibrated data in physical units at full instrument resolution as acquired.\nLevel 1C\nL1B data orthorectified, re-sampled to a specified grid\nLevel 2\nDerived geophysical parameters (e.g. sea surface temperature, leaf area index) at the same resolution and location as Level 1B source data.\nLevel 3\nData or retrieved geophysical parameters which have been spatially and/or temporally re-sampled (i.e. derived from Level 1 or 2 products), usually with some completeness and consistency. Such re-sampling may include averaging and compositing.\nLevel 4\nModel output or results from analyses of lower level data (i.e., variables that are not directly measured by the instruments, but are derived from these measurements; could be derived from multiple instrument measurements).",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

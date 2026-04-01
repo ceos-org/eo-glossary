@@ -1,0 +1,21 @@
+{
+  "title": "Accessibility",
+  "slug": "accessibility",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/accessibility",
+  "description": "The capability to access available data.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The capability to access available data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Proposed working Definition"
+    }
+  ]
+}

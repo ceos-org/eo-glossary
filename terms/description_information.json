@@ -1,0 +1,21 @@
+{
+  "title": "Description Information",
+  "slug": "description_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/description_information",
+  "description": "Set of information identifying an archived dataset for long-term preservation, including spatial mission and payload details, data composition, availability, time span, volume, storage media, and a...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Set of information identifying an archived dataset for long-term preservation, including spatial mission and payload details, data composition, availability, time span, volume, storage media, and archiving format.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

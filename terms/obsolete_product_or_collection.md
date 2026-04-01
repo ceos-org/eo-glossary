@@ -1,9 +1,9 @@
 ---
 title: Obsolete Product or Collection
+description: "Products or collections which have been superseded by later versions of a product or collection."
 tags:
-  - core
-  - to be approved
-description: Products or collections which have been superseded by later versions of a product or collection.
+- core
+- to be approved
 ---
 
 # Obsolete Product or Collection

@@ -1,0 +1,21 @@
+{
+  "title": "Data Catalog",
+  "slug": "data_catalog",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_catalog",
+  "description": "System for discovering Earth observation data products, organized into collections with access controls based on product and user type.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "System for discovering Earth observation data products, organized into collections with access controls based on product and user type.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

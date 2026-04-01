@@ -2,23 +2,26 @@
   "title": "User",
   "slug": "user",
   "url": "https://ceos-org.github.io/eo-glossary/terms/user",
-  "description": "Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.",
+  "description": "Entity (person, organization, institution, etc.) requesting data or information with specified characteristics.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {
-      "definition": "In the context of the KCEO, entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.",
+      "definition": "Entity (person, organization, institution, etc.) requesting data or information with specified characteristics.",
       "notes": "",
       "examples": "",
       "sources": "- KCEO\n\n___"
     },
     {
-      "definition": "External person, institution or system that consumes provided services.",
+      "definition": "External person, institution, or system consuming provided services.",
       "notes": "- Includes Data Access or Science and Service Exploitation Platforms provided by a payload data ground segment.",
       "examples": "",
-      "sources": "- EO Data Stewardship Glossary"
+      "sources": "- EO Data Stewardship Glossary\n\n- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
     }
   ]
 }

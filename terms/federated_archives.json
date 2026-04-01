@@ -1,0 +1,21 @@
+{
+  "title": "Federated Archives",
+  "slug": "federated_archives",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/federated_archives",
+  "description": "A group of Archives that has agreed to provide access to their holdings via one or more common finding aids.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A group of Archives that has agreed to provide access to their holdings via one or more common finding aids.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

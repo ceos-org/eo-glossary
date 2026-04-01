@@ -1,0 +1,21 @@
+{
+  "title": "Operations Center",
+  "slug": "operations_center",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/operations_center",
+  "description": "Physical location where “ Facilities ” are operated and/or coordinated, comprising infrastructure, human resources, operational procedures, etc.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Physical location where “ Facilities ” are operated and/or coordinated, comprising infrastructure, human resources, operational procedures, etc.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

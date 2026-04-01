@@ -5,7 +5,10 @@
   "description": "Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
   ],
   "definitions": [
     {
@@ -36,7 +39,7 @@
       "definition": "Parameter characterizing the dispersion of the values being attributed to a measurand, based on the information used.",
       "notes": "",
       "examples": "",
-      "sources": "- VIM4: 3.1"
+      "sources": "- VIM4: 3.1\n\n- [l](https://www.bipm.org/en/publications/guides/vim.html) VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
     }
   ]
 }

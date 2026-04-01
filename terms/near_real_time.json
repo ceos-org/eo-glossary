@@ -1,0 +1,21 @@
+{
+  "title": "Near Real Time",
+  "slug": "near_real_time",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/near_real_time",
+  "description": "Data available with a small, application-dependent latency, typically 3 hours in meteorological applications.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data available with a small, application-dependent latency, typically 3 hours in meteorological applications.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Data Mining",
+  "slug": "data_mining",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_mining",
+  "description": "An analytical process that attempts to find correlations or patterns in large data sets for the purpose of data or knowledge discovery.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "An analytical process that attempts to find correlations or patterns in large data sets for the purpose of data or knowledge discovery.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST Glossary](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

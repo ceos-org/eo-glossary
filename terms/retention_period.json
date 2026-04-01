@@ -1,0 +1,21 @@
+{
+  "title": "Retention Period",
+  "slug": "retention_period",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/retention_period",
+  "description": "The minimum amount of time that a key or other cryptographically related information should be retained.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The minimum amount of time that a key or other cryptographically related information should be retained.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

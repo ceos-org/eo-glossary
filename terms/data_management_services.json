@@ -1,0 +1,21 @@
+{
+  "title": "Data Management Services",
+  "slug": "data_management_services",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_management_services",
+  "description": "Services that enforce standards, ingest data, develop collections and products, maintain databases, ensure secure archival, provide user- and machine-accessible interfaces, assist users, migrate te...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Services that enforce standards, ingest data, develop collections and products, maintain databases, ensure secure archival, provide user- and machine-accessible interfaces, assist users, migrate technologies, and respond to feedback.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NOAA Administrative Order 212-15[5]\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

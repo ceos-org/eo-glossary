@@ -1,6 +1,6 @@
 ---
 title: Classification System Levels
-description: Levels in a hierarchical Classification System.
+description: "Levels in a hierarchical Classification System."
 tags:
 - core
 - to be discussed

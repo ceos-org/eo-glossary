@@ -1,0 +1,21 @@
+{
+  "title": "Product Team",
+  "slug": "product_team",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/product_team",
+  "description": "Scientifically knowledgeable team ensuring products are generated, high quality, well documented, and delivered to the archive.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Scientifically knowledgeable team ensuring products are generated, high quality, well documented, and delivered to the archive.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

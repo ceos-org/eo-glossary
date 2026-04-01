@@ -1,0 +1,21 @@
+{
+  "title": "Data Manager",
+  "slug": "data_manager",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_manager",
+  "description": "A role responsible for the management and organization of data assets.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A role responsible for the management and organization of data assets. See also Data Curator, Science Steward, Data Steward for more specific role definitions.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

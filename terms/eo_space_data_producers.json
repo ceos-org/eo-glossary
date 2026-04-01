@@ -1,0 +1,21 @@
+{
+  "title": "EO Space Data Producers",
+  "slug": "eo_space_data_producers",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/eo_space_data_producers",
+  "description": "Private or public institutes responsible for Earth Observation space missions and the production of derived data products at various levels.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Private or public institutes responsible for Earth Observation space missions and the production of derived data products at various levels.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

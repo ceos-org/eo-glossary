@@ -1,0 +1,21 @@
+{
+  "title": "Ingest",
+  "slug": "ingest",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/ingest",
+  "description": "Process of accepting data from sources such as ground segment reception or processing, performing quality checks, extracting metadata including browse images, and forming a data product for archivi...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Process of accepting data from sources such as ground segment reception or processing, performing quality checks, extracting metadata including browse images, and forming a data product for archiving and cataloguing.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

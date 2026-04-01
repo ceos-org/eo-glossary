@@ -1,0 +1,21 @@
+{
+  "title": "Interferometric Baseline",
+  "slug": "interferometric_baseline",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/interferometric_baseline",
+  "description": "Accurate determination of orbital distances between satellites with compatible orbits, required for SAR and differential interferometry applications.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Accurate determination of orbital distances between satellites with compatible orbits, required for SAR and differential interferometry applications.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

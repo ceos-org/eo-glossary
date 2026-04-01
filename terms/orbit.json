@@ -1,0 +1,21 @@
+{
+  "title": "Orbit",
+  "slug": "orbit",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/orbit",
+  "description": "Path in space described by a satellite revolving around the Earth under mutual gravitational attraction.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Path in space described by a satellite revolving around the Earth under mutual gravitational attraction.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Data Catalog Service",
+  "slug": "data_catalog_service",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_catalog_service",
+  "description": "Process of exposing product or collection-level catalogs via standardized protocols such as OGC CSW.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Process of exposing product or collection-level catalogs via standardized protocols such as OGC CSW.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

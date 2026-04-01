@@ -1,0 +1,21 @@
+{
+  "title": "Flight Operations Segment",
+  "slug": "flight_operations_segment",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/flight_operations_segment",
+  "description": "Personnel and elements responsible for planning, executing, and evaluating control of the space segment in orbit.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Personnel and elements responsible for planning, executing, and evaluating control of the space segment in orbit.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

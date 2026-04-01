@@ -1,0 +1,21 @@
+{
+  "title": "Interface Control Document",
+  "slug": "interface_control_document",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/interface_control_document",
+  "description": "ICDs are used to record design agreements for the interfaces between participating organizations.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "ICDs are used to record design agreements for the interfaces between participating organizations. ICDs provide a means to evaluate and control all mutually interdependent and/or interacting design parameters of the interface.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

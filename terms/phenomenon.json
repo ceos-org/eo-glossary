@@ -12,7 +12,13 @@
       "definition": "Entity with at least one Property referenced by an identifier.",
       "notes": "",
       "examples": "",
-      "sources": "- KCEO, modified after Wikipedia and the Columbia Encyclopaedia 2008"
+      "sources": "- KCEO, modified after Wikipedia and the Columbia Encyclopaedia 2008\n\n___"
+    },
+    {
+      "definition": "A phenomenon is a fact or event that has\nproperties\n.\nSource:\nmodified after Wikipedia and The Columbia Encyclopedia 2008",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
     }
   ]
 }

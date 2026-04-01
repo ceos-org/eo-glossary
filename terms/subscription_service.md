@@ -1,0 +1,27 @@
+---
+title: Subscription Service
+description: "Service that notifies subscribers of data updates."
+tags:
+- core
+- to be discussed
+- calval ingest
+- WGISS
+- WGCV
+---
+
+# Subscription Service
+
+## 1 Definition
+
+Service that notifies subscribers of data updates.
+
+### Notes
+
+This service allows users to sign up or subscribe to data update notifications at a particular frequency. A user should expect a subscription acknowledgement as an initial response, and when new data is available on S3/EFS or Glacier for the data subscribed, a message is communicated to the user through e-mail, RSS feed, JSON feed, etc. This may require an order processor.
+
+### Examples
+
+### Sources
+
+- [NCEI/DAB - OSGS/CLASS](https://calvalportal.ceos.org/web/guest/t-d_wiki?p_p_id=com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_mvcRenderCommandName=%2Fwiki%2Fedit_page&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_redirect=https%3A%2F%2Fcalvalportal.ceos.org%2Fweb%2Fguest%2Ft-d_wiki%3Fp_p_id%3Dcom_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_mvcRenderCommandName%3D%252Fwiki%252Fview_page%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_nodeName%3DCEOS_Terms_and_Definitions%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_title%3DSubscription%2BService&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_nodeId=668236&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_title=NCEI%2FDAB+-+OSGS%2FCLASS)
+- NESDIS Data Management Lexicon and Related Terms

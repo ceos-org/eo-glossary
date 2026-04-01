@@ -1,16 +1,19 @@
 ---
 title: Auxiliary Data
-description: Data that enhance the processing and utilisation of main Sensor Data, usually not captured by the same Data collection Process or on the same platform as the main Sensor Data.
+description: "Data enhancing processing and utilization of main sensor data, collected via different processes or platforms, and usable as independent datasets."
 tags:
 - core
 - to be approved
+- calval ingest
+- WGCV
+- WGClimate
 ---
 
 # Auxiliary Data
 
 ## 1 Definition
 
-Data that enhance the processing and utilisation of main Sensor Data. Auxiliary Data are usually not captured by the same Data collection Process or on the same platform as the main Sensor Data. Examples include meteorological Data received from ECMWF/Met Offices or DEMs. Auxiliary Data help in Data processing, but are also Data sets in their own right.
+Data enhancing processing and utilization of main sensor data, collected via different processes or platforms, and usable as independent datasets.
 
 ### Notes
 
@@ -48,3 +51,17 @@ Data required for instrument processing that does not originate in the instrumen
 
 ### Sources
 - CEOS-ARD PFS template 20220302
+
+___
+
+## 4 Definition
+
+Data enhancing processing and utilization of remote sensing instrument data, collected via different processes or platforms, preferably georeferenced, and usable as independent datasets.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)

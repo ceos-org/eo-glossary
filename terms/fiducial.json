@@ -1,0 +1,21 @@
+{
+  "title": "Fiducial",
+  "slug": "fiducial",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/fiducial",
+  "description": "used as a fixed standard of reference for comparison or measurement (fiducial point).",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "used as a fixed standard of reference for comparison or measurement (fiducial point)",
+      "notes": "",
+      "examples": "",
+      "sources": "- WordNet [ [RD20](https://wordnet.princeton.edu/) ]"
+    }
+  ]
+}

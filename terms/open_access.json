@@ -1,0 +1,21 @@
+{
+  "title": "Open Access",
+  "slug": "open_access",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/open_access",
+  "description": "Principle that published research outputs, especially from publicly-funded work, should be freely accessible to all without subscription barriers.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Principle that published research outputs, especially from publicly-funded work, should be freely accessible to all without subscription barriers.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [opendatahandbook.org](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

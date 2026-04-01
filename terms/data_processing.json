@@ -1,0 +1,21 @@
+{
+  "title": "Data Processing",
+  "slug": "data_processing",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_processing",
+  "description": "Collective set of data actions including collection, retention, logging, generation, transformation, use, disclosure, sharing, transmission, and disposal.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Collective set of data actions including collection, retention, logging, generation, transformation, use, disclosure, sharing, transmission, and disposal.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST](https://csrc.nist.gov/glossary)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

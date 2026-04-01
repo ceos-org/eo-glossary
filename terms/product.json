@@ -5,14 +5,23 @@
   "description": "Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
   ],
   "definitions": [
     {
       "definition": "Electronic data package distributable to users; content is derived from instrument data via processing involving ancillary and auxiliary data.",
       "notes": "- Products may be accompanied by metadata and browse images.\n- A Product may be part of a collection — a distinction useful for archiving and cataloguing purposes.\n- The term Product may be used to denote a product type, such as e.g. ENVISAT_ASAR_L1B_PRI data products.\n- End users may distinguish between (input, \"raw\") data and products, i.e., the derived geophysical parameters.\n- See also granule.",
       "examples": "",
-      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n\n___"
+    },
+    {
+      "definition": "Output of an organization distributable to users without transaction, derived from instrument data via processing with ancillary data, and may include metadata and browse images.",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]\n- RD7: ISO 9000:2015(en), Quality management systems - Fundamentals and vocabulary\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
     }
   ]
 }

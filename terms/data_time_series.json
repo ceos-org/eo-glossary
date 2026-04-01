@@ -1,0 +1,21 @@
+{
+  "title": "Data Time series",
+  "slug": "data_time_series",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_time_series",
+  "description": "A data sequence that is designed to be consistent over a defined time interval.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A data sequence that is designed to be consistent over a defined time interval. Data points represent the same variable, processed in the same way, at evenly spaced points in time.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

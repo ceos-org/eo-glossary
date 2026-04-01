@@ -1,0 +1,21 @@
+{
+  "title": "Standard Product",
+  "slug": "standard_product",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/standard_product",
+  "description": "Agency-certified key products systematically acquired and generated through extensive spatial and temporal processing.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Agency-certified key products systematically acquired and generated through extensive spatial and temporal processing.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

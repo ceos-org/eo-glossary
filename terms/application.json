@@ -1,0 +1,21 @@
+{
+  "title": "Application",
+  "slug": "application",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/application",
+  "description": "Computer program designed for specific end-user tasks, distinct from system or utility software.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Computer program designed for specific end-user tasks, distinct from system or utility software.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Wikipedia](https://en.wikipedia.org/wiki/Application_software#cite_note-:1-3)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

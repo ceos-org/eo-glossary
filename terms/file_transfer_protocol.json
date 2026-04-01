@@ -1,0 +1,21 @@
+{
+  "title": "File Transfer Protocol",
+  "slug": "file_transfer_protocol",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/file_transfer_protocol",
+  "description": "A protocol used to transfer files over an IP network.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A protocol used to transfer files over an IP network.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Global Attribute",
+  "slug": "global_attribute",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/global_attribute",
+  "description": "Metadata providing contextual information about a dataset as a whole to enable independent usability.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Metadata providing contextual information about a dataset as a whole to enable independent usability.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NASA ISTP Guide](https://spdf.gsfc.nasa.gov/istp_guide/gattributes.html)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

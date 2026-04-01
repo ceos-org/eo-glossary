@@ -1,9 +1,9 @@
 ---
 title: Spatial Resolution
+description: "### Notes."
 tags:
 - core
 - to be defined
-description: ''
 ---
 
 # Spatial Resolution

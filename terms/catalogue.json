@@ -2,17 +2,20 @@
   "title": "Catalogue",
   "slug": "catalogue",
   "url": "https://ceos-org.github.io/eo-glossary/terms/catalogue",
-  "description": "System that provides users with discovery of information on which EO products can be obtained.",
+  "description": "System that provides discovery of information on which Earth observation products can be obtained.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {
-      "definition": "System that provides users with discovery of information on which EO products can be obtained.",
+      "definition": "System that provides discovery of information on which Earth observation products can be obtained.",
       "notes": "",
       "examples": "- A 'Product Catalogue' can organise products and collections with varying access levels depending on product and user type.",
-      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n\n- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
     }
   ]
 }

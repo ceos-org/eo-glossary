@@ -1,0 +1,21 @@
+{
+  "title": "Mission Planning",
+  "slug": "mission_planning",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/mission_planning",
+  "description": "Computation of non-conflicting timelines for space payload activities and ground station reception, accounting for budgets, capacities, and station availabilities, including cross-mission conflict ...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Computation of non-conflicting timelines for space payload activities and ground station reception, accounting for budgets, capacities, and station availabilities, including cross-mission conflict resolution.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

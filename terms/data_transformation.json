@@ -1,0 +1,21 @@
+{
+  "title": "Data Transformation",
+  "slug": "data_transformation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_transformation",
+  "description": "Process of converting data or information from one format to another, typically from a source system to a required destination format, including language or structural transformations for platform ...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Process of converting data or information from one format to another, typically from a source system to a required destination format, including language or structural transformations for platform compatibility.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 ---
 title: Object
+description: "Entity with a well-defined boundary and identity that encapsulates state and behaviour."
 tags:
-  - base
-  - to be approved
-description: Entity with a well-defined boundary and identity that encapsulates state and behaviour.
+- base
+- to be approved
 ---
 
 # Object

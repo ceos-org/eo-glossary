@@ -1,0 +1,21 @@
+{
+  "title": "Uniform Resource Identifier",
+  "slug": "uniform_resource_identifier",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/uniform_resource_identifier",
+  "description": "Compact sequence of characters identifying an abstract or physical resource on the Internet.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Compact sequence of characters identifying an abstract or physical resource on the Internet.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

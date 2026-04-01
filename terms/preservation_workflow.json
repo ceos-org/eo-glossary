@@ -1,0 +1,21 @@
+{
+  "title": "Preservation Workflow",
+  "slug": "preservation_workflow",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/preservation_workflow",
+  "description": "A set of actions recommended for the preservation of an “EO Missions/Sensors data set” (i.e.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A set of actions recommended for the preservation of an “EO Missions/Sensors data set” (i.e. EO space data records and associated information) with the goal to ensure and optimize its (re-)use in the long term.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Standardisation",
+  "slug": "standardisation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/standardisation",
+  "description": "Establish an agreement (not necessarily obligatory) on precise procedures and concepts.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Establish an agreement (not necessarily obligatory) on precise procedures and concepts",
+      "notes": "",
+      "examples": "",
+      "sources": "- Proposed working definition"
+    }
+  ]
+}

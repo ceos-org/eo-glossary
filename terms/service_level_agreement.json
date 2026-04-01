@@ -1,0 +1,21 @@
+{
+  "title": "Service Level Agreement",
+  "slug": "service_level_agreement",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/service_level_agreement",
+  "description": "Agreement defining expected service levels, measurement metrics, and remedies or penalties for unmet thresholds, applicable between companies or internal departments.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Agreement defining expected service levels, measurement metrics, and remedies or penalties for unmet thresholds, applicable between companies or internal departments.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CIO.com](https://www.cio.com/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

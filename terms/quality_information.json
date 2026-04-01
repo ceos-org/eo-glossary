@@ -1,0 +1,21 @@
+{
+  "title": "Quality Information",
+  "slug": "quality_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/quality_information",
+  "description": "Secondary data required to assess the primary data set’s fitness for purpose, e.g.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Secondary data required to assess the primary data set’s fitness for purpose, e.g. calibration and validation data and quality control results.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

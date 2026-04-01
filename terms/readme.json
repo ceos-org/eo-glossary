@@ -1,0 +1,21 @@
+{
+  "title": "Readme",
+  "slug": "readme",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/readme",
+  "description": "File providing metadata to ensure correct interpretation of associated data by users now or in the future.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "File providing metadata to ensure correct interpretation of associated data by users now or in the future.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

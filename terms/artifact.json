@@ -1,0 +1,21 @@
+{
+  "title": "Artifact",
+  "slug": "artifact",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/artifact",
+  "description": "- A physical object that is made or modified by human culture",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "- A physical object that is made or modified by human culture\n- a three-dimensional object held in an archives\n- a library or archival resource that has value as a physical object in addition to its informational value\n- an anomaly in data that results from the methodology used to capture or analyze the data, or that was introduced or produced during a procedure",
+      "notes": "from NIST: A piece of evidence, such as text or a reference to a resource, that is submitted to support a response to a question.",
+      "examples": "",
+      "sources": "- [https://dictionary.archivists.org/](https://dictionary.archivists.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

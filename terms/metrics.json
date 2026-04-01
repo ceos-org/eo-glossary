@@ -1,0 +1,21 @@
+{
+  "title": "Metrics",
+  "slug": "metrics",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/metrics",
+  "description": "Tools designed to facilitate decision making and improve performance and accountability through collection, analysis, and reporting of relevant performance-related data.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Tools designed to facilitate decision making and improve performance and accountability through collection, analysis, and reporting of relevant performance-related data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

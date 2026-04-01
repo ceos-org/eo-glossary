@@ -1,9 +1,9 @@
 ---
 title: Deprecated Product
+description: "Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future."
 tags:
 - core
 - to be approved
-description: Products and collections that have been superseded by a newer version and are still available, but whose use is discouraged since they will be decommissioned in the future.
 ---
 
 # Deprecated Product

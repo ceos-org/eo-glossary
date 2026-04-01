@@ -1,0 +1,21 @@
+{
+  "title": "Influence quantity",
+  "slug": "influence_quantity",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/influence_quantity",
+  "description": "Quantity that affects the relation between the indication and the measurement result without affecting the measured quantity.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Quantity that affects the relation between the indication and the measurement result without affecting the measured quantity.",
+      "notes": "",
+      "examples": "",
+      "sources": "- VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]"
+    }
+  ]
+}

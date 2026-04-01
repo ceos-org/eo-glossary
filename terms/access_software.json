@@ -1,0 +1,21 @@
+{
+  "title": "Access Software",
+  "slug": "access_software",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/access_software",
+  "description": "OAIS functional entity that makes archival information holdings and related services visible to consumers.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "OAIS functional entity that makes archival information holdings and related services visible to consumers.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

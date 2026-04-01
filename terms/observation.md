@@ -1,9 +1,9 @@
 ---
 title: Observation
+description: "Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor."
 tags:
-  - controversial
-  - to be discussed
-description: Act of determining the Value of a Property by interacting in a reproducible way with the Phenomenon using a Sensor.
+- controversial
+- to be discussed
 ---
 
 # Observation

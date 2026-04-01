@@ -5,14 +5,17 @@
   "description": "Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.",
   "tags": [
     "high-impact",
-    "to be discussed"
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {
       "definition": "Data available for use with a specified (small and application dependent) latency, typically 3 hours for meteorological applications.",
       "notes": "",
       "examples": "",
-      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+      "sources": "- [EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n\n- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
     }
   ]
 }

@@ -1,16 +1,19 @@
 ---
 title: Information
+description: "Result of organizing, interpreting, categorizing, or classifying data to assign meaning understandable by the addressee."
 tags:
-  - base
-  - to be approved
-description: The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.
+- base
+- to be approved
+- calval ingest
+- WGISS
+- WGCV
 ---
 
 # Information
 
 ## 1 Definition
 
-The result of organisation, interpretation, categorisation, classification, or some other form of processing of Data attaching to it a certain meaning that can be understood by the addressee.
+Result of organizing, interpreting, categorizing, or classifying data to assign meaning understandable by the addressee.
 
 ### Notes
 - Information depends on Data and is targeted.
@@ -19,3 +22,17 @@ The result of organisation, interpretation, categorisation, classification, or s
 
 ### Sources
 - KCEO
+
+___
+
+## 2 Definition
+
+Knowledge exchangeable in the form of data, including representation information that enables interpretation of the data.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)

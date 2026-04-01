@@ -1,0 +1,21 @@
+{
+  "title": "Administrative Data",
+  "slug": "administrative_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/administrative_data",
+  "description": "Data collected and maintained by agencies are used to administer (or run) programs and provide services to the public.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data collected and maintained by agencies are used to administer (or run) programs and provide services to the public.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Commerce Data Governance Board Inventory Working Group;\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Fixity Information",
+  "slug": "fixity_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/fixity_information",
+  "description": "The information which documents the mechanisms that ensure that the Content Information object has not been altered in an undocumented manner.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The information which documents the mechanisms that ensure that the Content Information object has not been altered in an undocumented manner. An example is a Cyclical Redundancy Check (CRC) code for a file.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Positional Accuracy",
+  "slug": "positional_accuracy",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/positional_accuracy",
+  "description": "Closeness of coordinate value to the true or accepted value in a specified reference system.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Closeness of coordinate value to the true or accepted value in a specified reference system",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO:19116 [ [RD8](https://www.iso.org/standard/37805.html) ]\n- RD8:ISO 19116:2004(en), Geographic information - Positioning services"
+    }
+  ]
+}

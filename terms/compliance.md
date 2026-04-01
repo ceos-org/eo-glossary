@@ -1,0 +1,27 @@
+---
+title: Compliance
+description: "A state of being in accordance with established guidelines or specifications."
+tags:
+- core
+- to be discussed
+- calval ingest
+- WGISS
+- WGCV
+---
+
+# Compliance
+
+## 1 Definition
+
+A state of being in accordance with established guidelines or specifications.
+
+### Notes
+
+Compliance of an information system concerns the relationship between the behavior of that running system and some relevant legal norms: the norms specify some constraints that must be satisﬁed and others that must not be violated, so that we can only say that the system complies if and only if no behavior of the system fails with regards to any of these two sets of constraints.
+
+### Examples
+
+### Sources
+
+- [Theory of Regulatory Compliance for Requirements Engineering](https://www.researchgate.net/publication/45902050_Theory_of_Regulatory_Compliance_for_Requirements_Engineering)
+- NESDIS Data Management Lexicon and Related Terms

@@ -1,0 +1,21 @@
+{
+  "title": "Primary Data",
+  "slug": "primary_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/primary_data",
+  "description": "A set of results from a scientific observation, i.e.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A set of results from a scientific observation, i.e. the instrument data, delivered in the form of electromagnetic signals, photographic film, magnetic tape, or any other means.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

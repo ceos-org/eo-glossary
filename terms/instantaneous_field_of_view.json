@@ -1,0 +1,21 @@
+{
+  "title": "Instantaneous Field of View",
+  "slug": "instantaneous_field_of_view",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/instantaneous_field_of_view",
+  "description": "A measure of the spatial resolution of a remotesensing imaging system.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A measure of the spatial resolution of a remotesensing imaging system. Defined as the anglesubtended by a single detector element on theaxis of the optical system.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

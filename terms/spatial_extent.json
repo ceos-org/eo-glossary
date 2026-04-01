@@ -2,7 +2,7 @@
   "title": "Spatial Extent",
   "slug": "spatial_extent",
   "url": "https://ceos-org.github.io/eo-glossary/terms/spatial_extent",
-  "description": "Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box, representing the maximum spatial boundary within which the user is requesting data.",
+  "description": "Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box.",
   "tags": [
     "core",
     "to be approved"

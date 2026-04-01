@@ -2,7 +2,7 @@
   "title": "Expanded Uncertainty",
   "slug": "expanded_uncertainty",
   "url": "https://ceos-org.github.io/eo-glossary/terms/expanded_uncertainty",
-  "description": "Standard Uncertainty multiplied by a coverage factor k, chosen to obtain a desired level of confidence.",
+  "description": "Standard Uncertainty multiplied by a coverage factor, k.",
   "tags": [
     "core",
     "to be approved"

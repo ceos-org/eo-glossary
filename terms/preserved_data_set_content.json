@@ -1,0 +1,21 @@
+{
+  "title": "Preserved data set Content",
+  "slug": "preserved_data_set_content",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/preserved_data_set_content",
+  "description": "The individual items making up a complete Earth Observation data se t to be preserved, including data records , and the a ssociated knowledge , i.e.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The individual items making up a complete Earth Observation data se t to be preserved, including data records , and the a ssociated knowledge , i.e. information , and tools . Preserving the complete PDSC ensures long term data usability and understandability. The composition of required items varies by data category (SAR, optical, atmospheric) and should be tailored to satisfy the designated community and preservation objective.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Open Data",
+  "slug": "open_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/open_data",
+  "description": "Data freely accessible, usable, modifiable, and shareable for any purpose, subject only to attribution or share-alike requirements, as defined by the Open Definition.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data freely accessible, usable, modifiable, and shareable for any purpose, subject only to attribution or share-alike requirements, as defined by the Open Definition.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [opendatahandbook.org](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

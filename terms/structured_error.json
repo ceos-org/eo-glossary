@@ -1,0 +1,21 @@
+{
+  "title": "Structured Error",
+  "slug": "structured_error",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/structured_error",
+  "description": "Errors in satellite imagery affecting multiple pixels non-uniformly, where errors are correlated across affected regions due to localized systematic or random effects.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Errors in satellite imagery affecting multiple pixels non-uniformly, where errors are correlated across affected regions due to localized systematic or random effects.",
+      "notes": "",
+      "examples": "",
+      "sources": "- FIDUCEO vocabulary"
+    }
+  ]
+}

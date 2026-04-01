@@ -1,0 +1,21 @@
+{
+  "title": "Open Source",
+  "slug": "open_source",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/open_source",
+  "description": "Software with source code available under an open license, permitting free use, inspection, modification, and redistribution by users with technical capability.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Software with source code available under an open license, permitting free use, inspection, modification, and redistribution by users with technical capability.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [opendatahandbook.org](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

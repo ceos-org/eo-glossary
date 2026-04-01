@@ -1,0 +1,21 @@
+{
+  "title": "Uncertainty of Measurement Method",
+  "slug": "uncertainty_of_measurement_method",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/uncertainty_of_measurement_method",
+  "description": "Uncertainty associated with the method of measurement, as there can be other methods, some of them as yet unknown or in some way impractical, that would give systematically different results of app...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Uncertainty associated with the method of measurement, as there can be other methods, some of them as yet unknown or in some way impractical, that would give systematically different results of apparently equal validity.",
+      "notes": "",
+      "examples": "",
+      "sources": "- GUM [ [RD4](https://www.bipm.org/utils/common/documents/jcgm/JCGM_100_2008_E.pdf) ], section F.2.5"
+    }
+  ]
+}

@@ -2,17 +2,26 @@
   "title": "Resolution",
   "slug": "resolution",
   "url": "https://ceos-org.github.io/eo-glossary/terms/resolution",
-  "description": "\"",
+  "description": "### Notes.",
   "tags": [
     "core",
-    "to be defined"
+    "to be defined",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
   ],
   "definitions": [
     {
       "definition": "",
       "notes": "",
       "examples": "",
-      "sources": ""
+      "sources": "___"
+    },
+    {
+      "definition": "Smallest change in energy detectable and representable by the number of bits per pixel, where each bit doubles the number of possible values.",
+      "notes": "",
+      "examples": "",
+      "sources": "- (1) VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]; (2) NIST [RD15]; (3) MACC [RD13]\n- RD15: Prokhorov, A. V., R. U. Datla, V. P. Zakharenkov, V. Privalsky, T. W. Humpherys, and V. I. Sapritsky, Spaceborne Optoelectronic Sensors and their Radiometric Calibration. Terms and Definitions. Part 1. Calibration Techniques, Ed. by A. C. Parr and L. K. Issaev, NIST Technical Note NISTIR 7203, March 2005\n- RD13: MACC II Service Validation Protocol, Deliverable D153.1, May 2013\n- [NASA Earthdata](https://earthdata.nasa.gov/learn/backgrounders/remote-sensing)\n- NESDIS Data Management Lexicon and Related Terms"
     }
   ]
 }

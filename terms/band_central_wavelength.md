@@ -1,6 +1,6 @@
 ---
 title: Band Central Wavelength
-description: Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band. It could be the mean, median, maximum sensitivity, or any other reasonable representative Value.
+description: "Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band."
 tags:
 - core
 - to be approved

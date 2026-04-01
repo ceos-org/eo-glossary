@@ -1,0 +1,21 @@
+{
+  "title": "Data Operator",
+  "slug": "data_operator",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_operator",
+  "description": "A person who operates a computer in a datacenter and performs such activities as commanding the operating system, mounting disks and tapes and placing paper in the printer.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A person who operates a computer in a datacenter and performs such activities as commanding the operating system, mounting disks and tapes and placing paper in the printer. Operators may also write the job control language (JCL), which schedules the daily work for the computer.",
+      "notes": "",
+      "examples": "",
+      "sources": "- PC Magazine\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

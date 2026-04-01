@@ -1,0 +1,21 @@
+{
+  "title": "Catalogue Service",
+  "slug": "catalogue_service",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/catalogue_service",
+  "description": "Functionality to expose or publish product-level catalogues using protocols such as the Open Geospatial Consortium's Catalogue Service for Web (CSW).",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Functionality to expose or publish product-level catalogues using protocols such as the Open Geospatial Consortium's Catalogue Service for Web (CSW).",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

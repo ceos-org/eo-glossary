@@ -1,0 +1,21 @@
+{
+  "title": "Data Base",
+  "slug": "data_base",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_base",
+  "description": "(1) A collection of data sets associated with a system, project, or facility.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "(1) A collection of data sets associated with a system, project, or facility.\n(2) A collection of interrelated or independent data items stored together in a structured way to serve one or more applications.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

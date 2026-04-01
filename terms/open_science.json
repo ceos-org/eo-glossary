@@ -1,0 +1,21 @@
+{
+  "title": "Open Science",
+  "slug": "open_science",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/open_science",
+  "description": "Practice of science adhering to open principles, including open access publishing, sharing research data and source code as open data, and using open-source tools.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Practice of science adhering to open principles, including open access publishing, sharing research data and source code as open data, and using open-source tools.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [opendatahandbook.org](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Error",
+  "slug": "error",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/error",
+  "description": "Measured quantity value minus a reference quantity value.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Measured quantity value minus a reference quantity value.",
+      "notes": "",
+      "examples": "",
+      "sources": "- (1) VIM[ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]\n- (2) CEOS/ISO:19159 [ [RD10](https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-1:ed-1:v1:en) ]\n- (3) MACC [ [RD13](http://www.gmes-atmosphere.eu/documents/maccii/deliverables/man/MACCII_MAN_DEL_D_153.1_20130528_Lambert_V2.pdf) ]\n- (4) GUM [ [RD4](https://www.bipm.org/utils/common/documents/jcgm/JCGM_100_2008_E.pdf) ]"
+    }
+  ]
+}

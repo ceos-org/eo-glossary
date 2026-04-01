@@ -1,0 +1,21 @@
+{
+  "title": "Data Licensing",
+  "slug": "data_licensing",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_licensing",
+  "description": "Legal instrument granting rights to use protected data, where open data requires an explicitly applied license conforming to the Open Definition.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Legal instrument granting rights to use protected data, where open data requires an explicitly applied license conforming to the Open Definition.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [opendatahandbook.org](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

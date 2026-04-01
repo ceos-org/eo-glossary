@@ -1,0 +1,21 @@
+{
+  "title": "Bias correction",
+  "slug": "bias_correction",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/bias_correction",
+  "description": "Reconciling differences between sensors and/or products by a simple multiplication or addition of a correction factor.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Reconciling differences between sensors and/or products by a simple multiplication or addition of a correction factor. (unlike harmonisation / homogenisation which involve a recalibration of the sensor)",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

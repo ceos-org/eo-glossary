@@ -1,0 +1,21 @@
+{
+  "title": "Authoritative Copy",
+  "slug": "authoritative_copy",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/authoritative_copy",
+  "description": "Recognized as the official copy of the object from the originating source that has not been altered.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Recognized as the official copy of the object from the originating source that has not been altered.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

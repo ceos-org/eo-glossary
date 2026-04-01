@@ -1,0 +1,21 @@
+{
+  "title": "Data Lake",
+  "slug": "data_lake",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_lake",
+  "description": "A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [AWS Amazon](https://aws.amazon.com/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

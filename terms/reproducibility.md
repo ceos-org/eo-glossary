@@ -1,16 +1,19 @@
 ---
 title: Reproducibility
+description: "Validity of study results through exact reproduction using the same data and methods to verify authenticity."
 tags:
 - core
 - to be approved
-description: Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.
+- calval ingest
+- WGISS
+- WGCV
 ---
 
 # Reproducibility
 
 ## 1 Definition
 
-Concerned with the validity of the results of a particular study, i.e., the possibility for readers to check whether results have been manipulated, by reproducing exactly the same study using the same data and methods.
+Validity of study results through exact reproduction using the same data and methods to verify authenticity.
 
 ### Notes
 
@@ -18,3 +21,17 @@ Concerned with the validity of the results of a particular study, i.e., the poss
 
 ### Sources
 - Ostermann and Granell (2015)
+
+___
+
+## 2 Definition
+
+Measurement precision under conditions including different locations, operators, measuring systems, and replicate measurements on similar objects.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]

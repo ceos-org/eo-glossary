@@ -1,0 +1,21 @@
+{
+  "title": "Field-of-view",
+  "slug": "field_of_view",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/field_of_view",
+  "description": "the solid angle from which the detector receives radiation.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "the solid angle from which the detector receives radiation",
+      "notes": "",
+      "examples": "",
+      "sources": "- NIST [RD15]\n- RD15: Prokhorov, A. V., R. U. Datla, V. P. Zakharenkov, V. Privalsky, T. W. Humpherys, and V. I. Sapritsky, Spaceborne Optoelectronic Sensors and their Radiometric Calibration. Terms and Definitions. Part 1. Calibration Techniques, Ed. by A. C. Parr and L. K. Issaev, NIST Technical Note NISTIR 7203, March 2005"
+    }
+  ]
+}

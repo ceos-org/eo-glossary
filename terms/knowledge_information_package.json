@@ -1,0 +1,21 @@
+{
+  "title": "Knowledge Information Package",
+  "slug": "knowledge_information_package",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/knowledge_information_package",
+  "description": "Information package containing consolidated data records and associated knowledge for a specific product type of an EO mission instrument, tailored to the designated community.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Information package containing consolidated data records and associated knowledge for a specific product type of an EO mission instrument, tailored to the designated community.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

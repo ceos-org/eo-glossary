@@ -1,0 +1,21 @@
+{
+  "title": "Storage",
+  "slug": "storage",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/storage",
+  "description": "The permanent holding place for digital data, until purposely erased.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The permanent holding place for digital data, until purposely erased. Storage is a repository that retains its content without power",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

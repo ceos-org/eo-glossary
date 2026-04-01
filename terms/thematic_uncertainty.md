@@ -1,9 +1,9 @@
 ---
 title: Thematic Uncertainty
+description: "Uncertainty associated with the method of classification."
 tags:
 - core
 - to be discussed
-description: Uncertainty associated with the method of classification.
 ---
 
 # Thematic Uncertainty

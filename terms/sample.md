@@ -1,9 +1,9 @@
 ---
 title: Sample
+description: "Subset of one or more entities."
 tags:
 - controversial
 - to be discussed
-description: Subset of one or more entities.
 ---
 
 # Sample

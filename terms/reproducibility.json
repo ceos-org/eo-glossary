@@ -2,17 +2,26 @@
   "title": "Reproducibility",
   "slug": "reproducibility",
   "url": "https://ceos-org.github.io/eo-glossary/terms/reproducibility",
-  "description": "Concerned with the validity of the results of a particular study, enabling readers to check whether results have been manipulated by reproducing exactly the same study using the same data and methods.",
+  "description": "Validity of study results through exact reproduction using the same data and methods to verify authenticity.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {
-      "definition": "Concerned with the validity of the results of a particular study, i.e., the possibility for readers to check whether results have been manipulated, by reproducing exactly the same study using the same data and methods.",
+      "definition": "Validity of study results through exact reproduction using the same data and methods to verify authenticity.",
       "notes": "",
       "examples": "",
-      "sources": "- Ostermann and Granell (2015)"
+      "sources": "- Ostermann and Granell (2015)\n\n___"
+    },
+    {
+      "definition": "Measurement precision under conditions including different locations, operators, measuring systems, and replicate measurements on similar objects.",
+      "notes": "",
+      "examples": "",
+      "sources": "- VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]"
     }
   ]
 }

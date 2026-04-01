@@ -1,0 +1,21 @@
+{
+  "title": "Fundamental Climate Data Record",
+  "slug": "fundamental_climate_data_record",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/fundamental_climate_data_record",
+  "description": "Long-term, stabilised record of calibrated sensor observations in physical units with quantified uncertainty and associated ancillary data.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Long-term, stabilised record of calibrated sensor observations in physical units with quantified uncertainty and associated ancillary data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Definition agreed by the WG Climate"
+    }
+  ]
+}

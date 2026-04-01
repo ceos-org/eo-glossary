@@ -5,7 +5,10 @@
   "description": "Provision of objective evidence that a given item fulfils specified requirements.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
   ],
   "definitions": [
     {
@@ -15,16 +18,22 @@
       "sources": "- ISO/IEC Guide 99:2007, 2.44\n\n___"
     },
     {
-      "definition": "Evaluation of whether or not a product, service, or system complies with a regulation requirement, specification, or imposed condition. Often an internal Process.",
+      "definition": "Evaluation of whether a product, service, or system complies with a regulation, specification, or imposed condition.",
       "notes": "",
       "examples": "",
       "sources": "- EU-US Land Imaging EO Collaboration\n\n___"
     },
     {
-      "definition": "Means to evaluate the reliability of the data in the absence of a reference dataset, allowing for an assessment of its standalone performance. Involves confirming the consistency and internal coherence of the data without direct comparison to external reference sources.",
+      "definition": "Evaluation of data reliability in the absence of a reference dataset, confirming consistency and internal coherence.",
       "notes": "",
       "examples": "",
-      "sources": "- KCEO"
+      "sources": "- KCEO\n\n___"
+    },
+    {
+      "definition": "Provision of objective evidence that specified requirements have been fulfilled.",
+      "notes": "",
+      "examples": "",
+      "sources": "- (1) VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]; (2) ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]; (3) CDRH [ [RD1](https://www.fda.gov/media/73141/download) ]"
     }
   ]
 }

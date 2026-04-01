@@ -1,9 +1,9 @@
 ---
 title: Data Access
+description: "Service to disseminate Data."
 tags:
 - core
 - to be discussed
-description: Service to disseminate Data.
 ---
 
 # Data Access

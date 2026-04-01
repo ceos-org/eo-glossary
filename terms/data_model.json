@@ -1,0 +1,21 @@
+{
+  "title": "Data Model",
+  "slug": "data_model",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_model",
+  "description": "An Earth science metadata model, which supports the data standardization necessary for total system interoperability within a heterogeneous, open systems environment.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "An Earth science metadata model, which supports the data standardization necessary for total system interoperability within a heterogeneous, open systems environment. The Data Model includes diagrams, which graphically illustrate the relationships of classes, the attributes contained within the classes, the characteristics of the relationships between classes, and the attribute specifications.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Earth Science Data System Glossary](https://earthdata.nasa.gov/user-resources/glossary)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

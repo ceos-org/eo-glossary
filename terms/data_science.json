@@ -1,0 +1,21 @@
+{
+  "title": "Data Science",
+  "slug": "data_science",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_science",
+  "description": "Multidisciplinary approach to extracting actionable insights from large datasets through data preparation, advanced analysis, and result visualization to inform stakeholder decisions.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Multidisciplinary approach to extracting actionable insights from large datasets through data preparation, advanced analysis, and result visualization to inform stakeholder decisions.",
+      "notes": "",
+      "examples": "",
+      "sources": "- IBM\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Product Area",
+  "slug": "product_area",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/product_area",
+  "description": "Suite of products organized by thematic category into foundational data, geophysical products, and analytical reports.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Suite of products organized by thematic category into foundational data, geophysical products, and analytical reports.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

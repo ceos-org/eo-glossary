@@ -1,0 +1,21 @@
+{
+  "title": "Digital Object Identifiers",
+  "slug": "digital_object_identifiers",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/digital_object_identifiers",
+  "description": "Persistent identifiers that are globally unique character strings that reference physical, digital, or abstract objects.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Persistent identifiers that are globally unique character strings that reference physical, digital, or abstract objects. They provide actionable, interoperable, persistent links to information about the objects they reference.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [DOI.org](https://www.doi.org/doi_handbook/Glossary.html)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

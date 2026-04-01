@@ -1,0 +1,21 @@
+{
+  "title": "Dataset Landing Page",
+  "slug": "dataset_landing_page",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/dataset_landing_page",
+  "description": "Web page containing descriptive information and relevant documentation to facilitate understanding and use of a dataset.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Web page containing descriptive information and relevant documentation to facilitate understanding and use of a dataset.",
+      "notes": "When a dataset identifier is resolved it will lead to a web page, (the “landing page”) representing that dataset.",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

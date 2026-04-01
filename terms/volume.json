@@ -1,0 +1,21 @@
+{
+  "title": "Volume",
+  "slug": "volume",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/volume",
+  "description": "A unit of physical storage medium which contains data.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A unit of physical storage medium which contains data. Usually physically interchangeable with other volumes of a similar type, and requiring a specific device for reading or writing.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

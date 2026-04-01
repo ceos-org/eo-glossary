@@ -1,0 +1,21 @@
+{
+  "title": "Process Validation",
+  "slug": "process_validation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/process_validation",
+  "description": "Established documented evidence providing high assurance that a process consistently produces products meeting predefined specifications and quality characteristics.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Established documented evidence providing high assurance that a process consistently produces products meeting predefined specifications and quality characteristics.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CDRH [ [RD1](https://www.fda.gov/media/73141/download) ]"
+    }
+  ]
+}

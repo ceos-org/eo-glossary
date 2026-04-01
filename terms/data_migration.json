@@ -1,0 +1,21 @@
+{
+  "title": "Data Migration",
+  "slug": "data_migration",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_migration",
+  "description": "Transfer of data between storage types, formats, or systems with minimal change, often driven by acquisitions, relocation, or system scaling, and used to rethink data strategy and architecture.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Transfer of data between storage types, formats, or systems with minimal change, often driven by acquisitions, relocation, or system scaling, and used to rethink data strategy and architecture.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

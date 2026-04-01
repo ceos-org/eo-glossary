@@ -1,6 +1,6 @@
 ---
 title: Characteristic
-description: Distinguishing Feature of an object or entity, which can be inherent or assigned, and qualitative or quantitative.
+description: "Distinguishing Feature."
 tags:
 - base
 - to be discussed

@@ -1,0 +1,21 @@
+{
+  "title": "Systematic Error",
+  "slug": "systematic_error",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/systematic_error",
+  "description": "Component of measurement error that remains constant or varies predictably across replicate measurements.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Component of measurement error that remains constant or varies predictably across replicate measurements.",
+      "notes": "",
+      "examples": "",
+      "sources": "- VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]"
+    }
+  ]
+}

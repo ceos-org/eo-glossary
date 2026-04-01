@@ -1,0 +1,21 @@
+{
+  "title": "Data Democracy",
+  "slug": "data_democracy",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_democracy",
+  "description": "Describes a methodological framework of values and actions that benefit and minimize any harm to the public or the typical user.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Describes a methodological framework of values and actions that benefit and minimize any harm to the public or the typical user.",
+      "notes": "A data democracy breaks down into at least six principles:\n- The average end user can access information in any digital format.\n- Non-specialists should be able to gather and analyze data or engage in self-service without requiring outside help, specifically from IT.\n- Individual private data needs to be protected, as decreed by the [General Data Protection Regulation (GDPR)](https://eugdpr.org/) .\n- Data Quality is a must.\n- Technologies such as Augmented Analytics, NoSQL, dashboards, and self-service tools, like those created by Collibra, Teradata, and Unilog, play an important part in empowering nontechnical people in a Data Democracy.\n- [Data ethics](http://www.dataversity.net/what-are-data-ethics/) need to guide data democracies.",
+      "examples": "",
+      "sources": "- [Dataversity](https://www.dataversity.net/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Export",
+  "slug": "export",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/export",
+  "description": "Saving a copy of a document, database, image, or video in a file format compatible with another application.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Saving a copy of a document, database, image, or video in a file format compatible with another application.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [PC Magazine](https://www.pcmag.com/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

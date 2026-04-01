@@ -1,0 +1,21 @@
+{
+  "title": "Fiducial mark",
+  "slug": "fiducial_mark",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/fiducial_mark",
+  "description": "index mark on a test system that allows automatic geometric identification and orientation detection of an object using imaging systems.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "index mark on a test system that allows automatic geometric identification and orientation detection of an object using imaging systems",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO:19262 [ [RD11](https://www.iso.org/standard/64219.html) ]"
+    }
+  ]
+}

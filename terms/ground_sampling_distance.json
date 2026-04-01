@@ -1,0 +1,21 @@
+{
+  "title": "Ground Sampling Distance",
+  "slug": "ground_sampling_distance",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/ground_sampling_distance",
+  "description": "linear distance between pixel centres on the ground.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "linear distance between pixel centres on the ground",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS/ISO:19159 [ [RD10](https://www.iso.org/standard/60080.html) ]"
+    }
+  ]
+}

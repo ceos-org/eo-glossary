@@ -1,0 +1,21 @@
+{
+  "title": "Provenance",
+  "slug": "provenance",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/provenance",
+  "description": "Information documenting the origin, history, modifications, inputs, algorithms used, and custody of content.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Information documenting the origin, history, modifications, inputs, algorithms used, and custody of content.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

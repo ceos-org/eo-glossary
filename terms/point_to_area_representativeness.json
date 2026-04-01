@@ -1,0 +1,21 @@
+{
+  "title": "Point-to-Area Representativeness",
+  "slug": "point_to_area_representativeness",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/point_to_area_representativeness",
+  "description": "The probability that a point measurement lies within a specific range of area-average (volume-average) concentration value.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The probability that a point measurement lies within a specific range of area-average (volume-average) concentration value",
+      "notes": "",
+      "examples": "",
+      "sources": "- Nappo [RD14]\n- RD14: Nappo, C.J., Caneill J.Y., Furman R.W., Gifford F.A., Kaimal J.C., Kramer M.L., Lockhart T.J., Pendergast M.M, Pielke R.A., Randerson D., Shreffler J.H., and Wyngaard J.C., The Workshop on the Representativeness of Meteorological Observations, June 1981, Boulder, CO, Bull. Am. Meteorol. Soc. 63, 761-764, 1982."
+    }
+  ]
+}

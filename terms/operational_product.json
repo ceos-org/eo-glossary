@@ -1,0 +1,21 @@
+{
+  "title": "Operational Product",
+  "slug": "operational_product",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/operational_product",
+  "description": "It is recognized as an important data source for the data repository and operational reporting.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "It is recognized as an important data source for the data repository and operational reporting. It is used for processing and integrating data from multiple sources for operational decision support and reporting.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

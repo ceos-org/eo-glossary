@@ -1,0 +1,21 @@
+{
+  "title": "Data File",
+  "slug": "data_file",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_file",
+  "description": "A computer file that contains any type of data, including a word processing document or spreadsheet.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A computer file that contains any type of data, including a word processing document or spreadsheet. It may also refer to a database file that contains records, such as orders and customers. A data file might also refer to the source code of a program but generally not to its executable machine language.",
+      "notes": "",
+      "examples": "",
+      "sources": "- pcmag.com\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

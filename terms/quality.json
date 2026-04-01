@@ -1,0 +1,21 @@
+{
+  "title": "Quality",
+  "slug": "quality",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/quality",
+  "description": "Degree to which a set of inherent characteristics of an object fulfils requirements.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Degree to which a set of inherent characteristics of an object fulfils requirements",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Controlled Unclassified Information",
+  "slug": "controlled_unclassified_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/controlled_unclassified_information",
+  "description": "Information requiring safeguarding or dissemination controls under law, regulation, or government policy, excluding classified national security information or atomic energy information.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Information requiring safeguarding or dissemination controls under law, regulation, or government policy, excluding classified national security information or atomic energy information.",
+      "notes": "A categorical designation that refers to unclassified information that does not meet the standards mentioned above but is i) pertinent to the national interests of the United States or the important interests of entities outside the federal government, and ii) under law or policy requires protection from unauthorized disclosure, special handling safeguards, or prescribed limits on exchange or dissemination. Henceforth, the designation CUI replaces Sensitive But Unclassified (SBU).",
+      "examples": "",
+      "sources": "- [NIST Glossary](https://csrc.nist.gov/glossary/term/Broad_network_access)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

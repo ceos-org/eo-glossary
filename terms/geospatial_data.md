@@ -1,9 +1,9 @@
 ---
 title: Geospatial Data
+description: "Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations."
 tags:
-  - core
-  - to be approved
-description: Data consisting of, derived from, or relating to information that is directly linked to specific geographical locations.
+- core
+- to be approved
 ---
 
 # Geospatial Data

@@ -1,0 +1,21 @@
+{
+  "title": "Climatology",
+  "slug": "climatology",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/climatology",
+  "description": "Long-term average of a climate variable, typically over 20–30 years, computed for specified time ranges such as monthly or daily means.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Long-term average of a climate variable, typically over 20–30 years, computed for specified time ranges such as monthly or daily means.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Columbia University](http://iridl.ldeo.columbia.edu/dochelp/StatTutorial/Homogeneity/index.html)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

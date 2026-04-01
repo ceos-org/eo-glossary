@@ -1,0 +1,21 @@
+{
+  "title": "Climate Data Record",
+  "slug": "climate_data_record",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/climate_data_record",
+  "description": "A time series of measurements of sufficientlength, consistency, and continuity to determineclimate variability and change.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "A time series of measurements of sufficientlength, consistency, and continuity to determineclimate variability and change.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

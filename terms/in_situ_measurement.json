@@ -1,0 +1,21 @@
+{
+  "title": "In Situ Measurement",
+  "slug": "in_situ_measurement",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/in_situ_measurement",
+  "description": "(1) a direct measurement of the measurand in its original place",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "(1) a direct measurement of the measurand in its original place\n(2) any sub-orbital measurement of the measurand",
+      "notes": "",
+      "examples": "",
+      "sources": "- (1) CEOS/ISO:19159 [ [RD10](https://www.iso.org/standard/60080.html) ]\n- (2) GEOSS"
+    }
+  ]
+}

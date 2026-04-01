@@ -1,0 +1,21 @@
+{
+  "title": "Procedure",
+  "slug": "procedure",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/procedure",
+  "description": "Specified way to carry out an activity or a process.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Specified way to carry out an activity or a process",
+      "notes": "",
+      "examples": "",
+      "sources": "- ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]\n- RD7:ISO 9000:2015(en), Quality management systems - Fundamentals and vocabulary"
+    }
+  ]
+}

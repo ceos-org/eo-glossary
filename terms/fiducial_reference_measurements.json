@@ -1,0 +1,21 @@
+{
+  "title": "Fiducial Reference Measurements",
+  "slug": "fiducial_reference_measurements",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/fiducial_reference_measurements",
+  "description": "Independent measurements traceable to SI standards, produced with documented uncertainties to validate satellite data.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Independent measurements traceable to SI standards, produced with documented uncertainties to validate satellite data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Copernicus/ESA; Donlan\n- ESA definition: [FRM](https://earth.esa.int/web/sppa/activities/frm)"
+    }
+  ]
+}

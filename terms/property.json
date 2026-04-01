@@ -5,14 +5,23 @@
   "description": "Observable Trait.",
   "tags": [
     "base",
-    "to be discussed"
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {
       "definition": "Observable Trait.",
       "notes": "",
       "examples": "",
-      "sources": "- KCEO"
+      "sources": "- KCEO\n\n___"
+    },
+    {
+      "definition": "Assessable and attributable characteristic of a phenomenon, named and either observable (factual) or assigned (fictional).",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
     }
   ]
 }

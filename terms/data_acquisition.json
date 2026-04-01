@@ -1,0 +1,21 @@
+{
+  "title": "Data Acquisition",
+  "slug": "data_acquisition",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_acquisition",
+  "description": "Includes all stages of the process of acquiring a data product or services, beginning with the process for determining the need for the product or service and ending with the final stage of data st...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Includes all stages of the process of acquiring a data product or services, beginning with the process for determining the need for the product or service and ending with the final stage of data storage or archival.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST Glossary](https://csrc.nist.gov/glossary/term/Broad_network_access)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

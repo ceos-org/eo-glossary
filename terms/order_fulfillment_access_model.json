@@ -1,0 +1,21 @@
+{
+  "title": "Order Fulfillment Access Model",
+  "slug": "order_fulfillment_access_model",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/order_fulfillment_access_model",
+  "description": "Group of data access services enabling delayed delivery due to non-immediate availability or need for formatting, transformation, or packaging.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Group of data access services enabling delayed delivery due to non-immediate availability or need for formatting, transformation, or packaging.",
+      "notes": "These services include:\n- Subsetting service - selecting a subset of observations from a dataset for particular time(s), location(s), observation station(s), and output format(s)\n- Document certification\n- Subscription service - a service allowing users to subscribe to notifications for datasets.\n- Ad Hoc orders\n- Event based subsetting\n- Transformation service\n- Bulk ordering - “ could involve pulling data from glacier” - volume component",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

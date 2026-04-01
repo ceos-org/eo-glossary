@@ -1,0 +1,21 @@
+{
+  "title": "Homogeneous Data",
+  "slug": "homogeneous_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/homogeneous_data",
+  "description": "Data drawn from a single population with constant external influences throughout the observation period.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data drawn from a single population with constant external influences throughout the observation period.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Columbia University](http://iridl.ldeo.columbia.edu/dochelp/StatTutorial/Homogeneity/index.html)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

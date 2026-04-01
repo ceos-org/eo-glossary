@@ -1,0 +1,21 @@
+{
+  "title": "Big Data",
+  "slug": "big_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/big_data",
+  "description": "Data sets so large or complex that traditional data processing applications are inadequate.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data sets so large or complex that traditional data processing applications are inadequate.",
+      "notes": "A collection of data so large that it cannot be stored, transmitted or processed by traditional means. The increasing availability of and need to process such datasets (for example, huge collections of weather or other scientific data) has led to the development of specialised computer technologies, architectures and programming languages.",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

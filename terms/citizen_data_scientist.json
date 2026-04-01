@@ -1,0 +1,21 @@
+{
+  "title": "Citizen Data Scientist",
+  "slug": "citizen_data_scientist",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/citizen_data_scientist",
+  "description": "A person who creates or generates models that leverage predictive or prescriptive analytics, but whose primary job function is outside of the field of statistics and analytics.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A person who creates or generates models that leverage predictive or prescriptive analytics, but whose primary job function is outside of the field of statistics and analytics.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Gartner](https://www.gartner.com/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

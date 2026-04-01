@@ -1,9 +1,9 @@
 ---
 title: Value
+description: "Element of a type domain."
 tags:
 - base
 - to be approved
-description: Element of a type domain.
 ---
 
 # Value

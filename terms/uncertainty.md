@@ -1,9 +1,12 @@
 ---
 title: Uncertainty
+description: "Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand."
 tags:
 - core
 - to be approved
-description: Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.
+- calval ingest
+- WGCV
+- WGISS
 ---
 
 # Uncertainty
@@ -73,3 +76,7 @@ Parameter characterizing the dispersion of the values being attributed to a meas
 
 ### Sources
 - VIM4: 3.1
+
+- [l](https://www.bipm.org/en/publications/guides/vim.html) VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]
+- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+- NESDIS Data Management Lexicon and Related Terms

@@ -1,0 +1,21 @@
+{
+  "title": "Data Architect",
+  "slug": "data_architect",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_architect",
+  "description": "Senior role responsible for translating business requirements into technology requirements and designing an organization’s enterprise data management framework, including standards, processes, and ...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Senior role responsible for translating business requirements into technology requirements and designing an organization’s enterprise data management framework, including standards, processes, and vocabulary.",
+      "notes": "",
+      "examples": "",
+      "sources": "- DAMA International’s Guide to the Data Management Body of Knowledge (DAMA-DMBOK2)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

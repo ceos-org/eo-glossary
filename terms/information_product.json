@@ -1,0 +1,21 @@
+{
+  "title": "Information Product",
+  "slug": "information_product",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/information_product",
+  "description": "Product formed by selecting, acquiring, evaluating, analyzing, synthesizing, assessing, restructuring, aggregating, translating, packaging, or repackaging data and information from various sources.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Product formed by selecting, acquiring, evaluating, analyzing, synthesizing, assessing, restructuring, aggregating, translating, packaging, or repackaging data and information from various sources.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

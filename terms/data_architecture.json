@@ -1,0 +1,21 @@
+{
+  "title": "Data Architecture",
+  "slug": "data_architecture",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_architecture",
+  "description": "Data architecture describes the structure of an organization's logical and physical data assets and data management resources.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data architecture describes the structure of an organization's logical and physical data assets and data management resources. It is an offshoot of enterprise architecture that comprises the models, policies, rules, and standards that govern the collection, storage, arrangement, integration, and use of data in organizations. An organization's data architecture is the purview of data architects.",
+      "notes": "",
+      "examples": "",
+      "sources": "- cio.com\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

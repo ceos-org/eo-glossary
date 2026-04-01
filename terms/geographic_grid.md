@@ -1,9 +1,9 @@
 ---
 title: Geographic Grid
+description: "Regular grid based on a Geographic Coordinate Reference System (CRS)."
 tags:
 - core
 - to be approved
-description: Regular grid based on a Geographic Coordinate Reference System (CRS).
 ---
 
 # Geographic Grid

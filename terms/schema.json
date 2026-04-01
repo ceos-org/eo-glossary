@@ -1,0 +1,21 @@
+{
+  "title": "Schema",
+  "slug": "schema",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/schema",
+  "description": "The definition of a data structure such as a database or XML file.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The definition of a data structure such as a database or XML file. Schemas describe the data elements and their interrelationships.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [PC Magazine](https://www.pcmag.com/encyclopedia/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

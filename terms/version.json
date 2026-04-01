@@ -1,0 +1,21 @@
+{
+  "title": "Version",
+  "slug": "version",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/version",
+  "description": "Versioning refers to saving new copies of your files when you make changes so that you can go back and retrieve specific versions of your files later.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Versioning refers to saving new copies of your files when you make changes so that you can go back and retrieve specific versions of your files later.",
+      "notes": "Best practices is to record a version in the metadata. The version is increased when there is a modification to the scientific algorithm used to process the data.",
+      "examples": "",
+      "sources": "- [Stanford University Data Management Services](https://library.stanford.edu/research/data-management-services/data-best-practices/data-versioning)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

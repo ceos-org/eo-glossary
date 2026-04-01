@@ -1,0 +1,21 @@
+{
+  "title": "Climate Indices",
+  "slug": "climate_indices",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/climate_indices",
+  "description": "Diagnostic time series representing the state of a climate system, derived from specific atmospheric or oceanic variables.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Diagnostic time series representing the state of a climate system, derived from specific atmospheric or oceanic variables.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Columbia University](http://iridl.ldeo.columbia.edu/dochelp/StatTutorial/Homogeneity/index.html)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

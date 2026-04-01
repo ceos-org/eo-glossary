@@ -2,7 +2,7 @@
   "title": "Earth Observation Based Output",
   "slug": "earth_observation_based_output",
   "url": "https://ceos-org.github.io/eo-glossary/terms/earth_observation_based_output",
-  "description": "Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing, often designed for policy or decision-making needs.",
+  "description": "Higher-level processing and integration output (indicative level 4 and beyond) that goes beyond basic data processing.",
   "tags": [
     "core",
     "to be approved"

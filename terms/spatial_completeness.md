@@ -1,9 +1,9 @@
 ---
 title: Spatial Completeness
+description: "Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series."
 tags:
 - core
 - to be approved
-description: Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.
 ---
 
 # Spatial Completeness

@@ -1,0 +1,21 @@
+{
+  "title": "Open Archival Information System",
+  "slug": "open_archival_information_system",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/open_archival_information_system",
+  "description": "Organization with people and systems responsible for preserving information and making it available to a designated community, meeting defined archival responsibilities.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Organization with people and systems responsible for preserving information and making it available to a designated community, meeting defined archival responsibilities.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

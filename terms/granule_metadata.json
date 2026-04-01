@@ -1,0 +1,21 @@
+{
+  "title": "Granule Metadata",
+  "slug": "granule_metadata",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/granule_metadata",
+  "description": "These are metadata elements that describe a single granule of a data product.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "These are metadata elements that describe a single granule of a data product. Values of granule metadata apply to all of the data in that one granule. Typical metadata in this category describe spatial and temporal extent of the data as well as the quality and lineage of the data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

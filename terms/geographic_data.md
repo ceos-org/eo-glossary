@@ -1,9 +1,9 @@
 ---
 title: Geographic Data
+description: "Data with implicit or explicit reference to a Location relative to the Earth."
 tags:
 - core
 - to be approved
-description: Data with implicit or explicit reference to a Location relative to the Earth.
 ---
 
 # Geographic Data

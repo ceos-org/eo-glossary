@@ -1,6 +1,6 @@
 ---
 title: Anthroposphere
-description: One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics.
+description: "One of the Earth spheres consisting predominantly of matter processed by humans, such as construction wood, bricks, concrete, asphalt, glass, or plastics."
 tags:
 - core
 - to be approved

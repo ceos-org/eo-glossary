@@ -1,0 +1,21 @@
+{
+  "title": "Algorithm Theoretical Basis Document",
+  "slug": "algorithm_theoretical_basis_document",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/algorithm_theoretical_basis_document",
+  "description": "Document detailing the theoretical foundation of an algorithm, including physical theory, mathematical procedures, and assumptions, updated with algorithm changes.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Document detailing the theoretical foundation of an algorithm, including physical theory, mathematical procedures, and assumptions, updated with algorithm changes.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [NASA Earth Observing System Project Science Office](http://eospso.nasa.gov/content/algorithm-theoretical-basis-documents)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

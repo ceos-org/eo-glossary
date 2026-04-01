@@ -1,0 +1,21 @@
+{
+  "title": "Bulk Data Transfer",
+  "slug": "bulk_data_transfer",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/bulk_data_transfer",
+  "description": "A software-based mechanism that is designed to move large data files.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A software-based mechanism that is designed to move large data files. It supports compression, blocking, and buffering to optimize transfer times.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

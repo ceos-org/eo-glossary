@@ -1,9 +1,12 @@
 ---
 title: Quantity
+description: "Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference."
 tags:
 - base
 - to be approved
-description: Property having a magnitude that can be expressed as a number from a continuous and contiguous range and a reference.
+- calval ingest
+- WGISS
+- WGCV
 ---
 
 # Quantity
@@ -31,3 +34,17 @@ Property whose instances can be compared by ratio or only by order.
 
 ### Sources
 - gEOGlos (VIM4 Notes omitted)
+
+___
+
+## 3 Definition
+
+Property of a phenomenon, body, or substance with a magnitude expressible as a number and a reference.
+
+### Notes
+
+### Examples
+
+### Sources
+
+- CEOS CalVal Portal

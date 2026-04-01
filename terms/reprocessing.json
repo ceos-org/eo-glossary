@@ -1,0 +1,21 @@
+{
+  "title": "Reprocessing",
+  "slug": "reprocessing",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/reprocessing",
+  "description": "Systematic generation of a new product revision using archived lower-level products, typically triggered by an improved processing algorithm.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Systematic generation of a new product revision using archived lower-level products, typically triggered by an improved processing algorithm.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

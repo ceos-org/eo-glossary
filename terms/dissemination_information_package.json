@@ -1,0 +1,21 @@
+{
+  "title": "Dissemination Information Package",
+  "slug": "dissemination_information_package",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/dissemination_information_package",
+  "description": "[OAIS]Information Package - derived from one or more AIPs (Archival Information Package) -supplied to the Consumer in response to a request to the OAIS.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "[OAIS]Information Package - derived from one or more AIPs (Archival Information Package) -supplied to the Consumer in response to a request to the OAIS.",
+      "notes": "Dissemination Information Package (DIP): the Information Package, derived from one or more AIPs, received by the Consumer in response to a request to the OAIS.",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf) ; [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

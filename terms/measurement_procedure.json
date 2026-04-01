@@ -1,0 +1,21 @@
+{
+  "title": "Measurement Procedure",
+  "slug": "measurement_procedure",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/measurement_procedure",
+  "description": "Detailed description of a measurement based on one or more principles and methods, including the measurement model and all calculations to obtain a result.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Detailed description of a measurement based on one or more principles and methods, including the measurement model and all calculations to obtain a result.",
+      "notes": "",
+      "examples": "",
+      "sources": "- VIM/ISO:99 [ [RD18](https://www.bipm.org/en/publications/guides/vim.html) ]"
+    }
+  ]
+}

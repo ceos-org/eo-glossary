@@ -1,0 +1,21 @@
+{
+  "title": "Uniform Resource Locator",
+  "slug": "uniform_resource_locator",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/uniform_resource_locator",
+  "description": "Reference to a web resource specifying its location and retrieval mechanism.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Reference to a web resource specifying its location and retrieval mechanism.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

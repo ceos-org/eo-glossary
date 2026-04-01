@@ -1,0 +1,21 @@
+{
+  "title": "Lifecycle",
+  "slug": "lifecycle",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/lifecycle",
+  "description": "Evolution of a system, product, service, project, or other human-made entity from conception through retirement.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Evolution of a system, product, service, project, or other human-made entity from conception through retirement.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST](https://csrc.nist.gov/glossary/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,16 +1,19 @@
 ---
 title: User
+description: "Entity (person, organization, institution, etc.) requesting data or information with specified characteristics."
 tags:
 - core
 - to be approved
-description: Entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.
+- calval ingest
+- WGISS
+- WGCV
 ---
 
 # User
 
 ## 1 Definition
 
-In the context of the KCEO, entity (person, organization, institution, etc.) that is requesting data or information with certain characteristics described by needs and/or requirements.
+Entity (person, organization, institution, etc.) requesting data or information with specified characteristics.
 
 ### Notes
 
@@ -23,7 +26,7 @@ ___
 
 ## 2 Definition
 
-External person, institution or system that consumes provided services.
+External person, institution, or system consuming provided services.
 
 ### Notes
 - Includes Data Access or Science and Service Exploitation Platforms provided by a payload data ground segment.
@@ -32,3 +35,7 @@ External person, institution or system that consumes provided services.
 
 ### Sources
 - EO Data Stewardship Glossary
+
+- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)
+- NESDIS Data Management Lexicon and Related Terms

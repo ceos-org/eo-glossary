@@ -1,0 +1,21 @@
+{
+  "title": "Calibration Data",
+  "slug": "calibration_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/calibration_data",
+  "description": "Data required to calibrate instrument science data, engineering data, and spacecraft data, including pre-flight and in-flight measurements, calibration coefficients, and ground truth.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data required to calibrate instrument science data, engineering data, and spacecraft data, including pre-flight and in-flight measurements, calibration coefficients, and ground truth.",
+      "notes": "CAL/VAL data can be considered as a digital data object (object composed of a set of bit sequences) part of a content information, related to other digital objects (i.e. primary data) through context information (the information that documents the relationships of the content information to its environment; this includes why the content Information was created and how it relates to other content information objects) or as a specialized type of provenance and representation information related to a primary digital data object.",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

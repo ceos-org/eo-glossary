@@ -1,0 +1,21 @@
+{
+  "title": "Function",
+  "slug": "function",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/function",
+  "description": "Self-contained software routine that performs a task by processing input values and optionally returning results.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Self-contained software routine that performs a task by processing input values and optionally returning results.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [PC Magazine](https://www.pcmag.com/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 ---
 title: Thematic Resolution
+description: "Level of categorical detail of information expressed by the number of classes."
 tags:
 - core
 - to be approved
-description: Level of categorical detail of information expressed by the number of classes.
 ---
 
 # Thematic Resolution

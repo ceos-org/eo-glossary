@@ -1,0 +1,21 @@
+{
+  "title": "Data Integration",
+  "slug": "data_integration",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_integration",
+  "description": "Process of making datasets from different sources compatible through consistent naming, units, and coordinates to enable combined use.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Process of making datasets from different sources compatible through consistent naming, units, and coordinates to enable combined use.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [opendatahandbook.org](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

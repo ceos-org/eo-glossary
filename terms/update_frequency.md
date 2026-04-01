@@ -1,9 +1,9 @@
 ---
 title: Update Frequency
+description: "Frequency at which the product is available to users."
 tags:
 - core
 - to be approved
-description: Frequency at which the product is available to users.
 ---
 
 # Update Frequency

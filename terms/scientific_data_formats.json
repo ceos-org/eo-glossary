@@ -1,0 +1,21 @@
+{
+  "title": "Scientific Data Formats",
+  "slug": "scientific_data_formats",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/scientific_data_formats",
+  "description": "Structured, self-describing, open standards enabling N-dimensional scientific data representation via software libraries and machine-independent formats.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Structured, self-describing, open standards enabling N-dimensional scientific data representation via software libraries and machine-independent formats.",
+      "notes": "Examples include CDF, HDF, netCDF",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

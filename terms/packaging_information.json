@@ -1,0 +1,21 @@
+{
+  "title": "Packaging Information",
+  "slug": "packaging_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/packaging_information",
+  "description": "A description of the package, which allows the user to understand the structure of the information package.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A description of the package, which allows the user to understand the structure of the information package. In the data set it is part of the documentation .",
+      "notes": "Packaging Information: the information that is used to bind and identify the components of an Information Package.",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

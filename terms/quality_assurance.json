@@ -1,0 +1,21 @@
+{
+  "title": "Quality Assurance",
+  "slug": "quality_assurance",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/quality_assurance",
+  "description": "Part of quality management focused on providing confidence that quality requirements will be fulfilled.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Part of quality management focused on providing confidence that quality requirements will be fulfilled",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS/ISO:19159 [ [RD10](https://www.iso.org/standard/60080.html) ], ISO:9000 [ [RD7](https://www.iso.org/standard/45481.html) ]\n- RD10: ISO/TS 19159-1:2014(en), Geographic information - Calibration and validation of remote sensing imagery sensors and data — Part 1: Optical sensors\n- RD7: ISO 9000:2015(en), Quality management systems - Fundamentals and vocabulary"
+    }
+  ]
+}

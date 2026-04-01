@@ -1,9 +1,9 @@
 ---
 title: Decommissioned Product
+description: "Products and collections that have been superseded by new versions and are no longer available."
 tags:
 - core
 - to be approved
-description: Products and collections that have been superseded by new versions and are no longer available.
 ---
 
 # Decommissioned Product

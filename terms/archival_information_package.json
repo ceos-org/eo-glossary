@@ -1,0 +1,21 @@
+{
+  "title": "Archival Information Package",
+  "slug": "archival_information_package",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/archival_information_package",
+  "description": "Information package containing content and preservation description information preserved within an OAIS.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Information package containing content and preservation description information preserved within an OAIS.",
+      "notes": "An Information Package, consisting of the Content Information and the associated Preservation Description Information (PDI), which is preserved within an OAIS.",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [Reference Model for an Open Archival Information System (OAIS), Recommended Practice CCSDS 650.0-M-2, Magenta Book 2012](https://public.ccsds.org/pubs/650x0m2.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

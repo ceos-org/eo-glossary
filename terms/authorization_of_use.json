@@ -1,0 +1,21 @@
+{
+  "title": "Authorization of Use",
+  "slug": "authorization_of_use",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/authorization_of_use",
+  "description": "Official management decision to authorize use of an information system based on an authorization package and accepted risk to operations, assets, and reputation.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Official management decision to authorize use of an information system based on an authorization package and accepted risk to operations, assets, and reputation.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [NIST SP 800-37 Rev. 2](https://doi.org/10.6028/NIST.SP.800-37r2)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

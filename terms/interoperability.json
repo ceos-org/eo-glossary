@@ -1,0 +1,21 @@
+{
+  "title": "Interoperability",
+  "slug": "interoperability",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/interoperability",
+  "description": "Ability of different information technology systems and software applications to communicate, exchange data, and use the exchanged information, including interoperable discovery and access across c...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGISS"
+  ],
+  "definitions": [
+    {
+      "definition": "Ability of different information technology systems and software applications to communicate, exchange data, and use the exchanged information, including interoperable discovery and access across catalogues and data formats.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

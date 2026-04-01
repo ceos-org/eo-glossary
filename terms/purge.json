@@ -1,0 +1,21 @@
+{
+  "title": "Purge",
+  "slug": "purge",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/purge",
+  "description": "To permanently and irrecoverably remove all copies of an Earth Observation data set held in an organization.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "To permanently and irrecoverably remove all copies of an Earth Observation data set held in an organization.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Resample",
+  "slug": "resample",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/resample",
+  "description": "Technique of transforming a digital image to alter resolution, orientation, or sampling points for applications in medical, industrial, and remote sensing contexts.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Technique of transforming a digital image to alter resolution, orientation, or sampling points for applications in medical, industrial, and remote sensing contexts.",
+      "notes": "",
+      "examples": "",
+      "sources": "- Gurjar, S.B., Padmanabhan, N. Study of various resampling techniques for high-resolution remote sensing imagery. J Indian Soc Remote Sens 33, 113–120 (2005). [https://doi.org/10.1007/BF02989999](https://doi.org/10.1007/BF02989999)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

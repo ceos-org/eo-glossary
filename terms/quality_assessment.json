@@ -1,0 +1,21 @@
+{
+  "title": "Quality Assessment",
+  "slug": "quality_assessment",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/quality_assessment",
+  "description": "Derivation of quality indicators sufficient to assess fulfillment of quality requirements.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Derivation of quality indicators sufficient to assess fulfillment of quality requirements.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS"
+    }
+  ]
+}

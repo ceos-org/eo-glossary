@@ -1,0 +1,21 @@
+{
+  "title": "Archivist",
+  "slug": "archivist",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/archivist",
+  "description": "Professional trained in preserving original materials and facilitating access, with expertise across the records life cycle and strong research skills.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Professional trained in preserving original materials and facilitating access, with expertise across the records life cycle and strong research skills.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [National Archives and Records Administration](https://www.archives.gov/about/info/whats-an-archivist.html)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

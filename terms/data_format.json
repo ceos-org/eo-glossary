@@ -12,7 +12,7 @@
       "definition": "Structured Data that is machine readable and can be automatically read and processed by a computer, such as HDF, NetCDF, CSV, JSON, XML, etc.",
       "notes": "",
       "examples": "",
-      "sources": "- CEOS Wiki"
+      "sources": "- CEOS Wiki\n\n- [Opendatahandbook.org](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
     }
   ]
 }

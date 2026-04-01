@@ -1,0 +1,21 @@
+{
+  "title": "Machine Learning",
+  "slug": "machine_learning",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/machine_learning",
+  "description": "The use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyze and draw inferences from ...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyze and draw inferences from patterns in data.",
+      "notes": "Machine learning is a subfield of artificial intelligence, which is broadly defined as the capability of a machine to imitate intelligent human behavior. Artificial intelligence systems are used to perform complex tasks in a way that is similar to how humans solve problems.",
+      "examples": "",
+      "sources": "- Oxford Dictionary; [MIT](https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Long Term Archive",
+  "slug": "long_term_archive",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/long_term_archive",
+  "description": "System for long-term storage of data, separated from primary media for compliance or archival purposes, organized as files or cataloged structures.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "System for long-term storage of data, separated from primary media for compliance or archival purposes, organized as files or cataloged structures.",
+      "notes": "A facility that provides permanent active archive functions for archived holdings during and beyond the scope of the mission or project, receiving responsibility for these holdings and providing long-term access to users. - EOSDIS",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

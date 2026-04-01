@@ -1,0 +1,21 @@
+{
+  "title": "Reconciliation",
+  "slug": "reconciliation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/reconciliation",
+  "description": "Process of matching processed output data with relevant input data to detect unexplained losses and establish the output as the master dataset for archiving and further use.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Process of matching processed output data with relevant input data to detect unexplained losses and establish the output as the master dataset for archiving and further use.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

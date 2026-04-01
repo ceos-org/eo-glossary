@@ -1,0 +1,21 @@
+{
+  "title": "Proximity Computing",
+  "slug": "proximity_computing",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/proximity_computing",
+  "description": "Computing data physically close to its source to minimize remote processing and data transfer.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Computing data physically close to its source to minimize remote processing and data transfer.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

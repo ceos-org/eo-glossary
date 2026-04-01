@@ -1,0 +1,21 @@
+{
+  "title": "Software as a Service",
+  "slug": "software_as_a_service",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/software_as_a_service",
+  "description": "Software hosted and maintained by a third party, accessed via the web, with data storage and monetization managed by the host.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Software hosted and maintained by a third party, accessed via the web, with data storage and monetization managed by the host.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Open Data Handbook](https://opendatahandbook.org/)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

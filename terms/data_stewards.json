@@ -1,0 +1,21 @@
+{
+  "title": "Data Stewards",
+  "slug": "data_stewards",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_stewards",
+  "description": "Individuals responsible for establishing, maintaining, and being accountable for the quality, integrity, documentation, and preservation of environmental data.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Individuals responsible for establishing, maintaining, and being accountable for the quality, integrity, documentation, and preservation of environmental data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NOAA Data Management Planning Procedural Directive, Version 2.0.1, Environmental Data Management Committee[2]; NOAA Administrative Order 212-15[5]\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

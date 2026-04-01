@@ -1,0 +1,21 @@
+{
+  "title": "Repository",
+  "slug": "repository",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/repository",
+  "description": "A metadata repository, commonly referred to as a catalog, is accessed by client applications that support user queries.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A metadata repository, commonly referred to as a catalog, is accessed by client applications that support user queries.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [Earth Science Data System Glossary](https://earthdata.nasa.gov/user-resources/glossary)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

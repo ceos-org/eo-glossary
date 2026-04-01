@@ -1,9 +1,9 @@
 ---
 title: Dwell Time
+description: "Time that an antenna beam spends on a target."
 tags:
 - core
 - to be approved
-description: Time that an antenna beam spends on a target.
 ---
 
 # Dwell Time

@@ -1,6 +1,6 @@
 ---
 title: Coverage Interval
-description: Range or specific subset of values associated with a coverage dataset.
+description: "Range or specific subset of values associated with a coverage dataset."
 tags:
 - core
 - to be approved

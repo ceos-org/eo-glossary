@@ -1,0 +1,21 @@
+{
+  "title": "Fused Product",
+  "slug": "fused_product",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/fused_product",
+  "description": "Derived data product created by merging two or more fully interoperable products into a single, non-reversible dataset.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Derived data product created by merging two or more fully interoperable products into a single, non-reversible dataset.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

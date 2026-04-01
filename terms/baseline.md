@@ -1,6 +1,6 @@
 ---
 title: Baseline
-description: Reference Period, time or measure against which Information is assessed or compared.
+description: "Reference Period, time or measure against which the Information is assessed or compared."
 tags:
 - core
 - to be approved

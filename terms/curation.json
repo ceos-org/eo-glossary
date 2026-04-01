@@ -1,0 +1,21 @@
+{
+  "title": "Curation",
+  "slug": "curation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/curation",
+  "description": "Value-adding, organizational, presentational, and preservation activities to establish, increase, and sustain the value of Earth observation data over its lifecycle.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Value-adding, organizational, presentational, and preservation activities to establish, increase, and sustain the value of Earth observation data over its lifecycle.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

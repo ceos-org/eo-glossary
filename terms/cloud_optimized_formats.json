@@ -1,0 +1,21 @@
+{
+  "title": "Cloud Optimized Formats",
+  "slug": "cloud_optimized_formats",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/cloud_optimized_formats",
+  "description": "The format of data that is ideal in a cloud infrastructure to make them tractable to support cloud-native analysis or access.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The format of data that is ideal in a cloud infrastructure to make them tractable to support cloud-native analysis or access.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

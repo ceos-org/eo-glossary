@@ -1,0 +1,21 @@
+{
+  "title": "Event-based Order",
+  "slug": "event_based_order",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/event_based_order",
+  "description": "An event is any environmental observation of significance.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "An event is any environmental observation of significance.",
+      "notes": "There are two use cases for event based orders. 1) Observations from a particular event (time, space, variable) 2) Using an event observed in one dataset to order/subset data from another dataset. Might require an order processor or AI",
+      "examples": "",
+      "sources": "- NCEI/DAB - OSGS/CLASS\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

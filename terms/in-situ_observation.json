@@ -2,7 +2,7 @@
   "title": "In-Situ Observation",
   "slug": "in-situ_observation",
   "url": "https://ceos-org.github.io/eo-glossary/terms/in-situ_observation",
-  "description": "Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems or altering its pre-Observation state.",
+  "description": "Observations performed in the same Place where a Phenomenon occurs, normally without isolating it from other systems (its environment) or altering its pre-Observation state.",
   "tags": [
     "controversial",
     "to be discussed"

@@ -1,0 +1,21 @@
+{
+  "title": "Geodesy",
+  "slug": "geodesy",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/geodesy",
+  "description": "The branch of applied mathematics that deals with the measurement of the shape and area of large tracts of country, the exact position of geographical points, and the curvature, shape, and dimensio...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The branch of applied mathematics that deals with the measurement of the shape and area of large tracts of country, the exact position of geographical points, and the curvature, shape, and dimensions of the earth.",
+      "notes": "",
+      "examples": "",
+      "sources": "- dictionary.com\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

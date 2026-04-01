@@ -1,0 +1,21 @@
+{
+  "title": "Order Agreement",
+  "slug": "order_agreement",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/order_agreement",
+  "description": "Agreement specifying physical delivery details of data, such as media type and format.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Agreement specifying physical delivery details of data, such as media type and format.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

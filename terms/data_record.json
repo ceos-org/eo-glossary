@@ -1,0 +1,21 @@
+{
+  "title": "Data Record",
+  "slug": "data_record",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_record",
+  "description": "Data or information in a fixed form with consistent content, structure, and context; for Earth observation, it includes instrument data, browse data, ancillary and auxiliary data, calibration and v...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Data or information in a fixed form with consistent content, structure, and context; for Earth observation, it includes instrument data, browse data, ancillary and auxiliary data, calibration and validation data, and metadata.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

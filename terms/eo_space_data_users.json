@@ -1,0 +1,21 @@
+{
+  "title": "EO Space Data Users",
+  "slug": "eo_space_data_users",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/eo_space_data_users",
+  "description": "User communities that rely on Earth Observation space data and products for application areas such as climate monitoring, agriculture, or disaster response.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "User communities that rely on Earth Observation space data and products for application areas such as climate monitoring, agriculture, or disaster response.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

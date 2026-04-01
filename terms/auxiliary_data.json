@@ -2,14 +2,17 @@
   "title": "Auxiliary Data",
   "slug": "auxiliary_data",
   "url": "https://ceos-org.github.io/eo-glossary/terms/auxiliary_data",
-  "description": "Data that enhance the processing and utilisation of main Sensor Data, usually not captured by the same Data collection Process or on the same platform as the main Sensor Data.",
+  "description": "Data enhancing processing and utilization of main sensor data, collected via different processes or platforms, and usable as independent datasets.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
   ],
   "definitions": [
     {
-      "definition": "Data that enhance the processing and utilisation of main Sensor Data. Auxiliary Data are usually not captured by the same Data collection Process or on the same platform as the main Sensor Data. Examples include meteorological Data received from ECMWF/Met Offices or DEMs. Auxiliary Data help in Data processing, but are also Data sets in their own right.",
+      "definition": "Data enhancing processing and utilization of main sensor data, collected via different processes or platforms, and usable as independent datasets.",
       "notes": "",
       "examples": "",
       "sources": "- ESA/CEOS?, modified\n- ENMAP Glossary of Terms, https://www.enmap.org/Data/doc/EnMAP_Terms.pdf, 20210624\n- EO Data Stewardship Glossary\n\n___"
@@ -24,7 +27,13 @@
       "definition": "Data required for instrument processing that does not originate in the instrument itself or from the satellite. Some Auxiliary Data will be generated in the ground segment, whilst other Data will be provided from external sources.",
       "notes": "",
       "examples": "",
-      "sources": "- CEOS-ARD PFS template 20220302"
+      "sources": "- CEOS-ARD PFS template 20220302\n\n___"
+    },
+    {
+      "definition": "Data enhancing processing and utilization of remote sensing instrument data, collected via different processes or platforms, preferably georeferenced, and usable as independent datasets.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
     }
   ]
 }

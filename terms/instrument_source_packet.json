@@ -1,0 +1,21 @@
+{
+  "title": "Instrument Source Packet",
+  "slug": "instrument_source_packet",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/instrument_source_packet",
+  "description": "An individual packet of data formatted by the instrument and reconstituted from within the descrambled VCDUs.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "An individual packet of data formatted by the instrument and reconstituted from within the descrambled VCDUs.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

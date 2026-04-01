@@ -1,0 +1,21 @@
+{
+  "title": "Information System",
+  "slug": "information_system",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/information_system",
+  "description": "System composed of hardware, software, and operational procedures for processing, storing, or transmitting data.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "System composed of hardware, software, and operational procedures for processing, storing, or transmitting data.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

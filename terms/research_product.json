@@ -1,0 +1,21 @@
+{
+  "title": "Research Product",
+  "slug": "research_product",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/research_product",
+  "description": "A data product produced at a science computing facility by a research algorithm for later migration to a community consensus algorithm and can be archived and distributed by an archive center.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A data product produced at a science computing facility by a research algorithm for later migration to a community consensus algorithm and can be archived and distributed by an archive center.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [ECS Project](http://edhs1.gsfc.nasa.gov/waisdata/docsw/pdf/tp1520303.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

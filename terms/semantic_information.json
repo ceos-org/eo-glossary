@@ -1,0 +1,21 @@
+{
+  "title": "Semantic Information",
+  "slug": "semantic_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/semantic_information",
+  "description": "The Representation Information that further describes the meaning beyond that provided by the Structure Information.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "The Representation Information that further describes the meaning beyond that provided by the Structure Information.",
+      "notes": "",
+      "examples": "",
+      "sources": "- CEOS CalVal Portal"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Telemetry Data",
+  "slug": "telemetry_data",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/telemetry_data",
+  "description": "Data stream of measured values (instrument science, instrument engineering, and spacecraftor platform engineering data), not including command, tracking, computer memory transfer, audio or video si...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGCV",
+    "WGClimate"
+  ],
+  "definitions": [
+    {
+      "definition": "Data stream of measured values (instrument science, instrument engineering, and spacecraftor platform engineering data), not including command, tracking, computer memory transfer, audio or video signals.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [ESA PDGS Glossary, PGSI-GSEG-EOPG-LI-13-0033 (MM-PDGS Glossary Issue 2.0_forReview.docx)](https://calvalportal.ceos.org/web/guest/t-d_wiki?p_p_id=com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_mvcRenderCommandName=%2Fwiki%2Fedit_page&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_redirect=https%3A%2F%2Fcalvalportal.ceos.org%2Fweb%2Fguest%2Ft-d_wiki%3Fp_p_id%3Dcom_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_mvcRenderCommandName%3D%252Fwiki%252Fview_page%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_nodeName%3DCEOS_Terms_and_Definitions%26_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_title%3DTelemetry%2BData&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_nodeId=668236&_com_liferay_wiki_web_portlet_WikiDisplayPortlet_INSTANCE_B9cyrDcwYNcn_title=ESA+PDGS+Glossary%2C+PGSI-GSEG-EOPG-LI-13-0033+%28MM-PDGS+Glossary+Issue+2.0_forReview.docx%29)"
+    }
+  ]
+}

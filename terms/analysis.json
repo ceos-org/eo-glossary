@@ -1,0 +1,21 @@
+{
+  "title": "Analysis",
+  "slug": "analysis",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/analysis",
+  "description": "Verification method using analytical techniques to demonstrate theoretical compliance with requirements through review, modeling, simulation, calculations, or data comparisons.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Verification method using analytical techniques to demonstrate theoretical compliance with requirements through review, modeling, simulation, calculations, or data comparisons.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [JPSS Program Lexicon](https://www.star.nesdis.noaa.gov/jpss/documents/470-00041_JPSS_Program_Lexicon_RevC_January_21_2016.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

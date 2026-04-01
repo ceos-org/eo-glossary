@@ -1,0 +1,21 @@
+{
+  "title": "Certification Services",
+  "slug": "certification_services",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/certification_services",
+  "description": "A NCEI director certification of archive authenticity.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "A NCEI director certification of archive authenticity.",
+      "notes": "NCEI certifies hardcopy data products (generally PDF) that are generated both offline and online. Customers pay for certification from the NOAA E-Commerce system and Pay.gov. The products are typically used in litigation and insurance claims.",
+      "examples": "",
+      "sources": "- NCEI/DAB\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

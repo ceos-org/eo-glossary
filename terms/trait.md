@@ -1,9 +1,9 @@
 ---
 title: Trait
+description: "Characteristic belonging to an entity and referenced by an identifier."
 tags:
 - base
 - to be approved
-description: Characteristic belonging to an entity and referenced by an identifier.
 ---
 
 # Trait

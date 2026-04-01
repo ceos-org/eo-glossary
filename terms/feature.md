@@ -1,9 +1,9 @@
 ---
 title: Feature
+description: "Abstraction of real-world phenomena."
 tags:
 - base
 - to be discussed
-description: Abstraction of real-world phenomena.
 ---
 
 # Feature

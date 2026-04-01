@@ -1,9 +1,9 @@
 ---
 title: Policy Objective
+description: "Desired outcome that policymakers wish to achieve."
 tags:
 - high-impact
 - to be discussed
-description: Desired outcome that policymakers wish to achieve.
 ---
 
 # Policy Objective

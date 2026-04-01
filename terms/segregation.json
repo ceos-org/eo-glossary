@@ -1,0 +1,21 @@
+{
+  "title": "Segregation",
+  "slug": "segregation",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/segregation",
+  "description": "Earth observation products with degraded quality relative to nominal standards, such as those acquired during maneuvers or special campaigns, still useful but requiring clear indication of status a...",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Earth observation products with degraded quality relative to nominal standards, such as those acquired during maneuvers or special campaigns, still useful but requiring clear indication of status and reason.",
+      "notes": "",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)"
+    }
+  ]
+}

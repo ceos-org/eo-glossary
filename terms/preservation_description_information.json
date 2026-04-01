@@ -1,0 +1,21 @@
+{
+  "title": "Preservation Description Information",
+  "slug": "preservation_description_information",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/preservation_description_information",
+  "description": "Reference, context, provenance, and fixity information, which is required for adequate preservation of the content information.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Reference, context, provenance, and fixity information, which is required for adequate preservation of the content information. Access rights information may be included. Preservation Description information is part of the data set's information component, and as such part of the associated knowledge .",
+      "notes": "Preservation Description Information (PDI): the information which is necessary for adequate preservation of the Content Information and which can be categorized as Provenance, Reference, Fixity, Context information and Access rights.",
+      "examples": "",
+      "sources": "- [CEOS/WGISS/DSIG/GLOS](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- [CEOS EO Data Stewardship Glossary](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/EO-DataStewardshipGlossary.pdf)\n- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

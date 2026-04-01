@@ -1,0 +1,21 @@
+{
+  "title": "Data Use Policy Agreement",
+  "slug": "data_use_policy_agreement",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/data_use_policy_agreement",
+  "description": "Executed agreement between a data provider and a data recipient that specifies the terms under which the data can be used.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Executed agreement between a data provider and a data recipient that specifies the terms under which the data can be used.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

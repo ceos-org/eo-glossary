@@ -1,0 +1,21 @@
+{
+  "title": "Web Object Storage",
+  "slug": "web_object_storage",
+  "url": "https://ceos-org.github.io/eo-glossary/terms/web_object_storage",
+  "description": "Object Storage accessible through HTTPS.",
+  "tags": [
+    "core",
+    "to be discussed",
+    "calval ingest",
+    "WGISS",
+    "WGCV"
+  ],
+  "definitions": [
+    {
+      "definition": "Object Storage accessible through HTTPS.",
+      "notes": "",
+      "examples": "",
+      "sources": "- NESDIS Data Management Lexicon and Related Terms"
+    }
+  ]
+}

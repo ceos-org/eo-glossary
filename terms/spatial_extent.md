@@ -1,9 +1,9 @@
 ---
 title: Spatial Extent
+description: "Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box."
 tags:
 - core
 - to be approved
-description: Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box, representing the maximum spatial boundary within which the user is requesting data.
 ---
 
 # Spatial Extent
