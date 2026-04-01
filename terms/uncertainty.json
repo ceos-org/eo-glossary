@@ -12,16 +12,16 @@
   ],
   "definitions": [
     {
+      "definition": "Non-negative parameter, associated with data, characterizing the dispersion of the values of a Trait that can reasonably be attributed to a Phenomenon by means of sensing or modelling.",
+      "notes": "- In case of quantitative (continuous) data the uncertainty may be, for example, a standard deviation (or a given multiple of it), or the half-width of an interval having a stated level of confidence (see e.g. Standard and Expanded Uncertainty).\n- For qualitative (categorical?) data, uncertainty may be expressed by commission and omission ('confusion matrix') or overall errors.",
+      "examples": "",
+      "sources": "- Modified from GUM, VIM4:3.1, FIDUCEO, Notes added\n\n___"
+    },
+    {
       "definition": "Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.",
       "notes": "",
       "examples": "",
       "sources": "- GUM\n\n___"
-    },
-    {
-      "definition": "Non-negative parameter, associated with data, which characterizes the dispersion of the values of a Trait that could reasonably be attributed to a Phenomenon by means of sensing or modelling.",
-      "notes": "- In case of quantitative (continuous) data the uncertainty may be, for example, a standard deviation (or a given multiple of it), or the half-width of an interval having a stated level of confidence (see e.g. Standard and Expanded Uncertainty).\n- For qualitative (categorical?) data, uncertainty may be expressed by commission and omission ('confusion matrix') or overall errors.",
-      "examples": "",
-      "sources": "- Modified from GUM, VIM4:3.1, FIDUCEO, Notes added\n\n___"
     },
     {
       "definition": "Measure of the spread of the distribution of possible values.",

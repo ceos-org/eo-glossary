@@ -13,20 +13,7 @@ tags:
 
 ## 1 Definition
 
-Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.
-
-### Notes
-
-### Examples
-
-### Sources
-- GUM
-
-___
-
-## 2 Definition
-
-Non-negative parameter, associated with data, which characterizes the dispersion of the values of a Trait that could reasonably be attributed to a Phenomenon by means of sensing or modelling.
+Non-negative parameter, associated with data, characterizing the dispersion of the values of a Trait that can reasonably be attributed to a Phenomenon by means of sensing or modelling.
 
 ### Notes
 - In case of quantitative (continuous) data the uncertainty may be, for example, a standard deviation (or a given multiple of it), or the half-width of an interval having a stated level of confidence (see e.g. Standard and Expanded Uncertainty).
@@ -39,6 +26,18 @@ Non-negative parameter, associated with data, which characterizes the dispersion
 
 ___
 
+## 2 Definition
+
+Parameter, associated with the result of a measurement, that characterises the dispersion of the values that could reasonably be attributed to the measurand.
+
+### Notes
+
+### Examples
+
+### Sources
+- GUM
+
+___
 ## 3 Definition
 
 Measure of the spread of the distribution of possible values.
