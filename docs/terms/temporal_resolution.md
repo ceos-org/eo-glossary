@@ -3,6 +3,7 @@ title: Temporal Resolution
 description: "Regular interval between observations or model time steps that determines the smallest resolvable event or process."
 tags:
 - core
+- controversial
 - to be approved
 - calval ingest
 - WGISS
