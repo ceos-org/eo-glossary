@@ -1,7 +1,7 @@
 # EO Glossary — Full Term Definitions
 # Source: https://ceos-org.github.io/eo-glossary/
 # 509 terms with formal definitions, notes, examples, and sources
-# Generated: 2026-04-01
+# Generated: 2026-07-07
 # Structured JSON export: https://github.com/ceos-org/eo-glossary/raw/refs/heads/main/exports/json/terms.json
 
 # Access
@@ -10926,7 +10926,7 @@ Time Period used for reporting and for which the information should be aggregate
 
 # Temporal Resolution
 URL: https://ceos-org.github.io/eo-glossary/terms/temporal_resolution
-Tags: core, to be approved, calval ingest, WGISS, WGCV
+Tags: core, controversial, to be approved, calval ingest, WGISS, WGCV
 Summary: Regular interval between observations or model time steps that determines the smallest resolvable event or process.
 
 # Temporal Resolution
