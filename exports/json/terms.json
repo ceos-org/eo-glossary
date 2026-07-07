@@ -3193,13 +3193,13 @@
   },
   {
     "term": "Sensor",
-    "tags": "- core\n- to be approved\n- calval ingest\n- WGCV\n- WGClimate",
+    "tags": "- core\n- to be discussed\n- calval ingest\n- WGCV\n- WGClimate",
     "synonyms": "",
     "definitions": [
       {
         "definition_no": 1,
         "definition": "Device or instrument suited (through physical/chemical interaction) to measure one or more properties of a Phenomenon and thus collect factual/objective data.",
-        "notes": "- Sensing is therefore a synonym for Observation (the Process).\n- As by their definition, sensors perform sampling.\n- Sensors used to obtain measurements must be calibrated and provide uncertainties.",
+        "notes": "- Sensing is therefore a synonym for Observation (the Process).\n- As by their definition, sensors perform sampling.\n- Sensors used to obtain measurements must be calibrated and provide uncertainties.\n- Sensor is currently cyclic with Instrument (to be resolved)",
         "examples": "",
         "sources": "- KCEO"
       },
