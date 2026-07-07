@@ -16,6 +16,7 @@ tags:
 Hardware system that collects scientific or operational data, or a hardware-integrated collection of one or more sensors contributing data of one type to an investigation.
 
 ### Notes
+- Sensor is currently cyclic with Instrument (to be resolved)
 
 ### Examples
 
