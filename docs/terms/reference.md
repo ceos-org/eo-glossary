@@ -4,6 +4,7 @@ description: "Phenomenon whose values for specific properties are known and unde
 tags:
 - core
 - to be discussed
+- WGCV
 ---
 
 # Reference

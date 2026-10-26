@@ -4,6 +4,8 @@ description: "New and improved major version of all products within a collection
 tags:
 - core
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Collection Upgrade

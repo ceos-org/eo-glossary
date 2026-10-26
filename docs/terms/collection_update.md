@@ -4,6 +4,8 @@ description: "Minor revisions to a relatively small number of products within a 
 tags:
 - core
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Collection Update

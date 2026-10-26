@@ -5,7 +5,7 @@ tags:
 - core
 - to be approved
 - calval ingest
-- WGISS
+- WGClimate
 - WGCV
 ---
 

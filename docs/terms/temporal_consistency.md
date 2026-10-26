@@ -4,6 +4,8 @@ description: "Condition where the temporal statistical properties of the Sample 
 tags:
 - core
 - to be approved
+- WGCV
+- WGClimate
 ---
 
 # Temporal Consistency

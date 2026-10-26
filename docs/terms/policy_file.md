@@ -4,6 +4,7 @@ description: "Policy documents that represent the official written reference for
 tags:
 - high-impact
 - to be discussed
+- WGCapD
 ---
 
 # Policy File

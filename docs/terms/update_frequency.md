@@ -4,6 +4,7 @@ description: "Frequency at which the product is available to users."
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Update Frequency

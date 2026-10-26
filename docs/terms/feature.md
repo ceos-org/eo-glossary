@@ -4,6 +4,8 @@ description: "Abstraction of real-world phenomena."
 tags:
 - base
 - to be discussed
+- WGISS
+- WGCV
 ---
 
 # Feature

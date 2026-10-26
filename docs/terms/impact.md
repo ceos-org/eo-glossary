@@ -4,6 +4,7 @@ description: "Regarded long-term according to X."
 tags:
 - core
 - to be discussed
+- WGCapD
 ---
 
 # Impact

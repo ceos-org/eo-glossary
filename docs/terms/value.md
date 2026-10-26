@@ -4,6 +4,8 @@ description: "Element of a type domain."
 tags:
 - base
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Value

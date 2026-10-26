@@ -5,8 +5,8 @@ tags:
 - core
 - to be approved
 - calval ingest
+- WGISS
 - WGCV
-- WGClimate
 ---
 
 # Auxiliary Data

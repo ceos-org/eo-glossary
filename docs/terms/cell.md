@@ -4,6 +4,7 @@ description: "Spatial, spatio-temporal zone or temporal unit of geometry with di
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Cell

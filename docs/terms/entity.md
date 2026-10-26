@@ -4,6 +4,8 @@ description: "Something that has separate and distinct existence and objective o
 tags:
 - base
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Entity

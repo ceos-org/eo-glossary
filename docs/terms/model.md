@@ -4,6 +4,7 @@ description: "An, often numeric, theoretical (or otherwise abstract) representat
 tags:
 - controversial
 - to be discussed
+- WGCV
 ---
 
 # Model

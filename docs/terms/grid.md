@@ -4,6 +4,7 @@ description: "Network composed of two or more sets of curves in which the member
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Grid

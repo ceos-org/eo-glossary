@@ -4,6 +4,8 @@ description: "Correcting for positional displacement with respect to the surface
 tags:
 - core
 - to be discussed
+- LSI-VC
+- WGCV
 ---
 
 # Georectifying

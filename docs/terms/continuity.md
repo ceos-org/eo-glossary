@@ -4,6 +4,8 @@ description: "### Notes."
 tags:
 - core
 - to be defined
+- WGClimate
+- WGCV
 ---
 
 # Continuity

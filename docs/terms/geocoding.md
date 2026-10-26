@@ -4,6 +4,7 @@ description: "Translation of one form of Location into another."
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Geocoding

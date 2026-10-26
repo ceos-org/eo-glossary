@@ -4,6 +4,7 @@ description: "Product within an EO Collection that is not expected to be updated
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Final Product Version

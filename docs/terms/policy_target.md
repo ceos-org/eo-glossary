@@ -4,6 +4,7 @@ description: "Specific level or rate set for the Policy Objective."
 tags:
 - high-impact
 - to be discussed
+- WGCapD
 ---
 
 # Policy Target

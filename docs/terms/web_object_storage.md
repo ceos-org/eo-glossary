@@ -6,7 +6,6 @@ tags:
 - to be discussed
 - calval ingest
 - WGISS
-- WGCV
 ---
 
 # Web Object Storage

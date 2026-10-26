@@ -4,6 +4,7 @@ description: "Well-established concept, typically taught as the rational model o
 tags:
 - high-impact
 - to be discussed
+- WGCapD
 ---
 
 # Policy Cycle

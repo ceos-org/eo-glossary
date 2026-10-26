@@ -4,6 +4,7 @@ description: "Institutional body, organisation or programme that provides reliab
 tags:
 - core
 - to be discussed
+- WGISS
 ---
 
 # Copernicus Service Provider

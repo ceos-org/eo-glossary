@@ -4,6 +4,7 @@ description: "Measure of the agreement between the represented Location of an Ob
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Location Error

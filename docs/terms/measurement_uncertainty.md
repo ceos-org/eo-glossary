@@ -4,6 +4,7 @@ description: "Uncertainty associated with the method of Measurement."
 tags:
 - core
 - to be discussed
+- WGCV
 ---
 
 # Measurement Uncertainty

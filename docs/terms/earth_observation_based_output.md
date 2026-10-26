@@ -4,6 +4,8 @@ description: "Higher-level processing and integration output (indicative level 4
 tags:
 - core
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Earth Observation Based Output

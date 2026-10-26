@@ -4,6 +4,7 @@ description: "Probability that the Quantity lies in the interval, conditioned on
 tags:
 - controversial
 - to be approved
+- WGCV
 ---
 
 # Confidence Interval

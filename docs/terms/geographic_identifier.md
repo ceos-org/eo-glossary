@@ -4,6 +4,7 @@ description: "Spatial reference in the form of a label or code that identifies a
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Geographic Identifier

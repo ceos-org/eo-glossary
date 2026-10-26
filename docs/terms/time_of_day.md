@@ -4,6 +4,7 @@ description: "Time of the day at which the variable or parameter is observed or 
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Time of Day

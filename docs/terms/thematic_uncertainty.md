@@ -4,6 +4,8 @@ description: "Uncertainty associated with the method of classification."
 tags:
 - core
 - to be discussed
+- WGCV
+- LSI-VC
 ---
 
 # Thematic Uncertainty

@@ -6,7 +6,6 @@ tags:
 - to be discussed
 - calval ingest
 - WGCV
-- WGClimate
 ---
 
 # Field-of-regard

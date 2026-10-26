@@ -4,6 +4,7 @@ description: "Spheres dividing planet Earth into subsystems, which are collectiv
 tags:
 - core
 - to be approved
+- WGClimate
 ---
 
 # Earth Spheres

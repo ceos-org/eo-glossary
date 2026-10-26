@@ -4,6 +4,8 @@ description: "Nomenclature used to classify Information into categorical themati
 tags:
 - core
 - to be approved
+- LSI-VC
+- B-VC
 ---
 
 # Classification System

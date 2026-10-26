@@ -6,7 +6,6 @@ tags:
 - to be discussed
 - calval ingest
 - WGISS
-- WGCV
 ---
 
 # Authorization of Use

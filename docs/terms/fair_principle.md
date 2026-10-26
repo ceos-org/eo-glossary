@@ -6,7 +6,6 @@ tags:
 - to be discussed
 - calval ingest
 - WGISS
-- WGCV
 ---
 
 # F.A.I.R. principle

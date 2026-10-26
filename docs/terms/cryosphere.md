@@ -4,6 +4,7 @@ description: "Masses of frozen water, such as sea ice, ice shields, glaciers, an
 tags:
 - core
 - to be approved
+- WGClimate
 ---
 
 # Cryosphere

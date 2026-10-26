@@ -4,6 +4,7 @@ description: "Measure of the ability to resolve features in the electromagnetic 
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Spectral Resolution

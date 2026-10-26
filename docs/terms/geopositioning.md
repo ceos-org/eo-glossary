@@ -4,6 +4,7 @@ description: "Determination of the geographic Position of a point (0D) or linear
 tags:
 - core
 - to be discussed
+- WGCV
 ---
 
 # Geopositioning

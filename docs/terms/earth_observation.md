@@ -4,6 +4,7 @@ description: "Science domain dealing with technologies and methods of collecting
 tags:
 - high-impact
 - to be discussed
+- WGCV
 ---
 
 # Earth Observation

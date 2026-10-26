@@ -4,6 +4,7 @@ description: "The masses of minerals that constitute planet Earth."
 tags:
 - core
 - to be approved
+- LSI-VC
 ---
 
 # Geosphere
