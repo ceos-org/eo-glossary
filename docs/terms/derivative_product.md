@@ -4,6 +4,8 @@ description: "Product additionally processed from baseline or unenhanced mission
 tags:
 - core
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Derivative Product

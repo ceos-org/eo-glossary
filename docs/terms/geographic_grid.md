@@ -4,6 +4,7 @@ description: "Regular grid based on a Geographic Coordinate Reference System (CR
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Geographic Grid

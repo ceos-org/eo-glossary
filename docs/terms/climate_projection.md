@@ -4,6 +4,7 @@ description: "Simulated response of the climate system to a scenario of future e
 tags:
 - core
 - to be approved
+- WGClimate
 ---
 
 # Climate Projection

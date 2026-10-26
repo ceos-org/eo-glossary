@@ -4,6 +4,7 @@ description: "Temporal reference in the form of a label or code that identifies 
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Period Identifier

@@ -5,8 +5,7 @@ tags:
 - core
 - to be approved
 - calval ingest
-- WGISS
-- WGCV
+- WGCapD
 ---
 
 # User

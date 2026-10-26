@@ -4,6 +4,8 @@ description: "Characteristic belonging to an entity and referenced by an identif
 tags:
 - base
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Trait

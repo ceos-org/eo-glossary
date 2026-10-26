@@ -4,6 +4,7 @@ description: "The area of the smallest Feature that is still represented on a ma
 tags:
 - core
 - to be approved
+- LSI-VC
 ---
 
 # Minimum Mapping Unit

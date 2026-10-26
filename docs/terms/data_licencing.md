@@ -4,6 +4,8 @@ description: "Legal instrument by which a copyright holder may grant rights over
 tags:
 - core
 - to be approved
+- WGCapD
+- WGISS
 ---
 
 # Data Licencing

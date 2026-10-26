@@ -4,6 +4,7 @@ description: "Zone or region of space described by a geographic identifier in th
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Spatial Extent

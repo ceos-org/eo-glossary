@@ -4,6 +4,7 @@ description: "An organisation's readiness to continue functioning during times o
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Business Continuity

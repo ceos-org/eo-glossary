@@ -6,7 +6,6 @@ tags:
 - to be approved
 - calval ingest
 - WGISS
-- WGCV
 ---
 
 # EO Space Data

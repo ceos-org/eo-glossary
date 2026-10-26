@@ -4,6 +4,7 @@ description: "Usually in-situ observations in which the Object or Phenomenon is 
 tags:
 - core
 - to be discussed
+- WGCV
 ---
 
 # Laboratory Observation

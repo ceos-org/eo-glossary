@@ -4,6 +4,7 @@ description: "The masses of liquid water, such as oceans, lakes, and rivers."
 tags:
 - core
 - to be approved
+- WGClimate
 ---
 
 # Hydrosphere

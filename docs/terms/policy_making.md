@@ -4,6 +4,7 @@ description: "Process by which governments translate their political vision into
 tags:
 - high-impact
 - to be discussed
+- WGCapD
 ---
 
 # Policy Making

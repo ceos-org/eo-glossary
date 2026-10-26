@@ -4,6 +4,7 @@ description: "Particular Place referenced by an identifier."
 tags:
 - base
 - to be approved
+- WGISS
 ---
 
 # Location

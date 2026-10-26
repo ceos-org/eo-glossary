@@ -4,6 +4,7 @@ description: "Non-negative interval Quantity of time equal to the difference bet
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Duration

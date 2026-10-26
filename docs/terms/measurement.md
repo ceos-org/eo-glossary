@@ -4,6 +4,7 @@ description: "Observation of a Quantity."
 tags:
 - core
 - to be discussed
+- WGCV
 ---
 
 # Measurement

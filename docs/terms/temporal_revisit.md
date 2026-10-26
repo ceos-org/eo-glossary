@@ -4,6 +4,7 @@ description: "Interval between successive observations."
 tags:
 - core
 - to be discussed
+- WGCV
 ---
 
 # Temporal Revisit

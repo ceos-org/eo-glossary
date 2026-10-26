@@ -8,7 +8,6 @@ tags:
 - to be defined
 - calval ingest
 - WGISS
-- WGCV
 ---
 
 # Knowledge Transfer File

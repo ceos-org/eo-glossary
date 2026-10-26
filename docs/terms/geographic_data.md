@@ -4,6 +4,7 @@ description: "Data with implicit or explicit reference to a Location relative to
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Geographic Data

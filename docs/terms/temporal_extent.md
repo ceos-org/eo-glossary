@@ -4,6 +4,7 @@ description: "Period during which data was collected, observations were made, or
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Temporal Extent

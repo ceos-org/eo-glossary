@@ -4,6 +4,8 @@ description: "Direct output from standardized satellite data processing chains (
 tags:
 - core
 - to be approved
+- WGCV
+- WGISS
 ---
 
 # Earth Observation Product

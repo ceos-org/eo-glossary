@@ -5,8 +5,8 @@ tags:
 - core
 - to be discussed
 - calval ingest
-- WGISS
 - WGCV
+- AC-VC
 ---
 
 # Point-to-Area Representativeness

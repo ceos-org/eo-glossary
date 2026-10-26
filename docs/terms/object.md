@@ -4,6 +4,8 @@ description: "Entity with a well-defined boundary and identity that encapsulates
 tags:
 - base
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Object

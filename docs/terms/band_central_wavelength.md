@@ -4,6 +4,7 @@ description: "Single wavelength Value within the sensitivity interval of a spect
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Band Central Wavelength

@@ -8,7 +8,6 @@ tags:
 - to be discussed
 - calval ingest
 - WGCV
-- WGISS
 ---
 
 # Bias

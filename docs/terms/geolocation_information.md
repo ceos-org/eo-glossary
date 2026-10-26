@@ -4,6 +4,7 @@ description: "Information used to determine geographic Location."
 tags:
 - core
 - to be discussed
+- WGISS
 ---
 
 # Geolocation Information

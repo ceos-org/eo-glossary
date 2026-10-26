@@ -4,6 +4,7 @@ description: "Time of the year at which the variable is observed or simulated by
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Time of Year

@@ -4,6 +4,8 @@ description: "Distinguishing Feature."
 tags:
 - base
 - to be discussed
+- WGISS
+- WGCV
 ---
 
 # Characteristic
