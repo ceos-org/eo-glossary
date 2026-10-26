@@ -11,8 +11,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -26,8 +25,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -41,8 +39,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -56,8 +53,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -71,8 +67,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -86,8 +81,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD",
+        "WGISS"
       ]
     },
     {
@@ -101,8 +96,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -116,8 +110,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -131,8 +124,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -146,8 +138,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -161,8 +152,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -176,8 +166,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -191,8 +180,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -206,8 +194,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -221,8 +208,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCV",
+        "WGISS"
       ]
     },
     {
@@ -236,7 +223,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -251,8 +237,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "LSI-VC",
+        "WGCV"
       ]
     },
     {
@@ -266,8 +252,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -281,8 +266,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -309,7 +293,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "LSI-VC"
       ]
     },
     {
@@ -323,8 +308,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -338,8 +322,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -353,8 +336,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -368,8 +350,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -383,8 +364,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -398,8 +378,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -413,8 +392,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -428,8 +406,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -443,8 +420,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -456,7 +432,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -471,7 +448,7 @@
         "to be discussed",
         "calval ingest",
         "WGCV",
-        "WGClimate"
+        "AC-VC"
       ]
     },
     {
@@ -500,8 +477,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -515,8 +491,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -528,7 +503,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "AC-VC"
       ]
     },
     {
@@ -542,8 +518,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -557,8 +532,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -572,8 +546,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -587,8 +560,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -602,8 +574,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -617,8 +588,8 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -632,8 +603,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -645,7 +615,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -657,7 +628,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -669,7 +641,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV",
+        "WGISS"
       ]
     },
     {
@@ -683,8 +657,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -698,8 +671,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -713,8 +685,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -726,7 +697,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "B-VC"
       ]
     },
     {
@@ -740,8 +712,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -755,8 +726,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -770,8 +740,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -785,8 +754,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -800,8 +768,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -815,8 +782,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -830,8 +796,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -843,7 +808,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -858,7 +824,6 @@
         "source missing",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -873,8 +838,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCV",
+        "WGISS"
       ]
     },
     {
@@ -886,7 +851,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGISS"
       ]
     },
     {
@@ -900,8 +866,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -915,8 +880,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -928,7 +892,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -942,8 +907,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -955,7 +919,9 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be discussed"
+        "to be discussed",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -969,8 +935,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -984,8 +949,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -997,7 +961,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "LSI-VC",
+        "B-VC"
       ]
     },
     {
@@ -1009,7 +975,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "LSI-VC",
+        "B-VC"
       ]
     },
     {
@@ -1023,7 +991,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
         "WGClimate"
       ]
     },
@@ -1038,8 +1005,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGClimate"
       ]
     },
     {
@@ -1051,7 +1017,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGClimate"
       ]
     },
     {
@@ -1065,8 +1032,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGClimate"
       ]
     },
     {
@@ -1080,8 +1046,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1095,8 +1060,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1125,8 +1089,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1138,7 +1101,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -1150,7 +1115,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -1164,8 +1131,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1179,8 +1145,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1194,8 +1159,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1207,7 +1171,8 @@
       "color": "#fb923c",
       "tags": [
         "controversial",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -1219,7 +1184,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGCV"
       ]
     },
     {
@@ -1233,8 +1199,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1248,8 +1213,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1263,8 +1227,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1278,8 +1241,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1291,7 +1253,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGClimate",
+        "WGCV"
       ]
     },
     {
@@ -1305,8 +1269,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1320,8 +1283,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1333,7 +1295,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGISS"
       ]
     },
     {
@@ -1347,8 +1310,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -1360,7 +1322,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -1372,7 +1335,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGClimate"
       ]
     },
     {
@@ -1386,8 +1350,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1399,7 +1362,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -1426,7 +1390,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGISS"
       ]
     },
     {
@@ -1440,8 +1405,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1455,8 +1419,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1470,8 +1433,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1485,8 +1447,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1500,8 +1461,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1515,8 +1475,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1530,8 +1489,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1545,8 +1503,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -1560,8 +1517,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1575,8 +1531,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1590,8 +1545,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1605,8 +1559,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -1620,8 +1573,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1635,8 +1587,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1650,8 +1601,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1663,7 +1613,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -1677,8 +1628,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCV",
+        "WGISS"
       ]
     },
     {
@@ -1692,8 +1643,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1722,8 +1672,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1735,7 +1684,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCapD",
+        "WGISS"
       ]
     },
     {
@@ -1749,8 +1700,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD",
+        "WGISS"
       ]
     },
     {
@@ -1764,8 +1715,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1779,8 +1729,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1794,8 +1743,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1809,8 +1757,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1824,7 +1771,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -1839,8 +1785,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1854,8 +1799,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1869,8 +1813,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1884,8 +1827,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1899,8 +1841,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1914,8 +1855,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1929,8 +1869,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1944,8 +1883,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1959,7 +1897,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -1974,8 +1911,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -1989,8 +1925,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2004,8 +1939,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2019,8 +1953,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2034,8 +1967,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2049,8 +1981,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2064,8 +1995,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2079,7 +2009,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -2094,8 +2023,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2109,8 +2037,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2124,8 +2051,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2139,8 +2065,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -2154,8 +2079,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2169,8 +2093,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2184,8 +2107,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2197,7 +2119,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -2209,7 +2132,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -2221,7 +2145,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -2250,8 +2176,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2265,8 +2190,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2280,8 +2204,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2295,8 +2218,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2310,8 +2232,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2325,8 +2246,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2340,8 +2260,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -2355,8 +2274,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2368,7 +2286,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -2382,8 +2301,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2397,8 +2315,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2412,8 +2329,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2427,8 +2343,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2442,8 +2357,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -2457,8 +2371,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2470,7 +2383,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -2482,7 +2396,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -2494,7 +2409,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -2506,7 +2422,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -2518,7 +2436,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV",
+        "WGISS"
       ]
     },
     {
@@ -2530,7 +2450,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGClimate"
       ]
     },
     {
@@ -2544,8 +2465,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -2559,7 +2480,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -2572,7 +2492,9 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -2586,8 +2508,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2599,7 +2520,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGClimate"
       ]
     },
     {
@@ -2613,8 +2535,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2628,8 +2549,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2643,8 +2563,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2658,8 +2577,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -2671,7 +2589,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -2685,8 +2605,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -2700,7 +2619,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
         "WGClimate"
       ]
     },
@@ -2715,8 +2633,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2728,7 +2645,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -2742,8 +2660,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2757,8 +2674,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2772,8 +2688,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2787,8 +2702,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2802,8 +2716,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2815,7 +2728,9 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be discussed"
+        "to be discussed",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -2829,8 +2744,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2844,8 +2758,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2859,8 +2772,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2874,8 +2786,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2889,8 +2800,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2904,8 +2814,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2919,8 +2828,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2932,7 +2840,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -2946,8 +2855,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2961,8 +2869,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -2976,8 +2883,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -2989,7 +2895,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGClimate"
       ]
     },
     {
@@ -3003,8 +2910,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3018,8 +2924,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3033,8 +2938,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGClimate",
+        "WGCV"
       ]
     },
     {
@@ -3061,7 +2966,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3075,7 +2981,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -3088,7 +2993,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3100,7 +3006,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3112,7 +3019,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3124,7 +3032,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3136,7 +3045,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -3148,7 +3058,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGISS"
       ]
     },
     {
@@ -3162,8 +3073,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3175,7 +3085,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -3187,7 +3098,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "LSI-VC",
+        "WGCV"
       ]
     },
     {
@@ -3199,7 +3112,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3211,7 +3125,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "LSI-VC"
       ]
     },
     {
@@ -3225,8 +3140,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3240,8 +3154,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3255,8 +3168,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3268,7 +3180,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3282,8 +3195,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "LSI-VC",
+        "WGCV"
       ]
     },
     {
@@ -3297,8 +3210,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3312,8 +3224,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -3327,8 +3238,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3342,8 +3252,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3357,7 +3266,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -3372,8 +3280,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3387,8 +3294,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -3400,7 +3306,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGClimate"
       ]
     },
     {
@@ -3412,7 +3319,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -3426,8 +3334,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3439,7 +3346,8 @@
       "color": "#fb923c",
       "tags": [
         "controversial",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -3453,8 +3361,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3468,8 +3375,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3483,8 +3389,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -3513,8 +3418,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3528,8 +3432,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3543,8 +3446,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3558,8 +3460,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3573,8 +3474,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3588,8 +3488,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3603,8 +3502,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3618,7 +3516,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -3633,8 +3530,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3648,8 +3544,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3664,7 +3559,7 @@
         "to be approved",
         "calval ingest",
         "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -3678,8 +3573,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3693,8 +3587,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -3708,8 +3601,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3723,8 +3615,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3738,8 +3629,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3753,8 +3643,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "LSI-VC",
+        "WGCV"
       ]
     },
     {
@@ -3768,7 +3658,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
         "WGISS"
       ]
     },
@@ -3783,8 +3672,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "LSI-VC",
+        "WGCV"
       ]
     },
     {
@@ -3798,8 +3687,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3813,8 +3701,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3828,8 +3715,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3843,8 +3729,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3858,8 +3743,7 @@
         "core",
         "to be defined",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3871,7 +3755,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -3885,8 +3770,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -3898,7 +3782,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3912,8 +3797,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3927,8 +3811,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3940,7 +3823,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "LSI-VC"
       ]
     },
     {
@@ -3952,7 +3836,8 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -3964,7 +3849,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -3978,8 +3864,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -3993,8 +3878,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4008,8 +3892,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4023,8 +3906,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4038,8 +3920,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4053,8 +3934,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4068,8 +3948,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4083,8 +3962,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4098,8 +3976,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -4111,7 +3988,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -4125,8 +4003,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -4138,7 +4015,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -4152,8 +4030,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4167,7 +4044,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -4182,8 +4058,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4197,8 +4072,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4210,7 +4084,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "LSI-VC"
       ]
     },
     {
@@ -4222,7 +4097,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "LSI-VC"
       ]
     },
     {
@@ -4236,8 +4112,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -4251,8 +4126,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -4264,7 +4138,8 @@
       "color": "#fb923c",
       "tags": [
         "controversial",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -4278,7 +4153,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -4293,8 +4167,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -4308,8 +4181,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4323,8 +4195,7 @@
         "high-impact",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4338,8 +4209,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4351,7 +4221,9 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -4363,7 +4235,8 @@
       "color": "#fb923c",
       "tags": [
         "controversial",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -4375,7 +4248,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -4389,8 +4263,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4404,8 +4277,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4419,8 +4291,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4434,8 +4305,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD",
+        "WGISS"
       ]
     },
     {
@@ -4449,8 +4320,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4464,8 +4334,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD",
+        "WGISS"
       ]
     },
     {
@@ -4479,8 +4349,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD",
+        "WGISS"
       ]
     },
     {
@@ -4494,8 +4364,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD",
+        "WGISS"
       ]
     },
     {
@@ -4509,8 +4379,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4524,8 +4393,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4539,8 +4407,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4554,8 +4421,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4569,8 +4435,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4584,8 +4449,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4599,8 +4463,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -4614,8 +4477,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -4629,8 +4491,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4644,8 +4505,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4657,7 +4517,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGCapD"
       ]
     },
     {
@@ -4671,8 +4532,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -4686,8 +4546,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4701,7 +4560,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -4714,7 +4572,8 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -4728,8 +4587,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4743,8 +4601,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4756,7 +4613,8 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -4768,7 +4626,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -4780,7 +4639,9 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -4794,8 +4655,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -4807,7 +4667,8 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -4821,8 +4682,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -4836,8 +4696,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCV",
+        "AC-VC"
       ]
     },
     {
@@ -4849,7 +4709,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -4861,7 +4722,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -4873,7 +4735,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -4885,7 +4748,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -4897,7 +4761,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -4909,7 +4774,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -4921,7 +4787,8 @@
       "color": "#c084fc",
       "tags": [
         "high-impact",
-        "to be discussed"
+        "to be discussed",
+        "WGCapD"
       ]
     },
     {
@@ -4934,7 +4801,8 @@
       "tags": [
         "base",
         "to be discussed",
-        "controversial"
+        "controversial",
+        "WGISS"
       ]
     },
     {
@@ -4948,8 +4816,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -4963,8 +4830,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -4978,7 +4844,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -4993,8 +4858,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -5008,8 +4872,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -5023,8 +4886,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5038,8 +4900,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5053,8 +4914,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5068,8 +4928,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5098,8 +4957,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -5128,7 +4986,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5173,8 +5030,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -5188,8 +5045,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5203,8 +5059,8 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -5218,8 +5074,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5233,7 +5088,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5263,8 +5117,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5278,8 +5131,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5308,8 +5160,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5323,8 +5174,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5336,7 +5186,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -5350,8 +5201,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5365,8 +5215,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5380,7 +5229,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5395,7 +5243,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5410,7 +5257,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5425,7 +5271,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5440,7 +5285,6 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5455,7 +5299,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5470,7 +5313,6 @@
         "base",
         "to be approved",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5500,8 +5342,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -5515,8 +5356,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -5530,8 +5370,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -5545,8 +5384,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5560,8 +5398,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5573,7 +5410,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -5587,8 +5425,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -5602,8 +5439,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5617,8 +5453,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5632,8 +5467,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -5645,7 +5479,8 @@
       "color": "#fb923c",
       "tags": [
         "controversial",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -5659,8 +5494,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5674,7 +5508,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5687,7 +5520,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -5701,8 +5535,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5716,8 +5549,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5731,8 +5563,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5746,7 +5577,6 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5776,8 +5606,8 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCV",
+        "WGISS"
       ]
     },
     {
@@ -5791,8 +5621,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5806,8 +5635,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5821,7 +5649,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
+        "LSI-VC",
         "WGCV"
       ]
     },
@@ -5851,8 +5679,7 @@
         "core",
         "to be defined",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -5866,8 +5693,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5881,8 +5707,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -5896,8 +5721,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5911,8 +5735,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -5924,7 +5747,8 @@
       "color": "#fb923c",
       "tags": [
         "controversial",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -5938,8 +5762,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5953,8 +5776,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "LSI-VC"
       ]
     },
     {
@@ -5968,8 +5790,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -5983,7 +5804,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -5998,8 +5818,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6013,8 +5832,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCV",
+        "WGISS"
       ]
     },
     {
@@ -6028,8 +5847,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6043,8 +5861,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6058,8 +5875,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6103,8 +5919,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6118,8 +5933,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6133,8 +5947,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -6148,8 +5961,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -6163,8 +5975,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -6178,8 +5989,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6193,8 +6003,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6208,8 +6017,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6236,7 +6044,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -6248,7 +6057,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -6260,7 +6070,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -6274,8 +6085,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -6287,7 +6097,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -6299,7 +6110,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGCV"
       ]
     },
     {
@@ -6311,7 +6123,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -6323,7 +6136,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -6335,7 +6149,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV"
       ]
     },
     {
@@ -6349,7 +6164,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
+        "WGClimate",
         "WGCV"
       ]
     },
@@ -6364,8 +6179,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6379,7 +6193,6 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -6394,8 +6207,8 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -6407,7 +6220,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGISS"
       ]
     },
     {
@@ -6421,8 +6235,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6436,8 +6249,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6451,8 +6263,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6466,8 +6277,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6481,8 +6291,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6496,8 +6305,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6511,8 +6319,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6526,8 +6333,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6541,8 +6347,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6556,8 +6361,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -6586,8 +6390,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6601,8 +6404,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6616,8 +6418,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6631,8 +6432,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -6646,8 +6446,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGISS"
       ]
     },
     {
@@ -6659,7 +6458,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGCV",
+        "WGClimate"
       ]
     },
     {
@@ -6671,7 +6472,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -6683,7 +6485,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -6698,7 +6501,6 @@
         "controversial",
         "to be approved",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -6711,7 +6513,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV"
       ]
     },
     {
@@ -6723,7 +6526,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "LSI-VC",
+        "B-VC"
       ]
     },
     {
@@ -6735,7 +6540,9 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be discussed"
+        "to be discussed",
+        "WGCV",
+        "LSI-VC"
       ]
     },
     {
@@ -6749,8 +6556,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6762,7 +6568,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -6774,7 +6581,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -6786,7 +6594,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -6798,7 +6607,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be defined"
+        "to be defined",
+        "WGCV"
       ]
     },
     {
@@ -6812,8 +6622,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6827,8 +6636,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6840,7 +6648,9 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -6854,8 +6664,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6869,8 +6678,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6884,8 +6692,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6899,8 +6706,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6914,8 +6720,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6929,8 +6734,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -6944,8 +6748,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6959,8 +6762,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6974,8 +6776,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -6987,7 +6788,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -7001,8 +6803,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -7016,8 +6817,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7031,8 +6831,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -7046,8 +6845,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGCapD"
       ]
     },
     {
@@ -7059,7 +6857,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -7073,8 +6872,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7088,8 +6886,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7103,8 +6900,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGClimate"
+        "WGCV"
       ]
     },
     {
@@ -7116,7 +6912,9 @@
       "color": "#60a5fa",
       "tags": [
         "base",
-        "to be approved"
+        "to be approved",
+        "WGISS",
+        "WGCV"
       ]
     },
     {
@@ -7130,8 +6928,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7145,7 +6942,6 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
         "WGCV"
       ]
     },
@@ -7160,8 +6956,7 @@
         "core",
         "to be approved",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -7175,8 +6970,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7188,7 +6982,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -7200,7 +6995,8 @@
       "color": "#4ade80",
       "tags": [
         "core",
-        "to be approved"
+        "to be approved",
+        "WGISS"
       ]
     },
     {
@@ -7214,8 +7010,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGCV",
-        "WGISS"
+        "WGCV"
       ]
     },
     {
@@ -7229,8 +7024,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7244,8 +7038,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7259,8 +7052,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7274,8 +7066,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     },
     {
@@ -7289,8 +7080,7 @@
         "core",
         "to be discussed",
         "calval ingest",
-        "WGISS",
-        "WGCV"
+        "WGISS"
       ]
     }
   ],
