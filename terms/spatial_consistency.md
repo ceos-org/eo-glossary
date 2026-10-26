@@ -4,6 +4,7 @@ description: "Condition where the spatial statistical properties of the data dep
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Spatial Consistency

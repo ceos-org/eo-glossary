@@ -4,6 +4,7 @@ description: "Set of all the components of an interactive system that provide in
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # User Interface

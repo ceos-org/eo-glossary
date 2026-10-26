@@ -4,6 +4,7 @@ description: "Coordinate Reference System (CRS) that has a geodetic Reference fr
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Geographic Coordinate Reference System

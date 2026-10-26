@@ -4,6 +4,7 @@ description: "Type of Observation performed at a significant distance from a Phe
 tags:
 - controversial
 - to be discussed
+- WGCV
 ---
 
 # Remote Sensing

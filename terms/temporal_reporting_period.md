@@ -4,6 +4,7 @@ description: "Time Period used for reporting and for which the information shoul
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Temporal Reporting Period

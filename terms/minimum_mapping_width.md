@@ -4,6 +4,7 @@ description: "The width of the smallest linear Feature that is still represented
 tags:
 - core
 - to be approved
+- LSI-VC
 ---
 
 # Minimum Mapping Width

@@ -5,8 +5,8 @@ tags:
 - core
 - to be discussed
 - calval ingest
-- WGCV
 - WGClimate
+- WGCV
 ---
 
 # Fundamental Climate Data Record

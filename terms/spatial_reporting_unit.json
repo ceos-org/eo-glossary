@@ -5,7 +5,8 @@
   "description": "Smallest spatial object of interest that may be used for reporting and for which the information should be aggregated.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

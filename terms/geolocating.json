@@ -5,7 +5,8 @@
   "description": "Geopositioning of an Object using a Physical Sensor Model or a True Replacement Model.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGCV"
   ],
   "definitions": [
     {

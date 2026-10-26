@@ -5,8 +5,7 @@ tags:
 - core
 - to be discussed
 - calval ingest
-- WGCV
-- WGClimate
+- WGISS
 ---
 
 # Raw Data

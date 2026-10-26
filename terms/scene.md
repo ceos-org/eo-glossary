@@ -5,8 +5,7 @@ tags:
 - core
 - to be discussed
 - calval ingest
-- WGCV
-- WGClimate
+- LSI-VC
 ---
 
 # Scene

@@ -5,8 +5,8 @@ tags:
 - core
 - to be discussed
 - calval ingest
+- LSI-VC
 - WGCV
-- WGClimate
 ---
 
 # Ground Sampling Distance

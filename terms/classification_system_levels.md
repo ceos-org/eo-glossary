@@ -4,6 +4,8 @@ description: "Levels in a hierarchical Classification System."
 tags:
 - core
 - to be discussed
+- LSI-VC
+- B-VC
 ---
 
 # Classification System Levels

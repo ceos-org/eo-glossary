@@ -5,7 +5,8 @@
   "description": "Zone or region of space described by a geographic identifier in the form of a label or code, or by a bounding box.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

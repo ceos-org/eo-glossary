@@ -4,6 +4,7 @@ description: "Property enabling other researchers to conduct an independent stud
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Replicability

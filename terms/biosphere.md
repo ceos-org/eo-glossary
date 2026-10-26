@@ -4,6 +4,7 @@ description: "Masses of living organisms, such as vegetation and animals, includ
 tags:
 - core
 - to be approved
+- B-VC
 ---
 
 # Biosphere

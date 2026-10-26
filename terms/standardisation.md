@@ -5,8 +5,8 @@ tags:
 - core
 - to be discussed
 - calval ingest
-- WGCV
 - WGISS
+- WGCV
 ---
 
 # Standardisation

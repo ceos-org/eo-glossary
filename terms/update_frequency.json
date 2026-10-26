@@ -5,7 +5,8 @@
   "description": "Frequency at which the product is available to users.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

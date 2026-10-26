@@ -4,6 +4,8 @@ description: "Entity with at least one Property referenced by an identifier."
 tags:
 - base
 - to be approved
+- WGISS
+- WGCV
 ---
 
 # Phenomenon

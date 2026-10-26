@@ -5,7 +5,9 @@
   "description": "Level of categorical detail of information expressed by the number of classes.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "LSI-VC",
+    "B-VC"
   ],
   "definitions": [
     {

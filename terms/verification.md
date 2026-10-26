@@ -6,7 +6,6 @@ tags:
 - to be approved
 - calval ingest
 - WGCV
-- WGISS
 ---
 
 # Verification

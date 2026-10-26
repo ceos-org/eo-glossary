@@ -5,7 +5,8 @@
   "description": "Spatial reference in the form of a label or code that identifies a Location.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

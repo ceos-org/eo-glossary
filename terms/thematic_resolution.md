@@ -4,6 +4,8 @@ description: "Level of categorical detail of information expressed by the number
 tags:
 - core
 - to be approved
+- LSI-VC
+- B-VC
 ---
 
 # Thematic Resolution

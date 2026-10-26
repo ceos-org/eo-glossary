@@ -4,6 +4,7 @@ description: "Time that an antenna beam spends on a target."
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Dwell Time

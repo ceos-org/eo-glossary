@@ -5,7 +5,9 @@
   "description": "Uncertainty associated with the method of classification.",
   "tags": [
     "core",
-    "to be discussed"
+    "to be discussed",
+    "WGCV",
+    "LSI-VC"
   ],
   "definitions": [
     {

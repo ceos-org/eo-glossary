@@ -4,6 +4,7 @@ description: "Zone in 2D or 3D for which the Information or Data is requested."
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Area of Interest

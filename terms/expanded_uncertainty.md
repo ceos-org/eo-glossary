@@ -4,6 +4,7 @@ description: "Standard Uncertainty multiplied by a coverage factor, k."
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Expanded Uncertainty

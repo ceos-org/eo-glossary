@@ -7,6 +7,7 @@ description: "Period between the moment of requesting information and the moment
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Timeliness

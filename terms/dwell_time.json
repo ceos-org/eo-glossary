@@ -5,7 +5,8 @@
   "description": "Time that an antenna beam spends on a target.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGCV"
   ],
   "definitions": [
     {

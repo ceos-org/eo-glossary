@@ -5,7 +5,8 @@
   "description": "Presence or absence of gaps, which are missing values in an otherwise continuous spatial data series.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGCV"
   ],
   "definitions": [
     {

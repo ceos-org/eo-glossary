@@ -4,6 +4,7 @@ description: "One of the Earth spheres consisting predominantly of matter proces
 tags:
 - core
 - to be approved
+- LSI-VC
 ---
 
 # Anthroposphere

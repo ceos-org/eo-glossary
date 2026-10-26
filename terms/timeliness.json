@@ -5,7 +5,8 @@
   "description": "Period between the moment of requesting information and the moment of availability of information.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

@@ -4,6 +4,7 @@ description: "Presence or absence of gaps, which are missing values in an otherw
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Spatial Completeness

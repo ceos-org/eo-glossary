@@ -4,6 +4,7 @@ description: "Action of permanently and irrecoverably removing all copies of dat
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Dispose

@@ -5,7 +5,8 @@
   "description": "Probability that the Quantity lies in the interval, conditioned on the measuring or modelling assumptions.",
   "tags": [
     "controversial",
-    "to be approved"
+    "to be approved",
+    "WGCV"
   ],
   "definitions": [
     {

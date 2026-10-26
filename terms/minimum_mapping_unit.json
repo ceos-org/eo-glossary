@@ -5,7 +5,8 @@
   "description": "The area of the smallest Feature that is still represented on a map.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "LSI-VC"
   ],
   "definitions": [
     {

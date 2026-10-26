@@ -4,6 +4,7 @@ description: "Observations performed in the same Place where a Phenomenon occurs
 tags:
 - controversial
 - to be discussed
+- WGCV
 ---
 
 # In-Situ Observation

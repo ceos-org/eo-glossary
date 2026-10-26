@@ -5,7 +5,9 @@
   "description": "Characteristic belonging to an entity and referenced by an identifier.",
   "tags": [
     "base",
-    "to be approved"
+    "to be approved",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {

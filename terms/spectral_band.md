@@ -4,6 +4,7 @@ description: "Part of the electromagnetic spectrum of specific wavelengths."
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Spectral Band

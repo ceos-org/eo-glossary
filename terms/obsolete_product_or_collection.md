@@ -4,6 +4,7 @@ description: "Products or collections which have been superseded by later versio
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Obsolete Product or Collection

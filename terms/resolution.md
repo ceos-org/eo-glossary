@@ -6,7 +6,6 @@ tags:
 - to be defined
 - calval ingest
 - WGCV
-- WGClimate
 ---
 
 # Resolution

@@ -5,7 +5,8 @@
   "description": "Regular grid based on a Geographic Coordinate Reference System (CRS).",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

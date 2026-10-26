@@ -5,7 +5,9 @@
   "description": "Correcting for positional displacement with respect to the surface of the Earth.",
   "tags": [
     "core",
-    "to be discussed"
+    "to be discussed",
+    "LSI-VC",
+    "WGCV"
   ],
   "definitions": [
     {

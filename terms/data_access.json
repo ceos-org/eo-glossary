@@ -5,7 +5,8 @@
   "description": "Service to disseminate Data.",
   "tags": [
     "core",
-    "to be discussed"
+    "to be discussed",
+    "WGISS"
   ],
   "definitions": [
     {

@@ -5,7 +5,8 @@
   "description": "Time of the year at which the variable is observed or simulated by a model.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

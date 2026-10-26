@@ -5,7 +5,8 @@
   "description": "Minimum time of interval between an Observation being tasked and being performed.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

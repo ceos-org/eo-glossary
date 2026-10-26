@@ -5,7 +5,8 @@
   "description": "Single wavelength Value within the sensitivity interval of a spectroradiometric Sensor which represents the respective band.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGCV"
   ],
   "definitions": [
     {

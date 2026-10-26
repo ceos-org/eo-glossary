@@ -4,6 +4,7 @@ description: "The solid, inanimate outer layer of the Geosphere."
 tags:
 - core
 - to be approved
+- LSI-VC
 ---
 
 # Lithosphere

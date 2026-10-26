@@ -5,7 +5,8 @@
   "description": "Coordinate Reference System (CRS) that has a geodetic Reference frame and an ellipsoidal coordinate system.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

@@ -5,7 +5,8 @@
   "description": "Products in a research and development phase not yet published into a standardized collection.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS"
   ],
   "definitions": [
     {

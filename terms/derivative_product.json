@@ -5,7 +5,9 @@
   "description": "Product additionally processed from baseline or unenhanced mission data.",
   "tags": [
     "core",
-    "to be approved"
+    "to be approved",
+    "WGISS",
+    "WGCV"
   ],
   "definitions": [
     {

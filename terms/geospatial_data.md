@@ -4,6 +4,7 @@ description: "Data consisting of, derived from, or relating to information that 
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Geospatial Data

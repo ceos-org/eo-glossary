@@ -4,6 +4,7 @@ description: "Range of the Spectral Band."
 tags:
 - core
 - to be discussed
+- WGCV
 ---
 
 # Spectral Bandwidth

@@ -4,6 +4,7 @@ description: "Products and collections that have been superseded by new versions
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Decommissioned Product

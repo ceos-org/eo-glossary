@@ -4,6 +4,7 @@ description: "Geopositioning of an Object using a Physical Sensor Model or a Tru
 tags:
 - core
 - to be approved
+- WGCV
 ---
 
 # Geolocating

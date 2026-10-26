@@ -4,6 +4,7 @@ description: "Smallest spatial object of interest that may be used for reporting
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Spatial Reporting Unit

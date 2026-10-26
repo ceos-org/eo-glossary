@@ -6,7 +6,6 @@ tags:
 - to be approved
 - calval ingest
 - WGISS
-- WGCV
 ---
 
 # Long Term Preservation

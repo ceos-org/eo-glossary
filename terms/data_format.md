@@ -4,6 +4,7 @@ description: "Structured Data that is machine readable and can be automatically 
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Data Format

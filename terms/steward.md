@@ -4,6 +4,7 @@ description: "Entity responsible for the safe custody, transport, storage of the
 tags:
 - core
 - to be discussed
+- WGISS
 ---
 
 # Steward

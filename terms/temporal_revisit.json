@@ -5,7 +5,8 @@
   "description": "Interval between successive observations.",
   "tags": [
     "core",
-    "to be discussed"
+    "to be discussed",
+    "WGCV"
   ],
   "definitions": [
     {

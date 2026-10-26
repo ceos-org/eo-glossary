@@ -4,6 +4,7 @@ description: "The forecast period."
 tags:
 - core
 - to be discussed
+- WGClimate
 ---
 
 # Forecast Range

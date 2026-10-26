@@ -4,6 +4,7 @@ description: "Deliberate system of guidelines to guide decisions and achieve rat
 tags:
 - high-impact
 - to be discussed
+- WGCapD
 ---
 
 # Policy

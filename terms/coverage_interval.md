@@ -4,6 +4,7 @@ description: "Range or specific subset of values associated with a coverage data
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Coverage Interval

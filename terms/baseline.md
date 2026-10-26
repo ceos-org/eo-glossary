@@ -4,6 +4,8 @@ description: "Reference Period, time or measure against which the Information is
 tags:
 - core
 - to be approved
+- WGCV
+- WGISS
 ---
 
 # Baseline

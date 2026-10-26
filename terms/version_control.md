@@ -4,6 +4,7 @@ description: "Method of working with collections, similar to the version control
 tags:
 - core
 - to be approved
+- WGISS
 ---
 
 # Version Control

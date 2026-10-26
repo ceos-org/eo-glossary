@@ -4,6 +4,7 @@ description: "Line defined in an algorithmic way using at least two positions (c
 tags:
 - base
 - to be approved
+- WGISS
 ---
 
 # Path
