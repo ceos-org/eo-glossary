@@ -1,3 +1,5 @@
+@import './fonts.css';
+
 /**
  * EO Glossary – Custom Design System
  * SOTA 2026: Scientific, authoritative, yet accessible to curious minds.
@@ -135,6 +137,7 @@
 
 /* ─── Announcement bar ─────────────────────────────────────────────────────── */
 div[class*='announcementBar'] {
+  color: var(--ifm-font-color-base);
   background: var(--ifm-background-surface-color);
   border: none;
   border-bottom: 1px solid var(--ifm-toc-border-color);
@@ -415,6 +418,11 @@ article h3[id$="examples"] + ul li::before {
   border-color: var(--ifm-color-primary);
 }
 
+[data-theme='dark'] .page-btn--primary,
+[data-theme='dark'] .page-btn--primary:hover {
+  color: var(--ifm-background-color);
+}
+
 .page-btn--primary:hover {
   background: var(--ifm-color-primary-dark);
   border-color: var(--ifm-color-primary-dark);
@@ -649,9 +657,16 @@ article h3[id$="examples"] + ul li::before {
 .footer__link-item:hover { opacity: 1; }
 
 .footer__copyright {
-  opacity: 0.5;
+  opacity: 0.8;
   font-size: 0.8rem;
   margin-top: 2rem;
+}
+
+/* Distinguish definition/source links without relying on color alone. */
+.markdown p a,
+.markdown li a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 /* ─── Per-term neighbourhood graph ──────────────────────────────────────────── */
@@ -666,7 +681,7 @@ article h3[id$="examples"] + ul li::before {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--ifm-color-secondary-darkest);
+  color: var(--ifm-color-content-secondary);
   margin-bottom: 0.75rem;
 }
 
@@ -714,7 +729,7 @@ article h3[id$="examples"] + ul li::before {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--ifm-color-secondary-darkest);
+  color: var(--ifm-color-content-secondary);
   margin: 0 0 0.4rem;
 }
 
@@ -750,7 +765,7 @@ article h3[id$="examples"] + ul li::before {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--ifm-color-secondary-darkest);
+  color: var(--ifm-color-content-secondary);
   margin-bottom: 0.75rem;
 }
 
