@@ -57,6 +57,15 @@ export default function DocItemFooter(props: any): React.JSX.Element {
 
   const [neighbourhood, setNeighbourhood] = useState<Neighbourhood | null>(null);
 
+  const mdUrl   = useBaseUrl(`/terms/${slug}.md`);
+  const jsonUrl = useBaseUrl(`/terms/${slug}.json`);
+
+  // Keep hooks unconditional when navigating between term and non-term docs.
+  const [headerEl, setHeaderEl] = useState<Element | null>(null);
+  useEffect(() => {
+    setHeaderEl(slug ? document.querySelector('.theme-doc-markdown header') : null);
+  }, [slug]);
+
   // Fetch graph data and compute directed neighbourhood for current term
   useEffect(() => {
     if (!slug) return;
@@ -140,15 +149,6 @@ export default function DocItemFooter(props: any): React.JSX.Element {
       url:     `${siteConfig.url}${siteConfig.baseUrl}`,
     },
   };
-
-  const mdUrl   = useBaseUrl(`/terms/${slug}.md`);
-  const jsonUrl = useBaseUrl(`/terms/${slug}.json`);
-
-  // Portal the buttons into the <header> that wraps the <h1>, so they sit top-right of the title
-  const [headerEl, setHeaderEl] = useState<Element | null>(null);
-  useEffect(() => {
-    setHeaderEl(document.querySelector('.theme-doc-markdown header'));
-  }, [slug]);
 
   const hasAny = neighbourhood && LAYER_ORDER.some(k => neighbourhood[k].length > 0);
 

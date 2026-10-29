@@ -473,6 +473,8 @@ const config: Config = {
       logo: {
         alt: 'EO Glossary — CEOS & EC KCEO',
         src: 'assets/favicon.svg',
+        width: 24,
+        height: 24,
       },
       hideOnScroll: false,
       items: [
@@ -548,28 +550,6 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 
   headTags: [
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.googleapis.com',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossorigin: 'anonymous',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap',
-      },
-    },
     {
       tagName: 'link',
       attributes: {
